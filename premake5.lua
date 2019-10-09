@@ -84,7 +84,8 @@ project "Sandbox"
 	files
 	{
 		"%{prj.name}/include/**.h",
-		"%{prj.name}/src/**.cpp"
+		"%{prj.name}/src/**.cpp",
+		"vendor/stb_image/stb_image.cpp"
 	}
 
 	includedirs
@@ -93,7 +94,8 @@ project "Sandbox"
 		"engine/enginecode/",
 		"engine/enginecode/include/independent",
 		"engine/precompiled/",
-		"vendor/glm/"
+		"vendor/glm/",
+		"vendor/spdlog/include"
 	}
 
 	links
