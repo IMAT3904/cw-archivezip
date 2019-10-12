@@ -1,7 +1,7 @@
 /** \file application.h
 */
 #pragma once
-
+#include "systems/log.h"
 namespace Engine {
 
 	/**
@@ -17,9 +17,11 @@ namespace Engine {
 	private:
 		static Application* s_instance; //!< Singleton instance of the application
 	public:
+		
 		virtual ~Application(); //!< Deconstructor
 		inline static Application& getInstance() { return *s_instance; } //!< Instance getter from singleton pattern
 		void run(); //!< Main loop
+		
 	};
 
 	// To be defined in users code

@@ -14,6 +14,7 @@ namespace Engine {
 		if (s_instance == nullptr)
 		{
 			s_instance = this;
+			
 		}
 	}
 
@@ -25,7 +26,7 @@ namespace Engine {
 
 	void Application::run()
 	{
-
+		
 	}
 
 }
