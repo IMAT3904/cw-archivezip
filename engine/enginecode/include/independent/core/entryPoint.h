@@ -11,10 +11,6 @@ int main(int argc, char** argv)
 	auto application = Engine::startApplication();
 	application->run();
 	delete application;
-	
-	system("pause");
-	
-	
 	return 0;
 }
 

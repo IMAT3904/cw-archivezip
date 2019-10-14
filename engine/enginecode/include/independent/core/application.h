@@ -1,7 +1,7 @@
 /** \file application.h
 */
 #pragma once
-#include "systems/log.h"
+#include "systems/logger.h"
 namespace Engine {
 
 	/**
@@ -21,7 +21,7 @@ namespace Engine {
 		virtual ~Application(); //!< Deconstructor
 		inline static Application& getInstance() { return *s_instance; } //!< Instance getter from singleton pattern
 		void run(); //!< Main loop
-		
+		std::shared_ptr<Engine::Logger> appLog;
 	};
 
 	// To be defined in users code

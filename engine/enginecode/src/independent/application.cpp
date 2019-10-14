@@ -11,6 +11,8 @@ namespace Engine {
 
 	Application::Application()
 	{
+		appLog->initLog("Application");
+		appLog->getLog()->warn("Application Log Initialized!");
 		if (s_instance == nullptr)
 		{
 			s_instance = this;
@@ -20,6 +22,7 @@ namespace Engine {
 
 	Application::~Application()
 	{
+		appLog.reset();
 	}
 
 	
