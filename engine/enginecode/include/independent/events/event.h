@@ -1,9 +1,13 @@
+/** \file event.h
+* This header includes our Event class, and our event dispatcher. It also enumerates EventType and EventCategory, all which are needed for handling inputs
+*/
 #pragma once
 
 #include "engine_pch.h"
 
 namespace Engine {
 	
+	//! Enum class for each type of event in the engine.
 	enum class EventType {
 		None = 0,
 		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
@@ -11,6 +15,7 @@ namespace Engine {
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
 	
+	//! Enum class for categorising our events.
 	enum EventCategory
 	{
 		None = 0,
@@ -21,6 +26,12 @@ namespace Engine {
 		EventCategoryMouseButton = 1 << 4
 	};
 
+	/**
+	\class Event
+	* Our event class which defines what an event is
+	*
+	*
+	*/
 	class Event {
 	protected:
 		bool m_handled = false;

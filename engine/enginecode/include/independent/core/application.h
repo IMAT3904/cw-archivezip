@@ -1,12 +1,14 @@
 /** \file application.h
 */
 #pragma once
+
 #include "systems/logger.h"
 #include "systems/timer.h"
 #include "events/event.h"
 #include "events/windowEvents.h"
 #include "events/keyEvents.h"
 #include "events/mouseEvents.h"
+
 namespace Engine {
 
 	/**
@@ -21,14 +23,13 @@ namespace Engine {
 		Application(); //!< Constructor
 	private:
 		static Application* s_instance; //!< Singleton instance of the application
-		bool m_running = false;
-		float frameDuration = 0.f;
+		bool m_running = false;			//!< Bool to control the running/event loop
+		float frameDuration = 0.f;		//!< Float which holds how long a frame takes
 	public:
-		
 		virtual ~Application(); //!< Deconstructor
 		inline static Application& getInstance() { return *s_instance; } //!< Instance getter from singleton pattern
 		void run(); //!< Main loop
-		void onEvent(Event& e);
+		void onEvent(Event& e);				//!< Event call function
 		bool onClose(WindowCloseEvent& e); //!< On close event
 		bool onResize(WindowResizeEvent& e); //!< On resize event
 		bool onLostFocus(WindowLostFocus& e); //!< On lost focus event
@@ -41,11 +42,10 @@ namespace Engine {
 		bool onMouseMoved(MouseMoved& e); //!< On mouse moved event
 		bool onMouseScrolled(MouseScrolled& e); //!< On mouse scrolled event
 
-		std::shared_ptr<Engine::Logger> appLog;
-		std::shared_ptr<Engine::Timer> appTimer;
+		std::shared_ptr<Engine::Logger> appLog;	//!< Reference to our log
+		std::shared_ptr<Engine::Timer> appTimer;	//!< Reference to our timer
 	};
 
-	// To be defined in users code
 	Application* startApplication(); //!< Function definition which provides an entry hook
 
 }

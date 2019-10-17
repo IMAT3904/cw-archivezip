@@ -1,10 +1,13 @@
 /** \file timer.cpp
 */
+
 #include "engine_pch.h"
 #include "systems/timer.h"
+
+
 namespace Engine {
 	
-	std::chrono::high_resolution_clock::time_point Timer::frameStart;
+	std::chrono::high_resolution_clock::time_point Timer::frameStart;	
 	std::chrono::high_resolution_clock::time_point Timer::frameEnd;
 	std::chrono::duration<float> Timer::frameTime;
 
