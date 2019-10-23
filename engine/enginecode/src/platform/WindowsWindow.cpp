@@ -8,11 +8,12 @@ namespace Engine {
 	
 	static bool s_GLFWInitialized = false;
 
+	
 	Window* Window::create(const WindowProperties& properties) 
 	{
 		return new WindowsWindow(properties);
 	}
-
+	
 	WindowsWindow::WindowsWindow(const WindowProperties & properties)
 	{
 		init(properties);

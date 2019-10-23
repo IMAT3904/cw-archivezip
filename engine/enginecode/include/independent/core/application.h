@@ -3,9 +3,11 @@
 #pragma once
 
 #include "math.h"
+
 #include "windows/window.h"
 #include "systems/logger.h"
 #include "systems/timer.h"
+
 #include "events/event.h"
 #include "events/windowEvents.h"
 #include "events/keyEvents.h"
@@ -52,6 +54,8 @@ namespace Engine {
 
 		//! Reference to our timer
 		std::shared_ptr<Engine::Timer> appTimer;
+
+		
 		
 		//! Event call function
 		/*!

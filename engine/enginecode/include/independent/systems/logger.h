@@ -27,3 +27,5 @@ namespace Engine {
 #define LOG_TRACE(log , ...) log->getLog()->trace(__VA_ARGS__)
 #define LOG_ERROR(log , ...) log->getLog()->error(__VA_ARGS__)
 #define LOG_FATAL(log , ...) log->getLog()->critical(__VA_ARGS__)
+
+#define LOG_ASSERT(log, x, ...) {if(!(x)) {LOG_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }

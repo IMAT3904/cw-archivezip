@@ -25,7 +25,6 @@ namespace Engine {
 		if (s_instance == nullptr)			
 		{
 			s_instance = this;
-			
 		}
 	}
 
@@ -40,7 +39,7 @@ namespace Engine {
 															
 			m_window->onUpdate();									//frame
 			frameDuration = appTimer->FrameDuration();				//calculate frame duration
-			//LOG_TRACE(appLog, "FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
+			LOG_TRACE(appLog, "FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
 			
 		}
 	}
