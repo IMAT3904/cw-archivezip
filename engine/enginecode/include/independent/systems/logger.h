@@ -10,15 +10,15 @@ namespace Engine {
 
 	/**
 	\class Logger
-	...
+	* Logging class which is used to send all types of runtime information to the console.
 	*/
 
 	class Logger {
 	private:
-		static std::shared_ptr<spdlog::logger> log;
+		static std::shared_ptr<spdlog::logger> log; //!< reference to our logger
 	public:
-		static void initLog(std::string logName);
-		static std::shared_ptr<spdlog::logger>& getLog() { return log; }
+		static void initLog(std::string logName);	//!< Init function
+		static std::shared_ptr<spdlog::logger>& getLog() { return log; } //!< Accessor function
 };
 }
 

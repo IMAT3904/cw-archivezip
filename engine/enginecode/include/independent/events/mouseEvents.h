@@ -31,13 +31,13 @@ namespace Engine {
 
 	};
 	
-	class MouseMoved : public Event
+	class MouseMovedEvent : public Event
 	{
 	private:
 		float xPos;
 		float yPos;
 	public:
-		MouseMoved(float xPos, float yPos) : xPos(xPos), yPos(yPos) {}
+		MouseMovedEvent(float xPos, float yPos) : xPos(xPos), yPos(yPos) {}
 		static EventType getStaticType() { return EventType::MouseMoved; }
 		EventType getEventType() const override { return EventType::MouseMoved; }
 		int getCategoryFlags() const override { return EventCategoryMouse; }
@@ -47,13 +47,13 @@ namespace Engine {
 
 	};
 	
-	class MouseScrolled : public Event
+	class MouseScrolledEvent : public Event
 	{
 	private:
 		float xPos;
 		float yPos;
 	public:
-		MouseScrolled(float xPos, float yPos) : xPos(xPos), yPos(yPos)  {}
+		MouseScrolledEvent(float xPos, float yPos) : xPos(xPos), yPos(yPos)  {}
 		static EventType getStaticType() { return EventType::MouseScrolled; }
 		EventType getEventType() const override { return EventType::MouseScrolled; }
 
