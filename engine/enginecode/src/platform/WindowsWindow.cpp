@@ -1,7 +1,8 @@
 /** \file WindowsWindow.cpp
 */
+
 #include "engine_pch.h"
-#include "WindowsWindow.h"
+#include "../platform/windows/WindowsWindow.h"
 
 namespace Engine {
 	
@@ -26,7 +27,7 @@ namespace Engine {
 		if (!s_GLFWInitialized)
 		{
 			int success = glfwInit();
-			
+			//assert here
 			s_GLFWInitialized = true;
 		}
 

@@ -14,7 +14,10 @@ namespace Engine {
 		bool m_isFullScreen;
 		bool m_isVSync;
 
-		WindowProperties(const std::string& title = "My Window", unsigned int width = 800, unsigned int height = 600, bool fullscreen = false) : m_title(title), m_width(width), m_height(height), m_isFullScreen(fullscreen) {}
+		WindowProperties(const std::string& title = "My Window", 
+			unsigned int width = 800, unsigned int height = 600, 
+			bool fullscreen = false) : m_title(title), 
+			m_width(width), m_height(height), m_isFullScreen(fullscreen) {}
 	};
 
 	class Window
@@ -24,8 +27,10 @@ namespace Engine {
 		using EventCallbackFn = std::function<void(Event&)>;
 		virtual ~Window() {};
 		virtual void onUpdate() = 0;		
+		
 		virtual unsigned int getWidth() const = 0;
 		virtual unsigned int getHeight() const = 0;
+		
 		virtual bool isVSync() const = 0;
 		virtual void setVSync(bool VSync) = 0;
 		virtual void setEventCallback(const std::function<void(Event&)>& callback) = 0;
@@ -33,8 +38,6 @@ namespace Engine {
 		//virtual void onResize(unsigned int width, unsigned int height) = 0;
 		//virtual void* getNativeWindow() const = 0;
 		//virtual bool isFullScreenMode() const = 0;
-		//virtual void init(const WindowProperties& properties) = 0;
-		//virtual void close() = 0;
 
 		static Window* create(const WindowProperties& properties = WindowProperties());
 

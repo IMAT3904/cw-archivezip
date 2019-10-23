@@ -14,6 +14,7 @@ namespace Engine {
 	{
 		appLog->initLog("Application");		//Start our logger
 		LOG_WARN(appLog, "Log Initialized");
+		
 		appTimer->startFrame();				//Start our frame counter
 		LOG_WARN(appLog, "Frame Counter Started");
 
@@ -39,14 +40,25 @@ namespace Engine {
 															
 			m_window->onUpdate();									//frame
 			frameDuration = appTimer->FrameDuration();				//calculate frame duration
-			LOG_TRACE(appLog, "FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
+			//LOG_TRACE(appLog, "FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
 			
 		}
 	}
 
 	void Application::onEvent(Event & e)
 	{
-		LOG_INFO(appLog, "{0}", e);
+		EventDispatcher dispatcher(e);
+		dispatcher.dispatch<WindowCloseEvent>(BIND_EVENT_FN(onClose));
+		dispatcher.dispatch<WindowResizeEvent>(BIND_EVENT_FN(onResize));
+		dispatcher.dispatch<WindowLostFocus>(BIND_EVENT_FN(onLostFocus));
+		dispatcher.dispatch<WindowMoved>(BIND_EVENT_FN(onWinMoved));
+		dispatcher.dispatch<KeyPressedEvent>(BIND_EVENT_FN(onKeyPressed));
+		dispatcher.dispatch<KeyReleasedEvent>(BIND_EVENT_FN(onKeyReleased));
+		dispatcher.dispatch<KeyTypedEvent>(BIND_EVENT_FN(onKeyTyped));
+		dispatcher.dispatch<MouseButtonPressed>(BIND_EVENT_FN(onMbPressed));
+		dispatcher.dispatch<MouseButtonReleased>(BIND_EVENT_FN(onMbReleased));
+		dispatcher.dispatch<MouseMovedEvent>(BIND_EVENT_FN(onMouseMoved));
+		dispatcher.dispatch<MouseScrolledEvent>(BIND_EVENT_FN(onMouseScrolled));
 	}
 
 	bool Application::onClose(WindowCloseEvent & e)
