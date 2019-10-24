@@ -6,9 +6,6 @@
 
 namespace Engine {
 	
-	static bool s_GLFWInitialized = false;
-
-	
 	Window* Window::create(const WindowProperties& properties) 
 	{
 		return new WindowsWindow(properties);
@@ -24,14 +21,7 @@ namespace Engine {
 		m_data.title = properties.m_title;
 		m_data.height = properties.m_height;
 		m_data.width = properties.m_width;
-
-		if (!s_GLFWInitialized)
-		{
-			int success = glfwInit();
-			//assert here
-			s_GLFWInitialized = true;
-		}
-
+		
 		m_window = glfwCreateWindow((int)properties.m_width, (int)properties.m_height, m_data.title.c_str(), nullptr, nullptr);
 		glfwMakeContextCurrent(m_window);
 		glfwSetWindowUserPointer(m_window, &m_data);

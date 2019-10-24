@@ -4,6 +4,7 @@
 
 #include "math.h"
 
+#include "systems/WindowSystem.h"
 #include "windows/window.h"
 #include "systems/logger.h"
 #include "systems/timer.h"
@@ -39,6 +40,16 @@ namespace Engine {
 		//! Reference to our window
 		std::unique_ptr<Window> m_window;
 
+		//! Reference to our log
+		std::shared_ptr<Engine::Logger> m_log;
+
+		//! Reference to our timer
+		std::shared_ptr<Engine::Timer> m_timer;
+
+		//! Reference to our windows system
+		std::shared_ptr<WindowSystem> m_windowsSystem;
+
+
 	public:
 		//! Deconstructor
 		virtual ~Application(); 
@@ -48,14 +59,6 @@ namespace Engine {
 		
 		//! Main loop
 		void run(); 
-
-		//! Reference to our log
-		std::shared_ptr<Engine::Logger> appLog;
-
-		//! Reference to our timer
-		std::shared_ptr<Engine::Timer> appTimer;
-
-		
 		
 		//! Event call function
 		/*!
