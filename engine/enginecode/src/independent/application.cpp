@@ -21,31 +21,34 @@ namespace Engine {
 			s_instance = this;
 		}
 
-		m_log->initLog("Application");		//Start our logger
-		LOG_WARN(m_log, "Log Initialized");
+		m_log.reset(new Logger);		//Start our logger
+		m_log->start();
+		LOG_WARN("Log Initialized");
 		
-		m_timer->startFrame();				//Start our frame counter
-		LOG_WARN(m_log, "Frame Counter Started");
+		m_timer.reset(new Timer);
+		m_timer->start();	//Start our frame counter
+		LOG_WARN("Frame Counter Started");
 
 		// Start windows system
 #ifdef NG_PLATFORM_WINDOWS	
 		m_windowsSystem = std::shared_ptr<WindowSystem>(new GLFWWindowSystem());
-		LOG_WARN(m_log, "GLFW Window System Started");
+		LOG_WARN("GLFW Window System Started");
 #endif
 		m_windowsSystem->start();
-		LOG_WARN(m_log, "Window System Started");
+		LOG_WARN("Window System Started");
 		m_window = std::unique_ptr<Window>(Window::create());
-		LOG_WARN(m_log, "Window Created");
+		LOG_WARN("Window Created");
 		m_window->setEventCallback(BIND_EVENT_FN(onEvent));
-		LOG_WARN(m_log, "Window Event Callback Set");
+		LOG_WARN("Window Event Callback Set");
 
 	}
 
 	Application::~Application()
 	{
-		//stop log
-		//stop timer
 		m_windowsSystem->stop();
+		m_timer->stop();
+		m_log->stop();
+		
 	}
 
 	void Application::run()
@@ -54,8 +57,8 @@ namespace Engine {
 		while (m_running) {		//while the application is running
 															
 			m_window->onUpdate();									//frame
-			frameDuration = m_timer->FrameDuration();				//calculate frame duration
-			LOG_TRACE(m_log, "FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
+			frameDuration = m_timer->frameDuration();				//calculate frame duration
+			LOG_TRACE("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
 			
 		}
 	}
@@ -78,68 +81,68 @@ namespace Engine {
 
 	bool Application::onClose(WindowCloseEvent & e)
 	{
-		LOG_INFO(m_log, "Closing Application");
+		LOG_INFO("Closing Application");
 		m_running = false;
 		return true;
 	}
 
 	bool Application::onResize(WindowResizeEvent & e)
 	{
-		LOG_INFO(m_log, "Window Resized to {0}x{1}", e.getWidth(), e.getHeight());
+		LOG_INFO("Window Resized to {0}x{1}", e.getWidth(), e.getHeight());
 		return true;
 	}
 
 	bool Application::onLostFocus(WindowLostFocus & e)
 	{
-		LOG_INFO(m_log, "Window lost focus at {0} , {1}", e.getXPos(), e.getYPos());
+		LOG_INFO("Window lost focus at {0} , {1}", e.getXPos(), e.getYPos());
 		return true;
 	}
 
 	bool Application::onWinMoved(WindowMoved & e)
 	{
-		LOG_INFO(m_log, "Window moved!");
+		LOG_INFO("Window moved!");
 		return true;
 	}
 
 	bool Application::onKeyPressed(KeyPressedEvent & e)
 	{
-		LOG_INFO(m_log, "Key Pressed: {0}, R#:{1}", e.getKeyCode(), e.getRepeatCount());
+		LOG_INFO("Key Pressed: {0}, R#:{1}", e.getKeyCode(), e.getRepeatCount());
 		return true;
 	}
 
 	bool Application::onKeyReleased(KeyReleasedEvent & e)
 	{
-		LOG_INFO(m_log, "Key Released: {0}", e.getKeyCode());
+		LOG_INFO("Key Released: {0}", e.getKeyCode());
 		return true;
 	}
 
 	bool Application::onKeyTyped(KeyTypedEvent & e)
 	{
-		LOG_INFO(m_log, "Key Typed: {0}", e.getKeyCode());
+		LOG_INFO("Key Typed: {0}", e.getKeyCode());
 		return true;
 	}
 
 	bool Application::onMbPressed(MouseButtonPressed & e)
 	{
-		LOG_INFO(m_log, "Mouse button pressed: {0}", e.getButton());
+		LOG_INFO("Mouse button pressed: {0}", e.getButton());
 		return true;
 	}
 
 	bool Application::onMbReleased(MouseButtonReleased & e)
 	{
-		LOG_INFO(m_log, "Mouse button released: {0}", e.getButton());
+		LOG_INFO("Mouse button released: {0}", e.getButton());
 		return true;
 	}
 
 	bool Application::onMouseMoved(MouseMovedEvent & e)
 	{
-		LOG_INFO(m_log, "Mouse moved at: {0},{1}", e.getXPos(), e.getYPos());
+		LOG_INFO("Mouse moved at: {0},{1}", e.getXPos(), e.getYPos());
 		return true;
 	}
 
 	bool Application::onMouseScrolled(MouseScrolledEvent & e)
 	{
-		LOG_INFO(m_log, "Mouse scrolled at: {0},{1}", e.getXPos(), e.getYPos());
+		LOG_INFO("Mouse scrolled at: {0},{1}", e.getXPos(), e.getYPos());
 		return true;
 	}
 

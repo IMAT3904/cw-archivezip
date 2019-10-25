@@ -11,16 +11,19 @@ namespace Engine {
 	std::chrono::high_resolution_clock::time_point Timer::frameEnd;
 	std::chrono::duration<float> Timer::frameTime;
 
-	void Timer::startFrame()
+	void Timer::start(SystemSignal init, ...)
 	{
 		frameStart = std::chrono::high_resolution_clock::now();		//starts the frame timer
 	}
-	float Timer::FrameDuration()
+	float Timer::frameDuration()
 	{
 		frameEnd = std::chrono::high_resolution_clock::now();		//frame timer ends
 		frameTime = frameEnd - frameStart;							//calculate duration
 		frameStart = std::chrono::high_resolution_clock::now();		 //reset timer
 		return frameTime.count();									//return the duration
+	}
+	void Timer::stop(SystemSignal close, ...)
+	{
 	}
 }
 

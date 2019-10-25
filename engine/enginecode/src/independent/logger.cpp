@@ -7,11 +7,16 @@ namespace Engine {
 
 	std::shared_ptr<spdlog::logger> Logger::log;
 
-	void Engine::Logger::initLog(std::string logName)
+	void Logger::start(SystemSignal init, ...)
 	{
 		spdlog::set_pattern("%^[%T] %n: %v%$");
-		log = spdlog::stdout_color_mt(logName);
+		log = spdlog::stdout_color_mt("Engine");
 		log->set_level(spdlog::level::trace);
+	}
+
+	void Logger::stop(SystemSignal close, ...)
+	{
+		log.reset();
 	}
 
 }

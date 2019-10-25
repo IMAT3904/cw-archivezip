@@ -34,9 +34,9 @@ namespace Engine {
 		virtual bool isVSync() const = 0;
 		virtual void setVSync(bool VSync) = 0;
 		virtual void setEventCallback(const std::function<void(Event&)>& callback) = 0;
+		virtual void* getNativeWindow() const = 0;
 
 		//virtual void onResize(unsigned int width, unsigned int height) = 0;
-		//virtual void* getNativeWindow() const = 0;
 		//virtual bool isFullScreenMode() const = 0;
 
 		static Window* create(const WindowProperties& properties = WindowProperties());

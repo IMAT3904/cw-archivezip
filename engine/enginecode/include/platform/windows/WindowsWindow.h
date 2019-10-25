@@ -38,11 +38,11 @@ namespace Engine {
 
 		inline unsigned int getWidth() const override { return m_data.width; }
 		inline unsigned int getHeight() const override { return m_data.height; }
+		virtual void* getNativeWindow() const override { return m_window; }
 
 		bool isVSync() const override;
 		void setVSync(bool enabled) override;
-		inline void setEventCallback(const EventCallbackFn& callback) override 
-		{ m_data.EventCallback = callback; }
+		inline void setEventCallback(const EventCallbackFn& callback) override { m_data.EventCallback = callback; }
 
 	
 	};

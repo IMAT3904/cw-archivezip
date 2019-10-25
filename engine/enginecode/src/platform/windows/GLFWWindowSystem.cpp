@@ -20,7 +20,6 @@ namespace Engine {
 
 	void GLFWWindowSystem::stop(SystemSignal close, ...)
 	{
-		
 		glfwTerminate();
 	}
 

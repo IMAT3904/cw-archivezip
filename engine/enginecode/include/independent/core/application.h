@@ -56,6 +56,8 @@ namespace Engine {
 
 		//! Instance getter from singleton pattern
 		inline static Application& getInstance() { return *s_instance; } 
+
+		std::unique_ptr<Window>& getWindow() { return m_window; }
 		
 		//! Main loop
 		void run(); 
