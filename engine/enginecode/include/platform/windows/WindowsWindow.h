@@ -5,11 +5,13 @@
 #pragma once
 
 #include "windows/window.h"
-#include <GLFW/glfw3.h>
 #include "events/event.h"
 #include "events/keyEvents.h"
 #include "events/mouseEvents.h"
 #include "events/windowEvents.h"
+#include "OpenGL_GLFWGraphicsContext.h"
+#include "GLFW/glfw3.h"
+
 
 
 namespace Engine {
@@ -30,7 +32,8 @@ namespace Engine {
 		virtual void init(const WindowProperties& properties);
 		virtual void shutdown();
 		WindowData m_data;
-
+	protected:
+		std::shared_ptr<OpenGL_GLFWGraphicsContext> m_context;
 	public:
 		WindowsWindow(const WindowProperties& properties);
 		virtual ~WindowsWindow();

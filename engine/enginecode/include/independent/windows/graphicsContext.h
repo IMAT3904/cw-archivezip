@@ -2,6 +2,7 @@
 */
 
 #pragma once
+#include "core/application.h"
 
 /**
 \class Interface class for all graphics contexts. Will combine windows tech with graphics API i.e. OPENGLGLFW or WIN32DIRECTX

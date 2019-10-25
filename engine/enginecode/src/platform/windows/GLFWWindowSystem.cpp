@@ -1,6 +1,5 @@
 #include "engine_pch.h"
 #include "include/platform/windows/GLFWWindowSystem.h"
-#include "windows/window.h"
 #include "include/platform/windows/WindowsWindow.h"
 
 
@@ -13,7 +12,8 @@ namespace Engine {
 		if (!s_GLFWInitialized)
 		{
 			int success = glfwInit();
-			//assert once you have fixed loger
+			//LOG_ASSERT(success, "Assert failed: {0}");
+			//glfwSetErrorCallback(GLFWErrorCallback);
 			s_GLFWInitialized = true;
 		}
 	}
@@ -23,4 +23,10 @@ namespace Engine {
 		glfwTerminate();
 	}
 
+	/*
+	void GLFWWindowSystem::GLFWErrorCallback(int error, const char * description)
+	{
+		//LOG_ERROR("GLFW Error {0}: {1}", error, description);
+	}
+	*/
 }	

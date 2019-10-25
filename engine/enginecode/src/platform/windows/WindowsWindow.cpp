@@ -3,6 +3,9 @@
 
 #include "engine_pch.h"
 #include "../platform/windows/WindowsWindow.h"
+#ifdef NG_PLATFORM_WINDOWS	
+#include "include/platform/windows/OpenGL_GLFWGraphicsContext.h"
+#endif
 
 namespace Engine {
 	
@@ -18,12 +21,15 @@ namespace Engine {
 
 	void WindowsWindow::init(const WindowProperties & properties)
 	{
+#ifdef NG_PLATFORM_WINDOWS	
+		m_context.reset(new OpenGL_GLFWGraphicsContext(m_window));
+#endif
 		m_data.title = properties.m_title;
 		m_data.height = properties.m_height;
 		m_data.width = properties.m_width;
 		
 		m_window = glfwCreateWindow((int)properties.m_width, (int)properties.m_height, m_data.title.c_str(), nullptr, nullptr);
-		glfwMakeContextCurrent(m_window);
+		m_context->init();
 		glfwSetWindowUserPointer(m_window, &m_data);
 		setVSync(true);
 
@@ -115,7 +121,7 @@ namespace Engine {
 	void WindowsWindow::onUpdate()
 	{
 		glfwPollEvents();
-		glfwSwapBuffers(m_window);
+		m_context->swapBuffers();	//glfwSwapBuffers(m_window);
 	}
 
 	void WindowsWindow::setVSync(bool enabled)

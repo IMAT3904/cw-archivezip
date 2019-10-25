@@ -1,5 +1,4 @@
 #pragma once
-
 #include "systems/WindowSystem.h"
 
 namespace Engine {
@@ -9,6 +8,7 @@ namespace Engine {
 	public:
 		void start(SystemSignal init = SystemSignal::None, ...) override;
 		void stop(SystemSignal close = SystemSignal::None, ...) override;
+		//static void GLFWErrorCallback(int error, const char* description);
 	};
 
 }

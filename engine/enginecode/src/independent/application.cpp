@@ -53,12 +53,19 @@ namespace Engine {
 
 	void Application::run()
 	{
+		float fpsControl = 0.f;
 		m_running = true;		//start run/frame/event loop
 		while (m_running) {		//while the application is running
 															
 			m_window->onUpdate();									//frame
 			frameDuration = m_timer->frameDuration();				//calculate frame duration
-			LOG_TRACE("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
+			fpsControl += frameDuration;
+			if (fpsControl > 1.f)
+			{
+				LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
+				fpsControl = 0.f;
+			}
+			
 			
 		}
 	}
@@ -81,7 +88,7 @@ namespace Engine {
 
 	bool Application::onClose(WindowCloseEvent & e)
 	{
-		LOG_INFO("Closing Application");
+		LOG_WARN("Closing Application");
 		m_running = false;
 		return true;
 	}
