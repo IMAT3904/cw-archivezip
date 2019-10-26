@@ -28,12 +28,11 @@ namespace Engine {
 			EventCallbackFn EventCallback;
 		};
 
+		WindowData m_data;
 		GLFWwindow* m_window;
 		virtual void init(const WindowProperties& properties);
-		virtual void shutdown();
-		WindowData m_data;
-	protected:
-		std::shared_ptr<OpenGL_GLFWGraphicsContext> m_context;
+		virtual void close();
+	
 	public:
 		WindowsWindow(const WindowProperties& properties);
 		virtual ~WindowsWindow();
@@ -46,8 +45,6 @@ namespace Engine {
 		bool isVSync() const override;
 		void setVSync(bool enabled) override;
 		inline void setEventCallback(const EventCallbackFn& callback) override { m_data.EventCallback = callback; }
-
-	
 	};
 
 }

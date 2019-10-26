@@ -40,7 +40,7 @@ namespace Engine {
 		//virtual bool isFullScreenMode() const = 0;
 
 		static Window* create(const WindowProperties& properties = WindowProperties());
-
+	
 	protected:
 		std::shared_ptr<GraphicsContext> m_context;
 	};

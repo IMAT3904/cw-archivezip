@@ -3,9 +3,12 @@
 
 #include "engine_pch.h"
 #include "../platform/windows/WindowsWindow.h"
+
+
 #ifdef NG_PLATFORM_WINDOWS	
 #include "include/platform/windows/OpenGL_GLFWGraphicsContext.h"
 #endif
+
 
 namespace Engine {
 	
@@ -21,15 +24,18 @@ namespace Engine {
 
 	void WindowsWindow::init(const WindowProperties & properties)
 	{
-#ifdef NG_PLATFORM_WINDOWS	
-		m_context.reset(new OpenGL_GLFWGraphicsContext(m_window));
-#endif
 		m_data.title = properties.m_title;
 		m_data.height = properties.m_height;
 		m_data.width = properties.m_width;
 		
 		m_window = glfwCreateWindow((int)properties.m_width, (int)properties.m_height, m_data.title.c_str(), nullptr, nullptr);
+		
+#ifdef NG_PLATFORM_WINDOWS	
+		m_context = std::shared_ptr<GraphicsContext>(new OpenGL_GLFWGraphicsContext(m_window));
+#endif
 		m_context->init();
+		
+		glfwMakeContextCurrent(m_window);
 		glfwSetWindowUserPointer(m_window, &m_data);
 		setVSync(true);
 
@@ -115,13 +121,13 @@ namespace Engine {
 
 	WindowsWindow::~WindowsWindow()
 	{
-		shutdown();
+		close();
 	}
 
 	void WindowsWindow::onUpdate()
 	{
 		glfwPollEvents();
-		m_context->swapBuffers();	//glfwSwapBuffers(m_window);
+		m_context->swapBuffers();
 	}
 
 	void WindowsWindow::setVSync(bool enabled)
@@ -139,7 +145,7 @@ namespace Engine {
 		return m_data.vSync;
 	}
 
-	void WindowsWindow::shutdown()
+	void WindowsWindow::close()
 	{
 		glfwDestroyWindow(m_window);
 	}

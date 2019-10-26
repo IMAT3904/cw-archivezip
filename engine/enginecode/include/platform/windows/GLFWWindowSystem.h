@@ -1,5 +1,7 @@
 #pragma once
 #include "systems/WindowSystem.h"
+#include "systems/logger.h"
+#include "GLFW/glfw3.h"
 
 namespace Engine {
 
@@ -8,7 +10,9 @@ namespace Engine {
 	public:
 		void start(SystemSignal init = SystemSignal::None, ...) override;
 		void stop(SystemSignal close = SystemSignal::None, ...) override;
-		//static void GLFWErrorCallback(int error, const char* description);
+		std::shared_ptr<Logger> m_log;
+	private:
+		
 	};
 
 }

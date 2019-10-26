@@ -9,7 +9,8 @@ void OpenGL_GLFWGraphicsContext::init()
 {
 	glfwMakeContextCurrent(m_window);
 	int result = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-	//assert
+	LOG_ASSERT(result, "{0}");
+	LOG_WARN("GLAD Loaded");
 }
 
 void OpenGL_GLFWGraphicsContext::swapBuffers()

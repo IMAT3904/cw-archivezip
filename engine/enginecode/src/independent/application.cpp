@@ -3,6 +3,8 @@
 
 #include "engine_pch.h"
 #include "core/application.h"
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
 #ifdef NG_PLATFORM_WINDOWS
 	#include "include/platform/windows/GLFWWindowSystem.h"
@@ -36,11 +38,13 @@ namespace Engine {
 #endif
 		m_windowsSystem->start();
 		LOG_WARN("Window System Started");
-		m_window = std::unique_ptr<Window>(Window::create());
+
+		m_window = std::shared_ptr<Window>(Window::create());
 		LOG_WARN("Window Created");
+
 		m_window->setEventCallback(BIND_EVENT_FN(onEvent));
 		LOG_WARN("Window Event Callback Set");
-
+		m_timer->frameDuration(); //reset our timer
 	}
 
 	Application::~Application()
@@ -56,15 +60,20 @@ namespace Engine {
 		float fpsControl = 0.f;
 		m_running = true;		//start run/frame/event loop
 		while (m_running) {		//while the application is running
-															
+			
+			glClearColor(1, 0, 1, 1);
+			glClear(GL_COLOR_BUFFER_BIT);
+
 			m_window->onUpdate();									//frame
 			frameDuration = m_timer->frameDuration();				//calculate frame duration
 			fpsControl += frameDuration;
+			
 			if (fpsControl > 1.f)
 			{
 				LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
 				fpsControl = 0.f;
 			}
+
 			
 			
 		}

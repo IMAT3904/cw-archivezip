@@ -8,11 +8,11 @@
 #include "windows/window.h"
 #include "systems/logger.h"
 #include "systems/timer.h"
-
 #include "events/event.h"
 #include "events/windowEvents.h"
 #include "events/keyEvents.h"
 #include "events/mouseEvents.h"
+
 
 namespace Engine {
 
@@ -38,13 +38,13 @@ namespace Engine {
 		float frameDuration = 0.f;
 
 		//! Reference to our window
-		std::unique_ptr<Window> m_window;
+		std::shared_ptr<Window> m_window;
 
 		//! Reference to our log
-		std::shared_ptr<Engine::Logger> m_log;
+		std::shared_ptr<Logger> m_log;
 
 		//! Reference to our timer
-		std::shared_ptr<Engine::Timer> m_timer;
+		std::shared_ptr<Timer> m_timer;
 
 		//! Reference to our windows system
 		std::shared_ptr<WindowSystem> m_windowsSystem;
@@ -57,7 +57,8 @@ namespace Engine {
 		//! Instance getter from singleton pattern
 		inline static Application& getInstance() { return *s_instance; } 
 
-		std::unique_ptr<Window>& getWindow() { return m_window; }
+		//! Gets our window
+		inline std::shared_ptr<Window> getWindow() { return m_window; }
 		
 		//! Main loop
 		void run(); 
