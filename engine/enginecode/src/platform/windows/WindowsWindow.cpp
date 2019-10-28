@@ -27,6 +27,7 @@ namespace Engine {
 		m_data.title = properties.m_title;
 		m_data.height = properties.m_height;
 		m_data.width = properties.m_width;
+		m_data.fScreen = properties.m_isFullScreen;
 		
 		m_window = glfwCreateWindow((int)properties.m_width, (int)properties.m_height, m_data.title.c_str(), nullptr, nullptr);
 		

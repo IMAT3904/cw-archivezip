@@ -37,7 +37,7 @@ namespace Engine {
 		virtual void* getNativeWindow() const = 0;
 
 		//virtual void onResize(unsigned int width, unsigned int height) = 0;
-		//virtual bool isFullScreenMode() const = 0;
+		virtual bool isFullScreenMode() const = 0;
 
 		static Window* create(const WindowProperties& properties = WindowProperties());
 	

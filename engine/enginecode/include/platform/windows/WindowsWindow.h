@@ -24,7 +24,7 @@ namespace Engine {
 		{
 			std::string title;
 			unsigned int width, height;
-			bool vSync;
+			bool vSync, fScreen;
 			EventCallbackFn EventCallback;
 		};
 
@@ -41,6 +41,7 @@ namespace Engine {
 		inline unsigned int getWidth() const override { return m_data.width; }
 		inline unsigned int getHeight() const override { return m_data.height; }
 		virtual void* getNativeWindow() const override { return m_window; }
+		bool isFullScreenMode() const override { return m_data.fScreen;  }
 
 		bool isVSync() const override;
 		void setVSync(bool enabled) override;
