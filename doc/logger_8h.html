@@ -51,7 +51,9 @@ $(function() {
 <div class="title">logger.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;spdlog/spdlog.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="system_8h_source.html">system.h</a>&quot;</code><br />
+<code>#include &quot;spdlog/spdlog.h&quot;</code><br />
+<code>#include &quot;spdlog/sinks/rotating_file_sink.h&quot;</code><br />
 <code>#include &quot;spdlog/sinks/stdout_color_sinks.h&quot;</code><br />
 </div>
 <p><a href="logger_8h_source.html">Go to the source code of this file.</a></p>
@@ -68,20 +70,52 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aaeeea28e3a84c9f13af2464301772549"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#aaeeea28e3a84c9f13af2464301772549">LOG_WARN</a>(log, ...)&#160;&#160;&#160;log-&gt;getLog()-&gt;warn(__VA_ARGS__)</td></tr>
-<tr class="separator:aaeeea28e3a84c9f13af2464301772549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb83cd58a47cbedec3bae3603c27a996"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#adb83cd58a47cbedec3bae3603c27a996">LOG_INFO</a>(log, ...)&#160;&#160;&#160;log-&gt;getLog()-&gt;info(__VA_ARGS__)</td></tr>
-<tr class="separator:adb83cd58a47cbedec3bae3603c27a996"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d9c6bba8b112bd8802003c53463867"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a46d9c6bba8b112bd8802003c53463867">LOG_TRACE</a>(log, ...)&#160;&#160;&#160;log-&gt;getLog()-&gt;trace(__VA_ARGS__)</td></tr>
-<tr class="separator:a46d9c6bba8b112bd8802003c53463867"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0457d6179b80610db780df3bc96805"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a3d0457d6179b80610db780df3bc96805">LOG_ERROR</a>(log, ...)&#160;&#160;&#160;log-&gt;getLog()-&gt;error(__VA_ARGS__)</td></tr>
-<tr class="separator:a3d0457d6179b80610db780df3bc96805"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4e824fe33effc24ec9c2decc3ad4fdc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#ac4e824fe33effc24ec9c2decc3ad4fdc">LOG_FATAL</a>(log, ...)&#160;&#160;&#160;log-&gt;getLog()-&gt;critical(__VA_ARGS__)</td></tr>
-<tr class="separator:ac4e824fe33effc24ec9c2decc3ad4fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c994180e09d2f6400133b19b1d7036"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a58c994180e09d2f6400133b19b1d7036">LOG_TRACE</a>(...)&#160;&#160;&#160;m_log-&gt;getLog()-&gt;trace(__VA_ARGS__)</td></tr>
+<tr class="separator:a58c994180e09d2f6400133b19b1d7036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a378e28bfcb78d17285210d6bbb70a083"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(...)&#160;&#160;&#160;m_log-&gt;getLog()-&gt;info(__VA_ARGS__)</td></tr>
+<tr class="separator:a378e28bfcb78d17285210d6bbb70a083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add82efa459e0af380b68522c29b9fd44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a>(...)&#160;&#160;&#160;m_log-&gt;getLog()-&gt;warn(__VA_ARGS__)</td></tr>
+<tr class="separator:add82efa459e0af380b68522c29b9fd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4a9117ce894e3319e903142347a0f63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#ad4a9117ce894e3319e903142347a0f63">LOG_ERROR</a>(...)&#160;&#160;&#160;m_log-&gt;getLog()-&gt;error(__VA_ARGS__)</td></tr>
+<tr class="separator:ad4a9117ce894e3319e903142347a0f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cecd05aeaafc715ebc091cf74d10fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a89cecd05aeaafc715ebc091cf74d10fe">LOG_FATAL</a>(...)&#160;&#160;&#160;m_log-&gt;getLog()-&gt;critical(__VA_ARGS__)</td></tr>
+<tr class="separator:a89cecd05aeaafc715ebc091cf74d10fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38bfd3d14de97a2311ce31398ecce10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#af38bfd3d14de97a2311ce31398ecce10">LOG_ASSERT</a>(x, ...)&#160;&#160;&#160;{if(!(x)) {<a class="el" href="logger_8h.html#ad4a9117ce894e3319e903142347a0f63">LOG_ERROR</a>(&quot;Assertion Failed: {0}&quot;, __VA_ARGS__); __debugbreak(); } }</td></tr>
+<tr class="separator:af38bfd3d14de97a2311ce31398ecce10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a3d0457d6179b80610db780df3bc96805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d0457d6179b80610db780df3bc96805">&#9670;&nbsp;</a></span>LOG_ERROR</h2>
+<a id="af38bfd3d14de97a2311ce31398ecce10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38bfd3d14de97a2311ce31398ecce10">&#9670;&nbsp;</a></span>LOG_ASSERT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOG_ASSERT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{if(!(x)) {<a class="el" href="logger_8h.html#ad4a9117ce894e3319e903142347a0f63">LOG_ERROR</a>(&quot;Assertion Failed: {0}&quot;, __VA_ARGS__); __debugbreak(); } }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00039">39</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
+
+</div>
+</div>
+<a id="ad4a9117ce894e3319e903142347a0f63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a9117ce894e3319e903142347a0f63">&#9670;&nbsp;</a></span>LOG_ERROR</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -90,28 +124,18 @@ Macros</h2></td></tr>
           <td class="memname">#define LOG_ERROR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">log, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;log-&gt;getLog()-&gt;error(__VA_ARGS__)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;m_log-&gt;getLog()-&gt;error(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00028">28</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00035">35</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
 
 </div>
 </div>
-<a id="ac4e824fe33effc24ec9c2decc3ad4fdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4e824fe33effc24ec9c2decc3ad4fdc">&#9670;&nbsp;</a></span>LOG_FATAL</h2>
+<a id="a89cecd05aeaafc715ebc091cf74d10fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89cecd05aeaafc715ebc091cf74d10fe">&#9670;&nbsp;</a></span>LOG_FATAL</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,28 +144,18 @@ Macros</h2></td></tr>
           <td class="memname">#define LOG_FATAL</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">log, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;log-&gt;getLog()-&gt;critical(__VA_ARGS__)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;m_log-&gt;getLog()-&gt;critical(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00029">29</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00036">36</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
 
 </div>
 </div>
-<a id="adb83cd58a47cbedec3bae3603c27a996"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb83cd58a47cbedec3bae3603c27a996">&#9670;&nbsp;</a></span>LOG_INFO</h2>
+<a id="a378e28bfcb78d17285210d6bbb70a083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a378e28bfcb78d17285210d6bbb70a083">&#9670;&nbsp;</a></span>LOG_INFO</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,28 +164,18 @@ Macros</h2></td></tr>
           <td class="memname">#define LOG_INFO</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">log, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;log-&gt;getLog()-&gt;info(__VA_ARGS__)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;m_log-&gt;getLog()-&gt;info(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00026">26</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00033">33</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
 
 </div>
 </div>
-<a id="a46d9c6bba8b112bd8802003c53463867"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46d9c6bba8b112bd8802003c53463867">&#9670;&nbsp;</a></span>LOG_TRACE</h2>
+<a id="a58c994180e09d2f6400133b19b1d7036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58c994180e09d2f6400133b19b1d7036">&#9670;&nbsp;</a></span>LOG_TRACE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,28 +184,18 @@ Macros</h2></td></tr>
           <td class="memname">#define LOG_TRACE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">log, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;log-&gt;getLog()-&gt;trace(__VA_ARGS__)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;m_log-&gt;getLog()-&gt;trace(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00027">27</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00032">32</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
 
 </div>
 </div>
-<a id="aaeeea28e3a84c9f13af2464301772549"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeeea28e3a84c9f13af2464301772549">&#9670;&nbsp;</a></span>LOG_WARN</h2>
+<a id="add82efa459e0af380b68522c29b9fd44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add82efa459e0af380b68522c29b9fd44">&#9670;&nbsp;</a></span>LOG_WARN</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,23 +204,13 @@ Macros</h2></td></tr>
           <td class="memname">#define LOG_WARN</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">log, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;log-&gt;getLog()-&gt;warn(__VA_ARGS__)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;m_log-&gt;getLog()-&gt;warn(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00025">25</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="logger_8h_source.html#l00034">34</a> of file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
 
 </div>
 </div>

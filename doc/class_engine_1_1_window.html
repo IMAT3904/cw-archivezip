@@ -44,6 +44,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -54,38 +55,44 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="window_8h_source.html">window.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Engine::Window:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_engine_1_1_window.png" usemap="#Engine::Window_map" alt=""/>
+  <map id="Engine::Window_map" name="Engine::Window_map">
+<area href="class_engine_1_1_windows_window.html" alt="Engine::WindowsWindow" shape="rect" coords="0,56,151,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aae776568145266c9ac155ac703954c0e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#aae776568145266c9ac155ac703954c0e">EventCallbackFn</a> = std::function&lt; void(<a class="el" href="class_engine_1_1_event.html">Event</a> &amp;)&gt;</td></tr>
+<tr class="separator:aae776568145266c9ac155ac703954c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa601f7c6065b7017e3747fb5d73f5969"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#aa601f7c6065b7017e3747fb5d73f5969">init</a> (const <a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a> &amp;properties)=0</td></tr>
-<tr class="separator:aa601f7c6065b7017e3747fb5d73f5969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38d3c1012c983e7f276a21cff4555426"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a38d3c1012c983e7f276a21cff4555426">close</a> ()=0</td></tr>
-<tr class="separator:a38d3c1012c983e7f276a21cff4555426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3723c9b47bc710f190d4cf022ce0c12"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#ab3723c9b47bc710f190d4cf022ce0c12">~Window</a> ()</td></tr>
 <tr class="separator:ab3723c9b47bc710f190d4cf022ce0c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdb4e0a16ec760470b68d2c88028bcc6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#abdb4e0a16ec760470b68d2c88028bcc6">onUpdate</a> (float timestep)=0</td></tr>
-<tr class="separator:abdb4e0a16ec760470b68d2c88028bcc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7816915072123b15d1fda1601fb2c9d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a7816915072123b15d1fda1601fb2c9d5">onResize</a> (unsigned int width, unsigned int height)=0</td></tr>
-<tr class="separator:a7816915072123b15d1fda1601fb2c9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab69e1de70ef657b3395452e571e61439"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#ab69e1de70ef657b3395452e571e61439">setVSync</a> (bool VSync)=0</td></tr>
-<tr class="separator:ab69e1de70ef657b3395452e571e61439"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afec5978ef0bda960ecee3bb969549936"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#afec5978ef0bda960ecee3bb969549936">setEventCallback</a> (const std::function&lt; void(<a class="el" href="class_engine_1_1_event.html">Event</a> &amp;)&gt; &amp;callback)=0</td></tr>
-<tr class="separator:afec5978ef0bda960ecee3bb969549936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3422d5b365f43aea3f6995e21ef99cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#ad3422d5b365f43aea3f6995e21ef99cf">onUpdate</a> ()=0</td></tr>
+<tr class="separator:ad3422d5b365f43aea3f6995e21ef99cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c267e602cd2d6482272857208ac41f9"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a8c267e602cd2d6482272857208ac41f9">getWidth</a> () const =0</td></tr>
 <tr class="separator:a8c267e602cd2d6482272857208ac41f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af212cb0a8ea1fd68974f73b44e33b733"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#af212cb0a8ea1fd68974f73b44e33b733">getHeight</a> () const =0</td></tr>
 <tr class="separator:af212cb0a8ea1fd68974f73b44e33b733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b629ee9bae245cc64d42f969b634f13"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a1b629ee9bae245cc64d42f969b634f13">getNativeWindow</a> () const =0</td></tr>
-<tr class="separator:a1b629ee9bae245cc64d42f969b634f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04486d3f3a9909fb729b0143116066bb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a04486d3f3a9909fb729b0143116066bb">isFullScreenMode</a> () const =0</td></tr>
-<tr class="separator:a04486d3f3a9909fb729b0143116066bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfec841fb83d7401cd5dfb7e203bf1cf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#acfec841fb83d7401cd5dfb7e203bf1cf">isVSync</a> () const =0</td></tr>
 <tr class="separator:acfec841fb83d7401cd5dfb7e203bf1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab69e1de70ef657b3395452e571e61439"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#ab69e1de70ef657b3395452e571e61439">setVSync</a> (bool VSync)=0</td></tr>
+<tr class="separator:ab69e1de70ef657b3395452e571e61439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afec5978ef0bda960ecee3bb969549936"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#afec5978ef0bda960ecee3bb969549936">setEventCallback</a> (const std::function&lt; void(<a class="el" href="class_engine_1_1_event.html">Event</a> &amp;)&gt; &amp;callback)=0</td></tr>
+<tr class="separator:afec5978ef0bda960ecee3bb969549936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b629ee9bae245cc64d42f969b634f13"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a1b629ee9bae245cc64d42f969b634f13">getNativeWindow</a> () const =0</td></tr>
+<tr class="separator:a1b629ee9bae245cc64d42f969b634f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7da6eb976d0b4fa6336d741871f26e14"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_window.html">Window</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a7da6eb976d0b4fa6336d741871f26e14">create</a> (const <a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a> &amp;properties=<a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a>())</td></tr>
-<tr class="separator:a7da6eb976d0b4fa6336d741871f26e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5c2093ac89dae5b31ba426462f6894"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_window.html">Window</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#aaa5c2093ac89dae5b31ba426462f6894">create</a> (const <a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a> &amp;properties=<a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a>())</td></tr>
+<tr class="separator:aaa5c2093ac89dae5b31ba426462f6894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -94,8 +101,25 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00022">22</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00023">23</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aae776568145266c9ac155ac703954c0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae776568145266c9ac155ac703954c0e">&#9670;&nbsp;</a></span>EventCallbackFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_engine_1_1_window.html#aae776568145266c9ac155ac703954c0e">Engine::Window::EventCallbackFn</a> =  std::function&lt;void(<a class="el" href="class_engine_1_1_event.html">Event</a>&amp;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00027">27</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab3723c9b47bc710f190d4cf022ce0c12"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3723c9b47bc710f190d4cf022ce0c12">&#9670;&nbsp;</a></span>~Window()</h2>
 
@@ -119,13 +143,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00027">27</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00028">28</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a38d3c1012c983e7f276a21cff4555426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38d3c1012c983e7f276a21cff4555426">&#9670;&nbsp;</a></span>close()</h2>
+<a id="aaa5c2093ac89dae5b31ba426462f6894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa5c2093ac89dae5b31ba426462f6894">&#9670;&nbsp;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134,32 +158,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Engine::Window::close </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7da6eb976d0b4fa6336d741871f26e14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7da6eb976d0b4fa6336d741871f26e14">&#9670;&nbsp;</a></span>create()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="class_engine_1_1_window.html">Window</a>* Engine::Window::create </td>
+          <td class="memname"><a class="el" href="class_engine_1_1_window.html">Window</a> * Engine::Window::create </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a> &amp;&#160;</td>
           <td class="paramname"><em>properties</em> = <code><a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a>()</code></td><td>)</td>
@@ -172,6 +171,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00015">15</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
 
 </div>
 </div>
@@ -198,6 +199,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#adcaf62baf861d4d0ab91c5675d1395b8">Engine::WindowsWindow</a>.</p>
+
 </div>
 </div>
 <a id="a1b629ee9bae245cc64d42f969b634f13"></a>
@@ -222,6 +225,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#ace0db64c3b4ce1cf3cb77ac0e1a965bf">Engine::WindowsWindow</a>.</p>
 
 </div>
 </div>
@@ -248,56 +253,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aa601f7c6065b7017e3747fb5d73f5969"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa601f7c6065b7017e3747fb5d73f5969">&#9670;&nbsp;</a></span>init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Engine::Window::init </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_engine_1_1_window_properties.html">WindowProperties</a> &amp;&#160;</td>
-          <td class="paramname"><em>properties</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a04486d3f3a9909fb729b0143116066bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04486d3f3a9909fb729b0143116066bb">&#9670;&nbsp;</a></span>isFullScreenMode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Engine::Window::isFullScreenMode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#af44e5b6e3b06cc063689af59bf48411b">Engine::WindowsWindow</a>.</p>
 
 </div>
 </div>
@@ -324,46 +280,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a7816915072123b15d1fda1601fb2c9d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7816915072123b15d1fda1601fb2c9d5">&#9670;&nbsp;</a></span>onResize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Engine::Window::onResize </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#a164c30f2032863aa20e8c2dfbf8e6c2c">Engine::WindowsWindow</a>.</p>
 
 </div>
 </div>
-<a id="abdb4e0a16ec760470b68d2c88028bcc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdb4e0a16ec760470b68d2c88028bcc6">&#9670;&nbsp;</a></span>onUpdate()</h2>
+<a id="ad3422d5b365f43aea3f6995e21ef99cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3422d5b365f43aea3f6995e21ef99cf">&#9670;&nbsp;</a></span>onUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,8 +296,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void Engine::Window::onUpdate </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>timestep</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -385,6 +306,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#a3ec3a6a6e2d3031e1f83fd1d8fae21c2">Engine::WindowsWindow</a>.</p>
 
 </div>
 </div>
@@ -438,6 +361,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#aac73aeabba5b467592c4ac35b8e4dda0">Engine::WindowsWindow</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -461,12 +386,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00040">40</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00045">45</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>engine/enginecode/include/independent/windows/<a class="el" href="window_8h_source.html">window.h</a></li>
+<li>engine/enginecode/src/platform/windows/<a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
