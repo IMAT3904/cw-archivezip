@@ -1,6 +1,5 @@
 #pragma once
 #include "../independent/events/inputPoller.h"
-#include "../independent/core/application.h"
 #include "../platform/codes/codesGLFW.h"
 #include "GLFW/glfw3.h"
 
