@@ -1,8 +1,15 @@
+/** \file mouseEvents.h
+*	\brief This header contains the definitions for all mouse events.
+*/
 #pragma once
 #include "events/event.h"
 
 namespace Engine {
 
+	/**
+	\class MouseButtonPressed
+	* \brief Class used to define a mouse button press event
+	*/
 	class MouseButtonPressed : public Event
 	{
 	private:
@@ -17,6 +24,10 @@ namespace Engine {
 
 	};
 
+	/**
+	\class MouseButtonReleased
+	* \brief Class used to define a mouse button released event
+	*/
 	class MouseButtonReleased : public Event
 	{
 	private:
@@ -31,6 +42,10 @@ namespace Engine {
 
 	};
 	
+	/**
+	\class MouseMovedEvent
+	* \brief Class used to define a mouse moved event
+	*/
 	class MouseMovedEvent : public Event
 	{
 	private:
@@ -47,6 +62,10 @@ namespace Engine {
 
 	};
 	
+	/**
+	\class MouseScrolledEvent
+	* \brief Class used to define a mouse scrolled event
+	*/
 	class MouseScrolledEvent : public Event
 	{
 	private:

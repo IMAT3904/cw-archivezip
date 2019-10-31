@@ -1,3 +1,6 @@
+/** \file inputPollerGLFW.h
+*	\brief This header contains the glfw implementation of an input poller
+*/
 #pragma once
 #include "../independent/events/inputPoller.h"
 #include "../platform/codes/codesGLFW.h"
@@ -5,6 +8,9 @@
 
 namespace Engine {
 	
+	/**	\class inputPollerGLFW
+	*	\brief Class which allows for input polling on a glfw window from anywhere in the code.
+	*/
 	class inputPollerGLFW : public InputPoller
 	{
 	private:

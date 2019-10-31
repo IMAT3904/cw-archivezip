@@ -1,8 +1,15 @@
+/** \file windowEvents.h
+*	\brief This header contains the definitions for all window events.
+*/
 #pragma once
 #include "events/event.h"
 
 namespace Engine {
 	
+	/**
+	\class WindowCloseEvent
+	* \brief Class used to define a window closed event.
+	*/
 	class WindowCloseEvent : public Event
 	{
 	public:
@@ -12,6 +19,10 @@ namespace Engine {
 		int getCategoryFlags() const override { return EventCategoryWindow; }
 	};
 
+	/**
+	\class WindowResizeEvent
+	* \brief Class used to define a window resized event.
+	*/
 	class WindowResizeEvent : public Event
 	{
 	private:
@@ -28,6 +39,10 @@ namespace Engine {
 
 	};
 
+	/**
+	\class WindowLostFocus
+	* \brief Class used to define a window lost focus event.
+	*/
 	class WindowLostFocus : public Event
 	{
 	private:
@@ -44,11 +59,15 @@ namespace Engine {
 
 	};
 
-	class WindowMoved : public Event
+	/**
+	\class WindowMovedEvent
+	* \brief Class used to define a window moved event.
+	*/
+	class WindowMovedEvent : public Event
 	{
 	private:
 	public:
-		WindowMoved() {}
+		WindowMovedEvent() {}
 		static EventType getStaticType() { return EventType::WindowMoved; }
 		EventType getEventType() const override { return EventType::WindowMoved; }
 		int getCategoryFlags() const override { return EventCategoryWindow; }

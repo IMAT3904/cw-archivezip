@@ -54,6 +54,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>The window class is a virtual implementation of a window which will be overriden by a window using an API.  
+ <a href="class_engine_1_1_window.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="window_8h_source.html">window.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Engine::Window:</div>
@@ -61,7 +64,7 @@ Inheritance diagram for Engine::Window:</div>
  <div class="center">
   <img src="class_engine_1_1_window.png" usemap="#Engine::Window_map" alt=""/>
   <map id="Engine::Window_map" name="Engine::Window_map">
-<area href="class_engine_1_1_windows_window.html" alt="Engine::WindowsWindow" shape="rect" coords="0,56,151,80"/>
+<area href="class_engine_1_1_windows_window.html" title="This is the Windows implementation of the window, using OpenGL, GLAD and GLFW." alt="Engine::WindowsWindow" shape="rect" coords="0,56,151,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -88,6 +91,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afec5978ef0bda960ecee3bb969549936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b629ee9bae245cc64d42f969b634f13"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a1b629ee9bae245cc64d42f969b634f13">getNativeWindow</a> () const =0</td></tr>
 <tr class="separator:a1b629ee9bae245cc64d42f969b634f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04486d3f3a9909fb729b0143116066bb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_window.html#a04486d3f3a9909fb729b0143116066bb">isFullScreenMode</a> () const =0</td></tr>
+<tr class="separator:a04486d3f3a9909fb729b0143116066bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -100,8 +105,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aab162cb1a1572464283d8327413f1e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00023">23</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<div class="textblock"><p>The window class is a virtual implementation of a window which will be overriden by a window using an API. </p>
+
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00032">32</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aae776568145266c9ac155ac703954c0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae776568145266c9ac155ac703954c0e">&#9670;&nbsp;</a></span>EventCallbackFn</h2>
@@ -115,7 +121,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00027">27</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00036">36</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -143,7 +149,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00028">28</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00037">37</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -254,6 +260,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#af44e5b6e3b06cc063689af59bf48411b">Engine::WindowsWindow</a>.</p>
+
+</div>
+</div>
+<a id="a04486d3f3a9909fb729b0143116066bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04486d3f3a9909fb729b0143116066bb">&#9670;&nbsp;</a></span>isFullScreenMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Engine::Window::isFullScreenMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_engine_1_1_windows_window.html#af29b5979742aec155a06bc6885d93db9">Engine::WindowsWindow</a>.</p>
 
 </div>
 </div>
@@ -386,7 +419,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00045">45</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00050">50</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>

@@ -51,6 +51,9 @@ $(function() {
 <div class="title">logger.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Logging class which is used to send all types of runtime information to the console.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="system_8h_source.html">system.h</a>&quot;</code><br />
 <code>#include &quot;spdlog/spdlog.h&quot;</code><br />
 <code>#include &quot;spdlog/sinks/rotating_file_sink.h&quot;</code><br />
@@ -61,6 +64,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_logger.html">Engine::Logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logging class which is used to send all types of runtime information to the console.  <a href="class_engine_1_1_logger.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -83,7 +87,11 @@ Macros</h2></td></tr>
 <tr class="memitem:af38bfd3d14de97a2311ce31398ecce10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#af38bfd3d14de97a2311ce31398ecce10">LOG_ASSERT</a>(x, ...)&#160;&#160;&#160;{if(!(x)) {<a class="el" href="logger_8h.html#ad4a9117ce894e3319e903142347a0f63">LOG_ERROR</a>(&quot;Assertion Failed: {0}&quot;, __VA_ARGS__); __debugbreak(); } }</td></tr>
 <tr class="separator:af38bfd3d14de97a2311ce31398ecce10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Logging class which is used to send all types of runtime information to the console. </p>
+
+<p class="definition">Definition in file <a class="el" href="logger_8h_source.html">logger.h</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="af38bfd3d14de97a2311ce31398ecce10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af38bfd3d14de97a2311ce31398ecce10">&#9670;&nbsp;</a></span>LOG_ASSERT</h2>
 

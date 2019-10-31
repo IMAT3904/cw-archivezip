@@ -1,8 +1,7 @@
 /** \file event.h
-* This header includes our Event class, and our event dispatcher. It also enumerates EventType and EventCategory, all which are needed for handling inputs
+*	\brief This header includes our Event class, and our event dispatcher. It also enumerates EventType and EventCategory, all which are needed for handling inputs
 */
 #pragma once
-
 #include "engine_pch.h"
 
 namespace Engine {
@@ -26,9 +25,8 @@ namespace Engine {
 		EventCategoryMouseButton = 1 << 4
 	};
 
-	/**
-	\class Event
-	* The event class is an abstract class which defines our events.
+	/**	\class Event
+	*	\brief The event class is an abstract class which defines our events.
 	*/
 	class Event {
 	protected:
@@ -71,7 +69,7 @@ namespace Engine {
 
 	/**
 	\class Event Dispatcher
-	* The event dispatcher class is used to pass our events from wherever we may need to use them
+	* \brief The event dispatcher class is used to pass our events from wherever we may need to use them
 	*/
 
 	class EventDispatcher

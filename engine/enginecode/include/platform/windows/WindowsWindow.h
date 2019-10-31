@@ -1,4 +1,5 @@
 /** \file WindowsWindow.h
+	\brief This is the Windows implementation of the window, using OpenGL, GLAD and GLFW
 */
 
 
@@ -16,6 +17,10 @@
 
 namespace Engine {
 
+
+	/**	\class WindowsWindow
+	*	\brief This is the Windows implementation of the window, using OpenGL, GLAD and GLFW
+	*/
 	class WindowsWindow : public Window
 	{
 	private:

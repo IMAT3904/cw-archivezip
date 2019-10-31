@@ -1,9 +1,9 @@
 /** \file application.h
+*	\brief Fundemental class of the engine. A singleton which runs the game loop infinitely.
 */
 #pragma once
 
 #include "math.h"
-
 #include "systems/WindowSystem.h"
 #include "windows/window.h"
 #include "systems/logger.h"
@@ -18,7 +18,7 @@ namespace Engine {
 
 	/**
 	\class Application
-	* Fundemental class of the engine. A singleton which runs the game loop infinitely.
+	* \brief Fundemental class of the engine. A singleton which runs the game loop infinitely.
 	*/
 
 	class Application

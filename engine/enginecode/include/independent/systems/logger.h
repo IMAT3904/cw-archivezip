@@ -1,4 +1,5 @@
 /** \file logger.h
+*	\brief Logging class which is used to send all types of runtime information to the console.
 */
 #pragma once
 
@@ -10,9 +11,8 @@
 
 namespace Engine {
 
-	/**
-	\class Logger
-	* Logging class which is used to send all types of runtime information to the console.
+	/** \class Logger
+	*	\brief Logging class which is used to send all types of runtime information to the console.
 	*/
 
 	class Logger : public System {

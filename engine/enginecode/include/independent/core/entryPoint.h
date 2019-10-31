@@ -1,5 +1,5 @@
 /** \file entryPoint.h
-* Our entry point to the program which runs our main loop. 
+*	\brief Our entry point to the program which runs our main loop. 
 */
 #pragma once
 

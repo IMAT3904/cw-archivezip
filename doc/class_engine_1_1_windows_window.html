@@ -54,6 +54,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>This is the Windows implementation of the window, using OpenGL, GLAD and GLFW.  
+ <a href="class_engine_1_1_windows_window.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Engine::WindowsWindow:</div>
@@ -61,7 +64,7 @@ Inheritance diagram for Engine::WindowsWindow:</div>
  <div class="center">
   <img src="class_engine_1_1_windows_window.png" usemap="#Engine::WindowsWindow_map" alt=""/>
   <map id="Engine::WindowsWindow_map" name="Engine::WindowsWindow_map">
-<area href="class_engine_1_1_window.html" alt="Engine::Window" shape="rect" coords="0,0,151,24"/>
+<area href="class_engine_1_1_window.html" title="The window class is a virtual implementation of a window which will be overriden by a window using an..." alt="Engine::Window" shape="rect" coords="0,0,151,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -84,6 +87,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adcaf62baf861d4d0ab91c5675d1395b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace0db64c3b4ce1cf3cb77ac0e1a965bf"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_windows_window.html#ace0db64c3b4ce1cf3cb77ac0e1a965bf">getNativeWindow</a> () const override</td></tr>
 <tr class="separator:ace0db64c3b4ce1cf3cb77ac0e1a965bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af29b5979742aec155a06bc6885d93db9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_windows_window.html#af29b5979742aec155a06bc6885d93db9">isFullScreenMode</a> () const override</td></tr>
+<tr class="separator:af29b5979742aec155a06bc6885d93db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a164c30f2032863aa20e8c2dfbf8e6c2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_windows_window.html#a164c30f2032863aa20e8c2dfbf8e6c2c">isVSync</a> () const override</td></tr>
 <tr class="separator:a164c30f2032863aa20e8c2dfbf8e6c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac73aeabba5b467592c4ac35b8e4dda0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_windows_window.html#aac73aeabba5b467592c4ac35b8e4dda0">setVSync</a> (bool enabled) override</td></tr>
@@ -123,8 +128,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:aab162cb1a1572464283d8327413f1e08 inherit pro_attribs_class_engine_1_1_window"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00019">19</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+<div class="textblock"><p>This is the Windows implementation of the window, using OpenGL, GLAD and GLFW. </p>
+
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00024">24</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a82540bfd4700f9777dda6572b890c418"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82540bfd4700f9777dda6572b890c418">&#9670;&nbsp;</a></span>WindowsWindow()</h2>
@@ -169,7 +175,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00122">122</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00123">123</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
 
 </div>
 </div>
@@ -197,7 +203,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00148">148</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00149">149</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
 
 </div>
 </div>
@@ -226,7 +232,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_engine_1_1_window.html#af212cb0a8ea1fd68974f73b44e33b733">Engine::Window</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00042">42</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00047">47</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
 
 </div>
 </div>
@@ -255,7 +261,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_engine_1_1_window.html#a1b629ee9bae245cc64d42f969b634f13">Engine::Window</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00043">43</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00048">48</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
 
 </div>
 </div>
@@ -284,7 +290,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_engine_1_1_window.html#a8c267e602cd2d6482272857208ac41f9">Engine::Window</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00041">41</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00046">46</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
 
 </div>
 </div>
@@ -316,6 +322,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af29b5979742aec155a06bc6885d93db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af29b5979742aec155a06bc6885d93db9">&#9670;&nbsp;</a></span>isFullScreenMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine::WindowsWindow::isFullScreenMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_engine_1_1_window.html#a04486d3f3a9909fb729b0143116066bb">Engine::Window</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00049">49</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+
+</div>
+</div>
 <a id="a164c30f2032863aa20e8c2dfbf8e6c2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a164c30f2032863aa20e8c2dfbf8e6c2c">&#9670;&nbsp;</a></span>isVSync()</h2>
 
@@ -341,7 +376,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_engine_1_1_window.html#acfec841fb83d7401cd5dfb7e203bf1cf">Engine::Window</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00143">143</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00144">144</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
 
 </div>
 </div>
@@ -370,7 +405,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_engine_1_1_window.html#ad3422d5b365f43aea3f6995e21ef99cf">Engine::Window</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00127">127</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00128">128</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
 
 </div>
 </div>
@@ -398,7 +433,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00047">47</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00053">53</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
 
 </div>
 </div>
@@ -428,7 +463,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_engine_1_1_window.html#ab69e1de70ef657b3395452e571e61439">Engine::Window</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00133">133</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8cpp_source.html#l00134">134</a> of file <a class="el" href="_windows_window_8cpp_source.html">WindowsWindow.cpp</a>.</p>
 
 </div>
 </div>
@@ -453,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00031">31</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00036">36</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
 
 </div>
 </div>
@@ -477,7 +512,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00032">32</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_windows_window_8h_source.html#l00037">37</a> of file <a class="el" href="_windows_window_8h_source.html">WindowsWindow.h</a>.</p>
 
 </div>
 </div>

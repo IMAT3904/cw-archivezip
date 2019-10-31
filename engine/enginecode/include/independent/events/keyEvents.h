@@ -1,8 +1,15 @@
+/** \file keyEvents.h
+*	\brief This header contains the definitions for all keyboard events.
+*/
 #pragma once
 #include "events/event.h"
 
 namespace Engine {
 	
+	/**
+	\class KeyPressedEvent
+	* \brief Class used to define a key press event
+	*/
 	class KeyPressedEvent : public Event
 	{
 	private:
@@ -19,6 +26,10 @@ namespace Engine {
 
 	};
 	
+	/**
+	\class KeyReleasedEvent
+	* \brief Class used to define a key released event
+	*/
 	class KeyReleasedEvent : public Event
 	{
 	private:
@@ -32,6 +43,10 @@ namespace Engine {
 		inline int getKeyCode() const { return keyCode; }
 	};
 	
+	/**
+	\class KeyTypedEvent
+	* \brief Class used to define a key typed event
+	*/
 	class KeyTypedEvent : public Event
 	{
 	private:

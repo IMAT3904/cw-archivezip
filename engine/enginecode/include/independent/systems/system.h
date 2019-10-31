@@ -1,21 +1,16 @@
 /** \file system.h
+*	\brief Interface class for all systems
 */
-
 #pragma once
-
 #include <cstdarg>
 
-/**
-\class Interface class for all systems
-*/
-
 namespace Engine {
-
+	
+	//! Enum class defining SystemSignal types
 	enum class SystemSignal { None = 0 };
 
-	/**
-	\class System 
-	* Class for basic systems
+	/** \class System 
+	*	\brief Interface class for all systems
 	*/
 
 	class System

@@ -1,5 +1,5 @@
-
 /** \file timer.h
+*	\brief This header includes our timer class, which is used to return a time from epoch.
 */
 
 #pragma once
@@ -8,9 +8,8 @@
 
 namespace Engine {
 	
-	/**
-	\class Timer
-	* 
+	/** \class Timer
+	*	\brief A timer class which returns a time from its last return call, or since it's epoch.
 	*/
 
 	class Timer : public System

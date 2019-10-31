@@ -1,9 +1,16 @@
+/** \file inputPoller.h
+*	\brief This header contains the class which can check for inputs from anywhere in the program.
+*/
 #pragma once
 
 #include <glm/glm.hpp>
 
 namespace Engine {
 
+	/**
+	\class InputPoller
+	* \brief The input poller checks for an input and returns a true or false value based on the query.
+	*/
 	class InputPoller
 	{
 	private:

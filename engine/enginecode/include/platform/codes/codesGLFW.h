@@ -1,5 +1,7 @@
+/** \file codesGLFW.h
+*	\brief This header contains the definition of GLFW key codes.
+*/
 #pragma once
-
 /* True/False Defines*/
 #define INPUT_TRUE                   1
 #define INPUT_FALSE                  0

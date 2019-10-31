@@ -1,11 +1,16 @@
+/** \file window.h
+*	\brief This header contains the definition of a virtual and agnostic implementation of a window. 
+*/
 #pragma once
-
 #include <functional>
 #include "events/event.h"
 #include "windows/graphicsContext.h"
 
 namespace Engine {
-
+	
+	/** \struct WindowProperties
+	*	\brief Struct which will define the elements of our window that it needs for creation
+	*/
 	struct WindowProperties
 	{
 		std::string m_title;
@@ -20,6 +25,10 @@ namespace Engine {
 			m_width(width), m_height(height), m_isFullScreen(fullscreen) {}
 	};
 
+	/** \class Window
+	*	\brief The window class is a virtual implementation of a window which will be overriden by a
+	*	window using an API.
+	*/
 	class Window
 	{
 	public:
@@ -27,16 +36,12 @@ namespace Engine {
 		using EventCallbackFn = std::function<void(Event&)>;
 		virtual ~Window() {};
 		virtual void onUpdate() = 0;		
-		
 		virtual unsigned int getWidth() const = 0;
 		virtual unsigned int getHeight() const = 0;
-		
 		virtual bool isVSync() const = 0;
 		virtual void setVSync(bool VSync) = 0;
 		virtual void setEventCallback(const std::function<void(Event&)>& callback) = 0;
 		virtual void* getNativeWindow() const = 0;
-
-		//virtual void onResize(unsigned int width, unsigned int height) = 0;
 		virtual bool isFullScreenMode() const = 0;
 
 		static Window* create(const WindowProperties& properties = WindowProperties());

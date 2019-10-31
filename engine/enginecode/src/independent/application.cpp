@@ -11,7 +11,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
-//#include <GLFW/glfw3.h>
 #pragma endregion TempIncludes
 
 #include "core/application.h"
@@ -570,7 +569,7 @@ namespace Engine {
 		dispatcher.dispatch<WindowCloseEvent>(BIND_EVENT_FN(onClose));
 		dispatcher.dispatch<WindowResizeEvent>(BIND_EVENT_FN(onResize));
 		dispatcher.dispatch<WindowLostFocus>(BIND_EVENT_FN(onLostFocus));
-		dispatcher.dispatch<WindowMoved>(BIND_EVENT_FN(onWinMoved));
+		dispatcher.dispatch<WindowMovedEvent>(BIND_EVENT_FN(onWinMoved));
 		dispatcher.dispatch<KeyPressedEvent>(BIND_EVENT_FN(onKeyPressed));
 		dispatcher.dispatch<KeyReleasedEvent>(BIND_EVENT_FN(onKeyReleased));
 		dispatcher.dispatch<KeyTypedEvent>(BIND_EVENT_FN(onKeyTyped));
@@ -599,7 +598,7 @@ namespace Engine {
 		return true;
 	}
 
-	bool Application::onWinMoved(WindowMoved & e)
+	bool Application::onWinMoved(WindowMovedEvent & e)
 	{
 		LOG_INFO("Window moved!");
 		return true;
