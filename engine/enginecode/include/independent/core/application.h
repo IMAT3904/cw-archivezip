@@ -16,9 +16,8 @@
 
 namespace Engine {
 
-	/**
-	\class Application
-	* \brief Fundemental class of the engine. A singleton which runs the game loop infinitely.
+	/**	\class Application
+	*	\brief Fundemental class of the engine. A singleton which runs the game loop infinitely.
 	*/
 
 	class Application
@@ -111,7 +110,7 @@ namespace Engine {
 		 \param e The event that we pass through
 		\return a bool based on if it has been handled or not
 		*/
-		bool onWinMoved(WindowMoved& e); 
+		bool onWinMoved(WindowMovedEvent& e); 
 		
 		//! On key pressed event
 		/*!

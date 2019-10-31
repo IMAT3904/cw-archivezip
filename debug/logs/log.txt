@@ -11362,3 +11362,234 @@
 [2019-10-29 13:52:25.230] [Engine] [info] FPS:140.
 [2019-10-29 13:52:26.237] [Engine] [info] FPS:142.
 [2019-10-29 13:52:26.259] [Engine] [warning] Closing Application
+[2019-10-31 14:22:14.100] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-10-31 14:22:14.108] [Engine] [warning] Log Initialized
+[2019-10-31 14:22:14.108] [Engine] [warning] Frame Counter Started
+[2019-10-31 14:22:14.108] [Engine] [warning] GLFW Window System Started
+[2019-10-31 14:22:14.328] [Engine] [warning] Window System Started
+[2019-10-31 14:22:14.873] [Engine] [warning] GLAD Loaded
+[2019-10-31 14:22:14.874] [Engine] [warning] Window Created
+[2019-10-31 14:22:14.875] [Engine] [warning] Window Event Callback Set
+[2019-10-31 14:22:16.034] [Engine] [info] FPS:60.
+[2019-10-31 14:22:17.050] [Engine] [info] FPS:60.
+[2019-10-31 14:22:18.067] [Engine] [info] FPS:59.
+[2019-10-31 14:22:19.067] [Engine] [info] FPS:60.
+[2019-10-31 14:22:20.068] [Engine] [info] FPS:59.
+[2019-10-31 14:22:21.084] [Engine] [info] FPS:59.
+[2019-10-31 14:22:22.084] [Engine] [info] FPS:58.
+[2019-10-31 14:22:23.750] [Engine] [info] FPS:0.
+[2019-10-31 14:22:24.751] [Engine] [info] FPS:60.
+[2019-10-31 14:22:25.768] [Engine] [info] FPS:60.
+[2019-10-31 14:22:26.768] [Engine] [info] FPS:60.
+[2019-10-31 14:22:27.784] [Engine] [info] FPS:60.
+[2019-10-31 14:22:28.784] [Engine] [info] FPS:61.
+[2019-10-31 14:22:29.801] [Engine] [info] FPS:60.
+[2019-10-31 14:22:29.907] [Engine] [info] Mouse moved at: 325.0,16.0
+[2019-10-31 14:22:29.923] [Engine] [info] Mouse moved at: 312.0,140.0
+[2019-10-31 14:22:29.924] [Engine] [info] Mouse moved at: 312.0,143.0
+[2019-10-31 14:22:29.935] [Engine] [info] Mouse moved at: 312.0,145.0
+[2019-10-31 14:22:29.952] [Engine] [info] Mouse moved at: 311.0,148.0
+[2019-10-31 14:22:30.818] [Engine] [info] FPS:58.
+[2019-10-31 14:22:31.368] [Engine] [info] Mouse scrolled at: 0.0,-1.0
+[2019-10-31 14:22:31.402] [Engine] [info] Mouse scrolled at: 0.0,-1.0
+[2019-10-31 14:22:31.418] [Engine] [info] Mouse scrolled at: 0.0,-1.0
+[2019-10-31 14:22:31.452] [Engine] [info] Mouse scrolled at: 0.0,-1.0
+[2019-10-31 14:22:31.635] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:31.651] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:31.668] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:31.834] [Engine] [info] FPS:59.
+[2019-10-31 14:22:31.868] [Engine] [info] Mouse scrolled at: 0.0,-1.0
+[2019-10-31 14:22:31.901] [Engine] [info] Mouse scrolled at: 0.0,-1.0
+[2019-10-31 14:22:32.368] [Engine] [info] Mouse moved at: 310.0,148.0
+[2019-10-31 14:22:32.385] [Engine] [info] Mouse moved at: 269.0,146.0
+[2019-10-31 14:22:32.401] [Engine] [info] Mouse moved at: 167.0,139.0
+[2019-10-31 14:22:32.418] [Engine] [info] Mouse moved at: 71.0,131.0
+[2019-10-31 14:22:32.435] [Engine] [info] Mouse moved at: 18.0,122.0
+[2019-10-31 14:22:32.851] [Engine] [info] FPS:59.
+[2019-10-31 14:22:33.868] [Engine] [info] FPS:60.
+[2019-10-31 14:22:34.868] [Engine] [info] FPS:60.
+[2019-10-31 14:22:35.884] [Engine] [info] FPS:58.
+[2019-10-31 14:22:36.069] [Engine] [info] Mouse moved at: 362.0,237.0
+[2019-10-31 14:22:36.085] [Engine] [info] Mouse moved at: 439.0,254.0
+[2019-10-31 14:22:36.102] [Engine] [info] Mouse moved at: 490.0,264.0
+[2019-10-31 14:22:36.118] [Engine] [info] Mouse moved at: 506.0,268.0
+[2019-10-31 14:22:36.135] [Engine] [info] Mouse moved at: 507.0,268.0
+[2019-10-31 14:22:36.553] [Engine] [info] Mouse button pressed: 0
+[2019-10-31 14:22:36.668] [Engine] [info] Mouse button released: 0
+[2019-10-31 14:22:36.901] [Engine] [info] FPS:60.
+[2019-10-31 14:22:37.235] [Engine] [info] Key Pressed: 75, R#:0
+[2019-10-31 14:22:37.501] [Engine] [info] Key Released: 75
+[2019-10-31 14:22:37.551] [Engine] [info] Key Pressed: 76, R#:0
+[2019-10-31 14:22:37.651] [Engine] [info] Key Pressed: 75, R#:0
+[2019-10-31 14:22:37.735] [Engine] [info] Key Released: 76
+[2019-10-31 14:22:37.835] [Engine] [info] Key Released: 75
+[2019-10-31 14:22:37.868] [Engine] [info] Key Pressed: 59, R#:0
+[2019-10-31 14:22:37.901] [Engine] [info] FPS:58.
+[2019-10-31 14:22:37.951] [Engine] [info] Key Pressed: 75, R#:0
+[2019-10-31 14:22:38.018] [Engine] [info] Key Released: 59
+[2019-10-31 14:22:38.035] [Engine] [info] Key Released: 75
+[2019-10-31 14:22:38.917] [Engine] [info] FPS:60.
+[2019-10-31 14:22:39.918] [Engine] [info] FPS:59.
+[2019-10-31 14:22:40.934] [Engine] [info] FPS:60.
+[2019-10-31 14:22:41.934] [Engine] [info] FPS:59.
+[2019-10-31 14:22:42.001] [Engine] [info] Mouse moved at: 510.0,271.0
+[2019-10-31 14:22:42.018] [Engine] [info] Mouse moved at: 516.0,278.0
+[2019-10-31 14:22:42.035] [Engine] [info] Mouse moved at: 533.0,292.0
+[2019-10-31 14:22:42.052] [Engine] [info] Mouse moved at: 563.0,290.0
+[2019-10-31 14:22:42.053] [Engine] [info] Mouse moved at: 595.0,272.0
+[2019-10-31 14:22:42.068] [Engine] [info] Mouse moved at: 626.0,248.0
+[2019-10-31 14:22:42.085] [Engine] [info] Mouse moved at: 628.0,244.0
+[2019-10-31 14:22:42.101] [Engine] [info] Mouse moved at: 621.0,243.0
+[2019-10-31 14:22:42.118] [Engine] [info] Mouse moved at: 619.0,243.0
+[2019-10-31 14:22:42.301] [Engine] [info] Mouse moved at: 622.0,242.0
+[2019-10-31 14:22:42.318] [Engine] [info] Mouse moved at: 641.0,232.0
+[2019-10-31 14:22:42.335] [Engine] [info] Mouse moved at: 668.0,221.0
+[2019-10-31 14:22:42.351] [Engine] [info] Mouse moved at: 684.0,215.0
+[2019-10-31 14:22:42.368] [Engine] [info] Mouse moved at: 687.0,214.0
+[2019-10-31 14:22:42.385] [Engine] [info] Mouse moved at: 691.0,213.0
+[2019-10-31 14:22:42.402] [Engine] [info] Mouse moved at: 706.0,211.0
+[2019-10-31 14:22:42.419] [Engine] [info] Mouse moved at: 733.0,209.0
+[2019-10-31 14:22:42.434] [Engine] [info] Mouse moved at: 769.0,208.0
+[2019-10-31 14:22:42.702] [Engine] [info] Mouse moved at: 783.0,253.0
+[2019-10-31 14:22:42.718] [Engine] [info] Mouse moved at: 748.0,264.0
+[2019-10-31 14:22:42.735] [Engine] [info] Mouse moved at: 708.0,273.0
+[2019-10-31 14:22:42.751] [Engine] [info] Mouse moved at: 671.0,280.0
+[2019-10-31 14:22:42.768] [Engine] [info] Mouse moved at: 646.0,280.0
+[2019-10-31 14:22:42.785] [Engine] [info] Mouse moved at: 634.0,280.0
+[2019-10-31 14:22:42.802] [Engine] [info] Mouse moved at: 628.0,277.0
+[2019-10-31 14:22:42.818] [Engine] [info] Mouse moved at: 624.0,273.0
+[2019-10-31 14:22:42.835] [Engine] [info] Mouse moved at: 615.0,263.0
+[2019-10-31 14:22:42.851] [Engine] [info] Mouse moved at: 604.0,250.0
+[2019-10-31 14:22:42.853] [Engine] [info] Mouse moved at: 596.0,241.0
+[2019-10-31 14:22:42.868] [Engine] [info] Mouse moved at: 578.0,225.0
+[2019-10-31 14:22:42.885] [Engine] [info] Mouse moved at: 557.0,210.0
+[2019-10-31 14:22:42.901] [Engine] [info] Mouse moved at: 525.0,195.0
+[2019-10-31 14:22:42.918] [Engine] [info] Mouse moved at: 478.0,181.0
+[2019-10-31 14:22:42.935] [Engine] [info] Mouse moved at: 420.0,176.0
+[2019-10-31 14:22:42.951] [Engine] [info] FPS:59.
+[2019-10-31 14:22:42.952] [Engine] [info] Mouse moved at: 365.0,177.0
+[2019-10-31 14:22:42.968] [Engine] [info] Mouse moved at: 320.0,202.0
+[2019-10-31 14:22:42.984] [Engine] [info] Mouse moved at: 295.0,249.0
+[2019-10-31 14:22:43.002] [Engine] [info] Mouse moved at: 289.0,308.0
+[2019-10-31 14:22:43.018] [Engine] [info] Mouse moved at: 307.0,361.0
+[2019-10-31 14:22:43.034] [Engine] [info] Mouse moved at: 341.0,402.0
+[2019-10-31 14:22:43.052] [Engine] [info] Mouse moved at: 381.0,412.0
+[2019-10-31 14:22:43.052] [Engine] [info] Mouse moved at: 407.0,410.0
+[2019-10-31 14:22:43.068] [Engine] [info] Mouse moved at: 451.0,386.0
+[2019-10-31 14:22:43.085] [Engine] [info] Mouse moved at: 484.0,350.0
+[2019-10-31 14:22:43.101] [Engine] [info] Mouse moved at: 499.0,317.0
+[2019-10-31 14:22:43.118] [Engine] [info] Mouse moved at: 502.0,288.0
+[2019-10-31 14:22:43.135] [Engine] [info] Mouse moved at: 496.0,258.0
+[2019-10-31 14:22:43.151] [Engine] [info] Mouse moved at: 479.0,238.0
+[2019-10-31 14:22:43.168] [Engine] [info] Mouse moved at: 457.0,227.0
+[2019-10-31 14:22:43.185] [Engine] [info] Mouse moved at: 431.0,226.0
+[2019-10-31 14:22:43.202] [Engine] [info] Mouse moved at: 405.0,238.0
+[2019-10-31 14:22:43.218] [Engine] [info] Mouse moved at: 383.0,263.0
+[2019-10-31 14:22:43.235] [Engine] [info] Mouse moved at: 378.0,294.0
+[2019-10-31 14:22:43.251] [Engine] [info] Mouse moved at: 386.0,320.0
+[2019-10-31 14:22:43.254] [Engine] [info] Mouse moved at: 396.0,328.0
+[2019-10-31 14:22:43.268] [Engine] [info] Mouse moved at: 434.0,333.0
+[2019-10-31 14:22:43.285] [Engine] [info] Mouse moved at: 497.0,324.0
+[2019-10-31 14:22:43.301] [Engine] [info] Mouse moved at: 554.0,305.0
+[2019-10-31 14:22:43.318] [Engine] [info] Mouse moved at: 595.0,286.0
+[2019-10-31 14:22:43.335] [Engine] [info] Mouse moved at: 615.0,274.0
+[2019-10-31 14:22:43.352] [Engine] [info] Mouse moved at: 621.0,268.0
+[2019-10-31 14:22:43.368] [Engine] [info] Mouse moved at: 622.0,266.0
+[2019-10-31 14:22:43.385] [Engine] [info] Mouse moved at: 622.0,265.0
+[2019-10-31 14:22:43.402] [Engine] [info] Mouse moved at: 622.0,261.0
+[2019-10-31 14:22:43.418] [Engine] [info] Mouse moved at: 626.0,255.0
+[2019-10-31 14:22:43.434] [Engine] [info] Mouse moved at: 630.0,248.0
+[2019-10-31 14:22:43.452] [Engine] [info] Mouse moved at: 634.0,244.0
+[2019-10-31 14:22:43.453] [Engine] [info] Mouse moved at: 635.0,243.0
+[2019-10-31 14:22:43.468] [Engine] [info] Mouse moved at: 636.0,242.0
+[2019-10-31 14:22:43.618] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:43.635] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:43.668] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:43.901] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:43.918] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:43.935] [Engine] [info] Mouse scrolled at: 0.0,1.0
+[2019-10-31 14:22:43.967] [Engine] [info] FPS:60.
+[2019-10-31 14:22:44.511] [Engine] [info] Mouse moved at: 638.0,262.0
+[2019-10-31 14:22:44.834] [Engine] [info] Mouse moved at: 631.0,250.0
+[2019-10-31 14:22:44.851] [Engine] [info] Mouse moved at: 624.0,242.0
+[2019-10-31 14:22:44.852] [Engine] [info] Mouse moved at: 623.0,241.0
+[2019-10-31 14:22:44.868] [Engine] [info] Mouse moved at: 621.0,240.0
+[2019-10-31 14:22:44.884] [Engine] [info] Mouse moved at: 621.0,239.0
+[2019-10-31 14:22:44.951] [Engine] [info] Mouse moved at: 621.0,238.0
+[2019-10-31 14:22:44.967] [Engine] [info] FPS:59.
+[2019-10-31 14:22:45.084] [Engine] [info] Mouse moved at: 622.0,235.0
+[2019-10-31 14:22:45.101] [Engine] [info] Mouse moved at: 623.0,234.0
+[2019-10-31 14:22:45.135] [Engine] [info] Mouse moved at: 623.0,233.0
+[2019-10-31 14:22:45.168] [Engine] [info] Mouse moved at: 625.0,233.0
+[2019-10-31 14:22:45.185] [Engine] [info] Mouse moved at: 625.0,231.0
+[2019-10-31 14:22:45.201] [Engine] [info] Mouse moved at: 626.0,231.0
+[2019-10-31 14:22:45.234] [Engine] [info] Mouse moved at: 627.0,230.0
+[2019-10-31 14:22:45.368] [Engine] [info] Mouse moved at: 628.0,230.0
+[2019-10-31 14:22:45.384] [Engine] [info] Mouse moved at: 630.0,230.0
+[2019-10-31 14:22:45.984] [Engine] [info] FPS:58.
+[2019-10-31 14:22:46.468] [Engine] [info] Mouse moved at: 631.0,230.0
+[2019-10-31 14:22:46.468] [Engine] [info] Mouse moved at: 634.0,228.0
+[2019-10-31 14:22:46.485] [Engine] [info] Mouse moved at: 637.0,225.0
+[2019-10-31 14:22:46.502] [Engine] [info] Mouse moved at: 639.0,222.0
+[2019-10-31 14:22:46.518] [Engine] [info] Mouse moved at: 640.0,218.0
+[2019-10-31 14:22:46.535] [Engine] [info] Mouse moved at: 642.0,212.0
+[2019-10-31 14:22:46.551] [Engine] [info] Mouse moved at: 645.0,201.0
+[2019-10-31 14:22:46.568] [Engine] [info] Mouse moved at: 646.0,187.0
+[2019-10-31 14:22:46.584] [Engine] [info] Mouse moved at: 647.0,174.0
+[2019-10-31 14:22:46.601] [Engine] [info] Mouse moved at: 649.0,161.0
+[2019-10-31 14:22:46.618] [Engine] [info] Mouse moved at: 651.0,147.0
+[2019-10-31 14:22:46.636] [Engine] [info] Mouse moved at: 658.0,127.0
+[2019-10-31 14:22:46.637] [Engine] [info] Mouse moved at: 660.0,116.0
+[2019-10-31 14:22:46.652] [Engine] [info] Mouse moved at: 662.0,105.0
+[2019-10-31 14:22:46.653] [Engine] [info] Mouse moved at: 664.0,96.0
+[2019-10-31 14:22:46.668] [Engine] [info] Mouse moved at: 668.0,83.0
+[2019-10-31 14:22:46.685] [Engine] [info] Mouse moved at: 672.0,74.0
+[2019-10-31 14:22:46.701] [Engine] [info] Mouse moved at: 677.0,69.0
+[2019-10-31 14:22:46.718] [Engine] [info] Mouse moved at: 684.0,64.0
+[2019-10-31 14:22:46.734] [Engine] [info] Mouse moved at: 691.0,57.0
+[2019-10-31 14:22:46.751] [Engine] [info] Mouse moved at: 697.0,51.0
+[2019-10-31 14:22:46.768] [Engine] [info] Mouse moved at: 702.0,46.0
+[2019-10-31 14:22:46.784] [Engine] [info] Mouse moved at: 705.0,42.0
+[2019-10-31 14:22:46.801] [Engine] [info] Mouse moved at: 709.0,39.0
+[2019-10-31 14:22:46.818] [Engine] [info] Mouse moved at: 713.0,36.0
+[2019-10-31 14:22:46.835] [Engine] [info] Mouse moved at: 716.0,33.0
+[2019-10-31 14:22:46.836] [Engine] [info] Mouse moved at: 718.0,33.0
+[2019-10-31 14:22:46.851] [Engine] [info] Mouse moved at: 719.0,31.0
+[2019-10-31 14:22:46.868] [Engine] [info] Mouse moved at: 722.0,28.0
+[2019-10-31 14:22:46.868] [Engine] [info] Mouse moved at: 723.0,26.0
+[2019-10-31 14:22:46.885] [Engine] [info] Mouse moved at: 725.0,24.0
+[2019-10-31 14:22:46.901] [Engine] [info] Mouse moved at: 727.0,23.0
+[2019-10-31 14:22:46.967] [Engine] [info] Mouse moved at: 728.0,22.0
+[2019-10-31 14:22:46.984] [Engine] [info] Mouse moved at: 730.0,21.0
+[2019-10-31 14:22:47.000] [Engine] [info] FPS:60.
+[2019-10-31 14:22:47.001] [Engine] [info] Mouse moved at: 732.0,19.0
+[2019-10-31 14:22:47.018] [Engine] [info] Mouse moved at: 735.0,18.0
+[2019-10-31 14:22:47.034] [Engine] [info] Mouse moved at: 741.0,16.0
+[2019-10-31 14:22:47.051] [Engine] [info] Mouse moved at: 754.0,8.0
+[2019-10-31 14:22:47.052] [Engine] [info] Mouse moved at: 760.0,3.0
+[2019-10-31 14:22:47.444] [Engine] [warning] Closing Application
+[2019-10-31 14:53:22.687] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-10-31 14:53:22.692] [Engine] [warning] Log Initialized
+[2019-10-31 14:53:22.692] [Engine] [warning] Frame Counter Started
+[2019-10-31 14:53:22.692] [Engine] [warning] GLFW Window System Started
+[2019-10-31 14:53:22.855] [Engine] [warning] Window System Started
+[2019-10-31 14:53:23.354] [Engine] [warning] GLAD Loaded
+[2019-10-31 14:53:23.355] [Engine] [warning] Window Created
+[2019-10-31 14:53:23.355] [Engine] [warning] Window Event Callback Set
+[2019-10-31 14:53:23.430] [Engine] [info] Mouse moved at: 418.0,276.0
+[2019-10-31 14:53:24.441] [Engine] [info] FPS:59.
+[2019-10-31 14:53:24.642] [Engine] [info] Mouse moved at: 425.0,273.0
+[2019-10-31 14:53:24.659] [Engine] [info] Mouse moved at: 533.0,200.0
+[2019-10-31 14:53:24.675] [Engine] [info] Mouse moved at: 640.0,199.0
+[2019-10-31 14:53:24.944] [Engine] [info] Mouse moved at: 786.0,149.0
+[2019-10-31 14:53:24.945] [Engine] [info] Mouse moved at: 642.0,140.0
+[2019-10-31 14:53:24.960] [Engine] [info] Mouse moved at: 499.0,133.0
+[2019-10-31 14:53:24.977] [Engine] [info] Mouse moved at: 119.0,126.0
+[2019-10-31 14:53:25.442] [Engine] [info] FPS:60.
+[2019-10-31 14:53:26.442] [Engine] [info] FPS:58.
+[2019-10-31 14:53:27.393] [Engine] [info] Mouse moved at: 90.0,126.0
+[2019-10-31 14:53:27.410] [Engine] [info] Mouse moved at: 278.0,175.0
+[2019-10-31 14:53:27.426] [Engine] [info] Mouse moved at: 549.0,200.0
+[2019-10-31 14:53:27.458] [Engine] [info] FPS:60.
+[2019-10-31 14:53:28.459] [Engine] [info] FPS:59.
+[2019-10-31 14:53:28.633] [Engine] [warning] Closing Application

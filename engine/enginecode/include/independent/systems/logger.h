@@ -26,14 +26,14 @@ namespace Engine {
 	public:
 		void start(SystemSignal init = SystemSignal::None, ...) override;	//!< overridden start/init function
 		void stop(SystemSignal close = SystemSignal::None, ...) override;	//!< overridden stop/close function
-		static std::shared_ptr<spdlog::logger>& getLog() { return log; } //!< Accessor function
+		inline static std::shared_ptr<spdlog::logger>& getLog() { return log; } //!< Accessor function
 };
 }
-#define LOG_TRACE(...) m_log->getLog()->trace(__VA_ARGS__)
-#define LOG_INFO(...) m_log->getLog()->info(__VA_ARGS__)
-#define LOG_WARN(...) m_log->getLog()->warn(__VA_ARGS__)
-#define LOG_ERROR(...) m_log->getLog()->error(__VA_ARGS__)
-#define LOG_FATAL(...) m_log->getLog()->critical(__VA_ARGS__)
 
+#define LOG_TRACE(...) ::Engine::Logger::getLog()->trace(__VA_ARGS__)
+#define LOG_INFO(...) ::Engine::Logger::getLog()->info(__VA_ARGS__)
+#define LOG_WARN(...) ::Engine::Logger::getLog()->warn(__VA_ARGS__)
+#define LOG_ERROR(...) ::Engine::Logger::getLog()->error(__VA_ARGS__)
+#define LOG_FATAL(...) ::Engine::Logger::getLog()->critical(__VA_ARGS__)
 
 #define LOG_ASSERT(x, ...) {if(!(x)) {LOG_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
