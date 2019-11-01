@@ -104,7 +104,6 @@ namespace Engine {
 		virtual void unbind() = 0;
 		
 		virtual unsigned int getCount() const = 0;
-
 		static IndexBuffer * create(unsigned int* indicies, unsigned int count);
 	};
 }
