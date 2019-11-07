@@ -8,15 +8,28 @@ namespace Engine {
 
 	class OpenGLVertexArray : public VertexArray
 	{
-		void bind() override;
-		void unbind() override;
-		void setVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer) override;
-		void setIndexBuffer(const std::shared_ptr<IndexBuffer>& indexBuffer) override;
-		std::shared_ptr<VertexBuffer> getVertexBuffer() ;
-		std::shared_ptr<IndexBuffer> getIndexBuffer() ;
-		unsigned int getDrawCount() ;
+	public:
 
-		static VertexArray * create();
+		OpenGLVertexArray();
+		virtual ~OpenGLVertexArray();
+		
+		virtual void bind() const override;
+		virtual void unbind() const override;
+		
+
+		virtual void addVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer) override;
+		virtual void setIndexBuffer(const std::shared_ptr<IndexBuffer>& indexBuffer) override;
+
+		virtual const std::vector<std::shared_ptr<VertexBuffer>>& getVertexBuffer()  { return m_vertexBuffers; };
+		virtual const std::shared_ptr<IndexBuffer>& getIndexBuffer()  { return m_indexBuffer; };
+		//unsigned int getDrawCount() ;
+
+		
+	private:
+		unsigned int m_renderer;
+		unsigned int m_vertexBufferIndex = 0;
+		std::vector<std::shared_ptr<VertexBuffer>> m_vertexBuffers;
+		std::shared_ptr<IndexBuffer> m_indexBuffer;
 	};
 
 }

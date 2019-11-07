@@ -3,13 +3,37 @@
 */
 
 #include "engine_pch.h"
+#include "../platform/rendering/OpenGLBuffers.h"
+
+#include "systems/logger.h"
 #include "rendering/RenderAPI.h"
 #include "rendering/buffers.h"
-#include "../platform/rendering/OpenGLBuffers.h"
-#include "systems/logger.h"
+
+
+
 
 namespace Engine {
 	
+	VertexBuffer* VertexBuffer::create(float* verticies, unsigned int size, BufferLayout& layout)
+	{
+		switch (RenderAPI::getApi())
+		{
+		case RenderAPI::API::None:
+			LOG_FATAL("Lack of API not supported.");
+			break;
+		case RenderAPI::API::OpenGL:
+			return new OpenGLVertexBuffer(verticies, size, layout);
+			LOG_TRACE("OpenGL Vertex Buffer Init");
+			break;
+		case RenderAPI::API::Direct3D:
+			LOG_FATAL("Direct3D not yet supported");
+			break;
+		default:
+			LOG_FATAL("Unknown Graphics API");
+			break;
+		}
+	}
+
 	IndexBuffer* IndexBuffer::create(unsigned int* indices, unsigned int size)
 	{
 		switch (RenderAPI::getApi())
@@ -26,6 +50,7 @@ namespace Engine {
 			break;
 		default:
 			LOG_FATAL("Unknown Graphics API");
+			break;
 		}
 	}
 	

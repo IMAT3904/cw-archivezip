@@ -71,21 +71,37 @@ namespace Engine {
 	{
 	public:
 		BufferLayout() {};
-		BufferLayout(const std::initializer_list<BufferElement>& elements);
+		BufferLayout(const std::initializer_list<BufferElement>& elements) : m_elements(elements)
+		{
+			calcStrideAndOffsets();
+		}
+		
 		inline unsigned int getStride() const { return m_stride; }
-		std::vector<BufferElement>::iterator begin() { return m_elements.begin(); }
-		std::vector<BufferElement>::const_iterator begin() const { return m_elements.begin(); }
-		std::vector<BufferElement>::iterator end() { return m_elements.end(); }
-		std::vector<BufferElement>::const_iterator end() const { return m_elements.end(); }
 		void addElement(ShaderDataType dataType)
 		{
 			m_elements.push_back(BufferElement(dataType));
 			calcStrideAndOffsets();
 		}
+
+		std::vector<BufferElement>::iterator begin() { return m_elements.begin(); }
+		std::vector<BufferElement>::const_iterator begin() const { return m_elements.begin(); }
+		std::vector<BufferElement>::iterator end() { return m_elements.end(); }
+		std::vector<BufferElement>::const_iterator end() const { return m_elements.end(); }
+		
 	private:
 		std::vector<BufferElement> m_elements;
 		unsigned int m_stride;
-		void calcStrideAndOffsets();
+		void calcStrideAndOffsets() 
+		{
+			size_t offset = 0;
+			m_stride = 0;
+			for (auto& element : m_elements)
+			{
+				element.m_offset = offset;
+				offset += element.m_size;
+				m_stride += element.m_size;
+			}
+		}
 	};
 
 	class VertexBuffer {
