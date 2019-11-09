@@ -5,13 +5,11 @@
 #include "engine_pch.h"
 #include "..\..\..\include\platform\rendering\OpenGLVertexArray.h"
 
-#include <glad/glad.h>
-
 namespace Engine {
 	
 	OpenGLVertexArray::OpenGLVertexArray()
 	{
-		glCreateVertexArrays(1, &m_renderer);
+		glGenVertexArrays(1, &m_renderer);
 	}
 	
 	OpenGLVertexArray::~OpenGLVertexArray()
@@ -31,10 +29,35 @@ namespace Engine {
 	
 	void OpenGLVertexArray::addVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer)
 	{
-		LOG_ASSERT(vertexBuffer->getLayout().)
+		glBindVertexArray(m_renderer);
+		vertexBuffer->bind();
+		const auto& layout = vertexBuffer->getLayout();
+		for (const auto& element : layout)
+		{
+			glEnableVertexAttribArray(m_vertexBufferIndex);
+			glVertexAttribPointer(m_vertexBufferIndex,
+				ShaderDataTypeComponentCount(element.m_dataType), 
+				ShaderDataTypeToOpenGLType(element.m_dataType),
+				element.m_normalized ? GL_TRUE : GL_FALSE,
+				layout.getStride(),
+				(const void*)element.m_offset);
+			m_vertexBufferIndex++;
+		}
+
+		m_vertexBuffers.push_back(vertexBuffer);
 	}
 	
 	void OpenGLVertexArray::setIndexBuffer(const std::shared_ptr<IndexBuffer>& indexBuffer)
 	{
+		glBindVertexArray(m_renderer);
+		indexBuffer->bind();
+
+		m_indexBuffer = indexBuffer;
 	}
+
+	unsigned int OpenGLVertexArray::getDrawCount() const
+	{
+		return 0;
+	}
+	
 }

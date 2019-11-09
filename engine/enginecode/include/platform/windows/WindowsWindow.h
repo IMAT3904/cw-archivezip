@@ -13,8 +13,6 @@
 #include "OpenGL_GLFWGraphicsContext.h"
 #include "GLFW/glfw3.h"
 
-
-
 namespace Engine {
 
 

@@ -8,7 +8,7 @@ namespace Engine {
 
 	static void GLFWErrorCallback(int error, const char * description)
 	{
-		//LOG_ERROR("GLFW Error ({0}): {1}", error, description);
+		LOG_ERROR("GLFW Error ({0}): {1}", error, description);
 	}
 
 	void GLFWWindowSystem::start(SystemSignal init, ...)
@@ -19,6 +19,7 @@ namespace Engine {
 			LOG_ASSERT(success, "Assert failed: {0}");
 			glfwSetErrorCallback(GLFWErrorCallback);
 			s_GLFWInitialized = true;
+
 		}
 	}
 

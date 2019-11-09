@@ -9,11 +9,11 @@ namespace Engine {
 	class OpenGLVertexBuffer : public VertexBuffer
 	{
 	public:
-		OpenGLVertexBuffer(float* verticies, unsigned int size, BufferLayout& layout);
+		OpenGLVertexBuffer(float* verticies, unsigned int size);
+		~OpenGLVertexBuffer();
 		void bind() override;
 		void unbind() override;
 		void edit(float* verticies, unsigned int size, unsigned int offset) override;
-		
 		const BufferLayout& getLayout() const override;
 	private:
 		unsigned int m_renderer;
@@ -24,13 +24,15 @@ namespace Engine {
 	{
 	public:
 		OpenGLIndexBuffer(unsigned int* indicies, unsigned int count);
+		~OpenGLIndexBuffer();
 		void bind() override;
 		void unbind() override;
 		unsigned int getCount() const override;
 		
 	private:
-		unsigned int m_count;
 		unsigned int m_renderer;
+		unsigned int m_count;
+		
 	};
 
 };

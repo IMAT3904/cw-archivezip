@@ -58,21 +58,40 @@ namespace Engine {
 		m_window->setEventCallback(BIND_EVENT_FN(onEvent));
 		LOG_WARN("Window Event Callback Set");
 
+	
 #pragma region TempSetup
 		//  Temporary set up code to be abstracted
-
+		/*
 		// Enable standard depth detest (Z-buffer)
 		glEnable(GL_DEPTH_TEST);
 		glDepthFunc(GL_LESS);
 		// Enabling backface culling to ensure triangle vertices are correct ordered (CCW)
 		glEnable(GL_CULL_FACE);
 		glCullFace(GL_BACK);
+		*/
 
-		glGenVertexArrays(1, &m_FCvertexArray);
-		glBindVertexArray(m_FCvertexArray);
+		//glGenVertexArrays(1, &m_FCvertexArray);											OpenGLVertexArray::OpenGLVertexArray()
+		//glBindVertexArray(m_FCvertexArray);												OpenGLVertexArray::bind() 
+		//glCreateBuffers(1, &m_FCvertexBuffer);											OpenGLVertexBuffer::OpenGLVertexBuffer()
+		//glBindBuffer(GL_ARRAY_BUFFER, m_FCvertexBuffer);									OpenGLVertexBuffer::OpenGLVertexBuffer()
+		//glBufferData(GL_ARRAY_BUFFER, sizeof(FCvertices), FCvertices, GL_STATIC_DRAW);	OpenGLVertexBuffer::OpenGLVertexBuffer()
+		/*
+		glEnableVertexAttribArray(0);
+		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0); // (pos 0 (pos), 3 floats, float, not normalised, 6 float between each data line, start at 0)
+		glEnableVertexAttribArray(1);
+		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(sizeof(float) * 3)); // (pos 1 (colour), 3 floats, float, not normalised, 6 float between each data line, start at 3)																																								
+		*/
+		//																					OpenGLVertexArray::addVertexBuffer()
+		//glCreateBuffers(1, &m_FCindexBuffer);												OpenGLIndexBuffer::OpenGLIndexBuffer()
+		//glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_FCindexBuffer);							OpenGLIndexBuffer::OpenGLIndexBuffer()
+		//glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);	OpenGLIndexBuffer::OpenGLIndexBuffer()
 
-		glCreateBuffers(1, &m_FCvertexBuffer);
-		glBindBuffer(GL_ARRAY_BUFFER, m_FCvertexBuffer);
+
+
+
+		m_vertexArrayFC = std::shared_ptr<VertexArray>(VertexArray::create());
+		LOG_WARN("Flat Color Vertex Array Set");
+		m_vertexArrayFC->bind();
 
 		float FCvertices[6 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.8f, 0.2f, 0.2f, // red square
@@ -101,16 +120,10 @@ namespace Engine {
 			0.5f,  -0.5f, 0.5f, 0.2f, 0.2f, 0.8f
 		};
 
-		glBufferData(GL_ARRAY_BUFFER, sizeof(FCvertices), FCvertices, GL_STATIC_DRAW);
+		m_vertexBufferFC = std::shared_ptr<VertexBuffer>(VertexBuffer::create(FCvertices, sizeof(FCvertices)));
+		LOG_WARN("Flat Color Vertex Buffer Set");
 
-		glEnableVertexAttribArray(0);
-		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0); // (pos 0 (pos), 3 floats, float, not normalised, 6 float between each data line, start at 0)
-		glEnableVertexAttribArray(1);
-		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(sizeof(float) * 3)); // (pos 1 (colour), 3 floats, float, not normalised, 6 float between each data line, start at 3)
-
-		glCreateBuffers(1, &m_FCindexBuffer);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_FCindexBuffer);
-
+		m_vertexArrayFC->addVertexBuffer(m_vertexBufferFC);
 
 		unsigned int indices[3 * 12] = {
 			2, 1, 0,
@@ -126,7 +139,9 @@ namespace Engine {
 			20, 21, 22,
 			22, 23, 20
 		};
-		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+
+		m_indexBufferFC = std::shared_ptr<IndexBuffer>(IndexBuffer::create(indices, sizeof(indices)));
+		LOG_WARN("Flat Color Index Buffer Set");
 
 		std::string FCvertSrc = R"(
 				#version 440 core
@@ -222,7 +237,7 @@ namespace Engine {
 		glDetachShader(m_FCprogram, FCVertShader);
 		glDetachShader(m_FCprogram, FCFragShader);
 
-		// Added textuer phong shader and cube
+		/* Added textuer phong shader and cube
 
 		glGenVertexArrays(1, &m_TPvertexArray);
 		glBindVertexArray(m_TPvertexArray);
@@ -230,6 +245,11 @@ namespace Engine {
 		glCreateBuffers(1, &m_TPvertexBuffer);
 		glBindBuffer(GL_ARRAY_BUFFER, m_TPvertexBuffer);
 
+		*/
+		
+		m_vertexArrayTP = std::shared_ptr<VertexArray>(VertexArray::create());
+		LOG_WARN("Textured Phong Vertex Array Set");
+		m_vertexArrayTP->bind();
 
 		float TPvertices[8 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.f, 0.f, -1.f, 0.33f, 0.5f,
@@ -245,7 +265,7 @@ namespace Engine {
 			 0.5f, -0.5f, 0.5f,  0.f, -1.f, 0.f, 0.66f, 0.5f,
 			-0.5f, -0.5f, 0.5f,  0.f, -1.f, 0.f, 1.0f, 0.5f,
 			-0.5f, 0.5f, -0.5f,  0.f, 1.f, 0.f, 0.33f, 1.0f,
-			 0.5f, 0.5f, -0.5f,  0.f, 1.f, 0.f, 0.f, 1.0f,
+			0.5f, 0.5f, -0.5f,  0.f, 1.f, 0.f, 0.f, 1.0f,
 			 0.5f, 0.5f, 0.5f, 0.f, 1.f, 0.f, 0.f, 0.5f,
 			-0.5f, 0.5f, 0.5f,   0.f, 1.f, 0.f, 0.3f, 0.5f,
 			-0.5f, -0.5f, -0.5f, -1.f, 0.f, 0.f, 0.33f, 1.0f,
@@ -258,6 +278,15 @@ namespace Engine {
 			0.5f,  -0.5f, 0.5f,  1.f, 0.f, 0.f, 0.66f, 1.0f
 		};
 
+		m_vertexBufferTP = std::shared_ptr<VertexBuffer>(VertexBuffer::create(TPvertices, sizeof(TPvertices)));
+		LOG_WARN("Textured Phong Vertex Buffer Set");
+
+		m_vertexArrayTP->addVertexBuffer(m_vertexBufferFC);
+
+		m_indexBufferTP = std::shared_ptr<IndexBuffer>(IndexBuffer::create(indices, sizeof(indices)));
+		LOG_WARN("Textured Phong Index Buffer Set");
+
+		/*
 		glBufferData(GL_ARRAY_BUFFER, sizeof(TPvertices), TPvertices, GL_STATIC_DRAW);
 
 		glEnableVertexAttribArray(0);
@@ -269,7 +298,8 @@ namespace Engine {
 
 		glCreateBuffers(1, &m_TPindexBuffer);
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_TPindexBuffer);
-		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW); */
+
 
 		std::string TPvertSrc = R"(
 				#version 440 core
@@ -469,13 +499,13 @@ namespace Engine {
 			frameDuration = m_timer->frameDuration();				//calculate frame duration
 			fpsControl += frameDuration;
 
+			LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
+
 			if (fpsControl > 1.f)
 			{
-				LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
+				
 				fpsControl = 0.f;
 			}
-			glClearColor(1, 0, 1, 1);
-			glClear(GL_COLOR_BUFFER_BIT);
 
 #pragma region TempDrawCode
 			// Temporary draw code to be abstracted
@@ -491,10 +521,11 @@ namespace Engine {
 				glm::vec3(0.f, 1.f, 0.f)  // Standing straight  up
 			);
 
+			
+
 			// Code to make the cube move, you can ignore this more or less.
 			glm::mat4 FCtranslation, TPtranslation;
 
-			
 			if (m_goingUp)
 			{
 				FCtranslation = glm::translate(FCmodel, glm::vec3(0.0f, 0.2f * frameDuration, 0.0f));
@@ -512,9 +543,10 @@ namespace Engine {
 				m_goingUp = !m_goingUp;
 			}
 
-
+			
 			FCmodel = glm::rotate(FCtranslation, glm::radians(20.f) * frameDuration, glm::vec3(0.f, 1.f, 0.f)); // Spin the cube at 20 degrees per second
 			TPmodel = glm::rotate(TPtranslation, glm::radians(-20.f) * frameDuration, glm::vec3(0.f, 1.f, 0.f)); // Spin the cube at 20 degrees per second
+			
 
 			// End of code to make the cube move.
 

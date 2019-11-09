@@ -10,11 +10,26 @@
 #include "rendering/buffers.h"
 
 
-
-
 namespace Engine {
 	
-	VertexBuffer* VertexBuffer::create(float* verticies, unsigned int size, BufferLayout& layout)
+	BufferLayout::BufferLayout(const std::initializer_list<BufferElement>& elements) : m_elements(elements)
+	{
+		calcStrideAndOffsets();
+	}
+
+	void BufferLayout::calcStrideAndOffsets()
+	{
+		int offset = 0;
+		m_stride = 0;
+		for (auto& element : m_elements)
+		{
+			element.m_offset = offset;
+			offset += element.m_size;
+			m_stride += element.m_size;
+		}
+	}
+
+	VertexBuffer* VertexBuffer::create(float* verticies, unsigned int size)
 	{
 		switch (RenderAPI::getApi())
 		{
@@ -22,7 +37,7 @@ namespace Engine {
 			LOG_FATAL("Lack of API not supported.");
 			break;
 		case RenderAPI::API::OpenGL:
-			return new OpenGLVertexBuffer(verticies, size, layout);
+			return new OpenGLVertexBuffer(verticies, size);
 			LOG_TRACE("OpenGL Vertex Buffer Init");
 			break;
 		case RenderAPI::API::Direct3D:
@@ -53,5 +68,4 @@ namespace Engine {
 			break;
 		}
 	}
-	
 }

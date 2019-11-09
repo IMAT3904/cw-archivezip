@@ -12,6 +12,8 @@
 #include "events/windowEvents.h"
 #include "events/keyEvents.h"
 #include "events/mouseEvents.h"
+#include "rendering/buffers.h"
+#include "rendering/vertexArray.h"
 
 
 namespace Engine {
@@ -47,6 +49,25 @@ namespace Engine {
 
 		//! Reference to our windows system
 		std::shared_ptr<WindowSystem> m_windowsSystem;
+
+		//! Reference to our flat color vertex buffer
+		std::shared_ptr<VertexBuffer> m_vertexBufferFC;
+		
+		//! Reference to our flat color index buffer
+		std::shared_ptr<IndexBuffer> m_indexBufferFC;
+		
+		//! Reference to our flat color vertex array
+		std::shared_ptr<VertexArray> m_vertexArrayFC;
+
+		//! Reference to our textured phong vertex buffer
+		std::shared_ptr<VertexBuffer> m_vertexBufferTP;
+
+		//! Reference to our textured phong index buffer
+		std::shared_ptr<IndexBuffer> m_indexBufferTP;
+
+		//! Reference to our textured phong vertex array
+		std::shared_ptr<VertexArray> m_vertexArrayTP;
+
 
 #pragma region TempVars
 		// Temp stuff
