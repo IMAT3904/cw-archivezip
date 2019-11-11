@@ -91,13 +91,13 @@ namespace Engine {
 			0.5f,  -0.5f, 0.5f, 0.2f, 0.2f, 0.8f
 		};
 
+		std::shared_ptr<VertexBuffer> m_vertexBufferFC(VertexBuffer::create(FCvertices, sizeof(FCvertices)));
+
 		BufferLayout FCLayout = {
 			{ShaderDataType::Float3},
-			{ShaderDataType::Float3},
+			{ShaderDataType::Float3}
 		};
-
-		std::shared_ptr<VertexBuffer> m_vertexBufferFC(VertexBuffer::create(FCvertices, sizeof(FCvertices), FCLayout));
-		m_vertexArrayFC->addVertexBuffer(m_vertexBufferFC);
+		m_vertexBufferFC->setLayout(FCLayout);
 
 		unsigned int indices[3 * 12] = {
 			2, 1, 0,
@@ -114,11 +114,8 @@ namespace Engine {
 			22, 23, 20
 		};
 
-		
-
-		
-
-		std::shared_ptr<IndexBuffer>m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
+		std::shared_ptr<IndexBuffer> m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
+		m_vertexArrayFC->setVertexBuffer(m_vertexBufferFC);
 		m_vertexArrayFC->setIndexBuffer(m_indexBufferFC);
 
 		std::string FCvertSrc = R"(
@@ -214,9 +211,8 @@ namespace Engine {
 
 		glDetachShader(m_FCprogram, FCVertShader);
 		glDetachShader(m_FCprogram, FCFragShader);
-
-
-		std::shared_ptr<VertexArray>m_vertexArrayTP(VertexArray::create());
+		
+		m_vertexArrayTP = std::shared_ptr<VertexArray>(VertexArray::create());
 		m_vertexArrayTP->bind();
 
 		float TPvertices[8 * 24] = {
@@ -245,12 +241,23 @@ namespace Engine {
 			0.5f,  0.5f, 0.5f, 1.f, 0.f, 0.f,  0.66f, 0.5f,
 			0.5f,  -0.5f, 0.5f,  1.f, 0.f, 0.f, 0.66f, 1.0f
 		};
-
-		BufferLayout TPLayout = { {ShaderDataType::Float3}, {ShaderDataType::Float3}, {ShaderDataType::Float2} };
-		std::shared_ptr<VertexBuffer>m_vertexBufferTP(VertexBuffer::create(TPvertices, sizeof(TPvertices), TPLayout));
-		m_vertexArrayTP->addVertexBuffer(m_vertexBufferTP);
+		
+		std::shared_ptr<VertexBuffer>m_vertexBufferTP(VertexBuffer::create(TPvertices, sizeof(TPvertices)));
+		
+		BufferLayout TPLayout = { 
+			{ShaderDataType::Float3}, 
+			{ShaderDataType::Float3}, 
+			{ShaderDataType::Float2} 
+		};
+		m_vertexBufferTP->setLayout(TPLayout);
+		
 		std::shared_ptr<IndexBuffer>m_indexBufferTP(IndexBuffer::create(indices, sizeof(indices)));
+		
+		m_vertexArrayTP->setVertexBuffer(m_vertexBufferTP);
 		m_vertexArrayTP->setIndexBuffer(m_indexBufferTP);
+		
+		
+		
 
 		std::string TPvertSrc = R"(
 				#version 440 core

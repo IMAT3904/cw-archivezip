@@ -28,24 +28,12 @@ namespace Engine {
 		return 0;
 	}
 	
-	OpenGLVertexBuffer::OpenGLVertexBuffer(float * verticies, unsigned int size, BufferLayout& layout) : m_layout(layout)
+	OpenGLVertexBuffer::OpenGLVertexBuffer(float * verticies, unsigned int size)
 	{
 		glCreateBuffers(1, &m_renderer);
 		glBindBuffer(GL_ARRAY_BUFFER, m_renderer);
 		glBufferData(GL_ARRAY_BUFFER, size, verticies, GL_STATIC_DRAW);
-		
-		for (const auto& element : layout)
-		{
-			glEnableVertexAttribArray(m_vertexBufferIndex);
-			glVertexAttribPointer(m_vertexBufferIndex,
-				ShaderDataTypeComponentCount(element.m_dataType),
-				ShaderDataTypeToOpenGLType(element.m_dataType),
-				element.m_normalized ? GL_TRUE : GL_FALSE,
-				layout.getStride(),
-				(const void*)element.m_offset);
-			m_vertexBufferIndex++;
-		}
-
+		m_vertexBufferIndex = 0;
 	}
 
 	OpenGLVertexBuffer::~OpenGLVertexBuffer()
@@ -63,17 +51,27 @@ namespace Engine {
 		glBindBuffer(GL_ARRAY_BUFFER, 0);
 	}
 
+	void OpenGLVertexBuffer::setLayout(BufferLayout & layout)
+	{
+		bind();
+		for (const auto& element : layout)
+		{
+			glEnableVertexAttribArray(m_vertexBufferIndex);
+			glVertexAttribPointer(m_vertexBufferIndex,
+				ShaderDataTypeComponentCount(element.m_dataType),
+				ShaderDataTypeToOpenGLType(element.m_dataType),
+				element.m_normalized ? GL_TRUE : GL_FALSE,
+				layout.getStride(),
+				(const void*)element.m_offset);
+			m_vertexBufferIndex++;
+		}
+	}
+
 	void OpenGLVertexBuffer::edit(float * verticies, unsigned int size, unsigned int offset)
 	{
 
 	}
 
-	const BufferLayout & OpenGLVertexBuffer::getLayout() const
-	{
-		return m_layout;
-	}
-	
-	
 
 
 	OpenGLIndexBuffer::OpenGLIndexBuffer(unsigned int * indicies, unsigned int count) : m_count(count)

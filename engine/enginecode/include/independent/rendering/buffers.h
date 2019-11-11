@@ -113,9 +113,11 @@ namespace Engine {
 	public:
 		virtual void bind() = 0;	//!< Binds the buffer
 		virtual void unbind() = 0;	//!< unbinds the buffer
+		virtual void setLayout(BufferLayout& layout) = 0;	//!< Sets the layout of the vertex buffer
+		virtual const BufferLayout& getLayout() const = 0; //!< Returns the layout of the vertex buffer
 		virtual void edit(float* verticies, unsigned int size, unsigned int offset) = 0; //!<  edit the data stored inside the buffer
-		virtual const BufferLayout& getLayout() const = 0;	//!< gets the buffer layout
-		static VertexBuffer * create(float* verticies, unsigned int size, BufferLayout& layout);	//!< returns an rendering api specific vertex buffer
+		
+		static VertexBuffer * create(float* verticies, unsigned int size);	//!< returns an rendering api specific vertex buffer
 	};
 
 	class IndexBuffer {

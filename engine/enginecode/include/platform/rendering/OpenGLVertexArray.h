@@ -36,13 +36,12 @@ namespace Engine {
 
 		void bind() const override;
 		void unbind() const override;
-		void addVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer) override;
+		void setVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer) override;
 		void setIndexBuffer(const std::shared_ptr<IndexBuffer>& indexBuffer) override;
 		std::vector<std::shared_ptr<VertexBuffer>> getVertexBuffer() const override { return m_vertexBuffers; };
 		std::shared_ptr<IndexBuffer> getIndexBuffer() const override { return m_indexBuffer; };
 		unsigned int getDrawCount() const override;
 
-		
 	private:
 		unsigned int m_renderer;
 		std::vector<std::shared_ptr<VertexBuffer>> m_vertexBuffers;
