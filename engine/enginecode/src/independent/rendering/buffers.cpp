@@ -29,7 +29,7 @@ namespace Engine {
 		}
 	}
 
-	VertexBuffer* VertexBuffer::create(float* verticies, unsigned int size)
+	VertexBuffer* VertexBuffer::create(float* verticies, unsigned int size, BufferLayout& layout)
 	{
 		switch (RenderAPI::getApi())
 		{
@@ -37,7 +37,7 @@ namespace Engine {
 			LOG_FATAL("Lack of API not supported.");
 			break;
 		case RenderAPI::API::OpenGL:
-			return new OpenGLVertexBuffer(verticies, size);
+			return new OpenGLVertexBuffer(verticies, size, layout);
 			LOG_TRACE("OpenGL Vertex Buffer Init");
 			break;
 		case RenderAPI::API::Direct3D:

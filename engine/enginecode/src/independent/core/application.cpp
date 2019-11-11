@@ -39,7 +39,7 @@ namespace Engine {
 		m_log.reset(new Logger);		//Start our logger
 		m_log->start();
 		LOG_WARN("Log Initialized");
-		
+
 		m_timer.reset(new Timer);
 		m_timer->start();	//Start our frame counter
 		LOG_WARN("Frame Counter Started");
@@ -58,39 +58,10 @@ namespace Engine {
 		m_window->setEventCallback(BIND_EVENT_FN(onEvent));
 		LOG_WARN("Window Event Callback Set");
 
-	
+
 #pragma region TempSetup
-		//  Temporary set up code to be abstracted
-		/*
-		// Enable standard depth detest (Z-buffer)
-		glEnable(GL_DEPTH_TEST);
-		glDepthFunc(GL_LESS);
-		// Enabling backface culling to ensure triangle vertices are correct ordered (CCW)
-		glEnable(GL_CULL_FACE);
-		glCullFace(GL_BACK);
-		*/
-
-		//glGenVertexArrays(1, &m_FCvertexArray);											OpenGLVertexArray::OpenGLVertexArray()
-		//glBindVertexArray(m_FCvertexArray);												OpenGLVertexArray::bind() 
-		//glCreateBuffers(1, &m_FCvertexBuffer);											OpenGLVertexBuffer::OpenGLVertexBuffer()
-		//glBindBuffer(GL_ARRAY_BUFFER, m_FCvertexBuffer);									OpenGLVertexBuffer::OpenGLVertexBuffer()
-		//glBufferData(GL_ARRAY_BUFFER, sizeof(FCvertices), FCvertices, GL_STATIC_DRAW);	OpenGLVertexBuffer::OpenGLVertexBuffer()
-		/*
-		glEnableVertexAttribArray(0);
-		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0); // (pos 0 (pos), 3 floats, float, not normalised, 6 float between each data line, start at 0)
-		glEnableVertexAttribArray(1);
-		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(sizeof(float) * 3)); // (pos 1 (colour), 3 floats, float, not normalised, 6 float between each data line, start at 3)																																								
-		*/
-		//																					OpenGLVertexArray::addVertexBuffer()
-		//glCreateBuffers(1, &m_FCindexBuffer);												OpenGLIndexBuffer::OpenGLIndexBuffer()
-		//glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_FCindexBuffer);							OpenGLIndexBuffer::OpenGLIndexBuffer()
-		//glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);	OpenGLIndexBuffer::OpenGLIndexBuffer()
-
-
-
 
 		m_vertexArrayFC = std::shared_ptr<VertexArray>(VertexArray::create());
-		LOG_WARN("Flat Color Vertex Array Set");
 		m_vertexArrayFC->bind();
 
 		float FCvertices[6 * 24] = {
@@ -120,9 +91,12 @@ namespace Engine {
 			0.5f,  -0.5f, 0.5f, 0.2f, 0.2f, 0.8f
 		};
 
-		m_vertexBufferFC = std::shared_ptr<VertexBuffer>(VertexBuffer::create(FCvertices, sizeof(FCvertices)));
-		LOG_WARN("Flat Color Vertex Buffer Set");
+		BufferLayout FCLayout = {
+			{ShaderDataType::Float3},
+			{ShaderDataType::Float3},
+		};
 
+		std::shared_ptr<VertexBuffer> m_vertexBufferFC(VertexBuffer::create(FCvertices, sizeof(FCvertices), FCLayout));
 		m_vertexArrayFC->addVertexBuffer(m_vertexBufferFC);
 
 		unsigned int indices[3 * 12] = {
@@ -140,8 +114,12 @@ namespace Engine {
 			22, 23, 20
 		};
 
-		m_indexBufferFC = std::shared_ptr<IndexBuffer>(IndexBuffer::create(indices, sizeof(indices)));
-		LOG_WARN("Flat Color Index Buffer Set");
+		
+
+		
+
+		std::shared_ptr<IndexBuffer>m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
+		m_vertexArrayFC->setIndexBuffer(m_indexBufferFC);
 
 		std::string FCvertSrc = R"(
 				#version 440 core
@@ -237,18 +215,8 @@ namespace Engine {
 		glDetachShader(m_FCprogram, FCVertShader);
 		glDetachShader(m_FCprogram, FCFragShader);
 
-		/* Added textuer phong shader and cube
 
-		glGenVertexArrays(1, &m_TPvertexArray);
-		glBindVertexArray(m_TPvertexArray);
-
-		glCreateBuffers(1, &m_TPvertexBuffer);
-		glBindBuffer(GL_ARRAY_BUFFER, m_TPvertexBuffer);
-
-		*/
-		
-		m_vertexArrayTP = std::shared_ptr<VertexArray>(VertexArray::create());
-		LOG_WARN("Textured Phong Vertex Array Set");
+		std::shared_ptr<VertexArray>m_vertexArrayTP(VertexArray::create());
 		m_vertexArrayTP->bind();
 
 		float TPvertices[8 * 24] = {
@@ -278,28 +246,11 @@ namespace Engine {
 			0.5f,  -0.5f, 0.5f,  1.f, 0.f, 0.f, 0.66f, 1.0f
 		};
 
-		m_vertexBufferTP = std::shared_ptr<VertexBuffer>(VertexBuffer::create(TPvertices, sizeof(TPvertices)));
-		LOG_WARN("Textured Phong Vertex Buffer Set");
-
-		m_vertexArrayTP->addVertexBuffer(m_vertexBufferFC);
-
-		m_indexBufferTP = std::shared_ptr<IndexBuffer>(IndexBuffer::create(indices, sizeof(indices)));
-		LOG_WARN("Textured Phong Index Buffer Set");
-
-		/*
-		glBufferData(GL_ARRAY_BUFFER, sizeof(TPvertices), TPvertices, GL_STATIC_DRAW);
-
-		glEnableVertexAttribArray(0);
-		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0); // (pos 0 (pos), 3 floats, float, not normalised, 6 float between each data line, start at 0)
-		glEnableVertexAttribArray(1);
-		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(sizeof(float) * 3)); // (pos 1 (normal), 3 floats, float, not normalised, 6 float between each data line, start at 3)
-		glEnableVertexAttribArray(2);
-		glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(sizeof(float) * 6)); // (pos 1 (normal), 3 floats, float, not normalised, 6 float between each data line, start at 3)
-
-		glCreateBuffers(1, &m_TPindexBuffer);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_TPindexBuffer);
-		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW); */
-
+		BufferLayout TPLayout = { {ShaderDataType::Float3}, {ShaderDataType::Float3}, {ShaderDataType::Float2} };
+		std::shared_ptr<VertexBuffer>m_vertexBufferTP(VertexBuffer::create(TPvertices, sizeof(TPvertices), TPLayout));
+		m_vertexArrayTP->addVertexBuffer(m_vertexBufferTP);
+		std::shared_ptr<IndexBuffer>m_indexBufferTP(IndexBuffer::create(indices, sizeof(indices)));
+		m_vertexArrayTP->setIndexBuffer(m_indexBufferTP);
 
 		std::string TPvertSrc = R"(
 				#version 440 core
@@ -484,6 +435,7 @@ namespace Engine {
 
 	Application::~Application()
 	{
+		m_window.reset();
 		m_windowsSystem->stop();
 		m_timer->stop();
 		m_log->stop();
@@ -520,8 +472,6 @@ namespace Engine {
 				glm::vec3(0.f, 0.f, 0.f), // and looks at the origin
 				glm::vec3(0.f, 1.f, 0.f)  // Standing straight  up
 			);
-
-			
 
 			// Code to make the cube move, you can ignore this more or less.
 			glm::mat4 FCtranslation, TPtranslation;
