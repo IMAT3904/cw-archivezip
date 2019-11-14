@@ -9,17 +9,17 @@ namespace Engine {
 	
 	OpenGLVertexArray::OpenGLVertexArray()
 	{
-		glGenVertexArrays(1, &m_renderer);
+		glGenVertexArrays(1, &m_objID);
 	}
 	
 	OpenGLVertexArray::~OpenGLVertexArray()
 	{
-		glDeleteVertexArrays(1, &m_renderer);
+		glDeleteVertexArrays(1, &m_objID);
 	}
 
 	void OpenGLVertexArray::bind() const
 	{
-		glBindVertexArray(m_renderer);
+		glBindVertexArray(m_objID);
 	}
 	
 	void OpenGLVertexArray::unbind() const
@@ -29,14 +29,14 @@ namespace Engine {
 	
 	void OpenGLVertexArray::setVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer)
 	{
-		glBindVertexArray(m_renderer);
+		glBindVertexArray(m_objID);
 		vertexBuffer->bind();
 		m_vertexBuffers.push_back(vertexBuffer);
 	}
 	
 	void OpenGLVertexArray::setIndexBuffer(const std::shared_ptr<IndexBuffer>& indexBuffer)
 	{
-		glBindVertexArray(m_renderer);
+		glBindVertexArray(m_objID);
 		indexBuffer->bind();
 		m_indexBuffer = indexBuffer;
 	}

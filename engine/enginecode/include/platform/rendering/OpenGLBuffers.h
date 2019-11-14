@@ -18,7 +18,7 @@ namespace Engine {
 		void edit(float* verticies, unsigned int size, unsigned int offset) override;
 	private:
 		unsigned int m_vertexBufferIndex;
-		unsigned int m_renderer;
+		unsigned int m_objID;
 		BufferLayout m_layout;
 	};
 	
@@ -32,7 +32,7 @@ namespace Engine {
 		unsigned int getCount() const override;
 		
 	private:
-		unsigned int m_renderer;
+		unsigned int m_objID;
 		unsigned int m_count;
 		
 	};

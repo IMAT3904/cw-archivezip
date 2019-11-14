@@ -14,6 +14,7 @@
 #include "events/mouseEvents.h"
 #include "rendering/buffers.h"
 #include "rendering/vertexArray.h"
+#include "rendering/texture.h"
 
 
 namespace Engine {
@@ -56,15 +57,17 @@ namespace Engine {
 		//! Reference to our textured phong vertex array
 		std::shared_ptr<VertexArray> m_vertexArrayTP;
 
+		std::shared_ptr<Texture> m_FCtex;
+		std::shared_ptr<Texture> m_TPtex;
 
 #pragma region TempVars
 		// Temp stuff
-		unsigned int m_FCvertexArray; // Flat Colour VAO
-		unsigned int m_FCvertexBuffer;// Flat Colour VBO
-		unsigned int m_TPvertexArray; // Textured Phong VAO
-		unsigned int m_TPvertexBuffer;// Textured Phong VBO
-		unsigned int m_FCindexBuffer; // Index buffer for colour cube
-		unsigned int m_TPindexBuffer; // Index buffer for texture Phong cube
+		//unsigned int m_FCvertexArray; // Flat Colour VAO
+		//unsigned int m_FCvertexBuffer;// Flat Colour VBO
+		//unsigned int m_TPvertexArray; // Textured Phong VAO
+		//unsigned int m_TPvertexBuffer;// Textured Phong VBO
+		//unsigned int m_FCindexBuffer; // Index buffer for colour cube
+		//unsigned int m_TPindexBuffer; // Index buffer for texture Phong cube
 		unsigned int m_FCprogram; // Flat colour shader ID
 		unsigned int m_TPprogram; // Textured Phong shader ID
 		unsigned int m_numberTexture; // Texture ID

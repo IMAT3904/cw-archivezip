@@ -43,7 +43,7 @@ namespace Engine {
 		unsigned int getDrawCount() const override;
 
 	private:
-		unsigned int m_renderer;
+		unsigned int m_objID;
 		std::vector<std::shared_ptr<VertexBuffer>> m_vertexBuffers;
 		std::shared_ptr<IndexBuffer> m_indexBuffer;
 	};

@@ -11,16 +11,6 @@ void OpenGL_GLFWGraphicsContext::init()
 	int result = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
 	LOG_ASSERT(result, "{0}");
 	LOG_WARN("GLAD Loaded");
-
-	
-	// Enable standard depth detest (Z-buffer)
-	glEnable(GL_DEPTH_TEST);
-	glDepthFunc(GL_LESS);
-	LOG_WARN("Z-Buffer Enabled");
-	// Enabling backface culling to ensure triangle vertices are correct ordered (CCW)
-	glEnable(GL_CULL_FACE);
-	glCullFace(GL_BACK);
-	LOG_WARN("CCW Enabled (Backface culling)");
 }
 
 void OpenGL_GLFWGraphicsContext::swapBuffers()

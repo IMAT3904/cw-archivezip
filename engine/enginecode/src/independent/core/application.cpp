@@ -58,12 +58,15 @@ namespace Engine {
 		m_window->setEventCallback(BIND_EVENT_FN(onEvent));
 		LOG_WARN("Window Event Callback Set");
 
-
-#pragma region TempSetup
-
-		m_vertexArrayFC = std::shared_ptr<VertexArray>(VertexArray::create());
-		m_vertexArrayFC->bind();
-
+		// Enable standard depth detest (Z-buffer)
+		glEnable(GL_DEPTH_TEST);
+		glDepthFunc(GL_LESS);
+		LOG_WARN("Z-Buffer Enabled");
+		// Enabling backface culling to ensure triangle vertices are correct ordered (CCW)
+		glEnable(GL_CULL_FACE);
+		glCullFace(GL_BACK);
+		LOG_WARN("CCW Enabled (Backface culling)");
+	
 		float FCvertices[6 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.8f, 0.2f, 0.2f, // red square
 			 0.5f, -0.5f, -0.5f, 0.8f, 0.2f, 0.2f,
@@ -91,33 +94,35 @@ namespace Engine {
 			0.5f,  -0.5f, 0.5f, 0.2f, 0.2f, 0.8f
 		};
 
-		std::shared_ptr<VertexBuffer> m_vertexBufferFC(VertexBuffer::create(FCvertices, sizeof(FCvertices)));
+		unsigned int indices[3 * 12] = {
+		2, 1, 0,
+		0, 3, 2,
+		4, 5, 6,
+		6, 7, 4,
+		8, 9, 10,
+		10, 11, 8,
+		14, 13, 12,
+		12, 15, 14,
+		18, 17, 16,
+		16, 19, 18,
+		20, 21, 22,
+		22, 23, 20
+		};
 
 		BufferLayout FCLayout = {
 			{ShaderDataType::Float3},
 			{ShaderDataType::Float3}
 		};
+
+		m_vertexArrayFC.reset(VertexArray::create());
+		m_vertexArrayFC->bind();
+		std::shared_ptr<VertexBuffer> m_vertexBufferFC(VertexBuffer::create(FCvertices, sizeof(FCvertices)));
 		m_vertexBufferFC->setLayout(FCLayout);
-
-		unsigned int indices[3 * 12] = {
-			2, 1, 0,
-			0, 3, 2,
-			4, 5, 6,
-			6, 7, 4,
-			8, 9, 10,
-			10, 11, 8,
-			14, 13, 12,
-			12, 15, 14,
-			18, 17, 16,
-			16, 19, 18,
-			20, 21, 22,
-			22, 23, 20
-		};
-
-		std::shared_ptr<IndexBuffer> m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
 		m_vertexArrayFC->setVertexBuffer(m_vertexBufferFC);
+		std::shared_ptr<IndexBuffer> m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
 		m_vertexArrayFC->setIndexBuffer(m_indexBufferFC);
 
+#pragma region TempSetup
 		std::string FCvertSrc = R"(
 				#version 440 core
 			
@@ -212,9 +217,6 @@ namespace Engine {
 		glDetachShader(m_FCprogram, FCVertShader);
 		glDetachShader(m_FCprogram, FCFragShader);
 		
-		m_vertexArrayTP = std::shared_ptr<VertexArray>(VertexArray::create());
-		m_vertexArrayTP->bind();
-
 		float TPvertices[8 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.f, 0.f, -1.f, 0.33f, 0.5f,
 			 0.5f, -0.5f, -0.5f, 0.f, 0.f, -1.f, 0.f, 0.5f,
@@ -241,24 +243,21 @@ namespace Engine {
 			0.5f,  0.5f, 0.5f, 1.f, 0.f, 0.f,  0.66f, 0.5f,
 			0.5f,  -0.5f, 0.5f,  1.f, 0.f, 0.f, 0.66f, 1.0f
 		};
-		
-		std::shared_ptr<VertexBuffer>m_vertexBufferTP(VertexBuffer::create(TPvertices, sizeof(TPvertices)));
-		
-		BufferLayout TPLayout = { 
-			{ShaderDataType::Float3}, 
-			{ShaderDataType::Float3}, 
-			{ShaderDataType::Float2} 
+
+		BufferLayout TPLayout = {
+			{ShaderDataType::Float3},
+			{ShaderDataType::Float3},
+			{ShaderDataType::Float2}
 		};
+
+		m_vertexArrayTP.reset(VertexArray::create());
+		m_vertexArrayTP->bind();
+		std::shared_ptr<VertexBuffer>m_vertexBufferTP(VertexBuffer::create(TPvertices, sizeof(TPvertices)));
 		m_vertexBufferTP->setLayout(TPLayout);
-		
 		std::shared_ptr<IndexBuffer>m_indexBufferTP(IndexBuffer::create(indices, sizeof(indices)));
-		
 		m_vertexArrayTP->setVertexBuffer(m_vertexBufferTP);
 		m_vertexArrayTP->setIndexBuffer(m_indexBufferTP);
 		
-		
-		
-
 		std::string TPvertSrc = R"(
 				#version 440 core
 			
@@ -377,58 +376,8 @@ namespace Engine {
 		glDetachShader(m_TPprogram, FCVertShader);
 		glDetachShader(m_TPprogram, FCFragShader);
 
-
-		glGenTextures(1, &m_letterTexture);
-		glActiveTexture(GL_TEXTURE0);
-		m_textureSlots[0] = 0;
-		glBindTexture(GL_TEXTURE_2D, m_letterTexture);
-
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-		int width, height, channels;
-
-		unsigned char *data = stbi_load("assets/textures/letterCube.png", &width, &height, &channels, 0);
-		if (data)
-		{
-			if (channels == 3) glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
-			else if (channels == 4) glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
-			else return;
-			glGenerateMipmap(GL_TEXTURE_2D);
-		}
-		else
-		{
-			return;
-		}
-		stbi_image_free(data);
-
-		glGenTextures(1, &m_numberTexture);
-		glActiveTexture(GL_TEXTURE0 + 1);
-		m_textureSlots[1] = 1;
-		glBindTexture(GL_TEXTURE_2D, m_numberTexture);
-
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-		data = stbi_load("assets/textures/numberCube.png", &width, &height, &channels, 0);
-		if (data)
-		{
-			if (channels == 3) glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
-			else if (channels == 4) glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
-			else return;
-			glGenerateMipmap(GL_TEXTURE_2D);
-		}
-		else
-		{
-			return;
-		}
-		stbi_image_free(data);
+		m_FCtex->createFromFile("assets/textures/letterCube.png");
+		m_TPtex->createFromFile("assets/textures/numberCube.png");
 
 		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
 		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
@@ -509,7 +458,7 @@ namespace Engine {
 
 			glm::mat4 fcMVP = projection * view * FCmodel;
 			glUseProgram(m_FCprogram);
-			glBindVertexArray(m_FCvertexArray);
+			m_vertexArrayFC->bind();
 			GLuint MVPLoc = glGetUniformLocation(m_FCprogram, "u_MVP");
 			glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &fcMVP[0][0]);
 			glDrawElements(GL_TRIANGLES, 3 * 12, GL_UNSIGNED_INT, nullptr);
@@ -520,7 +469,7 @@ namespace Engine {
 			else texSlot = m_textureSlots[1];
 
 			glUseProgram(m_TPprogram);
-			glBindVertexArray(m_TPvertexArray);
+			m_vertexArrayTP->bind();
 
 			MVPLoc = glGetUniformLocation(m_TPprogram, "u_MVP");
 			glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &tpMVP[0][0]);
