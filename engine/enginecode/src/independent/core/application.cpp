@@ -61,11 +61,9 @@ namespace Engine {
 		// Enable standard depth detest (Z-buffer)
 		glEnable(GL_DEPTH_TEST);
 		glDepthFunc(GL_LESS);
-		LOG_WARN("Z-Buffer Enabled");
 		// Enabling backface culling to ensure triangle vertices are correct ordered (CCW)
 		glEnable(GL_CULL_FACE);
 		glCullFace(GL_BACK);
-		LOG_WARN("CCW Enabled (Backface culling)");
 	
 		float FCvertices[6 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.8f, 0.2f, 0.2f, // red square
@@ -121,40 +119,12 @@ namespace Engine {
 		m_vertexArrayFC->setVertexBuffer(m_vertexBufferFC);
 		std::shared_ptr<IndexBuffer> m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
 		m_vertexArrayFC->setIndexBuffer(m_indexBufferFC);
-
-		m_FCShader.reset(Shader::create("assets/shaders/flatColour.glsl"));
-
-
+		//m_FCShader.reset(Shader::create("assets/shaders/flatColour.glsl"));
+		m_FCShader.reset(Shader::create("assets/shaders/fcVertex.glsl", "assets/shaders/fcFragment.glsl"));
 
 #pragma region TempSetup
 		
 		/*
-		
-		std::string FCvertSrc = R"(
-				#version 440 core
-			
-				layout(location = 0) in vec3 a_vertexPosition;
-				layout(location = 1) in vec3 a_vertexColour;
-				out vec3 fragmentColour;
-				uniform mat4 u_MVP;
-				void main()
-				{
-					fragmentColour = a_vertexColour;
-					gl_Position =  u_MVP * vec4(a_vertexPosition,1);
-				}
-			)";
-
-		std::string FCFragSrc = R"(
-				#version 440 core
-			
-				layout(location = 0) out vec4 colour;
-				in vec3 fragmentColour;
-				void main()
-				{
-					colour = vec4(fragmentColour, 1.0);
-				}
-		)";
-
 		GLuint FCVertShader = glCreateShader(GL_VERTEX_SHADER);
 
 		const GLchar* source = FCvertSrc.c_str();
@@ -265,59 +235,9 @@ namespace Engine {
 		std::shared_ptr<IndexBuffer>m_indexBufferTP(IndexBuffer::create(indices, sizeof(indices)));
 		m_vertexArrayTP->setVertexBuffer(m_vertexBufferTP);
 		m_vertexArrayTP->setIndexBuffer(m_indexBufferTP);
-
-
-		m_TPShader.reset(Shader::create("assets/shaders/texturedPhong.glsl"));
+		m_TPShader.reset(Shader::create("assets/shaders/tpVertex.glsl", "assets/shaders/tpFragment.glsl"));
 
 		
-		std::string TPvertSrc = R"(
-				#version 440 core
-			
-				layout(location = 0) in vec3 a_vertexPosition;
-				layout(location = 1) in vec3 a_vertexNormal;
-				layout(location = 2) in vec2 a_texCoord;
-				out vec3 fragmentPos;
-				out vec3 normal;
-				out vec2 texCoord;
-				uniform mat4 u_model;
-				uniform mat4 u_MVP;
-				void main()
-				{
-					fragmentPos = vec3(u_model * vec4(a_vertexPosition, 1.0));
-					normal = mat3(transpose(inverse(u_model))) * a_vertexNormal;
-					texCoord = vec2(a_texCoord.x, a_texCoord.y);
-					gl_Position =  u_MVP * vec4(a_vertexPosition,1.0);
-				}
-			)";
-
-		std::string TPFragSrc = R"(
-				#version 440 core
-			
-				layout(location = 0) out vec4 colour;
-				in vec3 normal;
-				in vec3 fragmentPos;
-				in vec2 texCoord;
-				uniform vec3 u_lightPos; 
-				uniform vec3 u_viewPos; 
-				uniform vec3 u_lightColour;
-				uniform sampler2D u_texData;
-				void main()
-				{
-					float ambientStrength = 0.4;
-					vec3 ambient = ambientStrength * u_lightColour;
-					vec3 norm = normalize(normal);
-					vec3 lightDir = normalize(u_lightPos - fragmentPos);
-					float diff = max(dot(norm, lightDir), 0.0);
-					vec3 diffuse = diff * u_lightColour;
-					float specularStrength = 0.8;
-					vec3 viewDir = normalize(u_viewPos - fragmentPos);
-					vec3 reflectDir = reflect(-lightDir, norm);  
-					float spec = pow(max(dot(viewDir, reflectDir), 0.0), 64);
-					vec3 specular = specularStrength * spec * u_lightColour;  
-					
-					colour = vec4((ambient + diffuse + specular), 1.0) * texture(u_texData, texCoord);
-				}
-		)";
 
 		/*
 		GLuint TPVertShader = glCreateShader(GL_VERTEX_SHADER);
@@ -421,11 +341,9 @@ namespace Engine {
 			frameDuration = m_timer->frameDuration();				//calculate frame duration
 			fpsControl += frameDuration;
 
-			LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
-
-			if (fpsControl > 1.f)
+			if (fpsControl > 5.f)
 			{
-				
+				//LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
 				fpsControl = 0.f;
 			}
 
