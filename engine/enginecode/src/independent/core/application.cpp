@@ -122,7 +122,14 @@ namespace Engine {
 		std::shared_ptr<IndexBuffer> m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
 		m_vertexArrayFC->setIndexBuffer(m_indexBufferFC);
 
+		m_FCShader.reset(Shader::create("assets/shaders/flatColour.glsl"));
+
+
+
 #pragma region TempSetup
+		
+		/*
+		
 		std::string FCvertSrc = R"(
 				#version 440 core
 			
@@ -216,7 +223,8 @@ namespace Engine {
 
 		glDetachShader(m_FCprogram, FCVertShader);
 		glDetachShader(m_FCprogram, FCFragShader);
-		
+		*/
+
 		float TPvertices[8 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.f, 0.f, -1.f, 0.33f, 0.5f,
 			 0.5f, -0.5f, -0.5f, 0.f, 0.f, -1.f, 0.f, 0.5f,
@@ -225,7 +233,7 @@ namespace Engine {
 			-0.5f, -0.5f, 0.5f,  0.f, 0.f, 1.f, 0.33f, 0.5f,
 			 0.5f, -0.5f, 0.5f,  0.f, 0.f, 1.f, 0.66f, 0.5f,
 			 0.5f,  0.5f, 0.5f,  0.f, 0.f, 1.f, 0.66f, 0.f,
-			-0.5f,  0.5f, 0.5f,  0.f, 0.f, 1.f, 0.33, 0.f,
+			-0.5f,  0.5f, 0.5f,  0.f, 0.f, 1.f, 0.33f, 0.f,
 			-0.5f, -0.5f, -0.5f, 0.f, -1.f, 0.f, 1.f, 0.f,
 			 0.5f, -0.5f, -0.5f, 0.f, -1.f, 0.f, 0.66f, 0.f,
 			 0.5f, -0.5f, 0.5f,  0.f, -1.f, 0.f, 0.66f, 0.5f,
@@ -257,6 +265,10 @@ namespace Engine {
 		std::shared_ptr<IndexBuffer>m_indexBufferTP(IndexBuffer::create(indices, sizeof(indices)));
 		m_vertexArrayTP->setVertexBuffer(m_vertexBufferTP);
 		m_vertexArrayTP->setIndexBuffer(m_indexBufferTP);
+
+
+		m_TPShader.reset(Shader::create("assets/shaders/texturedPhong.glsl"));
+
 		
 		std::string TPvertSrc = R"(
 				#version 440 core
@@ -307,6 +319,7 @@ namespace Engine {
 				}
 		)";
 
+		/*
 		GLuint TPVertShader = glCreateShader(GL_VERTEX_SHADER);
 
 		source = TPvertSrc.c_str();
@@ -375,9 +388,10 @@ namespace Engine {
 
 		glDetachShader(m_TPprogram, FCVertShader);
 		glDetachShader(m_TPprogram, FCFragShader);
+		*/
 
-		m_FCtex->createFromFile("assets/textures/letterCube.png");
-		m_TPtex->createFromFile("assets/textures/numberCube.png");
+		m_FCTex->createFromFile("assets/textures/letterCube.png");
+		m_TPTex->createFromFile("assets/textures/numberCube.png");
 
 		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
 		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));

@@ -15,6 +15,7 @@
 #include "rendering/buffers.h"
 #include "rendering/vertexArray.h"
 #include "rendering/texture.h"
+#include "rendering/shader.h"
 
 
 namespace Engine {
@@ -57,8 +58,11 @@ namespace Engine {
 		//! Reference to our textured phong vertex array
 		std::shared_ptr<VertexArray> m_vertexArrayTP;
 
-		std::shared_ptr<Texture> m_FCtex;
-		std::shared_ptr<Texture> m_TPtex;
+		std::shared_ptr<Texture> m_FCTex;
+		std::shared_ptr<Texture> m_TPTex;
+
+		std::shared_ptr<Shader> m_FCShader;
+		std::shared_ptr<Shader> m_TPShader;
 
 #pragma region TempVars
 		// Temp stuff

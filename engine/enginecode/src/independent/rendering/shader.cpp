@@ -17,16 +17,19 @@ namespace Engine {
 		{
 		case RenderAPI::API::None:
 			LOG_FATAL("Lack of API not supported.");
+			return nullptr;
 			break;
 		case RenderAPI::API::OpenGL:
-			return new OpenGLShader(filepath);
 			LOG_TRACE("OpenGLShader Loaded from filepath");
+			return new OpenGLShader(filepath);
 			break;
 		case RenderAPI::API::Direct3D:
 			LOG_FATAL("Direct3D not yet supported");
+			return nullptr;
 			break;
 		default:
 			LOG_FATAL("Unknown Graphics API");
+			return nullptr;
 			break;
 		}
 	}
@@ -36,16 +39,19 @@ namespace Engine {
 		{
 		case RenderAPI::API::None:
 			LOG_FATAL("Lack of API not supported.");
+			return nullptr;
 			break;
 		case RenderAPI::API::OpenGL:
-			return new OpenGLShader(vertPath, fragPath);
 			LOG_TRACE("OpenGLShaders Loaded from filepath");
+			return new OpenGLShader(vertexFilepath, fragmentFilepath);
 			break;
 		case RenderAPI::API::Direct3D:
 			LOG_FATAL("Direct3D not yet supported");
+			return nullptr;
 			break;
 		default:
 			LOG_FATAL("Unknown Graphics API");
+			return nullptr;
 			break;
 		}
 	}
