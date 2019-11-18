@@ -19,6 +19,8 @@ namespace Engine {
 		OpenGLShader(const std::string& vertexFilepath, const std::string& fragmentFilepath);
 		~OpenGLShader();
 
+		void parseSource(const std::string& filepath);
+		void compileAndLink(std::string vertex, std::string fragment);
 
 	private:
 	};
