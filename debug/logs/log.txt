@@ -15068,3 +15068,3055 @@
 [2019-11-18 17:00:51.689] [Engine] [info] FPS:60.
 [2019-11-18 17:00:51.706] [Engine] [info] FPS:60.
 [2019-11-18 17:00:51.783] [Engine] [warning] Closing Application
+[2019-11-20 10:52:35.784] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 10:52:35.789] [Engine] [warning] Log Initialized
+[2019-11-20 10:52:35.789] [Engine] [warning] Frame Counter Started
+[2019-11-20 10:52:35.789] [Engine] [warning] GLFW Window System Started
+[2019-11-20 10:52:36.130] [Engine] [warning] Window System Started
+[2019-11-20 10:52:37.203] [Engine] [warning] GLAD Loaded
+[2019-11-20 10:52:37.203] [Engine] [warning] Window Created
+[2019-11-20 10:52:37.204] [Engine] [warning] Window Event Callback Set
+[2019-11-20 10:52:37.204] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 10:52:37.204] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 10:52:37.227] [Engine] [info] FPS:58139.
+[2019-11-20 10:52:37.259] [Engine] [info] Mouse moved at: 632.0,480.0
+[2019-11-20 10:52:37.297] [Engine] [info] FPS:14.
+[2019-11-20 10:52:37.323] [Engine] [info] FPS:39.
+[2019-11-20 10:52:37.341] [Engine] [info] FPS:56.
+[2019-11-20 10:52:37.359] [Engine] [info] FPS:54.
+[2019-11-20 10:52:37.374] [Engine] [info] FPS:63.
+[2019-11-20 10:52:37.390] [Engine] [info] FPS:63.
+[2019-11-20 10:52:37.408] [Engine] [info] FPS:56.
+[2019-11-20 10:52:37.423] [Engine] [info] FPS:66.
+[2019-11-20 10:52:37.440] [Engine] [info] FPS:59.
+[2019-11-20 10:52:37.458] [Engine] [info] FPS:55.
+[2019-11-20 10:52:37.474] [Engine] [info] FPS:62.
+[2019-11-20 10:52:37.491] [Engine] [info] FPS:58.
+[2019-11-20 10:52:37.509] [Engine] [info] FPS:54.
+[2019-11-20 10:52:37.525] [Engine] [info] FPS:65.
+[2019-11-20 10:52:37.540] [Engine] [info] FPS:63.
+[2019-11-20 10:52:37.557] [Engine] [info] FPS:60.
+[2019-11-20 10:52:37.577] [Engine] [info] FPS:49.
+[2019-11-20 10:52:37.589] [Engine] [info] FPS:81.
+[2019-11-20 10:52:37.606] [Engine] [info] FPS:59.
+[2019-11-20 10:52:37.624] [Engine] [info] FPS:55.
+[2019-11-20 10:52:37.640] [Engine] [info] FPS:64.
+[2019-11-20 10:52:37.656] [Engine] [info] FPS:62.
+[2019-11-20 10:52:37.673] [Engine] [info] FPS:56.
+[2019-11-20 10:52:37.690] [Engine] [info] FPS:58.
+[2019-11-20 10:52:37.707] [Engine] [info] FPS:61.
+[2019-11-20 10:52:37.723] [Engine] [info] FPS:60.
+[2019-11-20 10:52:37.740] [Engine] [info] FPS:58.
+[2019-11-20 10:52:37.757] [Engine] [info] FPS:59.
+[2019-11-20 10:52:37.773] [Engine] [info] FPS:60.
+[2019-11-20 10:52:37.790] [Engine] [info] FPS:59.
+[2019-11-20 10:52:37.807] [Engine] [info] FPS:61.
+[2019-11-20 10:52:37.823] [Engine] [info] FPS:60.
+[2019-11-20 10:52:37.839] [Engine] [info] FPS:61.
+[2019-11-20 10:52:37.857] [Engine] [info] FPS:58.
+[2019-11-20 10:52:37.873] [Engine] [info] FPS:59.
+[2019-11-20 10:52:37.890] [Engine] [info] FPS:61.
+[2019-11-20 10:52:37.906] [Engine] [info] FPS:60.
+[2019-11-20 10:52:37.925] [Engine] [info] FPS:53.
+[2019-11-20 10:52:37.940] [Engine] [info] FPS:65.
+[2019-11-20 10:52:37.958] [Engine] [info] FPS:56.
+[2019-11-20 10:52:37.974] [Engine] [info] FPS:63.
+[2019-11-20 10:52:37.991] [Engine] [info] FPS:58.
+[2019-11-20 10:52:38.008] [Engine] [info] FPS:57.
+[2019-11-20 10:52:38.010] [Engine] [info] Mouse moved at: 624.0,475.0
+[2019-11-20 10:52:38.024] [Engine] [info] FPS:61.
+[2019-11-20 10:52:38.026] [Engine] [info] Mouse moved at: 600.0,461.0
+[2019-11-20 10:52:38.040] [Engine] [info] FPS:62.
+[2019-11-20 10:52:38.042] [Engine] [info] Mouse moved at: 563.0,431.0
+[2019-11-20 10:52:38.057] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.058] [Engine] [info] Mouse moved at: 527.0,390.0
+[2019-11-20 10:52:38.073] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.075] [Engine] [info] Mouse moved at: 482.0,330.0
+[2019-11-20 10:52:38.090] [Engine] [info] FPS:58.
+[2019-11-20 10:52:38.092] [Engine] [info] Mouse moved at: 422.0,238.0
+[2019-11-20 10:52:38.107] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.109] [Engine] [info] Mouse moved at: 367.0,149.0
+[2019-11-20 10:52:38.124] [Engine] [info] FPS:57.
+[2019-11-20 10:52:38.126] [Engine] [info] Mouse moved at: 328.0,85.0
+[2019-11-20 10:52:38.127] [Engine] [info] Mouse moved at: 316.0,66.0
+[2019-11-20 10:52:38.140] [Engine] [info] FPS:63.
+[2019-11-20 10:52:38.142] [Engine] [info] Mouse moved at: 308.0,48.0
+[2019-11-20 10:52:38.143] [Engine] [info] Mouse moved at: 302.0,36.0
+[2019-11-20 10:52:38.158] [Engine] [info] FPS:56.
+[2019-11-20 10:52:38.159] [Engine] [info] Mouse moved at: 295.0,14.0
+[2019-11-20 10:52:38.175] [Engine] [info] FPS:57.
+[2019-11-20 10:52:38.190] [Engine] [info] FPS:66.
+[2019-11-20 10:52:38.208] [Engine] [info] FPS:55.
+[2019-11-20 10:52:38.225] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.240] [Engine] [info] FPS:63.
+[2019-11-20 10:52:38.256] [Engine] [info] FPS:61.
+[2019-11-20 10:52:38.273] [Engine] [info] FPS:59.
+[2019-11-20 10:52:38.290] [Engine] [info] FPS:59.
+[2019-11-20 10:52:38.307] [Engine] [info] FPS:58.
+[2019-11-20 10:52:38.323] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.341] [Engine] [info] FPS:56.
+[2019-11-20 10:52:38.358] [Engine] [info] FPS:58.
+[2019-11-20 10:52:38.375] [Engine] [info] FPS:59.
+[2019-11-20 10:52:38.390] [Engine] [info] FPS:67.
+[2019-11-20 10:52:38.408] [Engine] [info] FPS:56.
+[2019-11-20 10:52:38.424] [Engine] [info] FPS:64.
+[2019-11-20 10:52:38.440] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.457] [Engine] [info] FPS:58.
+[2019-11-20 10:52:38.473] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.490] [Engine] [info] FPS:59.
+[2019-11-20 10:52:38.507] [Engine] [info] FPS:60.
+[2019-11-20 10:52:38.973] [Engine] [info] FPS:2.
+[2019-11-20 10:52:38.990] [Engine] [info] FPS:57.
+[2019-11-20 10:52:39.008] [Engine] [info] FPS:54.
+[2019-11-20 10:52:39.025] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.041] [Engine] [info] FPS:63.
+[2019-11-20 10:52:39.057] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.074] [Engine] [info] FPS:61.
+[2019-11-20 10:52:39.091] [Engine] [info] FPS:58.
+[2019-11-20 10:52:39.108] [Engine] [info] FPS:57.
+[2019-11-20 10:52:39.124] [Engine] [info] FPS:63.
+[2019-11-20 10:52:39.141] [Engine] [info] FPS:58.
+[2019-11-20 10:52:39.158] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.176] [Engine] [info] FPS:55.
+[2019-11-20 10:52:39.191] [Engine] [info] FPS:64.
+[2019-11-20 10:52:39.210] [Engine] [info] FPS:53.
+[2019-11-20 10:52:39.225] [Engine] [info] FPS:67.
+[2019-11-20 10:52:39.242] [Engine] [info] FPS:57.
+[2019-11-20 10:52:39.257] [Engine] [info] FPS:64.
+[2019-11-20 10:52:39.274] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.291] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.308] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.309] [Engine] [info] Mouse moved at: 290.0,20.0
+[2019-11-20 10:52:39.311] [Engine] [info] Mouse moved at: 284.0,34.0
+[2019-11-20 10:52:39.324] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.326] [Engine] [info] Mouse moved at: 276.0,50.0
+[2019-11-20 10:52:39.327] [Engine] [info] Mouse moved at: 264.0,68.0
+[2019-11-20 10:52:39.341] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.343] [Engine] [info] Mouse moved at: 245.0,95.0
+[2019-11-20 10:52:39.358] [Engine] [info] FPS:57.
+[2019-11-20 10:52:39.360] [Engine] [info] Mouse moved at: 228.0,116.0
+[2019-11-20 10:52:39.376] [Engine] [info] FPS:56.
+[2019-11-20 10:52:39.378] [Engine] [info] Mouse moved at: 209.0,140.0
+[2019-11-20 10:52:39.392] [Engine] [info] FPS:63.
+[2019-11-20 10:52:39.393] [Engine] [info] Mouse moved at: 188.0,162.0
+[2019-11-20 10:52:39.409] [Engine] [info] FPS:58.
+[2019-11-20 10:52:39.411] [Engine] [info] Mouse moved at: 161.0,190.0
+[2019-11-20 10:52:39.424] [Engine] [info] FPS:64.
+[2019-11-20 10:52:39.426] [Engine] [info] Mouse moved at: 133.0,215.0
+[2019-11-20 10:52:39.441] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.443] [Engine] [info] Mouse moved at: 103.0,244.0
+[2019-11-20 10:52:39.458] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.459] [Engine] [info] Mouse moved at: 83.0,266.0
+[2019-11-20 10:52:39.474] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.476] [Engine] [info] Mouse moved at: 64.0,287.0
+[2019-11-20 10:52:39.491] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.493] [Engine] [info] Mouse moved at: 46.0,308.0
+[2019-11-20 10:52:39.508] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.510] [Engine] [info] Mouse moved at: 29.0,330.0
+[2019-11-20 10:52:39.511] [Engine] [info] Mouse moved at: 19.0,338.0
+[2019-11-20 10:52:39.524] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.527] [Engine] [info] Mouse moved at: 8.0,342.0
+[2019-11-20 10:52:39.541] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.558] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.576] [Engine] [info] FPS:55.
+[2019-11-20 10:52:39.593] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.608] [Engine] [info] FPS:64.
+[2019-11-20 10:52:39.625] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.641] [Engine] [info] FPS:62.
+[2019-11-20 10:52:39.658] [Engine] [info] FPS:58.
+[2019-11-20 10:52:39.675] [Engine] [info] FPS:58.
+[2019-11-20 10:52:39.692] [Engine] [info] FPS:57.
+[2019-11-20 10:52:39.708] [Engine] [info] FPS:64.
+[2019-11-20 10:52:39.725] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.742] [Engine] [info] FPS:56.
+[2019-11-20 10:52:39.758] [Engine] [info] FPS:63.
+[2019-11-20 10:52:39.775] [Engine] [info] FPS:58.
+[2019-11-20 10:52:39.793] [Engine] [info] FPS:56.
+[2019-11-20 10:52:39.808] [Engine] [info] FPS:64.
+[2019-11-20 10:52:39.826] [Engine] [info] FPS:57.
+[2019-11-20 10:52:39.843] [Engine] [info] FPS:57.
+[2019-11-20 10:52:39.858] [Engine] [info] FPS:65.
+[2019-11-20 10:52:39.875] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.891] [Engine] [info] FPS:60.
+[2019-11-20 10:52:39.909] [Engine] [info] FPS:56.
+[2019-11-20 10:52:39.924] [Engine] [info] FPS:64.
+[2019-11-20 10:52:39.941] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.958] [Engine] [info] FPS:59.
+[2019-11-20 10:52:39.976] [Engine] [info] FPS:56.
+[2019-11-20 10:52:39.992] [Engine] [info] FPS:63.
+[2019-11-20 10:52:40.009] [Engine] [info] FPS:57.
+[2019-11-20 10:52:40.026] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.041] [Engine] [info] FPS:66.
+[2019-11-20 10:52:40.043] [Engine] [info] Mouse moved at: 4.0,325.0
+[2019-11-20 10:52:40.059] [Engine] [info] FPS:57.
+[2019-11-20 10:52:40.061] [Engine] [info] Mouse moved at: 39.0,320.0
+[2019-11-20 10:52:40.075] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.077] [Engine] [info] Mouse moved at: 104.0,320.0
+[2019-11-20 10:52:40.078] [Engine] [info] Mouse moved at: 146.0,318.0
+[2019-11-20 10:52:40.092] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.094] [Engine] [info] Mouse moved at: 192.0,318.0
+[2019-11-20 10:52:40.095] [Engine] [info] Mouse moved at: 235.0,318.0
+[2019-11-20 10:52:40.108] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.110] [Engine] [info] Mouse moved at: 273.0,318.0
+[2019-11-20 10:52:40.111] [Engine] [info] Mouse moved at: 308.0,318.0
+[2019-11-20 10:52:40.125] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.127] [Engine] [info] Mouse moved at: 363.0,318.0
+[2019-11-20 10:52:40.142] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.144] [Engine] [info] Mouse moved at: 391.0,318.0
+[2019-11-20 10:52:40.158] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.160] [Engine] [info] Mouse moved at: 406.0,318.0
+[2019-11-20 10:52:40.176] [Engine] [info] FPS:57.
+[2019-11-20 10:52:40.178] [Engine] [info] Mouse moved at: 409.0,318.0
+[2019-11-20 10:52:40.192] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.208] [Engine] [info] FPS:63.
+[2019-11-20 10:52:40.226] [Engine] [info] FPS:57.
+[2019-11-20 10:52:40.227] [Engine] [info] Mouse moved at: 406.0,318.0
+[2019-11-20 10:52:40.242] [Engine] [info] FPS:62.
+[2019-11-20 10:52:40.244] [Engine] [info] Mouse moved at: 404.0,318.0
+[2019-11-20 10:52:40.258] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.260] [Engine] [info] Mouse moved at: 403.0,318.0
+[2019-11-20 10:52:40.275] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.293] [Engine] [info] FPS:55.
+[2019-11-20 10:52:40.308] [Engine] [info] FPS:66.
+[2019-11-20 10:52:40.325] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.342] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.358] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.375] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.377] [Engine] [info] Mouse button pressed: 0
+[2019-11-20 10:52:40.392] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.409] [Engine] [info] FPS:57.
+[2019-11-20 10:52:40.426] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.427] [Engine] [info] Mouse moved at: 402.0,319.0
+[2019-11-20 10:52:40.443] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.444] [Engine] [info] Mouse moved at: 399.0,320.0
+[2019-11-20 10:52:40.458] [Engine] [info] FPS:63.
+[2019-11-20 10:52:40.460] [Engine] [info] Mouse moved at: 390.0,325.0
+[2019-11-20 10:52:40.475] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.476] [Engine] [info] Mouse moved at: 371.0,331.0
+[2019-11-20 10:52:40.478] [Engine] [info] Mouse moved at: 358.0,333.0
+[2019-11-20 10:52:40.492] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.494] [Engine] [info] Mouse moved at: 340.0,337.0
+[2019-11-20 10:52:40.494] [Engine] [info] Mouse moved at: 320.0,340.0
+[2019-11-20 10:52:40.508] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.510] [Engine] [info] Mouse moved at: 271.0,346.0
+[2019-11-20 10:52:40.525] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.527] [Engine] [info] Mouse moved at: 233.0,351.0
+[2019-11-20 10:52:40.542] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.543] [Engine] [info] Mouse moved at: 206.0,354.0
+[2019-11-20 10:52:40.559] [Engine] [info] FPS:57.
+[2019-11-20 10:52:40.561] [Engine] [info] Mouse moved at: 188.0,355.0
+[2019-11-20 10:52:40.576] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.577] [Engine] [info] Mouse moved at: 180.0,356.0
+[2019-11-20 10:52:40.593] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.595] [Engine] [info] Mouse moved at: 178.0,357.0
+[2019-11-20 10:52:40.610] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.626] [Engine] [info] FPS:63.
+[2019-11-20 10:52:40.628] [Engine] [info] Mouse button released: 0
+[2019-11-20 10:52:40.643] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.659] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.675] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.677] [Engine] [info] Mouse moved at: 178.0,356.0
+[2019-11-20 10:52:40.678] [Engine] [info] Mouse moved at: 178.0,355.0
+[2019-11-20 10:52:40.692] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.709] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.711] [Engine] [info] Mouse moved at: 179.0,353.0
+[2019-11-20 10:52:40.725] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.727] [Engine] [info] Mouse moved at: 181.0,350.0
+[2019-11-20 10:52:40.742] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.744] [Engine] [info] Mouse moved at: 183.0,349.0
+[2019-11-20 10:52:40.759] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.761] [Engine] [info] Mouse moved at: 190.0,346.0
+[2019-11-20 10:52:40.776] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.778] [Engine] [info] Mouse moved at: 203.0,341.0
+[2019-11-20 10:52:40.792] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.794] [Engine] [info] Mouse moved at: 222.0,332.0
+[2019-11-20 10:52:40.809] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.811] [Engine] [info] Mouse moved at: 250.0,320.0
+[2019-11-20 10:52:40.826] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.828] [Engine] [info] Mouse moved at: 283.0,295.0
+[2019-11-20 10:52:40.842] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.844] [Engine] [info] Mouse moved at: 323.0,265.0
+[2019-11-20 10:52:40.859] [Engine] [info] FPS:61.
+[2019-11-20 10:52:40.861] [Engine] [info] Mouse moved at: 370.0,231.0
+[2019-11-20 10:52:40.862] [Engine] [info] Mouse moved at: 395.0,211.0
+[2019-11-20 10:52:40.875] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.878] [Engine] [info] Mouse moved at: 427.0,191.0
+[2019-11-20 10:52:40.879] [Engine] [info] Mouse moved at: 462.0,171.0
+[2019-11-20 10:52:40.892] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.895] [Engine] [info] Mouse moved at: 496.0,151.0
+[2019-11-20 10:52:40.895] [Engine] [info] Mouse moved at: 536.0,128.0
+[2019-11-20 10:52:40.909] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.911] [Engine] [info] Mouse moved at: 610.0,91.0
+[2019-11-20 10:52:40.927] [Engine] [info] FPS:54.
+[2019-11-20 10:52:40.928] [Engine] [info] Mouse moved at: 665.0,64.0
+[2019-11-20 10:52:40.942] [Engine] [info] FPS:66.
+[2019-11-20 10:52:40.944] [Engine] [info] Mouse moved at: 711.0,51.0
+[2019-11-20 10:52:40.959] [Engine] [info] FPS:59.
+[2019-11-20 10:52:40.961] [Engine] [info] Mouse moved at: 734.0,43.0
+[2019-11-20 10:52:40.976] [Engine] [info] FPS:60.
+[2019-11-20 10:52:40.978] [Engine] [info] Mouse moved at: 746.0,38.0
+[2019-11-20 10:52:40.993] [Engine] [info] FPS:58.
+[2019-11-20 10:52:40.995] [Engine] [info] Mouse moved at: 750.0,36.0
+[2019-11-20 10:52:41.009] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.027] [Engine] [info] FPS:57.
+[2019-11-20 10:52:41.043] [Engine] [info] FPS:62.
+[2019-11-20 10:52:41.045] [Engine] [info] Mouse moved at: 750.0,34.0
+[2019-11-20 10:52:41.059] [Engine] [info] FPS:60.
+[2019-11-20 10:52:41.062] [Engine] [info] Mouse moved at: 749.0,31.0
+[2019-11-20 10:52:41.062] [Engine] [info] Mouse moved at: 747.0,29.0
+[2019-11-20 10:52:41.076] [Engine] [info] FPS:61.
+[2019-11-20 10:52:41.077] [Engine] [info] Mouse moved at: 746.0,27.0
+[2019-11-20 10:52:41.078] [Engine] [info] Mouse moved at: 745.0,24.0
+[2019-11-20 10:52:41.093] [Engine] [info] FPS:58.
+[2019-11-20 10:52:41.095] [Engine] [info] Mouse moved at: 743.0,20.0
+[2019-11-20 10:52:41.109] [Engine] [info] FPS:61.
+[2019-11-20 10:52:41.111] [Engine] [info] Mouse moved at: 743.0,16.0
+[2019-11-20 10:52:41.126] [Engine] [info] FPS:57.
+[2019-11-20 10:52:41.128] [Engine] [info] Mouse moved at: 741.0,11.0
+[2019-11-20 10:52:41.142] [Engine] [info] FPS:61.
+[2019-11-20 10:52:41.145] [Engine] [info] Mouse moved at: 741.0,7.0
+[2019-11-20 10:52:41.159] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.161] [Engine] [info] Mouse moved at: 741.0,4.0
+[2019-11-20 10:52:41.176] [Engine] [info] FPS:58.
+[2019-11-20 10:52:41.193] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.209] [Engine] [info] FPS:60.
+[2019-11-20 10:52:41.227] [Engine] [info] FPS:56.
+[2019-11-20 10:52:41.244] [Engine] [info] FPS:60.
+[2019-11-20 10:52:41.260] [Engine] [info] FPS:61.
+[2019-11-20 10:52:41.277] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.293] [Engine] [info] FPS:63.
+[2019-11-20 10:52:41.311] [Engine] [info] FPS:54.
+[2019-11-20 10:52:41.326] [Engine] [info] FPS:65.
+[2019-11-20 10:52:41.343] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.360] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.376] [Engine] [info] FPS:60.
+[2019-11-20 10:52:41.394] [Engine] [info] FPS:57.
+[2019-11-20 10:52:41.410] [Engine] [info] FPS:62.
+[2019-11-20 10:52:41.428] [Engine] [info] FPS:55.
+[2019-11-20 10:52:41.443] [Engine] [info] FPS:64.
+[2019-11-20 10:52:41.460] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.477] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.494] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.510] [Engine] [info] FPS:63.
+[2019-11-20 10:52:41.527] [Engine] [info] FPS:59.
+[2019-11-20 10:52:41.543] [Engine] [info] FPS:60.
+[2019-11-20 10:52:41.559] [Engine] [info] FPS:60.
+[2019-11-20 10:52:41.638] [Engine] [warning] Closing Application
+[2019-11-20 10:54:32.192] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 10:54:32.198] [Engine] [warning] Log Initialized
+[2019-11-20 10:54:32.198] [Engine] [warning] Frame Counter Started
+[2019-11-20 10:54:32.198] [Engine] [warning] GLFW Window System Started
+[2019-11-20 10:54:32.483] [Engine] [warning] Window System Started
+[2019-11-20 10:54:33.471] [Engine] [warning] GLAD Loaded
+[2019-11-20 10:54:33.472] [Engine] [warning] Window Created
+[2019-11-20 10:54:33.472] [Engine] [warning] Window Event Callback Set
+[2019-11-20 10:54:33.472] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 10:54:33.472] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 10:54:33.491] [Engine] [info] FPS:33444.
+[2019-11-20 10:54:33.493] [Engine] [info] Mouse moved at: 424.0,210.0
+[2019-11-20 10:54:33.515] [Engine] [info] FPS:42.
+[2019-11-20 10:54:33.516] [Engine] [info] Mouse moved at: 423.0,210.0
+[2019-11-20 10:54:33.533] [Engine] [info] FPS:55.
+[2019-11-20 10:54:33.534] [Engine] [info] Mouse moved at: 423.0,209.0
+[2019-11-20 10:54:33.550] [Engine] [info] FPS:59.
+[2019-11-20 10:54:33.567] [Engine] [info] FPS:59.
+[2019-11-20 10:54:33.584] [Engine] [info] FPS:57.
+[2019-11-20 10:54:33.599] [Engine] [info] FPS:66.
+[2019-11-20 10:54:33.602] [Engine] [info] Mouse moved at: 422.0,209.0
+[2019-11-20 10:54:33.616] [Engine] [info] FPS:57.
+[2019-11-20 10:54:33.633] [Engine] [info] FPS:60.
+[2019-11-20 10:54:33.650] [Engine] [info] FPS:59.
+[2019-11-20 10:54:33.666] [Engine] [info] FPS:60.
+[2019-11-20 10:54:33.683] [Engine] [info] FPS:58.
+[2019-11-20 10:54:33.685] [Engine] [info] Mouse moved at: 421.0,209.0
+[2019-11-20 10:54:33.699] [Engine] [info] FPS:63.
+[2019-11-20 10:54:33.717] [Engine] [info] FPS:56.
+[2019-11-20 10:54:33.733] [Engine] [info] FPS:60.
+[2019-11-20 10:54:33.735] [Engine] [info] Mouse moved at: 420.0,209.0
+[2019-11-20 10:54:33.750] [Engine] [info] FPS:61.
+[2019-11-20 10:54:33.751] [Engine] [info] Mouse moved at: 420.0,208.0
+[2019-11-20 10:54:33.770] [Engine] [info] FPS:49.
+[2019-11-20 10:54:33.784] [Engine] [info] FPS:69.
+[2019-11-20 10:54:33.800] [Engine] [info] FPS:63.
+[2019-11-20 10:54:33.818] [Engine] [info] FPS:56.
+[2019-11-20 10:54:33.834] [Engine] [info] FPS:63.
+[2019-11-20 10:54:33.853] [Engine] [info] FPS:51.
+[2019-11-20 10:54:33.867] [Engine] [info] FPS:70.
+[2019-11-20 10:54:33.884] [Engine] [info] FPS:58.
+[2019-11-20 10:54:33.900] [Engine] [info] FPS:63.
+[2019-11-20 10:54:33.917] [Engine] [info] FPS:58.
+[2019-11-20 10:54:33.934] [Engine] [info] FPS:59.
+[2019-11-20 10:54:33.951] [Engine] [info] FPS:60.
+[2019-11-20 10:54:33.968] [Engine] [info] FPS:58.
+[2019-11-20 10:54:33.984] [Engine] [info] FPS:62.
+[2019-11-20 10:54:33.985] [Engine] [info] Mouse moved at: 419.0,208.0
+[2019-11-20 10:54:34.002] [Engine] [info] FPS:54.
+[2019-11-20 10:54:34.017] [Engine] [info] FPS:66.
+[2019-11-20 10:54:34.033] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.051] [Engine] [info] FPS:56.
+[2019-11-20 10:54:34.067] [Engine] [info] FPS:62.
+[2019-11-20 10:54:34.084] [Engine] [info] FPS:59.
+[2019-11-20 10:54:34.100] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.117] [Engine] [info] FPS:59.
+[2019-11-20 10:54:34.134] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.153] [Engine] [info] FPS:51.
+[2019-11-20 10:54:34.170] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.184] [Engine] [info] FPS:68.
+[2019-11-20 10:54:34.202] [Engine] [info] FPS:57.
+[2019-11-20 10:54:34.217] [Engine] [info] FPS:63.
+[2019-11-20 10:54:34.234] [Engine] [info] FPS:61.
+[2019-11-20 10:54:34.251] [Engine] [info] FPS:58.
+[2019-11-20 10:54:34.267] [Engine] [info] FPS:62.
+[2019-11-20 10:54:34.284] [Engine] [info] FPS:59.
+[2019-11-20 10:54:34.301] [Engine] [info] FPS:59.
+[2019-11-20 10:54:34.317] [Engine] [info] FPS:61.
+[2019-11-20 10:54:34.334] [Engine] [info] FPS:57.
+[2019-11-20 10:54:34.351] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.370] [Engine] [info] FPS:51.
+[2019-11-20 10:54:34.371] [Engine] [info] Mouse moved at: 417.0,207.0
+[2019-11-20 10:54:34.385] [Engine] [info] FPS:67.
+[2019-11-20 10:54:34.387] [Engine] [info] Mouse moved at: 412.0,206.0
+[2019-11-20 10:54:34.402] [Engine] [info] FPS:57.
+[2019-11-20 10:54:34.403] [Engine] [info] Mouse moved at: 407.0,205.0
+[2019-11-20 10:54:34.420] [Engine] [info] FPS:57.
+[2019-11-20 10:54:34.422] [Engine] [info] Mouse moved at: 400.0,202.0
+[2019-11-20 10:54:34.434] [Engine] [info] FPS:70.
+[2019-11-20 10:54:34.435] [Engine] [info] Mouse moved at: 396.0,200.0
+[2019-11-20 10:54:34.453] [Engine] [info] FPS:52.
+[2019-11-20 10:54:34.454] [Engine] [info] Mouse moved at: 392.0,198.0
+[2019-11-20 10:54:34.467] [Engine] [info] FPS:69.
+[2019-11-20 10:54:34.469] [Engine] [info] Mouse moved at: 388.0,195.0
+[2019-11-20 10:54:34.484] [Engine] [info] FPS:57.
+[2019-11-20 10:54:34.486] [Engine] [info] Mouse moved at: 382.0,192.0
+[2019-11-20 10:54:34.501] [Engine] [info] FPS:62.
+[2019-11-20 10:54:34.503] [Engine] [info] Mouse moved at: 375.0,189.0
+[2019-11-20 10:54:34.517] [Engine] [info] FPS:59.
+[2019-11-20 10:54:34.519] [Engine] [info] Mouse moved at: 365.0,185.0
+[2019-11-20 10:54:34.534] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.536] [Engine] [info] Mouse moved at: 354.0,181.0
+[2019-11-20 10:54:34.551] [Engine] [info] FPS:59.
+[2019-11-20 10:54:34.553] [Engine] [info] Mouse moved at: 339.0,175.0
+[2019-11-20 10:54:34.554] [Engine] [info] Mouse moved at: 331.0,172.0
+[2019-11-20 10:54:34.567] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.569] [Engine] [info] Mouse moved at: 324.0,170.0
+[2019-11-20 10:54:34.570] [Engine] [info] Mouse moved at: 314.0,167.0
+[2019-11-20 10:54:34.586] [Engine] [info] FPS:53.
+[2019-11-20 10:54:34.588] [Engine] [info] Mouse moved at: 298.0,163.0
+[2019-11-20 10:54:34.602] [Engine] [info] FPS:62.
+[2019-11-20 10:54:34.604] [Engine] [info] Mouse moved at: 285.0,162.0
+[2019-11-20 10:54:34.619] [Engine] [info] FPS:57.
+[2019-11-20 10:54:34.620] [Engine] [info] Mouse moved at: 273.0,159.0
+[2019-11-20 10:54:34.635] [Engine] [info] FPS:64.
+[2019-11-20 10:54:34.636] [Engine] [info] Mouse moved at: 266.0,155.0
+[2019-11-20 10:54:34.651] [Engine] [info] FPS:62.
+[2019-11-20 10:54:34.653] [Engine] [info] Mouse moved at: 263.0,151.0
+[2019-11-20 10:54:34.667] [Engine] [info] FPS:61.
+[2019-11-20 10:54:34.669] [Engine] [info] Mouse moved at: 261.0,147.0
+[2019-11-20 10:54:34.684] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.686] [Engine] [info] Mouse moved at: 260.0,144.0
+[2019-11-20 10:54:34.701] [Engine] [info] FPS:58.
+[2019-11-20 10:54:34.703] [Engine] [info] Mouse moved at: 259.0,141.0
+[2019-11-20 10:54:34.717] [Engine] [info] FPS:61.
+[2019-11-20 10:54:34.719] [Engine] [info] Mouse moved at: 259.0,139.0
+[2019-11-20 10:54:34.734] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.751] [Engine] [info] FPS:57.
+[2019-11-20 10:54:34.753] [Engine] [info] Mouse moved at: 259.0,138.0
+[2019-11-20 10:54:34.768] [Engine] [info] FPS:58.
+[2019-11-20 10:54:34.785] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.787] [Engine] [info] Mouse moved at: 258.0,138.0
+[2019-11-20 10:54:34.802] [Engine] [info] FPS:58.
+[2019-11-20 10:54:34.804] [Engine] [info] Mouse moved at: 256.0,135.0
+[2019-11-20 10:54:34.818] [Engine] [info] FPS:62.
+[2019-11-20 10:54:34.819] [Engine] [info] Mouse moved at: 250.0,127.0
+[2019-11-20 10:54:34.835] [Engine] [info] FPS:58.
+[2019-11-20 10:54:34.837] [Engine] [info] Mouse moved at: 241.0,115.0
+[2019-11-20 10:54:34.852] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.853] [Engine] [info] Mouse moved at: 233.0,101.0
+[2019-11-20 10:54:34.867] [Engine] [info] FPS:62.
+[2019-11-20 10:54:34.869] [Engine] [info] Mouse moved at: 226.0,87.0
+[2019-11-20 10:54:34.885] [Engine] [info] FPS:55.
+[2019-11-20 10:54:34.887] [Engine] [info] Mouse moved at: 225.0,75.0
+[2019-11-20 10:54:34.901] [Engine] [info] FPS:64.
+[2019-11-20 10:54:34.903] [Engine] [info] Mouse moved at: 225.0,66.0
+[2019-11-20 10:54:34.918] [Engine] [info] FPS:59.
+[2019-11-20 10:54:34.920] [Engine] [info] Mouse moved at: 225.0,57.0
+[2019-11-20 10:54:34.922] [Engine] [info] Mouse moved at: 225.0,52.0
+[2019-11-20 10:54:34.934] [Engine] [info] FPS:60.
+[2019-11-20 10:54:34.936] [Engine] [info] Mouse moved at: 226.0,49.0
+[2019-11-20 10:54:34.937] [Engine] [info] Mouse moved at: 228.0,47.0
+[2019-11-20 10:54:34.952] [Engine] [info] FPS:55.
+[2019-11-20 10:54:34.953] [Engine] [info] Mouse moved at: 228.0,45.0
+[2019-11-20 10:54:34.953] [Engine] [info] Mouse moved at: 230.0,42.0
+[2019-11-20 10:54:34.968] [Engine] [info] FPS:64.
+[2019-11-20 10:54:34.970] [Engine] [info] Mouse moved at: 230.0,41.0
+[2019-11-20 10:54:34.971] [Engine] [info] Mouse moved at: 231.0,40.0
+[2019-11-20 10:54:34.986] [Engine] [info] FPS:55.
+[2019-11-20 10:54:34.988] [Engine] [info] Mouse moved at: 233.0,36.0
+[2019-11-20 10:54:35.001] [Engine] [info] FPS:66.
+[2019-11-20 10:54:35.003] [Engine] [info] Mouse moved at: 235.0,33.0
+[2019-11-20 10:54:35.018] [Engine] [info] FPS:58.
+[2019-11-20 10:54:35.020] [Engine] [info] Mouse moved at: 238.0,30.0
+[2019-11-20 10:54:35.034] [Engine] [info] FPS:60.
+[2019-11-20 10:54:35.036] [Engine] [info] Mouse moved at: 241.0,26.0
+[2019-11-20 10:54:35.051] [Engine] [info] FPS:60.
+[2019-11-20 10:54:35.053] [Engine] [info] Mouse moved at: 244.0,22.0
+[2019-11-20 10:54:35.068] [Engine] [info] FPS:60.
+[2019-11-20 10:54:35.069] [Engine] [info] Mouse moved at: 246.0,18.0
+[2019-11-20 10:54:35.086] [Engine] [info] FPS:54.
+[2019-11-20 10:54:35.087] [Engine] [info] Mouse moved at: 248.0,15.0
+[2019-11-20 10:54:35.102] [Engine] [info] FPS:64.
+[2019-11-20 10:54:35.104] [Engine] [info] Mouse moved at: 249.0,12.0
+[2019-11-20 10:54:35.118] [Engine] [info] FPS:61.
+[2019-11-20 10:54:35.119] [Engine] [info] Mouse moved at: 250.0,11.0
+[2019-11-20 10:54:35.135] [Engine] [info] FPS:58.
+[2019-11-20 10:54:35.137] [Engine] [info] Mouse moved at: 252.0,8.0
+[2019-11-20 10:54:35.138] [Engine] [info] Mouse moved at: 252.0,7.0
+[2019-11-20 10:54:35.151] [Engine] [info] FPS:62.
+[2019-11-20 10:54:35.153] [Engine] [info] Mouse moved at: 253.0,5.0
+[2019-11-20 10:54:35.168] [Engine] [info] FPS:56.
+[2019-11-20 10:54:35.170] [Engine] [info] Mouse moved at: 255.0,1.0
+[2019-11-20 10:54:35.185] [Engine] [info] FPS:60.
+[2019-11-20 10:54:35.202] [Engine] [info] FPS:57.
+[2019-11-20 10:54:35.219] [Engine] [info] FPS:59.
+[2019-11-20 10:54:35.235] [Engine] [info] FPS:63.
+[2019-11-20 10:54:35.252] [Engine] [info] FPS:59.
+[2019-11-20 10:54:35.268] [Engine] [info] FPS:61.
+[2019-11-20 10:54:35.284] [Engine] [info] FPS:61.
+[2019-11-20 10:54:35.301] [Engine] [info] FPS:59.
+[2019-11-20 10:54:35.318] [Engine] [info] FPS:59.
+[2019-11-20 10:54:35.335] [Engine] [info] FPS:60.
+[2019-11-20 10:54:35.351] [Engine] [info] FPS:59.
+[2019-11-20 10:54:35.370] [Engine] [info] FPS:53.
+[2019-11-20 10:54:35.386] [Engine] [info] FPS:62.
+[2019-11-20 10:54:35.402] [Engine] [info] FPS:60.
+[2019-11-20 10:54:36.435] [Engine] [info] FPS:0.
+[2019-11-20 10:54:36.452] [Engine] [info] FPS:57.
+[2019-11-20 10:54:36.469] [Engine] [info] FPS:58.
+[2019-11-20 10:54:36.485] [Engine] [info] FPS:61.
+[2019-11-20 10:54:36.502] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.519] [Engine] [info] FPS:58.
+[2019-11-20 10:54:36.535] [Engine] [info] FPS:61.
+[2019-11-20 10:54:36.552] [Engine] [info] FPS:58.
+[2019-11-20 10:54:36.569] [Engine] [info] FPS:61.
+[2019-11-20 10:54:36.587] [Engine] [info] FPS:56.
+[2019-11-20 10:54:36.604] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.620] [Engine] [info] FPS:61.
+[2019-11-20 10:54:36.636] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.653] [Engine] [info] FPS:61.
+[2019-11-20 10:54:36.669] [Engine] [info] FPS:61.
+[2019-11-20 10:54:36.686] [Engine] [info] FPS:60.
+[2019-11-20 10:54:36.703] [Engine] [info] FPS:58.
+[2019-11-20 10:54:36.720] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.736] [Engine] [info] FPS:62.
+[2019-11-20 10:54:36.752] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.770] [Engine] [info] FPS:56.
+[2019-11-20 10:54:36.786] [Engine] [info] FPS:62.
+[2019-11-20 10:54:36.803] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.821] [Engine] [info] FPS:54.
+[2019-11-20 10:54:36.836] [Engine] [info] FPS:66.
+[2019-11-20 10:54:36.838] [Engine] [info] Mouse moved at: 272.0,2.0
+[2019-11-20 10:54:36.853] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.855] [Engine] [info] Mouse moved at: 275.0,7.0
+[2019-11-20 10:54:36.870] [Engine] [info] FPS:59.
+[2019-11-20 10:54:36.872] [Engine] [info] Mouse moved at: 281.0,14.0
+[2019-11-20 10:54:36.874] [Engine] [info] Mouse moved at: 282.0,17.0
+[2019-11-20 10:54:36.887] [Engine] [info] FPS:57.
+[2019-11-20 10:54:36.889] [Engine] [info] Mouse moved at: 285.0,22.0
+[2019-11-20 10:54:36.890] [Engine] [info] Mouse moved at: 288.0,25.0
+[2019-11-20 10:54:36.902] [Engine] [info] FPS:69.
+[2019-11-20 10:54:36.904] [Engine] [info] Mouse moved at: 292.0,31.0
+[2019-11-20 10:54:36.919] [Engine] [info] FPS:58.
+[2019-11-20 10:54:36.921] [Engine] [info] Mouse moved at: 297.0,42.0
+[2019-11-20 10:54:36.922] [Engine] [info] Mouse moved at: 300.0,49.0
+[2019-11-20 10:54:36.936] [Engine] [info] FPS:60.
+[2019-11-20 10:54:36.938] [Engine] [info] Mouse moved at: 305.0,58.0
+[2019-11-20 10:54:36.938] [Engine] [info] Mouse moved at: 307.0,65.0
+[2019-11-20 10:54:36.954] [Engine] [info] FPS:55.
+[2019-11-20 10:54:36.955] [Engine] [info] Mouse moved at: 311.0,84.0
+[2019-11-20 10:54:36.970] [Engine] [info] FPS:63.
+[2019-11-20 10:54:36.971] [Engine] [info] Mouse moved at: 313.0,105.0
+[2019-11-20 10:54:36.986] [Engine] [info] FPS:60.
+[2019-11-20 10:54:36.988] [Engine] [info] Mouse moved at: 313.0,128.0
+[2019-11-20 10:54:37.003] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.005] [Engine] [info] Mouse moved at: 311.0,151.0
+[2019-11-20 10:54:37.020] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.022] [Engine] [info] Mouse moved at: 304.0,174.0
+[2019-11-20 10:54:37.037] [Engine] [info] FPS:57.
+[2019-11-20 10:54:37.039] [Engine] [info] Mouse moved at: 300.0,192.0
+[2019-11-20 10:54:37.053] [Engine] [info] FPS:63.
+[2019-11-20 10:54:37.055] [Engine] [info] Mouse moved at: 295.0,207.0
+[2019-11-20 10:54:37.069] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.071] [Engine] [info] Mouse moved at: 291.0,220.0
+[2019-11-20 10:54:37.086] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.088] [Engine] [info] Mouse moved at: 288.0,229.0
+[2019-11-20 10:54:37.103] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.105] [Engine] [info] Mouse moved at: 287.0,234.0
+[2019-11-20 10:54:37.106] [Engine] [info] Mouse moved at: 287.0,236.0
+[2019-11-20 10:54:37.119] [Engine] [info] FPS:62.
+[2019-11-20 10:54:37.121] [Engine] [info] Mouse moved at: 286.0,238.0
+[2019-11-20 10:54:37.121] [Engine] [info] Mouse moved at: 286.0,240.0
+[2019-11-20 10:54:37.136] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.138] [Engine] [info] Mouse moved at: 286.0,241.0
+[2019-11-20 10:54:37.139] [Engine] [info] Mouse moved at: 286.0,242.0
+[2019-11-20 10:54:37.153] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.155] [Engine] [info] Mouse moved at: 286.0,243.0
+[2019-11-20 10:54:37.170] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.186] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.189] [Engine] [info] Mouse moved at: 287.0,243.0
+[2019-11-20 10:54:37.203] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.205] [Engine] [info] Mouse moved at: 288.0,243.0
+[2019-11-20 10:54:37.220] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.222] [Engine] [info] Mouse moved at: 289.0,243.0
+[2019-11-20 10:54:37.237] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.238] [Engine] [info] Mouse moved at: 292.0,243.0
+[2019-11-20 10:54:37.254] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.255] [Engine] [info] Mouse moved at: 294.0,243.0
+[2019-11-20 10:54:37.270] [Engine] [info] FPS:62.
+[2019-11-20 10:54:37.271] [Engine] [info] Mouse moved at: 296.0,243.0
+[2019-11-20 10:54:37.286] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.288] [Engine] [info] Mouse moved at: 298.0,243.0
+[2019-11-20 10:54:37.302] [Engine] [info] FPS:62.
+[2019-11-20 10:54:37.305] [Engine] [info] Mouse moved at: 299.0,242.0
+[2019-11-20 10:54:37.320] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.321] [Engine] [info] Mouse moved at: 301.0,242.0
+[2019-11-20 10:54:37.336] [Engine] [info] FPS:61.
+[2019-11-20 10:54:37.353] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.355] [Engine] [info] Mouse moved at: 301.0,241.0
+[2019-11-20 10:54:37.370] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.387] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.389] [Engine] [info] Mouse moved at: 302.0,241.0
+[2019-11-20 10:54:37.404] [Engine] [info] FPS:57.
+[2019-11-20 10:54:37.422] [Engine] [info] FPS:55.
+[2019-11-20 10:54:37.438] [Engine] [info] FPS:62.
+[2019-11-20 10:54:37.454] [Engine] [info] FPS:62.
+[2019-11-20 10:54:37.470] [Engine] [info] FPS:63.
+[2019-11-20 10:54:37.486] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.488] [Engine] [info] Mouse moved at: 302.0,240.0
+[2019-11-20 10:54:37.503] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.520] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.536] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.553] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.570] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.586] [Engine] [info] FPS:61.
+[2019-11-20 10:54:37.604] [Engine] [info] FPS:55.
+[2019-11-20 10:54:37.622] [Engine] [info] FPS:57.
+[2019-11-20 10:54:37.637] [Engine] [info] FPS:66.
+[2019-11-20 10:54:37.654] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.670] [Engine] [info] FPS:61.
+[2019-11-20 10:54:37.672] [Engine] [info] Mouse moved at: 303.0,240.0
+[2019-11-20 10:54:37.687] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.689] [Engine] [info] Mouse moved at: 303.0,239.0
+[2019-11-20 10:54:37.689] [Engine] [info] Mouse moved at: 305.0,238.0
+[2019-11-20 10:54:37.703] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.705] [Engine] [info] Mouse moved at: 308.0,237.0
+[2019-11-20 10:54:37.707] [Engine] [info] Mouse moved at: 311.0,235.0
+[2019-11-20 10:54:37.720] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.722] [Engine] [info] Mouse moved at: 325.0,230.0
+[2019-11-20 10:54:37.736] [Engine] [info] FPS:61.
+[2019-11-20 10:54:37.739] [Engine] [info] Mouse moved at: 348.0,223.0
+[2019-11-20 10:54:37.754] [Engine] [info] FPS:56.
+[2019-11-20 10:54:37.756] [Engine] [info] Mouse moved at: 386.0,218.0
+[2019-11-20 10:54:37.770] [Engine] [info] FPS:63.
+[2019-11-20 10:54:37.772] [Engine] [info] Mouse moved at: 434.0,215.0
+[2019-11-20 10:54:37.787] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.788] [Engine] [info] Mouse moved at: 481.0,214.0
+[2019-11-20 10:54:37.803] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.805] [Engine] [info] Mouse moved at: 526.0,211.0
+[2019-11-20 10:54:37.820] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.822] [Engine] [info] Mouse moved at: 562.0,210.0
+[2019-11-20 10:54:37.837] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.840] [Engine] [info] Mouse moved at: 590.0,209.0
+[2019-11-20 10:54:37.854] [Engine] [info] FPS:58.
+[2019-11-20 10:54:37.856] [Engine] [info] Mouse moved at: 614.0,205.0
+[2019-11-20 10:54:37.870] [Engine] [info] FPS:63.
+[2019-11-20 10:54:37.872] [Engine] [info] Mouse moved at: 633.0,201.0
+[2019-11-20 10:54:37.888] [Engine] [info] FPS:56.
+[2019-11-20 10:54:37.889] [Engine] [info] Mouse moved at: 647.0,195.0
+[2019-11-20 10:54:37.890] [Engine] [info] Mouse moved at: 651.0,193.0
+[2019-11-20 10:54:37.903] [Engine] [info] FPS:63.
+[2019-11-20 10:54:37.905] [Engine] [info] Mouse moved at: 653.0,190.0
+[2019-11-20 10:54:37.906] [Engine] [info] Mouse moved at: 654.0,187.0
+[2019-11-20 10:54:37.920] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.922] [Engine] [info] Mouse moved at: 656.0,177.0
+[2019-11-20 10:54:37.937] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.939] [Engine] [info] Mouse moved at: 656.0,164.0
+[2019-11-20 10:54:37.953] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.956] [Engine] [info] Mouse moved at: 656.0,147.0
+[2019-11-20 10:54:37.970] [Engine] [info] FPS:60.
+[2019-11-20 10:54:37.972] [Engine] [info] Mouse moved at: 657.0,135.0
+[2019-11-20 10:54:37.987] [Engine] [info] FPS:59.
+[2019-11-20 10:54:37.989] [Engine] [info] Mouse moved at: 659.0,124.0
+[2019-11-20 10:54:38.003] [Engine] [info] FPS:61.
+[2019-11-20 10:54:38.005] [Engine] [info] Mouse moved at: 663.0,115.0
+[2019-11-20 10:54:38.021] [Engine] [info] FPS:56.
+[2019-11-20 10:54:38.023] [Engine] [info] Mouse moved at: 668.0,108.0
+[2019-11-20 10:54:38.037] [Engine] [info] FPS:60.
+[2019-11-20 10:54:38.040] [Engine] [info] Mouse moved at: 676.0,99.0
+[2019-11-20 10:54:38.041] [Engine] [info] Mouse moved at: 682.0,94.0
+[2019-11-20 10:54:38.054] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.056] [Engine] [info] Mouse moved at: 690.0,89.0
+[2019-11-20 10:54:38.070] [Engine] [info] FPS:61.
+[2019-11-20 10:54:38.072] [Engine] [info] Mouse moved at: 706.0,77.0
+[2019-11-20 10:54:38.087] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.089] [Engine] [info] Mouse moved at: 723.0,68.0
+[2019-11-20 10:54:38.090] [Engine] [info] Mouse moved at: 731.0,63.0
+[2019-11-20 10:54:38.104] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.106] [Engine] [info] Mouse moved at: 740.0,59.0
+[2019-11-20 10:54:38.107] [Engine] [info] Mouse moved at: 747.0,56.0
+[2019-11-20 10:54:38.120] [Engine] [info] FPS:60.
+[2019-11-20 10:54:38.122] [Engine] [info] Mouse moved at: 759.0,53.0
+[2019-11-20 10:54:38.138] [Engine] [info] FPS:56.
+[2019-11-20 10:54:38.139] [Engine] [info] Mouse moved at: 767.0,52.0
+[2019-11-20 10:54:38.154] [Engine] [info] FPS:60.
+[2019-11-20 10:54:38.156] [Engine] [info] Mouse moved at: 772.0,52.0
+[2019-11-20 10:54:38.170] [Engine] [info] FPS:63.
+[2019-11-20 10:54:38.172] [Engine] [info] Mouse moved at: 774.0,52.0
+[2019-11-20 10:54:38.187] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.204] [Engine] [info] FPS:57.
+[2019-11-20 10:54:38.221] [Engine] [info] FPS:60.
+[2019-11-20 10:54:38.238] [Engine] [info] FPS:57.
+[2019-11-20 10:54:38.240] [Engine] [info] Mouse moved at: 774.0,51.0
+[2019-11-20 10:54:38.254] [Engine] [info] FPS:61.
+[2019-11-20 10:54:38.257] [Engine] [info] Mouse moved at: 774.0,50.0
+[2019-11-20 10:54:38.271] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.272] [Engine] [info] Mouse moved at: 774.0,49.0
+[2019-11-20 10:54:38.273] [Engine] [info] Mouse moved at: 774.0,47.0
+[2019-11-20 10:54:38.288] [Engine] [info] FPS:57.
+[2019-11-20 10:54:38.291] [Engine] [info] Mouse moved at: 773.0,46.0
+[2019-11-20 10:54:38.304] [Engine] [info] FPS:64.
+[2019-11-20 10:54:38.321] [Engine] [info] FPS:58.
+[2019-11-20 10:54:38.323] [Engine] [info] Mouse moved at: 773.0,42.0
+[2019-11-20 10:54:38.338] [Engine] [info] FPS:58.
+[2019-11-20 10:54:38.340] [Engine] [info] Mouse moved at: 777.0,39.0
+[2019-11-20 10:54:38.354] [Engine] [info] FPS:63.
+[2019-11-20 10:54:38.356] [Engine] [info] Mouse moved at: 779.0,34.0
+[2019-11-20 10:54:38.371] [Engine] [info] FPS:58.
+[2019-11-20 10:54:38.374] [Engine] [info] Mouse moved at: 782.0,29.0
+[2019-11-20 10:54:38.387] [Engine] [info] FPS:63.
+[2019-11-20 10:54:38.389] [Engine] [info] Mouse moved at: 784.0,24.0
+[2019-11-20 10:54:38.404] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.406] [Engine] [info] Mouse moved at: 784.0,18.0
+[2019-11-20 10:54:38.421] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.422] [Engine] [info] Mouse moved at: 785.0,12.0
+[2019-11-20 10:54:38.437] [Engine] [info] FPS:60.
+[2019-11-20 10:54:38.439] [Engine] [info] Mouse moved at: 785.0,7.0
+[2019-11-20 10:54:38.455] [Engine] [info] FPS:56.
+[2019-11-20 10:54:38.457] [Engine] [info] Mouse moved at: 785.0,4.0
+[2019-11-20 10:54:38.458] [Engine] [info] Mouse moved at: 784.0,2.0
+[2019-11-20 10:54:38.471] [Engine] [info] FPS:62.
+[2019-11-20 10:54:38.473] [Engine] [info] Mouse moved at: 784.0,0.0
+[2019-11-20 10:54:38.487] [Engine] [info] FPS:62.
+[2019-11-20 10:54:38.505] [Engine] [info] FPS:55.
+[2019-11-20 10:54:38.520] [Engine] [info] FPS:64.
+[2019-11-20 10:54:38.538] [Engine] [info] FPS:57.
+[2019-11-20 10:54:38.555] [Engine] [info] FPS:56.
+[2019-11-20 10:54:38.572] [Engine] [info] FPS:61.
+[2019-11-20 10:54:38.590] [Engine] [info] FPS:54.
+[2019-11-20 10:54:38.609] [Engine] [info] FPS:51.
+[2019-11-20 10:54:38.623] [Engine] [info] FPS:73.
+[2019-11-20 10:54:38.641] [Engine] [info] FPS:54.
+[2019-11-20 10:54:38.655] [Engine] [info] FPS:71.
+[2019-11-20 10:54:38.672] [Engine] [info] FPS:60.
+[2019-11-20 10:54:38.690] [Engine] [info] FPS:54.
+[2019-11-20 10:54:38.705] [Engine] [info] FPS:66.
+[2019-11-20 10:54:38.721] [Engine] [info] FPS:64.
+[2019-11-20 10:54:38.740] [Engine] [info] FPS:52.
+[2019-11-20 10:54:38.755] [Engine] [info] FPS:66.
+[2019-11-20 10:54:38.771] [Engine] [info] FPS:59.
+[2019-11-20 10:54:38.858] [Engine] [warning] Closing Application
+[2019-11-20 10:55:41.530] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 10:55:41.534] [Engine] [warning] Log Initialized
+[2019-11-20 10:55:41.535] [Engine] [warning] Frame Counter Started
+[2019-11-20 10:55:41.535] [Engine] [warning] GLFW Window System Started
+[2019-11-20 10:55:41.814] [Engine] [warning] Window System Started
+[2019-11-20 10:55:42.803] [Engine] [warning] GLAD Loaded
+[2019-11-20 10:55:42.804] [Engine] [warning] Window Created
+[2019-11-20 10:55:42.804] [Engine] [warning] Window Event Callback Set
+[2019-11-20 10:55:42.804] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 10:55:42.804] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 10:55:42.822] [Engine] [info] FPS:73529.
+[2019-11-20 10:55:50.462] [Engine] [info] FPS:0.
+[2019-11-20 10:55:50.478] [Engine] [info] FPS:60.
+[2019-11-20 10:55:50.495] [Engine] [info] FPS:60.
+[2019-11-20 10:55:50.511] [Engine] [info] FPS:63.
+[2019-11-20 10:55:50.528] [Engine] [info] FPS:56.
+[2019-11-20 10:55:50.543] [Engine] [info] FPS:65.
+[2019-11-20 10:55:50.560] [Engine] [info] FPS:60.
+[2019-11-20 10:55:50.577] [Engine] [info] FPS:60.
+[2019-11-20 10:55:50.594] [Engine] [info] FPS:58.
+[2019-11-20 10:55:50.611] [Engine] [info] FPS:59.
+[2019-11-20 10:55:50.627] [Engine] [info] FPS:62.
+[2019-11-20 10:55:50.644] [Engine] [info] FPS:58.
+[2019-11-20 10:55:50.662] [Engine] [info] FPS:55.
+[2019-11-20 10:55:50.678] [Engine] [info] FPS:61.
+[2019-11-20 10:55:50.694] [Engine] [info] FPS:63.
+[2019-11-20 10:55:50.711] [Engine] [info] FPS:58.
+[2019-11-20 10:55:50.728] [Engine] [info] FPS:58.
+[2019-11-20 10:55:50.743] [Engine] [info] FPS:64.
+[2019-11-20 10:55:50.760] [Engine] [info] FPS:60.
+[2019-11-20 10:55:50.777] [Engine] [info] FPS:59.
+[2019-11-20 10:55:50.794] [Engine] [info] FPS:57.
+[2019-11-20 10:55:50.810] [Engine] [info] FPS:62.
+[2019-11-20 10:55:50.827] [Engine] [info] FPS:59.
+[2019-11-20 10:55:50.844] [Engine] [info] FPS:59.
+[2019-11-20 10:55:50.860] [Engine] [info] FPS:60.
+[2019-11-20 10:55:50.877] [Engine] [info] FPS:59.
+[2019-11-20 10:55:50.895] [Engine] [info] FPS:57.
+[2019-11-20 10:55:50.910] [Engine] [info] FPS:63.
+[2019-11-20 10:55:50.928] [Engine] [info] FPS:56.
+[2019-11-20 10:55:50.944] [Engine] [info] FPS:63.
+[2019-11-20 10:55:50.961] [Engine] [info] FPS:57.
+[2019-11-20 10:55:50.979] [Engine] [info] FPS:54.
+[2019-11-20 10:55:50.995] [Engine] [info] FPS:64.
+[2019-11-20 10:55:51.011] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.027] [Engine] [info] FPS:61.
+[2019-11-20 10:55:51.044] [Engine] [info] FPS:61.
+[2019-11-20 10:55:51.061] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.077] [Engine] [info] FPS:61.
+[2019-11-20 10:55:51.094] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.111] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.128] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.144] [Engine] [info] FPS:62.
+[2019-11-20 10:55:51.161] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.178] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.194] [Engine] [info] FPS:61.
+[2019-11-20 10:55:51.211] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.228] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.245] [Engine] [info] FPS:57.
+[2019-11-20 10:55:51.261] [Engine] [info] FPS:62.
+[2019-11-20 10:55:51.277] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.294] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.312] [Engine] [info] FPS:56.
+[2019-11-20 10:55:51.328] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.345] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.361] [Engine] [info] FPS:63.
+[2019-11-20 10:55:51.378] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.394] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.411] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.428] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.456] [Engine] [info] FPS:35.
+[2019-11-20 10:55:51.461] [Engine] [info] Mouse moved at: 469.0,324.0
+[2019-11-20 10:55:51.483] [Engine] [info] FPS:38.
+[2019-11-20 10:55:51.486] [Engine] [info] Mouse moved at: 469.0,326.0
+[2019-11-20 10:55:51.498] [Engine] [info] FPS:62.
+[2019-11-20 10:55:51.513] [Engine] [info] FPS:68.
+[2019-11-20 10:55:51.515] [Engine] [info] Mouse moved at: 468.0,326.0
+[2019-11-20 10:55:51.530] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.546] [Engine] [info] FPS:64.
+[2019-11-20 10:55:51.563] [Engine] [info] FPS:57.
+[2019-11-20 10:55:51.579] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.597] [Engine] [info] FPS:57.
+[2019-11-20 10:55:51.613] [Engine] [info] FPS:63.
+[2019-11-20 10:55:51.629] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.646] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.663] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.680] [Engine] [info] FPS:56.
+[2019-11-20 10:55:51.697] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.718] [Engine] [info] FPS:47.
+[2019-11-20 10:55:51.730] [Engine] [info] FPS:83.
+[2019-11-20 10:55:51.747] [Engine] [info] FPS:57.
+[2019-11-20 10:55:51.763] [Engine] [info] FPS:64.
+[2019-11-20 10:55:51.779] [Engine] [info] FPS:61.
+[2019-11-20 10:55:51.796] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.813] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.829] [Engine] [info] FPS:61.
+[2019-11-20 10:55:51.846] [Engine] [info] FPS:58.
+[2019-11-20 10:55:51.863] [Engine] [info] FPS:61.
+[2019-11-20 10:55:51.879] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.896] [Engine] [info] FPS:59.
+[2019-11-20 10:55:51.914] [Engine] [info] FPS:56.
+[2019-11-20 10:55:51.930] [Engine] [info] FPS:62.
+[2019-11-20 10:55:51.947] [Engine] [info] FPS:57.
+[2019-11-20 10:55:51.964] [Engine] [info] FPS:60.
+[2019-11-20 10:55:51.966] [Engine] [info] Mouse moved at: 467.0,326.0
+[2019-11-20 10:55:51.979] [Engine] [info] FPS:64.
+[2019-11-20 10:55:51.996] [Engine] [info] FPS:60.
+[2019-11-20 10:55:52.013] [Engine] [info] FPS:58.
+[2019-11-20 10:55:52.029] [Engine] [info] FPS:61.
+[2019-11-20 10:55:52.031] [Engine] [info] Mouse moved at: 467.0,325.0
+[2019-11-20 10:55:52.046] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.048] [Engine] [info] Mouse moved at: 467.0,322.0
+[2019-11-20 10:55:52.063] [Engine] [info] FPS:60.
+[2019-11-20 10:55:52.064] [Engine] [info] Mouse moved at: 467.0,315.0
+[2019-11-20 10:55:52.079] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.081] [Engine] [info] Mouse moved at: 471.0,305.0
+[2019-11-20 10:55:52.097] [Engine] [info] FPS:58.
+[2019-11-20 10:55:52.098] [Engine] [info] Mouse moved at: 480.0,288.0
+[2019-11-20 10:55:52.114] [Engine] [info] FPS:57.
+[2019-11-20 10:55:52.115] [Engine] [info] Mouse moved at: 494.0,262.0
+[2019-11-20 10:55:52.129] [Engine] [info] FPS:64.
+[2019-11-20 10:55:52.132] [Engine] [info] Mouse moved at: 514.0,234.0
+[2019-11-20 10:55:52.147] [Engine] [info] FPS:56.
+[2019-11-20 10:55:52.149] [Engine] [info] Mouse moved at: 550.0,194.0
+[2019-11-20 10:55:52.164] [Engine] [info] FPS:58.
+[2019-11-20 10:55:52.165] [Engine] [info] Mouse moved at: 600.0,144.0
+[2019-11-20 10:55:52.180] [Engine] [info] FPS:65.
+[2019-11-20 10:55:52.181] [Engine] [info] Mouse moved at: 656.0,94.0
+[2019-11-20 10:55:52.196] [Engine] [info] FPS:60.
+[2019-11-20 10:55:52.197] [Engine] [info] Mouse moved at: 713.0,47.0
+[2019-11-20 10:55:52.215] [Engine] [info] FPS:53.
+[2019-11-20 10:55:52.230] [Engine] [info] FPS:65.
+[2019-11-20 10:55:52.248] [Engine] [info] FPS:55.
+[2019-11-20 10:55:52.265] [Engine] [info] FPS:56.
+[2019-11-20 10:55:52.280] [Engine] [info] FPS:68.
+[2019-11-20 10:55:52.296] [Engine] [info] FPS:60.
+[2019-11-20 10:55:52.314] [Engine] [info] FPS:55.
+[2019-11-20 10:55:52.331] [Engine] [info] FPS:61.
+[2019-11-20 10:55:52.347] [Engine] [info] FPS:61.
+[2019-11-20 10:55:52.364] [Engine] [info] FPS:58.
+[2019-11-20 10:55:52.380] [Engine] [info] FPS:63.
+[2019-11-20 10:55:52.396] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.413] [Engine] [info] FPS:60.
+[2019-11-20 10:55:52.431] [Engine] [info] FPS:55.
+[2019-11-20 10:55:52.452] [Engine] [info] FPS:48.
+[2019-11-20 10:55:52.466] [Engine] [info] FPS:73.
+[2019-11-20 10:55:52.481] [Engine] [info] FPS:63.
+[2019-11-20 10:55:52.497] [Engine] [info] FPS:62.
+[2019-11-20 10:55:52.514] [Engine] [info] FPS:57.
+[2019-11-20 10:55:52.531] [Engine] [info] FPS:58.
+[2019-11-20 10:55:52.548] [Engine] [info] FPS:62.
+[2019-11-20 10:55:52.564] [Engine] [info] FPS:61.
+[2019-11-20 10:55:52.580] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.597] [Engine] [info] FPS:60.
+[2019-11-20 10:55:52.614] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.630] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.647] [Engine] [info] FPS:60.
+[2019-11-20 10:55:52.663] [Engine] [info] FPS:61.
+[2019-11-20 10:55:52.680] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.697] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.715] [Engine] [info] FPS:54.
+[2019-11-20 10:55:52.731] [Engine] [info] FPS:63.
+[2019-11-20 10:55:52.748] [Engine] [info] FPS:59.
+[2019-11-20 10:55:52.831] [Engine] [warning] Closing Application
+[2019-11-20 10:55:57.775] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 10:55:57.779] [Engine] [warning] Log Initialized
+[2019-11-20 10:55:57.780] [Engine] [warning] Frame Counter Started
+[2019-11-20 10:55:57.780] [Engine] [warning] GLFW Window System Started
+[2019-11-20 10:55:58.067] [Engine] [warning] Window System Started
+[2019-11-20 10:55:59.099] [Engine] [warning] GLAD Loaded
+[2019-11-20 10:55:59.099] [Engine] [warning] Window Created
+[2019-11-20 10:55:59.100] [Engine] [warning] Window Event Callback Set
+[2019-11-20 10:55:59.100] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 10:55:59.100] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 10:55:59.120] [Engine] [info] FPS:49019.
+[2019-11-20 10:55:59.122] [Engine] [info] Mouse moved at: 89.0,585.0
+[2019-11-20 10:55:59.141] [Engine] [info] FPS:47.
+[2019-11-20 10:55:59.154] [Engine] [info] FPS:76.
+[2019-11-20 10:55:59.170] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.186] [Engine] [info] FPS:62.
+[2019-11-20 10:55:59.203] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.220] [Engine] [info] FPS:57.
+[2019-11-20 10:55:59.237] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.253] [Engine] [info] FPS:63.
+[2019-11-20 10:55:59.270] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.286] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.303] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.320] [Engine] [info] FPS:57.
+[2019-11-20 10:55:59.336] [Engine] [info] FPS:62.
+[2019-11-20 10:55:59.354] [Engine] [info] FPS:54.
+[2019-11-20 10:55:59.370] [Engine] [info] FPS:63.
+[2019-11-20 10:55:59.386] [Engine] [info] FPS:62.
+[2019-11-20 10:55:59.403] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.404] [Engine] [info] Mouse moved at: 88.0,585.0
+[2019-11-20 10:55:59.420] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.421] [Engine] [info] Mouse moved at: 84.0,586.0
+[2019-11-20 10:55:59.437] [Engine] [info] FPS:56.
+[2019-11-20 10:55:59.439] [Engine] [info] Mouse moved at: 76.0,587.0
+[2019-11-20 10:55:59.441] [Engine] [info] Mouse moved at: 69.0,588.0
+[2019-11-20 10:55:59.454] [Engine] [info] FPS:61.
+[2019-11-20 10:55:59.456] [Engine] [info] Mouse moved at: 61.0,588.0
+[2019-11-20 10:55:59.457] [Engine] [info] Mouse moved at: 53.0,588.0
+[2019-11-20 10:55:59.470] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.472] [Engine] [info] Mouse moved at: 35.0,588.0
+[2019-11-20 10:55:59.487] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.490] [Engine] [info] Mouse moved at: 18.0,588.0
+[2019-11-20 10:55:59.504] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.520] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.537] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.554] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.571] [Engine] [info] FPS:57.
+[2019-11-20 10:55:59.588] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.607] [Engine] [info] FPS:52.
+[2019-11-20 10:55:59.621] [Engine] [info] FPS:70.
+[2019-11-20 10:55:59.638] [Engine] [info] FPS:58.
+[2019-11-20 10:55:59.653] [Engine] [info] FPS:65.
+[2019-11-20 10:55:59.671] [Engine] [info] FPS:56.
+[2019-11-20 10:55:59.687] [Engine] [info] FPS:62.
+[2019-11-20 10:55:59.704] [Engine] [info] FPS:57.
+[2019-11-20 10:55:59.720] [Engine] [info] FPS:61.
+[2019-11-20 10:55:59.737] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.754] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.770] [Engine] [info] FPS:60.
+[2019-11-20 10:55:59.788] [Engine] [info] FPS:55.
+[2019-11-20 10:55:59.805] [Engine] [info] FPS:58.
+[2019-11-20 10:55:59.822] [Engine] [info] FPS:59.
+[2019-11-20 10:55:59.837] [Engine] [info] FPS:65.
+[2019-11-20 10:55:59.854] [Engine] [info] FPS:58.
+[2019-11-20 10:55:59.871] [Engine] [info] FPS:61.
+[2019-11-20 10:55:59.888] [Engine] [info] FPS:57.
+[2019-11-20 10:55:59.904] [Engine] [info] FPS:63.
+[2019-11-20 10:55:59.921] [Engine] [info] FPS:58.
+[2019-11-20 10:55:59.937] [Engine] [info] FPS:61.
+[2019-11-20 10:55:59.954] [Engine] [info] FPS:58.
+[2019-11-20 10:55:59.970] [Engine] [info] FPS:61.
+[2019-11-20 10:55:59.988] [Engine] [info] FPS:57.
+[2019-11-20 10:56:00.007] [Engine] [info] FPS:51.
+[2019-11-20 10:56:00.0[2019-11-20 10:59:35.700] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 10:59:35.705] [Engine] [warning] Log Initialized
+[2019-11-20 10:59:35.705] [Engine] [warning] Frame Counter Started
+[2019-11-20 10:59:35.706] [Engine] [warning] GLFW Window System Started
+[2019-11-20 10:59:35.976] [Engine] [warning] Window System Started
+[2019-11-20 10:59:36.986] [Engine] [warning] GLAD Loaded
+[2019-11-20 10:59:36.987] [Engine] [warning] Window Created
+[2019-11-20 10:59:36.987] [Engine] [warning] Window Event Callback Set
+[2019-11-20 10:59:36.987] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 10:59:36.987] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 10:59:37.006] [Engine] [info] FPS:28490.
+[2019-11-20 10:59:42.887] [Engine] [info] FPS:0.
+[2019-11-20 10:59:42.904] [Engine] [info] FPS:60.
+[2019-11-20 10:59:42.921] [Engine] [info] FPS:56.
+[2019-11-20 10:59:42.937] [Engine] [info] FPS:63.
+[2019-11-20 10:59:42.954] [Engine] [info] FPS:59.
+[2019-11-20 10:59:42.970] [Engine] [info] FPS:62.
+[2019-11-20 10:59:42.987] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.003] [Engine] [info] FPS:62.
+[2019-11-20 10:59:43.020] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.037] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.053] [Engine] [info] FPS:64.
+[2019-11-20 10:59:43.070] [Engine] [info] FPS:57.
+[2019-11-20 10:59:43.088] [Engine] [info] FPS:57.
+[2019-11-20 10:59:43.103] [Engine] [info] FPS:62.
+[2019-11-20 10:59:43.120] [Engine] [info] FPS:60.
+[2019-11-20 10:59:43.138] [Engine] [info] FPS:57.
+[2019-11-20 10:59:43.153] [Engine] [info] FPS:64.
+[2019-11-20 10:59:43.169] [Engine] [info] FPS:61.
+[2019-11-20 10:59:43.186] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.203] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.220] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.237] [Engine] [info] FPS:60.
+[2019-11-20 10:59:43.253] [Engine] [info] FPS:62.
+[2019-11-20 10:59:43.270] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.286] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.304] [Engine] [info] FPS:56.
+[2019-11-20 10:59:43.320] [Engine] [info] FPS:61.
+[2019-11-20 10:59:43.336] [Engine] [info] FPS:63.
+[2019-11-20 10:59:43.354] [Engine] [info] FPS:54.
+[2019-11-20 10:59:43.369] [Engine] [info] FPS:66.
+[2019-11-20 10:59:43.387] [Engine] [info] FPS:57.
+[2019-11-20 10:59:43.404] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.420] [Engine] [info] FPS:62.
+[2019-11-20 10:59:43.436] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.453] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.471] [Engine] [info] FPS:56.
+[2019-11-20 10:59:43.487] [Engine] [info] FPS:63.
+[2019-11-20 10:59:43.504] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.521] [Engine] [info] FPS:55.
+[2019-11-20 10:59:43.538] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.553] [Engine] [info] FPS:66.
+[2019-11-20 10:59:43.571] [Engine] [info] FPS:57.
+[2019-11-20 10:59:43.587] [Engine] [info] FPS:61.
+[2019-11-20 10:59:43.603] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.620] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.637] [Engine] [info] FPS:60.
+[2019-11-20 10:59:43.653] [Engine] [info] FPS:61.
+[2019-11-20 10:59:43.670] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.687] [Engine] [info] FPS:60.
+[2019-11-20 10:59:43.703] [Engine] [info] FPS:59.
+[2019-11-20 10:59:43.721] [Engine] [info] FPS:56.
+[2019-11-20 10:59:43.737] [Engine] [info] FPS:62.
+[2019-11-20 10:59:43.754] [Engine] [info] FPS:57.
+[2019-11-20 10:59:43.771] [Engine] [info] FPS:62.
+[2019-11-20 10:59:43.787] [Engine] [info] FPS:61.
+[2019-11-20 10:59:43.804] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.820] [Engine] [info] FPS:61.
+[2019-11-20 10:59:43.837] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.866] [Engine] [info] FPS:34.
+[2019-11-20 10:59:43.869] [Engine] [info] Mouse moved at: 168.0,378.0
+[2019-11-20 10:59:43.893] [Engine] [info] FPS:37.
+[2019-11-20 10:59:43.895] [Engine] [info] Mouse moved at: 173.0,373.0
+[2019-11-20 10:59:43.905] [Engine] [info] FPS:81.
+[2019-11-20 10:59:43.907] [Engine] [info] Mouse moved at: 176.0,372.0
+[2019-11-20 10:59:43.908] [Engine] [info] Mouse moved at: 179.0,370.0
+[2019-11-20 10:59:43.923] [Engine] [info] FPS:57.
+[2019-11-20 10:59:43.925] [Engine] [info] Mouse moved at: 188.0,366.0
+[2019-11-20 10:59:43.940] [Engine] [info] FPS:58.
+[2019-11-20 10:59:43.941] [Engine] [info] Mouse moved at: 204.0,362.0
+[2019-11-20 10:59:43.958] [Engine] [info] FPS:55.
+[2019-11-20 10:59:43.961] [Engine] [info] Mouse moved at: 237.0,357.0
+[2019-11-20 10:59:43.973] [Engine] [info] FPS:67.
+[2019-11-20 10:59:43.975] [Engine] [info] Mouse moved at: 291.0,351.0
+[2019-11-20 10:59:43.991] [Engine] [info] FPS:53.
+[2019-11-20 10:59:43.992] [Engine] [info] Mouse moved at: 344.0,347.0
+[2019-11-20 10:59:44.006] [Engine] [info] FPS:67.
+[2019-11-20 10:59:44.008] [Engine] [info] Mouse moved at: 386.0,340.0
+[2019-11-20 10:59:44.027] [Engine] [info] FPS:48.
+[2019-11-20 10:59:44.027] [Engine] [info] Mouse moved at: 418.0,336.0
+[2019-11-20 10:59:44.028] [Engine] [info] Mouse moved at: 436.0,334.0
+[2019-11-20 10:59:44.039] [Engine] [info] FPS:82.
+[2019-11-20 10:59:44.040] [Engine] [info] Mouse moved at: 454.0,332.0
+[2019-11-20 10:59:44.055] [Engine] [info] FPS:61.
+[2019-11-20 10:59:44.056] [Engine] [info] Mouse moved at: 481.0,332.0
+[2019-11-20 10:59:44.071] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.073] [Engine] [info] Mouse moved at: 505.0,332.0
+[2019-11-20 10:59:44.088] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.089] [Engine] [info] Mouse moved at: 527.0,336.0
+[2019-11-20 10:59:44.105] [Engine] [info] FPS:58.
+[2019-11-20 10:59:44.107] [Engine] [info] Mouse moved at: 544.0,343.0
+[2019-11-20 10:59:44.107] [Engine] [info] Mouse moved at: 551.0,347.0
+[2019-11-20 10:59:44.127] [Engine] [info] FPS:46.
+[2019-11-20 10:59:44.129] [Engine] [info] Mouse moved at: 560.0,356.0
+[2019-11-20 10:59:44.139] [Engine] [info] FPS:80.
+[2019-11-20 10:59:44.141] [Engine] [info] Mouse moved at: 564.0,363.0
+[2019-11-20 10:59:44.156] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.158] [Engine] [info] Mouse moved at: 564.0,364.0
+[2019-11-20 10:59:44.172] [Engine] [info] FPS:62.
+[2019-11-20 10:59:44.173] [Engine] [info] Mouse moved at: 564.0,365.0
+[2019-11-20 10:59:44.189] [Engine] [info] FPS:58.
+[2019-11-20 10:59:44.205] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.223] [Engine] [info] FPS:58.
+[2019-11-20 10:59:44.239] [Engine] [info] FPS:62.
+[2019-11-20 10:59:44.255] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.273] [Engine] [info] FPS:55.
+[2019-11-20 10:59:44.288] [Engine] [info] FPS:65.
+[2019-11-20 10:59:44.306] [Engine] [info] FPS:56.
+[2019-11-20 10:59:44.322] [Engine] [info] FPS:61.
+[2019-11-20 10:59:44.339] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.355] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.373] [Engine] [info] FPS:57.
+[2019-11-20 10:59:44.389] [Engine] [info] FPS:63.
+[2019-11-20 10:59:44.405] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.423] [Engine] [info] FPS:56.
+[2019-11-20 10:59:44.439] [Engine] [info] FPS:61.
+[2019-11-20 10:59:44.441] [Engine] [info] Mouse moved at: 564.0,366.0
+[2019-11-20 10:59:44.456] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.457] [Engine] [info] Mouse moved at: 563.0,367.0
+[2019-11-20 10:59:44.472] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.474] [Engine] [info] Mouse moved at: 567.0,363.0
+[2019-11-20 10:59:44.489] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.490] [Engine] [info] Mouse moved at: 576.0,349.0
+[2019-11-20 10:59:44.492] [Engine] [info] Mouse moved at: 582.0,335.0
+[2019-11-20 10:59:44.506] [Engine] [info] FPS:58.
+[2019-11-20 10:59:44.507] [Engine] [info] Mouse moved at: 588.0,320.0
+[2019-11-20 10:59:44.508] [Engine] [info] Mouse moved at: 597.0,306.0
+[2019-11-20 10:59:44.523] [Engine] [info] FPS:57.
+[2019-11-20 10:59:44.525] [Engine] [info] Mouse moved at: 616.0,276.0
+[2019-11-20 10:59:44.540] [Engine] [info] FPS:61.
+[2019-11-20 10:59:44.541] [Engine] [info] Mouse moved at: 643.0,242.0
+[2019-11-20 10:59:44.556] [Engine] [info] FPS:62.
+[2019-11-20 10:59:44.557] [Engine] [info] Mouse moved at: 682.0,199.0
+[2019-11-20 10:59:44.573] [Engine] [info] FPS:58.
+[2019-11-20 10:59:44.575] [Engine] [info] Mouse moved at: 724.0,150.0
+[2019-11-20 10:59:44.589] [Engine] [info] FPS:63.
+[2019-11-20 10:59:44.590] [Engine] [info] Mouse moved at: 754.0,111.0
+[2019-11-20 10:59:44.605] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.607] [Engine] [info] Mouse moved at: 775.0,81.0
+[2019-11-20 10:59:44.623] [Engine] [info] FPS:56.
+[2019-11-20 10:59:44.624] [Engine] [info] Mouse moved at: 789.0,58.0
+[2019-11-20 10:59:44.639] [Engine] [info] FPS:63.
+[2019-11-20 10:59:44.641] [Engine] [info] Mouse moved at: 798.0,45.0
+[2019-11-20 10:59:44.656] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.672] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.689] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.705] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.723] [Engine] [info] FPS:55.
+[2019-11-20 10:59:44.741] [Engine] [info] FPS:57.
+[2019-11-20 10:59:44.757] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.773] [Engine] [info] FPS:62.
+[2019-11-20 10:59:44.790] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.806] [Engine] [info] FPS:62.
+[2019-11-20 10:59:44.823] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.840] [Engine] [info] FPS:59.
+[2019-11-20 10:59:44.856] [Engine] [info] FPS:61.
+[2019-11-20 10:59:44.877] [Engine] [info] FPS:48.
+[2019-11-20 10:59:44.890] [Engine] [info] FPS:74.
+[2019-11-20 10:59:44.907] [Engine] [info] FPS:60.
+[2019-11-20 10:59:44.924] [Engine] [info] FPS:57.
+[2019-11-20 10:59:44.940] [Engine] [info] FPS:61.
+[2019-11-20 10:59:44.957] [Engine] [info] FPS:58.
+[2019-11-20 10:59:44.973] [Engine] [info] FPS:63.
+[2019-11-20 10:59:44.991] [Engine] [info] FPS:55.
+[2019-11-20 10:59:45.007] [Engine] [info] FPS:62.
+[2019-11-20 10:59:45.023] [Engine] [info] FPS:62.
+[2019-11-20 10:59:45.039] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.056] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.073] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.089] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.106] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.123] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.140] [Engine] [info] FPS:57.
+[2019-11-20 10:59:45.156] [Engine] [info] FPS:62.
+[2019-11-20 10:59:45.174] [Engine] [info] FPS:56.
+[2019-11-20 10:59:45.190] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.207] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.223] [Engine] [info] FPS:62.
+[2019-11-20 10:59:45.239] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.256] [Engine] [info] FPS:61.
+[2019-11-20 10:59:45.273] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.290] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.306] [Engine] [info] FPS:61.
+[2019-11-20 10:59:45.323] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.340] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.357] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.374] [Engine] [info] FPS:56.
+[2019-11-20 10:59:45.389] [Engine] [info] FPS:65.
+[2019-11-20 10:59:45.407] [Engine] [info] FPS:57.
+[2019-11-20 10:59:45.423] [Engine] [info] FPS:62.
+[2019-11-20 10:59:45.440] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.456] [Engine] [info] FPS:62.
+[2019-11-20 10:59:45.474] [Engine] [info] FPS:56.
+[2019-11-20 10:59:45.489] [Engine] [info] FPS:64.
+[2019-11-20 10:59:45.506] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.523] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.539] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.556] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.574] [Engine] [info] FPS:55.
+[2019-11-20 10:59:45.590] [Engine] [info] FPS:63.
+[2019-11-20 10:59:45.606] [Engine] [info] FPS:62.
+[2019-11-20 10:59:45.624] [Engine] [info] FPS:57.
+[2019-11-20 10:59:45.639] [Engine] [info] FPS:63.
+[2019-11-20 10:59:45.656] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.673] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.690] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.707] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.723] [Engine] [info] FPS:61.
+[2019-11-20 10:59:45.740] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.757] [Engine] [info] FPS:57.
+[2019-11-20 10:59:45.775] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.790] [Engine] [info] FPS:65.
+[2019-11-20 10:59:45.808] [Engine] [info] FPS:55.
+[2019-11-20 10:59:45.823] [Engine] [info] FPS:65.
+[2019-11-20 10:59:45.839] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.857] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.873] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.890] [Engine] [info] FPS:58.
+[2019-11-20 10:59:45.907] [Engine] [info] FPS:60.
+[2019-11-20 10:59:45.923] [Engine] [info] FPS:59.
+[2019-11-20 10:59:45.941] [Engine] [info] FPS:56.
+[2019-11-20 10:59:45.958] [Engine] [info] FPS:59.
+[2019-11-20 10:59:46.035] [Engine] [warning] Closing Application
+[2019-11-20 11:02:42.610] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:02:42.615] [Engine] [warning] Log Initialized
+[2019-11-20 11:02:42.615] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:02:42.616] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:02:42.906] [Engine] [warning] Window System Started
+[2019-11-20 11:02:43.913] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:02:43.913] [Engine] [warning] Window Created
+[2019-11-20 11:02:43.914] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:02:43.914] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:02:43.914] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:02:46.968] [Engine] [info] FPS:32894.
+[2019-11-20 11:02:46.982] [Engine] [info] FPS:71.
+[2019-11-20 11:02:46.991] [Engine] [info] FPS:116.
+[2019-11-20 11:02:47.008] [Engine] [info] FPS:60.
+[2019-11-20 11:02:47.024] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.040] [Engine] [info] FPS:63.
+[2019-11-20 11:02:47.057] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.073] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.090] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.106] [Engine] [info] FPS:62.
+[2019-11-20 11:02:47.124] [Engine] [info] FPS:57.
+[2019-11-20 11:02:47.140] [Engine] [info] FPS:60.
+[2019-11-20 11:02:47.158] [Engine] [info] FPS:56.
+[2019-11-20 11:02:47.175] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.192] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.208] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.225] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.241] [Engine] [info] FPS:62.
+[2019-11-20 11:02:47.257] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.273] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.290] [Engine] [info] FPS:57.
+[2019-11-20 11:02:47.307] [Engine] [info] FPS:60.
+[2019-11-20 11:02:47.323] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.340] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.357] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.374] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.391] [Engine] [info] FPS:56.
+[2019-11-20 11:02:47.408] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.424] [Engine] [info] FPS:62.
+[2019-11-20 11:02:47.440] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.457] [Engine] [info] FPS:60.
+[2019-11-20 11:02:47.474] [Engine] [info] FPS:57.
+[2019-11-20 11:02:47.490] [Engine] [info] FPS:62.
+[2019-11-20 11:02:47.507] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.524] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.541] [Engine] [info] FPS:62.
+[2019-11-20 11:02:47.557] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.574] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.590] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.608] [Engine] [info] FPS:56.
+[2019-11-20 11:02:47.624] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.640] [Engine] [info] FPS:62.
+[2019-11-20 11:02:47.658] [Engine] [info] FPS:57.
+[2019-11-20 11:02:47.674] [Engine] [info] FPS:63.
+[2019-11-20 11:02:47.691] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.708] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.724] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.741] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.757] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.774] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.791] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.808] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.824] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.841] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.857] [Engine] [info] FPS:62.
+[2019-11-20 11:02:47.874] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.891] [Engine] [info] FPS:61.
+[2019-11-20 11:02:47.907] [Engine] [info] FPS:60.
+[2019-11-20 11:02:47.924] [Engine] [info] FPS:59.
+[2019-11-20 11:02:47.941] [Engine] [info] FPS:58.
+[2019-11-20 11:02:47.964] [Engine] [info] FPS:43.
+[2019-11-20 11:02:47.983] [Engine] [info] FPS:52.
+[2019-11-20 11:02:47.986] [Engine] [info] Mouse moved at: 251.0,72.0
+[2019-11-20 11:02:47.999] [Engine] [info] FPS:63.
+[2019-11-20 11:02:48.010] [Engine] [info] FPS:92.
+[2019-11-20 11:02:48.026] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.043] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.059] [Engine] [info] FPS:62.
+[2019-11-20 11:02:48.076] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.098] [Engine] [info] FPS:45.
+[2019-11-20 11:02:48.109] [Engine] [info] FPS:89.
+[2019-11-20 11:02:48.127] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.142] [Engine] [info] FPS:63.
+[2019-11-20 11:02:48.159] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.176] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.193] [Engine] [info] FPS:56.
+[2019-11-20 11:02:48.209] [Engine] [info] FPS:63.
+[2019-11-20 11:02:48.231] [Engine] [info] FPS:45.
+[2019-11-20 11:02:48.245] [Engine] [info] FPS:72.
+[2019-11-20 11:02:48.259] [Engine] [info] FPS:68.
+[2019-11-20 11:02:48.277] [Engine] [info] FPS:58.
+[2019-11-20 11:02:48.292] [Engine] [info] FPS:63.
+[2019-11-20 11:02:48.309] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.326] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.342] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.359] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.376] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.392] [Engine] [info] FPS:61.
+[2019-11-20 11:02:48.394] [Engine] [info] Mouse moved at: 252.0,72.0
+[2019-11-20 11:02:48.394] [Engine] [info] Mouse moved at: 254.0,73.0
+[2019-11-20 11:02:48.411] [Engine] [info] FPS:54.
+[2019-11-20 11:02:48.413] [Engine] [info] Mouse moved at: 265.0,77.0
+[2019-11-20 11:02:48.427] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.429] [Engine] [info] Mouse moved at: 283.0,78.0
+[2019-11-20 11:02:48.443] [Engine] [info] FPS:63.
+[2019-11-20 11:02:48.445] [Engine] [info] Mouse moved at: 308.0,78.0
+[2019-11-20 11:02:48.460] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.461] [Engine] [info] Mouse moved at: 341.0,77.0
+[2019-11-20 11:02:48.480] [Engine] [info] FPS:50.
+[2019-11-20 11:02:48.482] [Engine] [info] Mouse moved at: 384.0,75.0
+[2019-11-20 11:02:48.483] [Engine] [info] Mouse moved at: 404.0,72.0
+[2019-11-20 11:02:48.493] [Engine] [info] FPS:77.
+[2019-11-20 11:02:48.494] [Engine] [info] Mouse moved at: 428.0,66.0
+[2019-11-20 11:02:48.509] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.511] [Engine] [info] Mouse moved at: 471.0,56.0
+[2019-11-20 11:02:48.526] [Engine] [info] FPS:61.
+[2019-11-20 11:02:48.527] [Engine] [info] Mouse moved at: 508.0,48.0
+[2019-11-20 11:02:48.543] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.544] [Engine] [info] Mouse moved at: 531.0,40.0
+[2019-11-20 11:02:48.559] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.561] [Engine] [info] Mouse moved at: 551.0,34.0
+[2019-11-20 11:02:48.576] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.578] [Engine] [info] Mouse moved at: 566.0,30.0
+[2019-11-20 11:02:48.578] [Engine] [info] Mouse moved at: 572.0,28.0
+[2019-11-20 11:02:48.593] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.595] [Engine] [info] Mouse moved at: 580.0,25.0
+[2019-11-20 11:02:48.610] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.612] [Engine] [info] Mouse moved at: 586.0,24.0
+[2019-11-20 11:02:48.626] [Engine] [info] FPS:61.
+[2019-11-20 11:02:48.628] [Engine] [info] Mouse moved at: 592.0,24.0
+[2019-11-20 11:02:48.644] [Engine] [info] FPS:58.
+[2019-11-20 11:02:48.645] [Engine] [info] Mouse moved at: 597.0,24.0
+[2019-11-20 11:02:48.660] [Engine] [info] FPS:61.
+[2019-11-20 11:02:48.661] [Engine] [info] Mouse moved at: 605.0,24.0
+[2019-11-20 11:02:48.677] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.679] [Engine] [info] Mouse moved at: 616.0,24.0
+[2019-11-20 11:02:48.693] [Engine] [info] FPS:63.
+[2019-11-20 11:02:48.695] [Engine] [info] Mouse moved at: 627.0,24.0
+[2019-11-20 11:02:48.710] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.711] [Engine] [info] Mouse moved at: 640.0,23.0
+[2019-11-20 11:02:48.727] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.729] [Engine] [info] Mouse moved at: 653.0,21.0
+[2019-11-20 11:02:48.743] [Engine] [info] FPS:63.
+[2019-11-20 11:02:48.745] [Engine] [info] Mouse moved at: 664.0,17.0
+[2019-11-20 11:02:48.759] [Engine] [info] FPS:61.
+[2019-11-20 11:02:48.761] [Engine] [info] Mouse moved at: 672.0,12.0
+[2019-11-20 11:02:48.762] [Engine] [info] Mouse moved at: 677.0,11.0
+[2019-11-20 11:02:48.776] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.777] [Engine] [info] Mouse moved at: 681.0,8.0
+[2019-11-20 11:02:48.793] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.795] [Engine] [info] Mouse moved at: 691.0,2.0
+[2019-11-20 11:02:48.809] [Engine] [info] FPS:62.
+[2019-11-20 11:02:48.827] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.844] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.860] [Engine] [info] FPS:62.
+[2019-11-20 11:02:48.877] [Engine] [info] FPS:59.
+[2019-11-20 11:02:48.893] [Engine] [info] FPS:62.
+[2019-11-20 11:02:48.910] [Engine] [info] FPS:58.
+[2019-11-20 11:02:48.927] [Engine] [info] FPS:61.
+[2019-11-20 11:02:48.943] [Engine] [info] FPS:60.
+[2019-11-20 11:02:48.961] [Engine] [info] FPS:57.
+[2019-11-20 11:02:48.979] [Engine] [info] FPS:53.
+[2019-11-20 11:02:48.994] [Engine] [info] FPS:68.
+[2019-11-20 11:02:49.010] [Engine] [info] FPS:61.
+[2019-11-20 11:02:49.027] [Engine] [info] FPS:60.
+[2019-11-20 11:02:49.043] [Engine] [info] FPS:61.
+[2019-11-20 11:02:49.061] [Engine] [info] FPS:56.
+[2019-11-20 11:02:49.076] [Engine] [info] FPS:63.
+[2019-11-20 11:02:49.094] [Engine] [info] FPS:56.
+[2019-11-20 11:02:49.109] [Engine] [info] FPS:64.
+[2019-11-20 11:02:49.127] [Engine] [info] FPS:58.
+[2019-11-20 11:02:49.143] [Engine] [info] FPS:62.
+[2019-11-20 11:02:49.226] [Engine] [warning] Closing Application
+[2019-11-20 11:04:11.425] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:04:11.433] [Engine] [warning] Log Initialized
+[2019-11-20 11:04:11.433] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:04:11.434] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:04:11.714] [Engine] [warning] Window System Started
+[2019-11-20 11:04:12.729] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:04:12.729] [Engine] [warning] Window Created
+[2019-11-20 11:04:12.730] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:04:12.730] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:04:12.730] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:04:12.753] [Engine] [info] FPS:30487.
+[2019-11-20 11:04:12.756] [Engine] [info] Mouse moved at: 299.0,176.0
+[2019-11-20 11:04:12.776] [Engine] [info] FPS:42.
+[2019-11-20 11:04:12.782] [Engine] [info] FPS:186.
+[2019-11-20 11:04:12.798] [Engine] [info] FPS:60.
+[2019-11-20 11:04:12.817] [Engine] [info] FPS:53.
+[2019-11-20 11:04:12.833] [Engine] [info] FPS:60.
+[2019-11-20 11:04:12.849] [Engine] [info] FPS:64.
+[2019-11-20 11:04:12.865] [Engine] [info] FPS:61.
+[2019-11-20 11:04:12.882] [Engine] [info] FPS:57.
+[2019-11-20 11:04:12.898] [Engine] [info] FPS:65.
+[2019-11-20 11:04:12.915] [Engine] [info] FPS:56.
+[2019-11-20 11:04:12.932] [Engine] [info] FPS:58.
+[2019-11-20 11:04:12.947] [Engine] [info] FPS:67.
+[2019-11-20 11:04:12.964] [Engine] [info] FPS:58.
+[2019-11-20 11:04:12.980] [Engine] [info] FPS:63.
+[2019-11-20 11:04:12.997] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.014] [Engine] [info] FPS:59.
+[2019-11-20 11:04:13.031] [Engine] [info] FPS:59.
+[2019-11-20 11:04:13.048] [Engine] [info] FPS:61.
+[2019-11-20 11:04:13.065] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.082] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.098] [Engine] [info] FPS:63.
+[2019-11-20 11:04:13.115] [Engine] [info] FPS:56.
+[2019-11-20 11:04:13.131] [Engine] [info] FPS:63.
+[2019-11-20 11:04:13.149] [Engine] [info] FPS:56.
+[2019-11-20 11:04:13.165] [Engine] [info] FPS:61.
+[2019-11-20 11:04:13.182] [Engine] [info] FPS:57.
+[2019-11-20 11:04:13.198] [Engine] [info] FPS:62.
+[2019-11-20 11:04:13.215] [Engine] [info] FPS:60.
+[2019-11-20 11:04:13.232] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.249] [Engine] [info] FPS:57.
+[2019-11-20 11:04:13.265] [Engine] [info] FPS:63.
+[2019-11-20 11:04:13.282] [Engine] [info] FPS:59.
+[2019-11-20 11:04:13.299] [Engine] [info] FPS:59.
+[2019-11-20 11:04:13.317] [Engine] [info] FPS:55.
+[2019-11-20 11:04:13.331] [Engine] [info] FPS:68.
+[2019-11-20 11:04:13.348] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.366] [Engine] [info] FPS:57.
+[2019-11-20 11:04:13.381] [Engine] [info] FPS:63.
+[2019-11-20 11:04:13.399] [Engine] [info] FPS:56.
+[2019-11-20 11:04:13.416] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.432] [Engine] [info] FPS:63.
+[2019-11-20 11:04:13.449] [Engine] [info] FPS:57.
+[2019-11-20 11:04:13.464] [Engine] [info] FPS:65.
+[2019-11-20 11:04:13.482] [Engine] [info] FPS:55.
+[2019-11-20 11:04:13.499] [Engine] [info] FPS:62.
+[2019-11-20 11:04:13.515] [Engine] [info] FPS:61.
+[2019-11-20 11:04:13.532] [Engine] [info] FPS:57.
+[2019-11-20 11:04:13.548] [Engine] [info] FPS:63.
+[2019-11-20 11:04:13.565] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.582] [Engine] [info] FPS:59.
+[2019-11-20 11:04:13.599] [Engine] [info] FPS:59.
+[2019-11-20 11:04:13.615] [Engine] [info] FPS:59.
+[2019-11-20 11:04:13.633] [Engine] [info] FPS:57.
+[2019-11-20 11:04:13.635] [Engine] [info] Mouse moved at: 308.0,173.0
+[2019-11-20 11:04:13.651] [Engine] [info] FPS:54.
+[2019-11-20 11:04:13.653] [Engine] [info] Mouse moved at: 317.0,169.0
+[2019-11-20 11:04:13.665] [Engine] [info] FPS:71.
+[2019-11-20 11:04:13.667] [Engine] [info] Mouse moved at: 327.0,165.0
+[2019-11-20 11:04:13.683] [Engine] [info] FPS:56.
+[2019-11-20 11:04:13.685] [Engine] [info] Mouse moved at: 336.0,160.0
+[2019-11-20 11:04:13.699] [Engine] [info] FPS:62.
+[2019-11-20 11:04:13.700] [Engine] [info] Mouse moved at: 344.0,155.0
+[2019-11-20 11:04:13.715] [Engine] [info] FPS:62.
+[2019-11-20 11:04:13.717] [Engine] [info] Mouse moved at: 352.0,151.0
+[2019-11-20 11:04:13.731] [Engine] [info] FPS:61.
+[2019-11-20 11:04:13.732] [Engine] [info] Mouse moved at: 363.0,147.0
+[2019-11-20 11:04:13.749] [Engine] [info] FPS:56.
+[2019-11-20 11:04:13.752] [Engine] [info] Mouse moved at: 374.0,142.0
+[2019-11-20 11:04:13.753] [Engine] [info] Mouse moved at: 384.0,138.0
+[2019-11-20 11:04:13.767] [Engine] [info] FPS:56.
+[2019-11-20 11:04:13.768] [Engine] [info] Mouse moved at: 391.0,135.0
+[2019-11-20 11:04:13.769] [Engine] [info] Mouse moved at: 402.0,131.0
+[2019-11-20 11:04:13.784] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.786] [Engine] [info] Mouse moved at: 412.0,127.0
+[2019-11-20 11:04:13.786] [Engine] [info] Mouse moved at: 424.0,123.0
+[2019-11-20 11:04:13.801] [Engine] [info] FPS:58.
+[2019-11-20 11:04:13.802] [Engine] [info] Mouse moved at: 458.0,115.0
+[2019-11-20 11:04:13.819] [Engine] [info] FPS:54.
+[2019-11-20 11:04:13.820] [Engine] [info] Mouse moved at: 504.0,103.0
+[2019-11-20 11:04:13.834] [Engine] [info] FPS:66.
+[2019-11-20 11:04:13.837] [Engine] [info] Mouse moved at: 551.0,87.0
+[2019-11-20 11:04:13.852] [Engine] [info] FPS:55.
+[2019-11-20 11:04:13.854] [Engine] [info] Mouse moved at: 601.0,70.0
+[2019-11-20 11:04:13.868] [Engine] [info] FPS:63.
+[2019-11-20 11:04:13.870] [Engine] [info] Mouse moved at: 646.0,50.0
+[2019-11-20 11:04:13.889] [Engine] [info] FPS:46.
+[2019-11-20 11:04:13.890] [Engine] [info] Mouse moved at: 706.0,30.0
+[2019-11-20 11:04:13.901] [Engine] [info] FPS:87.
+[2019-11-20 11:04:13.902] [Engine] [info] Mouse moved at: 722.0,23.0
+[2019-11-20 11:04:13.917] [Engine] [info] FPS:61.
+[2019-11-20 11:04:13.919] [Engine] [info] Mouse moved at: 741.0,14.0
+[2019-11-20 11:04:13.934] [Engine] [info] FPS:60.
+[2019-11-20 11:04:13.935] [Engine] [info] Mouse moved at: 758.0,5.0
+[2019-11-20 11:04:13.950] [Engine] [info] FPS:61.
+[2019-11-20 11:04:13.952] [Engine] [info] Mouse moved at: 765.0,0.0
+[2019-11-20 11:04:13.967] [Engine] [info] FPS:56.
+[2019-11-20 11:04:13.983] [Engine] [info] FPS:65.
+[2019-11-20 11:04:13.999] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.018] [Engine] [info] FPS:52.
+[2019-11-20 11:04:14.035] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.052] [Engine] [info] FPS:59.
+[2019-11-20 11:04:14.066] [Engine] [info] FPS:67.
+[2019-11-20 11:04:14.084] [Engine] [info] FPS:57.
+[2019-11-20 11:04:14.100] [Engine] [info] FPS:62.
+[2019-11-20 11:04:14.116] [Engine] [info] FPS:62.
+[2019-11-20 11:04:14.133] [Engine] [info] FPS:58.
+[2019-11-20 11:04:14.149] [Engine] [info] FPS:61.
+[2019-11-20 11:04:14.166] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.183] [Engine] [info] FPS:57.
+[2019-11-20 11:04:14.199] [Engine] [info] FPS:62.
+[2019-11-20 11:04:14.216] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.234] [Engine] [info] FPS:56.
+[2019-11-20 11:04:14.250] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.267] [Engine] [info] FPS:59.
+[2019-11-20 11:04:14.283] [Engine] [info] FPS:65.
+[2019-11-20 11:04:14.301] [Engine] [info] FPS:55.
+[2019-11-20 11:04:14.317] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.333] [Engine] [info] FPS:62.
+[2019-11-20 11:04:14.350] [Engine] [info] FPS:59.
+[2019-11-20 11:04:14.366] [Engine] [info] FPS:61.
+[2019-11-20 11:04:14.383] [Engine] [info] FPS:59.
+[2019-11-20 11:04:14.399] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.416] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.433] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.450] [Engine] [info] FPS:57.
+[2019-11-20 11:04:14.466] [Engine] [info] FPS:62.
+[2019-11-20 11:04:14.483] [Engine] [info] FPS:58.
+[2019-11-20 11:04:14.499] [Engine] [info] FPS:61.
+[2019-11-20 11:04:14.515] [Engine] [info] FPS:61.
+[2019-11-20 11:04:14.533] [Engine] [info] FPS:56.
+[2019-11-20 11:04:14.549] [Engine] [info] FPS:61.
+[2019-11-20 11:04:14.566] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.582] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.599] [Engine] [info] FPS:60.
+[2019-11-20 11:04:14.689] [Engine] [warning] Closing Application
+[2019-11-20 11:07:34.030] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:07:34.036] [Engine] [warning] Log Initialized
+[2019-11-20 11:07:34.036] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:07:34.037] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:07:34.320] [Engine] [warning] Window System Started
+[2019-11-20 11:07:35.335] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:07:35.336] [Engine] [warning] Window Created
+[2019-11-20 11:07:35.336] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:07:35.336] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:07:35.336] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:07:35.354] [Engine] [info] FPS:31446.
+[2019-11-20 11:07:35.356] [Engine] [info] Mouse moved at: 256.0,76.0
+[2019-11-20 11:07:35.378] [Engine] [info] FPS:42.
+[2019-11-20 11:07:35.398] [Engine] [info] FPS:48.
+[2019-11-20 11:07:35.415] [Engine] [info] FPS:59.
+[2019-11-20 11:07:35.433] [Engine] [info] FPS:54.
+[2019-11-20 11:07:35.448] [Engine] [info] FPS:67.
+[2019-11-20 11:07:35.465] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.482] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.498] [Engine] [info] FPS:61.
+[2019-11-20 11:07:35.516] [Engine] [info] FPS:57.
+[2019-11-20 11:07:35.531] [Engine] [info] FPS:63.
+[2019-11-20 11:07:35.549] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.566] [Engine] [info] FPS:56.
+[2019-11-20 11:07:35.583] [Engine] [info] FPS:57.
+[2019-11-20 11:07:35.599] [Engine] [info] FPS:66.
+[2019-11-20 11:07:35.616] [Engine] [info] FPS:57.
+[2019-11-20 11:07:35.633] [Engine] [info] FPS:59.
+[2019-11-20 11:07:35.648] [Engine] [info] FPS:65.
+[2019-11-20 11:07:35.665] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.682] [Engine] [info] FPS:59.
+[2019-11-20 11:07:35.699] [Engine] [info] FPS:56.
+[2019-11-20 11:07:35.716] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.733] [Engine] [info] FPS:60.
+[2019-11-20 11:07:35.749] [Engine] [info] FPS:60.
+[2019-11-20 11:07:35.767] [Engine] [info] FPS:55.
+[2019-11-20 11:07:35.785] [Engine] [info] FPS:55.
+[2019-11-20 11:07:35.799] [Engine] [info] FPS:71.
+[2019-11-20 11:07:35.817] [Engine] [info] FPS:57.
+[2019-11-20 11:07:35.834] [Engine] [info] FPS:57.
+[2019-11-20 11:07:35.849] [Engine] [info] FPS:67.
+[2019-11-20 11:07:35.866] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.883] [Engine] [info] FPS:59.
+[2019-11-20 11:07:35.899] [Engine] [info] FPS:61.
+[2019-11-20 11:07:35.916] [Engine] [info] FPS:59.
+[2019-11-20 11:07:35.932] [Engine] [info] FPS:62.
+[2019-11-20 11:07:35.949] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.966] [Engine] [info] FPS:58.
+[2019-11-20 11:07:35.985] [Engine] [info] FPS:55.
+[2019-11-20 11:07:36.000] [Engine] [info] FPS:64.
+[2019-11-20 11:07:36.018] [Engine] [info] FPS:55.
+[2019-11-20 11:07:36.034] [Engine] [info] FPS:61.
+[2019-11-20 11:07:36.050] [Engine] [info] FPS:63.
+[2019-11-20 11:07:36.066] [Engine] [info] FPS:61.
+[2019-11-20 11:07:36.083] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.099] [Engine] [info] FPS:60.
+[2019-11-20 11:07:36.116] [Engine] [info] FPS:60.
+[2019-11-20 11:07:36.133] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.149] [Engine] [info] FPS:61.
+[2019-11-20 11:07:36.166] [Engine] [info] FPS:57.
+[2019-11-20 11:07:36.183] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.200] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.218] [Engine] [info] FPS:56.
+[2019-11-20 11:07:36.234] [Engine] [info] FPS:61.
+[2019-11-20 11:07:36.249] [Engine] [info] FPS:65.
+[2019-11-20 11:07:36.266] [Engine] [info] FPS:58.
+[2019-11-20 11:07:36.285] [Engine] [info] FPS:54.
+[2019-11-20 11:07:36.300] [Engine] [info] FPS:66.
+[2019-11-20 11:07:36.316] [Engine] [info] FPS:61.
+[2019-11-20 11:07:36.334] [Engine] [info] FPS:56.
+[2019-11-20 11:07:36.349] [Engine] [info] FPS:63.
+[2019-11-20 11:07:36.366] [Engine] [info] FPS:58.
+[2019-11-20 11:07:36.383] [Engine] [info] FPS:61.
+[2019-11-20 11:07:36.400] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.416] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.433] [Engine] [info] FPS:58.
+[2019-11-20 11:07:36.449] [Engine] [info] FPS:63.
+[2019-11-20 11:07:36.466] [Engine] [info] FPS:58.
+[2019-11-20 11:07:36.488] [Engine] [info] FPS:46.
+[2019-11-20 11:07:36.499] [Engine] [info] FPS:84.
+[2019-11-20 11:07:36.516] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.533] [Engine] [info] FPS:61.
+[2019-11-20 11:07:36.550] [Engine] [info] FPS:58.
+[2019-11-20 11:07:36.566] [Engine] [info] FPS:60.
+[2019-11-20 11:07:36.583] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.600] [Engine] [info] FPS:58.
+[2019-11-20 11:07:36.618] [Engine] [info] FPS:56.
+[2019-11-20 11:07:36.633] [Engine] [info] FPS:62.
+[2019-11-20 11:07:36.649] [Engine] [info] FPS:63.
+[2019-11-20 11:07:36.666] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.683] [Engine] [info] FPS:60.
+[2019-11-20 11:07:36.700] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.716] [Engine] [info] FPS:60.
+[2019-11-20 11:07:36.735] [Engine] [info] FPS:54.
+[2019-11-20 11:07:36.750] [Engine] [info] FPS:64.
+[2019-11-20 11:07:36.766] [Engine] [info] FPS:62.
+[2019-11-20 11:07:36.768] [Engine] [info] Mouse moved at: 257.0,77.0
+[2019-11-20 11:07:36.784] [Engine] [info] FPS:55.
+[2019-11-20 11:07:36.800] [Engine] [info] FPS:63.
+[2019-11-20 11:07:36.802] [Engine] [info] Mouse moved at: 257.0,76.0
+[2019-11-20 11:07:36.817] [Engine] [info] FPS:58.
+[2019-11-20 11:07:36.819] [Engine] [info] Mouse moved at: 258.0,72.0
+[2019-11-20 11:07:36.833] [Engine] [info] FPS:63.
+[2019-11-20 11:07:36.835] [Engine] [info] Mouse moved at: 263.0,60.0
+[2019-11-20 11:07:36.850] [Engine] [info] FPS:57.
+[2019-11-20 11:07:36.852] [Engine] [info] Mouse moved at: 269.0,46.0
+[2019-11-20 11:07:36.866] [Engine] [info] FPS:63.
+[2019-11-20 11:07:36.868] [Engine] [info] Mouse moved at: 271.0,32.0
+[2019-11-20 11:07:36.883] [Engine] [info] FPS:57.
+[2019-11-20 11:07:36.886] [Engine] [info] Mouse moved at: 271.0,20.0
+[2019-11-20 11:07:36.886] [Engine] [info] Mouse moved at: 271.0,16.0
+[2019-11-20 11:07:36.900] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.903] [Engine] [info] Mouse moved at: 271.0,11.0
+[2019-11-20 11:07:36.916] [Engine] [info] FPS:62.
+[2019-11-20 11:07:36.919] [Engine] [info] Mouse moved at: 271.0,10.0
+[2019-11-20 11:07:36.920] [Engine] [info] Mouse moved at: 271.0,9.0
+[2019-11-20 11:07:36.933] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.935] [Engine] [info] Mouse moved at: 271.0,8.0
+[2019-11-20 11:07:36.951] [Engine] [info] FPS:55.
+[2019-11-20 11:07:36.968] [Engine] [info] FPS:59.
+[2019-11-20 11:07:36.985] [Engine] [info] FPS:57.
+[2019-11-20 11:07:37.002] [Engine] [info] FPS:60.
+[2019-11-20 11:07:37.017] [Engine] [info] FPS:63.
+[2019-11-20 11:07:37.036] [Engine] [info] FPS:55.
+[2019-11-20 11:07:37.052] [Engine] [info] FPS:62.
+[2019-11-20 11:07:37.068] [Engine] [info] FPS:61.
+[2019-11-20 11:07:37.084] [Engine] [info] FPS:60.
+[2019-11-20 11:07:37.087] [Engine] [info] Mouse moved at: 271.0,6.0
+[2019-11-20 11:07:37.101] [Engine] [info] FPS:60.
+[2019-11-20 11:07:37.102] [Engine] [info] Mouse moved at: 271.0,2.0
+[2019-11-20 11:07:37.118] [Engine] [info] FPS:59.
+[2019-11-20 11:07:37.134] [Engine] [info] FPS:60.
+[2019-11-20 11:07:37.150] [Engine] [info] FPS:61.
+[2019-11-20 11:07:37.167] [Engine] [info] FPS:58.
+[2019-11-20 11:07:37.184] [Engine] [info] FPS:59.
+[2019-11-20 11:07:37.202] [Engine] [info] FPS:56.
+[2019-11-20 11:07:37.219] [Engine] [info] FPS:58.
+[2019-11-20 11:07:37.234] [Engine] [info] FPS:65.
+[2019-11-20 11:07:37.252] [Engine] [info] FPS:56.
+[2019-11-20 11:07:37.269] [Engine] [info] FPS:59.
+[2019-11-20 11:07:37.285] [Engine] [info] FPS:61.
+[2019-11-20 11:07:37.302] [Engine] [info] FPS:59.
+[2019-11-20 11:07:37.318] [Engine] [info] FPS:61.
+[2019-11-20 11:07:37.334] [Engine] [info] FPS:62.
+[2019-11-20 11:07:37.352] [Engine] [info] FPS:57.
+[2019-11-20 11:07:37.367] [Engine] [info] FPS:64.
+[2019-11-20 11:07:37.384] [Engine] [info] FPS:59.
+[2019-11-20 11:07:37.403] [Engine] [info] FPS:52.
+[2019-11-20 11:07:38.200] [Engine] [info] FPS:1.
+[2019-11-20 11:07:38.219] [Engine] [info] FPS:52.
+[2019-11-20 11:07:38.235] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.253] [Engine] [info] FPS:56.
+[2019-11-20 11:07:38.268] [Engine] [info] FPS:66.
+[2019-11-20 11:07:38.284] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.301] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.318] [Engine] [info] FPS:61.
+[2019-11-20 11:07:38.334] [Engine] [info] FPS:61.
+[2019-11-20 11:07:38.351] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.368] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.384] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.401] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.418] [Engine] [info] FPS:57.
+[2019-11-20 11:07:38.435] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.452] [Engine] [info] FPS:57.
+[2019-11-20 11:07:38.468] [Engine] [info] FPS:62.
+[2019-11-20 11:07:38.485] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.501] [Engine] [info] FPS:61.
+[2019-11-20 11:07:38.503] [Engine] [info] Mouse moved at: 256.0,4.0
+[2019-11-20 11:07:38.518] [Engine] [info] FPS:58.
+[2019-11-20 11:07:38.520] [Engine] [info] Mouse moved at: 251.0,12.0
+[2019-11-20 11:07:38.534] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.536] [Engine] [info] Mouse moved at: 247.0,20.0
+[2019-11-20 11:07:38.551] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.553] [Engine] [info] Mouse moved at: 241.0,27.0
+[2019-11-20 11:07:38.568] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.569] [Engine] [info] Mouse moved at: 237.0,31.0
+[2019-11-20 11:07:38.584] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.587] [Engine] [info] Mouse moved at: 232.0,35.0
+[2019-11-20 11:07:38.601] [Engine] [info] FPS:61.
+[2019-11-20 11:07:38.603] [Engine] [info] Mouse moved at: 229.0,37.0
+[2019-11-20 11:07:38.618] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.620] [Engine] [info] Mouse moved at: 226.0,39.0
+[2019-11-20 11:07:38.635] [Engine] [info] FPS:58.
+[2019-11-20 11:07:38.637] [Engine] [info] Mouse moved at: 225.0,40.0
+[2019-11-20 11:07:38.652] [Engine] [info] FPS:57.
+[2019-11-20 11:07:38.654] [Engine] [info] Mouse moved at: 225.0,41.0
+[2019-11-20 11:07:38.668] [Engine] [info] FPS:61.
+[2019-11-20 11:07:38.685] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.701] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.719] [Engine] [info] FPS:58.
+[2019-11-20 11:07:38.720] [Engine] [info] Mouse moved at: 230.0,43.0
+[2019-11-20 11:07:38.735] [Engine] [info] FPS:62.
+[2019-11-20 11:07:38.737] [Engine] [info] Mouse moved at: 244.0,49.0
+[2019-11-20 11:07:38.751] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.754] [Engine] [info] Mouse moved at: 268.0,55.0
+[2019-11-20 11:07:38.768] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.770] [Engine] [info] Mouse moved at: 297.0,61.0
+[2019-11-20 11:07:38.785] [Engine] [info] FPS:61.
+[2019-11-20 11:07:38.786] [Engine] [info] Mouse moved at: 335.0,66.0
+[2019-11-20 11:07:38.801] [Engine] [info] FPS:61.
+[2019-11-20 11:07:38.803] [Engine] [info] Mouse moved at: 370.0,69.0
+[2019-11-20 11:07:38.818] [Engine] [info] FPS:59.
+[2019-11-20 11:07:38.819] [Engine] [info] Mouse moved at: 405.0,73.0
+[2019-11-20 11:07:38.835] [Engine] [info] FPS:58.
+[2019-11-20 11:07:38.837] [Engine] [info] Mouse moved at: 434.0,74.0
+[2019-11-20 11:07:38.838] [Engine] [info] Mouse moved at: 447.0,75.0
+[2019-11-20 11:07:38.852] [Engine] [info] FPS:57.
+[2019-11-20 11:07:38.854] [Engine] [info] Mouse moved at: 468.0,75.0
+[2019-11-20 11:07:38.868] [Engine] [info] FPS:63.
+[2019-11-20 11:07:38.870] [Engine] [info] Mouse moved at: 478.0,75.0
+[2019-11-20 11:07:38.871] [Engine] [info] Mouse moved at: 485.0,75.0
+[2019-11-20 11:07:38.885] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.887] [Engine] [info] Mouse moved at: 498.0,75.0
+[2019-11-20 11:07:38.902] [Engine] [info] FPS:58.
+[2019-11-20 11:07:38.903] [Engine] [info] Mouse moved at: 513.0,71.0
+[2019-11-20 11:07:38.918] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.920] [Engine] [info] Mouse moved at: 526.0,67.0
+[2019-11-20 11:07:38.935] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.938] [Engine] [info] Mouse moved at: 538.0,62.0
+[2019-11-20 11:07:38.952] [Engine] [info] FPS:57.
+[2019-11-20 11:07:38.954] [Engine] [info] Mouse moved at: 551.0,57.0
+[2019-11-20 11:07:38.969] [Engine] [info] FPS:62.
+[2019-11-20 11:07:38.970] [Engine] [info] Mouse moved at: 565.0,52.0
+[2019-11-20 11:07:38.985] [Engine] [info] FPS:60.
+[2019-11-20 11:07:38.987] [Engine] [info] Mouse moved at: 579.0,47.0
+[2019-11-20 11:07:39.002] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.003] [Engine] [info] Mouse moved at: 595.0,42.0
+[2019-11-20 11:07:39.020] [Engine] [info] FPS:54.
+[2019-11-20 11:07:39.021] [Engine] [info] Mouse moved at: 610.0,36.0
+[2019-11-20 11:07:39.022] [Engine] [info] Mouse moved at: 617.0,34.0
+[2019-11-20 11:07:39.036] [Engine] [info] FPS:63.
+[2019-11-20 11:07:39.038] [Engine] [info] Mouse moved at: 626.0,30.0
+[2019-11-20 11:07:39.038] [Engine] [info] Mouse moved at: 633.0,27.0
+[2019-11-20 11:07:39.052] [Engine] [info] FPS:62.
+[2019-11-20 11:07:39.054] [Engine] [info] Mouse moved at: 647.0,22.0
+[2019-11-20 11:07:39.069] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.071] [Engine] [info] Mouse moved at: 661.0,17.0
+[2019-11-20 11:07:39.085] [Engine] [info] FPS:62.
+[2019-11-20 11:07:39.087] [Engine] [info] Mouse moved at: 674.0,14.0
+[2019-11-20 11:07:39.101] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.104] [Engine] [info] Mouse moved at: 685.0,12.0
+[2019-11-20 11:07:39.118] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.121] [Engine] [info] Mouse moved at: 696.0,12.0
+[2019-11-20 11:07:39.135] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.137] [Engine] [info] Mouse moved at: 703.0,11.0
+[2019-11-20 11:07:39.151] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.154] [Engine] [info] Mouse moved at: 710.0,11.0
+[2019-11-20 11:07:39.168] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.170] [Engine] [info] Mouse moved at: 716.0,11.0
+[2019-11-20 11:07:39.185] [Engine] [info] FPS:61.
+[2019-11-20 11:07:39.187] [Engine] [info] Mouse moved at: 720.0,11.0
+[2019-11-20 11:07:39.201] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.203] [Engine] [info] Mouse moved at: 721.0,11.0
+[2019-11-20 11:07:39.219] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.220] [Engine] [info] Mouse moved at: 722.0,10.0
+[2019-11-20 11:07:39.236] [Engine] [info] FPS:57.
+[2019-11-20 11:07:39.253] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.255] [Engine] [info] Mouse moved at: 722.0,9.0
+[2019-11-20 11:07:39.269] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.271] [Engine] [info] Mouse moved at: 722.0,8.0
+[2019-11-20 11:07:39.285] [Engine] [info] FPS:62.
+[2019-11-20 11:07:39.302] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.304] [Engine] [info] Mouse moved at: 723.0,7.0
+[2019-11-20 11:07:39.318] [Engine] [info] FPS:62.
+[2019-11-20 11:07:39.320] [Engine] [info] Mouse moved at: 725.0,6.0
+[2019-11-20 11:07:39.335] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.337] [Engine] [info] Mouse moved at: 729.0,5.0
+[2019-11-20 11:07:39.352] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.353] [Engine] [info] Mouse moved at: 736.0,2.0
+[2019-11-20 11:07:39.368] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.371] [Engine] [info] Mouse moved at: 743.0,1.0
+[2019-11-20 11:07:39.385] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.402] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.419] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.437] [Engine] [info] FPS:54.
+[2019-11-20 11:07:39.454] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.469] [Engine] [info] FPS:67.
+[2019-11-20 11:07:39.486] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.502] [Engine] [info] FPS:61.
+[2019-11-20 11:07:39.519] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.535] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.552] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.568] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.585] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.602] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.619] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.635] [Engine] [info] FPS:60.
+[2019-11-20 11:07:39.652] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.669] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.686] [Engine] [info] FPS:58.
+[2019-11-20 11:07:39.703] [Engine] [info] FPS:59.
+[2019-11-20 11:07:39.719] [Engine] [info] FPS:62.
+[2019-11-20 11:07:39.797] [Engine] [warning] Closing Application
+[2019-11-20 11:08:19.695] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:08:19.701] [Engine] [warning] Log Initialized
+[2019-11-20 11:08:19.701] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:08:19.702] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:08:20.012] [Engine] [warning] Window System Started
+[2019-11-20 11:08:21.039] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:08:21.040] [Engine] [warning] Window Created
+[2019-11-20 11:08:21.040] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:08:21.040] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:08:21.041] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:08:21.061] [Engine] [info] FPS:33112.
+[2019-11-20 11:08:21.063] [Engine] [info] Mouse moved at: 397.0,119.0
+[2019-11-20 11:08:21.088] [Engine] [info] FPS:37.
+[2019-11-20 11:08:21.100] [Engine] [info] FPS:79.
+[2019-11-20 11:08:21.118] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.133] [Engine] [info] FPS:66.
+[2019-11-20 11:08:21.149] [Engine] [info] FPS:61.
+[2019-11-20 11:08:21.167] [Engine] [info] FPS:56.
+[2019-11-20 11:08:21.183] [Engine] [info] FPS:61.
+[2019-11-20 11:08:21.200] [Engine] [info] FPS:60.
+[2019-11-20 11:08:21.218] [Engine] [info] FPS:55.
+[2019-11-20 11:08:21.233] [Engine] [info] FPS:64.
+[2019-11-20 11:08:21.251] [Engine] [info] FPS:56.
+[2019-11-20 11:08:21.267] [Engine] [info] FPS:62.
+[2019-11-20 11:08:21.284] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.300] [Engine] [info] FPS:60.
+[2019-11-20 11:08:21.317] [Engine] [info] FPS:62.
+[2019-11-20 11:08:21.333] [Engine] [info] FPS:60.
+[2019-11-20 11:08:21.350] [Engine] [info] FPS:59.
+[2019-11-20 11:08:21.368] [Engine] [info] FPS:54.
+[2019-11-20 11:08:21.382] [Engine] [info] FPS:68.
+[2019-11-20 11:08:21.401] [Engine] [info] FPS:54.
+[2019-11-20 11:08:21.417] [Engine] [info] FPS:60.
+[2019-11-20 11:08:21.434] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.452] [Engine] [info] FPS:55.
+[2019-11-20 11:08:21.467] [Engine] [info] FPS:69.
+[2019-11-20 11:08:21.485] [Engine] [info] FPS:55.
+[2019-11-20 11:08:21.501] [Engine] [info] FPS:62.
+[2019-11-20 11:08:21.516] [Engine] [info] FPS:64.
+[2019-11-20 11:08:21.534] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.550] [Engine] [info] FPS:62.
+[2019-11-20 11:08:21.567] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.584] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.602] [Engine] [info] FPS:56.
+[2019-11-20 11:08:21.617] [Engine] [info] FPS:66.
+[2019-11-20 11:08:21.634] [Engine] [info] FPS:56.
+[2019-11-20 11:08:21.652] [Engine] [info] FPS:57.
+[2019-11-20 11:08:21.668] [Engine] [info] FPS:63.
+[2019-11-20 11:08:21.685] [Engine] [info] FPS:56.
+[2019-11-20 11:08:21.701] [Engine] [info] FPS:61.
+[2019-11-20 11:08:21.718] [Engine] [info] FPS:60.
+[2019-11-20 11:08:21.734] [Engine] [info] FPS:61.
+[2019-11-20 11:08:21.750] [Engine] [info] FPS:61.
+[2019-11-20 11:08:21.767] [Engine] [info] FPS:61.
+[2019-11-20 11:08:21.784] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.800] [Engine] [info] FPS:60.
+[2019-11-20 11:08:21.817] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.834] [Engine] [info] FPS:61.
+[2019-11-20 11:08:21.852] [Engine] [info] FPS:54.
+[2019-11-20 11:08:21.868] [Engine] [info] FPS:62.
+[2019-11-20 11:08:21.870] [Engine] [info] Mouse moved at: 395.0,119.0
+[2019-11-20 11:08:21.885] [Engine] [info] FPS:58.
+[2019-11-20 11:08:21.887] [Engine] [info] Mouse moved at: 395.0,118.0
+[2019-11-20 11:08:21.900] [Engine] [info] FPS:64.
+[2019-11-20 11:08:21.902] [Engine] [info] Mouse moved at: 394.0,118.0
+[2019-11-20 11:08:21.918] [Engine] [info] FPS:55.
+[2019-11-20 11:08:21.920] [Engine] [info] Mouse moved at: 390.0,116.0
+[2019-11-20 11:08:21.934] [Engine] [info] FPS:62.
+[2019-11-20 11:08:21.937] [Engine] [info] Mouse moved at: 377.0,112.0
+[2019-11-20 11:08:21.938] [Engine] [info] Mouse moved at: 369.0,107.0
+[2019-11-20 11:08:21.951] [Engine] [info] FPS:60.
+[2019-11-20 11:08:21.953] [Engine] [info] Mouse moved at: 361.0,105.0
+[2019-11-20 11:08:21.954] [Engine] [info] Mouse moved at: 350.0,101.0
+[2019-11-20 11:08:21.967] [Engine] [info] FPS:63.
+[2019-11-20 11:08:21.969] [Engine] [info] Mouse moved at: 339.0,96.0
+[2019-11-20 11:08:21.969] [Engine] [info] Mouse moved at: 328.0,92.0
+[2019-11-20 11:08:21.984] [Engine] [info] FPS:57.
+[2019-11-20 11:08:21.986] [Engine] [info] Mouse moved at: 308.0,81.0
+[2019-11-20 11:08:22.000] [Engine] [info] FPS:62.
+[2019-11-20 11:08:22.002] [Engine] [info] Mouse moved at: 292.0,67.0
+[2019-11-20 11:08:22.017] [Engine] [info] FPS:58.
+[2019-11-20 11:08:22.019] [Engine] [info] Mouse moved at: 279.0,47.0
+[2019-11-20 11:08:22.035] [Engine] [info] FPS:57.
+[2019-11-20 11:08:22.036] [Engine] [info] Mouse moved at: 266.0,26.0
+[2019-11-20 11:08:22.051] [Engine] [info] FPS:60.
+[2019-11-20 11:08:22.053] [Engine] [info] Mouse moved at: 256.0,7.0
+[2019-11-20 11:08:22.067] [Engine] [info] FPS:61.
+[2019-11-20 11:08:22.084] [Engine] [info] FPS:60.
+[2019-11-20 11:08:22.101] [Engine] [info] FPS:59.
+[2019-11-20 11:08:22.118] [Engine] [info] FPS:59.
+[2019-11-20 11:08:22.134] [Engine] [info] FPS:61.
+[2019-11-20 11:08:22.151] [Engine] [info] FPS:60.
+[2019-11-20 11:08:22.167] [Engine] [info] FPS:61.
+[2019-11-20 11:08:22.188] [Engine] [info] FPS:46.
+[2019-11-20 11:08:22.200] [Engine] [info] FPS:83.
+[2019-11-20 11:08:22.218] [Engine] [info] FPS:57.
+[2019-11-20 11:08:22.234] [Engine] [info] FPS:61.
+[2019-11-20 11:08:22.251] [Engine] [info] FPS:60.
+[2019-11-20 11:08:22.268] [Engine] [info] FPS:57.
+[2019-11-20 11:08:22.285] [Engine] [info] FPS:57.
+[2019-11-20 11:08:22.302] [Engine] [info] FPS:60.
+[2019-11-20 11:08:22.318] [Engine] [info] FPS:63.
+[2019-11-20 11:08:22.336] [Engine] [info] FPS:55.
+[2019-11-20 11:08:22.700] [Engine] [info] FPS:2.
+[2019-11-20 11:08:22.718] [Engine] [info] FPS:56.
+[2019-11-20 11:08:22.735] [Engine] [info] FPS:58.
+[2019-11-20 11:08:22.752] [Engine] [info] FPS:59.
+[2019-11-20 11:08:22.768] [Engine] [info] FPS:62.
+[2019-11-20 11:08:22.784] [Engine] [info] FPS:61.
+[2019-11-20 11:08:22.801] [Engine] [info] FPS:60.
+[2019-11-20 11:08:22.818] [Engine] [info] FPS:59.
+[2019-11-20 11:08:22.836] [Engine] [info] FPS:54.
+[2019-11-20 11:08:22.852] [Engine] [info] FPS:64.
+[2019-11-20 11:08:22.870] [Engine] [info] FPS:54.
+[2019-11-20 11:08:22.887] [Engine] [info] FPS:59.
+[2019-11-20 11:08:22.902] [Engine] [info] FPS:66.
+[2019-11-20 11:08:22.919] [Engine] [info] FPS:57.
+[2019-11-20 11:08:22.935] [Engine] [info] FPS:62.
+[2019-11-20 11:08:22.951] [Engine] [info] FPS:62.
+[2019-11-20 11:08:22.968] [Engine] [info] FPS:60.
+[2019-11-20 11:08:22.984] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.002] [Engine] [info] FPS:57.
+[2019-11-20 11:08:23.018] [Engine] [info] FPS:61.
+[2019-11-20 11:08:23.034] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.052] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.069] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.085] [Engine] [info] FPS:59.
+[2019-11-20 11:08:23.101] [Engine] [info] FPS:62.
+[2019-11-20 11:08:23.119] [Engine] [info] FPS:57.
+[2019-11-20 11:08:23.135] [Engine] [info] FPS:63.
+[2019-11-20 11:08:23.151] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.168] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.184] [Engine] [info] FPS:62.
+[2019-11-20 11:08:23.202] [Engine] [info] FPS:55.
+[2019-11-20 11:08:23.218] [Engine] [info] FPS:63.
+[2019-11-20 11:08:23.235] [Engine] [info] FPS:59.
+[2019-11-20 11:08:23.251] [Engine] [info] FPS:61.
+[2019-11-20 11:08:23.268] [Engine] [info] FPS:59.
+[2019-11-20 11:08:23.285] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.288] [Engine] [info] Mouse moved at: 594.0,0.0
+[2019-11-20 11:08:23.290] [Engine] [info] Mouse moved at: 606.0,3.0
+[2019-11-20 11:08:23.302] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.305] [Engine] [info] Mouse moved at: 617.0,3.0
+[2019-11-20 11:08:23.305] [Engine] [info] Mouse moved at: 628.0,4.0
+[2019-11-20 11:08:23.318] [Engine] [info] FPS:65.
+[2019-11-20 11:08:23.320] [Engine] [info] Mouse moved at: 637.0,4.0
+[2019-11-20 11:08:23.335] [Engine] [info] FPS:57.
+[2019-11-20 11:08:23.337] [Engine] [info] Mouse moved at: 654.0,5.0
+[2019-11-20 11:08:23.338] [Engine] [info] Mouse moved at: 660.0,5.0
+[2019-11-20 11:08:23.353] [Engine] [info] FPS:55.
+[2019-11-20 11:08:23.354] [Engine] [info] Mouse moved at: 667.0,5.0
+[2019-11-20 11:08:23.368] [Engine] [info] FPS:65.
+[2019-11-20 11:08:23.370] [Engine] [info] Mouse moved at: 671.0,5.0
+[2019-11-20 11:08:23.386] [Engine] [info] FPS:57.
+[2019-11-20 11:08:23.401] [Engine] [info] FPS:63.
+[2019-11-20 11:08:23.418] [Engine] [info] FPS:59.
+[2019-11-20 11:08:23.436] [Engine] [info] FPS:57.
+[2019-11-20 11:08:23.452] [Engine] [info] FPS:62.
+[2019-11-20 11:08:23.468] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.485] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.487] [Engine] [info] Mouse moved at: 670.0,5.0
+[2019-11-20 11:08:23.502] [Engine] [info] FPS:57.
+[2019-11-20 11:08:23.518] [Engine] [info] FPS:62.
+[2019-11-20 11:08:23.521] [Engine] [info] Mouse moved at: 669.0,5.0
+[2019-11-20 11:08:23.535] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.552] [Engine] [info] FPS:61.
+[2019-11-20 11:08:23.554] [Engine] [info] Mouse moved at: 670.0,5.0
+[2019-11-20 11:08:23.555] [Engine] [info] Mouse moved at: 672.0,5.0
+[2019-11-20 11:08:23.568] [Engine] [info] FPS:59.
+[2019-11-20 11:08:23.571] [Engine] [info] Mouse moved at: 680.0,5.0
+[2019-11-20 11:08:23.586] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.587] [Engine] [info] Mouse moved at: 691.0,5.0
+[2019-11-20 11:08:23.602] [Engine] [info] FPS:61.
+[2019-11-20 11:08:23.604] [Engine] [info] Mouse moved at: 704.0,5.0
+[2019-11-20 11:08:23.618] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.620] [Engine] [info] Mouse moved at: 718.0,4.0
+[2019-11-20 11:08:23.635] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.638] [Engine] [info] Mouse moved at: 729.0,3.0
+[2019-11-20 11:08:23.651] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.653] [Engine] [info] Mouse moved at: 738.0,1.0
+[2019-11-20 11:08:23.669] [Engine] [info] FPS:56.
+[2019-11-20 11:08:23.687] [Engine] [info] FPS:55.
+[2019-11-20 11:08:23.703] [Engine] [info] FPS:63.
+[2019-11-20 11:08:23.720] [Engine] [info] FPS:58.
+[2019-11-20 11:08:23.736] [Engine] [info] FPS:63.
+[2019-11-20 11:08:23.752] [Engine] [info] FPS:61.
+[2019-11-20 11:08:23.768] [Engine] [info] FPS:60.
+[2019-11-20 11:08:23.785] [Engine] [info] FPS:59.
+[2019-11-20 11:08:23.802] [Engine] [info] FPS:59.
+[2019-11-20 11:08:23.819] [Engine] [info] FPS:57.
+[2019-11-20 11:08:23.837] [Engine] [info] FPS:56.
+[2019-11-20 11:08:23.852] [Engine] [info] FPS:67.
+[2019-11-20 11:08:23.870] [Engine] [info] FPS:55.
+[2019-11-20 11:08:23.888] [Engine] [info] FPS:55.
+[2019-11-20 11:08:23.904] [Engine] [info] FPS:64.
+[2019-11-20 11:08:23.919] [Engine] [info] FPS:63.
+[2019-11-20 11:08:23.936] [Engine] [info] FPS:61.
+[2019-11-20 11:08:23.954] [Engine] [info] FPS:55.
+[2019-11-20 11:08:23.969] [Engine] [info] FPS:65.
+[2019-11-20 11:08:23.986] [Engine] [info] FPS:58.
+[2019-11-20 11:08:24.002] [Engine] [info] FPS:61.
+[2019-11-20 11:08:24.019] [Engine] [info] FPS:58.
+[2019-11-20 11:08:24.035] [Engine] [info] FPS:61.
+[2019-11-20 11:08:24.052] [Engine] [info] FPS:59.
+[2019-11-20 11:08:24.161] [Engine] [warning] Closing Application
+[2019-11-20 11:09:09.409] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:09:09.415] [Engine] [warning] Log Initialized
+[2019-11-20 11:09:09.415] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:09:09.415] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:09:09.694] [Engine] [warning] Window System Started
+[2019-11-20 11:09:10.695] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:09:10.696] [Engine] [warning] Window Created
+[2019-11-20 11:09:10.696] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:09:10.696] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:09:10.697] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:09:10.714] [Engine] [info] FPS:57142.
+[2019-11-20 11:09:24.463] [Engine] [info] FPS:0.
+[2019-11-20 11:09:24.480] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.497] [Engine] [info] FPS:56.
+[2019-11-20 11:09:24.513] [Engine] [info] FPS:65.
+[2019-11-20 11:09:24.528] [Engine] [info] FPS:65.
+[2019-11-20 11:09:24.545] [Engine] [info] FPS:58.
+[2019-11-20 11:09:24.562] [Engine] [info] FPS:60.
+[2019-11-20 11:09:24.579] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.595] [Engine] [info] FPS:60.
+[2019-11-20 11:09:24.612] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.628] [Engine] [info] FPS:61.
+[2019-11-20 11:09:24.645] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.662] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.679] [Engine] [info] FPS:58.
+[2019-11-20 11:09:24.696] [Engine] [info] FPS:57.
+[2019-11-20 11:09:24.712] [Engine] [info] FPS:64.
+[2019-11-20 11:09:24.729] [Engine] [info] FPS:56.
+[2019-11-20 11:09:24.745] [Engine] [info] FPS:64.
+[2019-11-20 11:09:24.762] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.778] [Engine] [info] FPS:60.
+[2019-11-20 11:09:24.795] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.812] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.830] [Engine] [info] FPS:56.
+[2019-11-20 11:09:24.845] [Engine] [info] FPS:64.
+[2019-11-20 11:09:24.862] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.879] [Engine] [info] FPS:57.
+[2019-11-20 11:09:24.897] [Engine] [info] FPS:56.
+[2019-11-20 11:09:24.913] [Engine] [info] FPS:63.
+[2019-11-20 11:09:24.930] [Engine] [info] FPS:58.
+[2019-11-20 11:09:24.945] [Engine] [info] FPS:65.
+[2019-11-20 11:09:24.962] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.979] [Engine] [info] FPS:59.
+[2019-11-20 11:09:24.995] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.012] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.029] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.045] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.062] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.079] [Engine] [info] FPS:57.
+[2019-11-20 11:09:25.096] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.113] [Engine] [info] FPS:58.
+[2019-11-20 11:09:25.130] [Engine] [info] FPS:62.
+[2019-11-20 11:09:25.146] [Engine] [info] FPS:62.
+[2019-11-20 11:09:25.162] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.179] [Engine] [info] FPS:58.
+[2019-11-20 11:09:25.195] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.212] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.229] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.246] [Engine] [info] FPS:58.
+[2019-11-20 11:09:25.263] [Engine] [info] FPS:58.
+[2019-11-20 11:09:25.279] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.296] [Engine] [info] FPS:58.
+[2019-11-20 11:09:25.314] [Engine] [info] FPS:57.
+[2019-11-20 11:09:25.330] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.346] [Engine] [info] FPS:63.
+[2019-11-20 11:09:25.362] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.379] [Engine] [info] FPS:58.
+[2019-11-20 11:09:25.395] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.412] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.441] [Engine] [info] FPS:34.
+[2019-11-20 11:09:25.452] [Engine] [info] FPS:89.
+[2019-11-20 11:09:25.465] [Engine] [info] FPS:77.
+[2019-11-20 11:09:25.481] [Engine] [info] FPS:63.
+[2019-11-20 11:09:25.499] [Engine] [info] FPS:56.
+[2019-11-20 11:09:25.515] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.533] [Engine] [info] FPS:55.
+[2019-11-20 11:09:25.549] [Engine] [info] FPS:63.
+[2019-11-20 11:09:25.550] [Engine] [info] Mouse moved at: 414.0,12.0
+[2019-11-20 11:09:25.565] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.566] [Engine] [info] Mouse moved at: 427.0,63.0
+[2019-11-20 11:09:25.581] [Engine] [info] FPS:63.
+[2019-11-20 11:09:25.583] [Engine] [info] Mouse moved at: 447.0,146.0
+[2019-11-20 11:09:25.597] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.599] [Engine] [info] Mouse moved at: 466.0,231.0
+[2019-11-20 11:09:25.614] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.615] [Engine] [info] Mouse moved at: 478.0,303.0
+[2019-11-20 11:09:25.630] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.632] [Engine] [info] Mouse moved at: 478.0,349.0
+[2019-11-20 11:09:25.647] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.649] [Engine] [info] Mouse moved at: 478.0,375.0
+[2019-11-20 11:09:25.664] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.666] [Engine] [info] Mouse moved at: 478.0,394.0
+[2019-11-20 11:09:25.680] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.681] [Engine] [info] Mouse moved at: 477.0,404.0
+[2019-11-20 11:09:25.702] [Engine] [info] FPS:46.
+[2019-11-20 11:09:25.705] [Engine] [info] Mouse moved at: 476.0,408.0
+[2019-11-20 11:09:25.714] [Engine] [info] FPS:81.
+[2019-11-20 11:09:25.732] [Engine] [info] FPS:57.
+[2019-11-20 11:09:25.747] [Engine] [info] FPS:63.
+[2019-11-20 11:09:25.764] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.780] [Engine] [info] FPS:61.
+[2019-11-20 11:09:25.782] [Engine] [info] Mouse moved at: 477.0,407.0
+[2019-11-20 11:09:25.797] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.799] [Engine] [info] Mouse moved at: 477.0,406.0
+[2019-11-20 11:09:25.814] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.816] [Engine] [info] Mouse moved at: 478.0,405.0
+[2019-11-20 11:09:25.831] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.832] [Engine] [info] Mouse moved at: 478.0,404.0
+[2019-11-20 11:09:25.847] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.849] [Engine] [info] Mouse moved at: 479.0,403.0
+[2019-11-20 11:09:25.864] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.865] [Engine] [info] Mouse moved at: 480.0,400.0
+[2019-11-20 11:09:25.882] [Engine] [info] FPS:55.
+[2019-11-20 11:09:25.884] [Engine] [info] Mouse moved at: 482.0,397.0
+[2019-11-20 11:09:25.885] [Engine] [info] Mouse moved at: 482.0,394.0
+[2019-11-20 11:09:25.899] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.900] [Engine] [info] Mouse moved at: 483.0,391.0
+[2019-11-20 11:09:25.917] [Engine] [info] FPS:55.
+[2019-11-20 11:09:25.918] [Engine] [info] Mouse moved at: 484.0,389.0
+[2019-11-20 11:09:25.931] [Engine] [info] FPS:67.
+[2019-11-20 11:09:25.933] [Engine] [info] Mouse moved at: 484.0,386.0
+[2019-11-20 11:09:25.949] [Engine] [info] FPS:56.
+[2019-11-20 11:09:25.951] [Engine] [info] Mouse moved at: 486.0,384.0
+[2019-11-20 11:09:25.964] [Engine] [info] FPS:66.
+[2019-11-20 11:09:25.966] [Engine] [info] Mouse moved at: 488.0,380.0
+[2019-11-20 11:09:25.981] [Engine] [info] FPS:60.
+[2019-11-20 11:09:25.982] [Engine] [info] Mouse moved at: 490.0,374.0
+[2019-11-20 11:09:25.998] [Engine] [info] FPS:59.
+[2019-11-20 11:09:25.999] [Engine] [info] Mouse moved at: 493.0,368.0
+[2019-11-20 11:09:26.014] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.015] [Engine] [info] Mouse moved at: 497.0,361.0
+[2019-11-20 11:09:26.031] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.032] [Engine] [info] Mouse moved at: 500.0,354.0
+[2019-11-20 11:09:26.048] [Engine] [info] FPS:58.
+[2019-11-20 11:09:26.049] [Engine] [info] Mouse moved at: 503.0,349.0
+[2019-11-20 11:09:26.064] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.066] [Engine] [info] Mouse moved at: 506.0,343.0
+[2019-11-20 11:09:26.082] [Engine] [info] FPS:55.
+[2019-11-20 11:09:26.083] [Engine] [info] Mouse moved at: 510.0,337.0
+[2019-11-20 11:09:26.085] [Engine] [info] Mouse moved at: 513.0,333.0
+[2019-11-20 11:09:26.099] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.101] [Engine] [info] Mouse moved at: 522.0,323.0
+[2019-11-20 11:09:26.115] [Engine] [info] FPS:63.
+[2019-11-20 11:09:26.116] [Engine] [info] Mouse moved at: 536.0,311.0
+[2019-11-20 11:09:26.133] [Engine] [info] FPS:56.
+[2019-11-20 11:09:26.134] [Engine] [info] Mouse moved at: 551.0,297.0
+[2019-11-20 11:09:26.148] [Engine] [info] FPS:64.
+[2019-11-20 11:09:26.150] [Engine] [info] Mouse moved at: 570.0,279.0
+[2019-11-20 11:09:26.164] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.166] [Engine] [info] Mouse moved at: 592.0,255.0
+[2019-11-20 11:09:26.181] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.182] [Engine] [info] Mouse moved at: 612.0,231.0
+[2019-11-20 11:09:26.199] [Engine] [info] FPS:54.
+[2019-11-20 11:09:26.201] [Engine] [info] Mouse moved at: 634.0,202.0
+[2019-11-20 11:09:26.214] [Engine] [info] FPS:66.
+[2019-11-20 11:09:26.216] [Engine] [info] Mouse moved at: 650.0,175.0
+[2019-11-20 11:09:26.231] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.232] [Engine] [info] Mouse moved at: 664.0,154.0
+[2019-11-20 11:09:26.248] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.249] [Engine] [info] Mouse moved at: 674.0,137.0
+[2019-11-20 11:09:26.264] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.266] [Engine] [info] Mouse moved at: 683.0,122.0
+[2019-11-20 11:09:26.281] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.282] [Engine] [info] Mouse moved at: 688.0,111.0
+[2019-11-20 11:09:26.299] [Engine] [info] FPS:56.
+[2019-11-20 11:09:26.301] [Engine] [info] Mouse moved at: 692.0,103.0
+[2019-11-20 11:09:26.316] [Engine] [info] FPS:58.
+[2019-11-20 11:09:26.317] [Engine] [info] Mouse moved at: 693.0,101.0
+[2019-11-20 11:09:26.332] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.348] [Engine] [info] FPS:64.
+[2019-11-20 11:09:26.350] [Engine] [info] Mouse moved at: 694.0,101.0
+[2019-11-20 11:09:26.364] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.381] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.382] [Engine] [info] Mouse moved at: 694.0,100.0
+[2019-11-20 11:09:26.398] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.415] [Engine] [info] FPS:57.
+[2019-11-20 11:09:26.433] [Engine] [info] FPS:55.
+[2019-11-20 11:09:26.448] [Engine] [info] FPS:65.
+[2019-11-20 11:09:26.450] [Engine] [info] Mouse moved at: 694.0,99.0
+[2019-11-20 11:09:26.464] [Engine] [info] FPS:62.
+[2019-11-20 11:09:26.466] [Engine] [info] Mouse moved at: 695.0,99.0
+[2019-11-20 11:09:26.482] [Engine] [info] FPS:56.
+[2019-11-20 11:09:26.483] [Engine] [info] Mouse moved at: 697.0,97.0
+[2019-11-20 11:09:26.485] [Engine] [info] Mouse moved at: 697.0,95.0
+[2019-11-20 11:09:26.498] [Engine] [info] FPS:62.
+[2019-11-20 11:09:26.499] [Engine] [info] Mouse moved at: 698.0,95.0
+[2019-11-20 11:09:26.500] [Engine] [info] Mouse moved at: 698.0,94.0
+[2019-11-20 11:09:26.516] [Engine] [info] FPS:56.
+[2019-11-20 11:09:26.517] [Engine] [info] Mouse moved at: 701.0,91.0
+[2019-11-20 11:09:26.532] [Engine] [info] FPS:62.
+[2019-11-20 11:09:26.533] [Engine] [info] Mouse moved at: 703.0,87.0
+[2019-11-20 11:09:26.548] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.550] [Engine] [info] Mouse moved at: 706.0,85.0
+[2019-11-20 11:09:26.566] [Engine] [info] FPS:56.
+[2019-11-20 11:09:26.567] [Engine] [info] Mouse moved at: 711.0,83.0
+[2019-11-20 11:09:26.582] [Engine] [info] FPS:62.
+[2019-11-20 11:09:26.583] [Engine] [info] Mouse moved at: 716.0,79.0
+[2019-11-20 11:09:26.598] [Engine] [info] FPS:62.
+[2019-11-20 11:09:26.599] [Engine] [info] Mouse moved at: 724.0,75.0
+[2019-11-20 11:09:26.615] [Engine] [info] FPS:58.
+[2019-11-20 11:09:26.617] [Engine] [info] Mouse moved at: 731.0,72.0
+[2019-11-20 11:09:26.631] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.633] [Engine] [info] Mouse moved at: 737.0,67.0
+[2019-11-20 11:09:26.648] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.650] [Engine] [info] Mouse moved at: 745.0,63.0
+[2019-11-20 11:09:26.665] [Engine] [info] FPS:56.
+[2019-11-20 11:09:26.666] [Engine] [info] Mouse moved at: 751.0,59.0
+[2019-11-20 11:09:26.681] [Engine] [info] FPS:62.
+[2019-11-20 11:09:26.683] [Engine] [info] Mouse moved at: 757.0,55.0
+[2019-11-20 11:09:26.683] [Engine] [info] Mouse moved at: 758.0,53.0
+[2019-11-20 11:09:26.698] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.699] [Engine] [info] Mouse moved at: 760.0,51.0
+[2019-11-20 11:09:26.700] [Engine] [info] Mouse moved at: 761.0,50.0
+[2019-11-20 11:09:26.716] [Engine] [info] FPS:54.
+[2019-11-20 11:09:26.718] [Engine] [info] Mouse moved at: 763.0,47.0
+[2019-11-20 11:09:26.731] [Engine] [info] FPS:66.
+[2019-11-20 11:09:26.733] [Engine] [info] Mouse moved at: 763.0,45.0
+[2019-11-20 11:09:26.748] [Engine] [info] FPS:58.
+[2019-11-20 11:09:26.750] [Engine] [info] Mouse moved at: 764.0,43.0
+[2019-11-20 11:09:26.765] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.766] [Engine] [info] Mouse moved at: 764.0,41.0
+[2019-11-20 11:09:26.781] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.783] [Engine] [info] Mouse moved at: 765.0,40.0
+[2019-11-20 11:09:26.798] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.800] [Engine] [info] Mouse moved at: 765.0,38.0
+[2019-11-20 11:09:26.815] [Engine] [info] FPS:59.
+[2019-11-20 11:09:26.817] [Engine] [info] Mouse moved at: 766.0,36.0
+[2019-11-20 11:09:26.831] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.833] [Engine] [info] Mouse moved at: 766.0,34.0
+[2019-11-20 11:09:26.848] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.850] [Engine] [info] Mouse moved at: 767.0,32.0
+[2019-11-20 11:09:26.865] [Engine] [info] FPS:58.
+[2019-11-20 11:09:26.866] [Engine] [info] Mouse moved at: 767.0,31.0
+[2019-11-20 11:09:26.881] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.898] [Engine] [info] FPS:60.
+[2019-11-20 11:09:26.900] [Engine] [info] Mouse moved at: 768.0,31.0
+[2019-11-20 11:09:26.917] [Engine] [info] FPS:53.
+[2019-11-20 11:09:26.918] [Engine] [info] Mouse moved at: 769.0,30.0
+[2019-11-20 11:09:26.932] [Engine] [info] FPS:65.
+[2019-11-20 11:09:26.948] [Engine] [info] FPS:61.
+[2019-11-20 11:09:26.949] [Engine] [info] Mouse moved at: 770.0,28.0
+[2019-11-20 11:09:26.965] [Engine] [info] FPS:57.
+[2019-11-20 11:09:26.967] [Engine] [info] Mouse moved at: 770.0,27.0
+[2019-11-20 11:09:26.981] [Engine] [info] FPS:62.
+[2019-11-20 11:09:26.982] [Engine] [info] Mouse moved at: 771.0,25.0
+[2019-11-20 11:09:26.998] [Engine] [info] FPS:58.
+[2019-11-20 11:09:27.000] [Engine] [info] Mouse moved at: 772.0,24.0
+[2019-11-20 11:09:27.015] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.016] [Engine] [info] Mouse moved at: 773.0,21.0
+[2019-11-20 11:09:27.032] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.033] [Engine] [info] Mouse moved at: 774.0,19.0
+[2019-11-20 11:09:27.048] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.049] [Engine] [info] Mouse moved at: 775.0,17.0
+[2019-11-20 11:09:27.065] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.067] [Engine] [info] Mouse moved at: 775.0,15.0
+[2019-11-20 11:09:27.081] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.083] [Engine] [info] Mouse moved at: 775.0,14.0
+[2019-11-20 11:09:27.099] [Engine] [info] FPS:57.
+[2019-11-20 11:09:27.100] [Engine] [info] Mouse moved at: 775.0,13.0
+[2019-11-20 11:09:27.116] [Engine] [info] FPS:57.
+[2019-11-20 11:09:27.133] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.150] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.151] [Engine] [info] Mouse moved at: 775.0,12.0
+[2019-11-20 11:09:27.165] [Engine] [info] FPS:65.
+[2019-11-20 11:09:27.167] [Engine] [info] Mouse moved at: 775.0,11.0
+[2019-11-20 11:09:27.182] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.184] [Engine] [info] Mouse moved at: 775.0,10.0
+[2019-11-20 11:09:27.198] [Engine] [info] FPS:61.
+[2019-11-20 11:09:27.200] [Engine] [info] Mouse moved at: 775.0,9.0
+[2019-11-20 11:09:27.215] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.216] [Engine] [info] Mouse moved at: 775.0,7.0
+[2019-11-20 11:09:27.232] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.233] [Engine] [info] Mouse moved at: 775.0,6.0
+[2019-11-20 11:09:27.249] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.250] [Engine] [info] Mouse moved at: 776.0,4.0
+[2019-11-20 11:09:27.265] [Engine] [info] FPS:61.
+[2019-11-20 11:09:27.267] [Engine] [info] Mouse moved at: 776.0,2.0
+[2019-11-20 11:09:27.268] [Engine] [info] Mouse moved at: 776.0,1.0
+[2019-11-20 11:09:27.282] [Engine] [info] FPS:58.
+[2019-11-20 11:09:27.300] [Engine] [info] FPS:55.
+[2019-11-20 11:09:27.317] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.334] [Engine] [info] FPS:58.
+[2019-11-20 11:09:27.350] [Engine] [info] FPS:61.
+[2019-11-20 11:09:27.366] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.383] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.399] [Engine] [info] FPS:64.
+[2019-11-20 11:09:27.416] [Engine] [info] FPS:58.
+[2019-11-20 11:09:27.432] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.449] [Engine] [info] FPS:61.
+[2019-11-20 11:09:27.465] [Engine] [info] FPS:60.
+[2019-11-20 11:09:27.482] [Engine] [info] FPS:59.
+[2019-11-20 11:09:27.595] [Engine] [warning] Closing Application
+[2019-11-20 11:09:40.507] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:09:40.514] [Engine] [warning] Log Initialized
+[2019-11-20 11:09:40.514] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:09:40.515] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:09:40.794] [Engine] [warning] Window System Started
+[2019-11-20 11:09:41.774] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:09:41.774] [Engine] [warning] Window Created
+[2019-11-20 11:09:41.775] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:09:41.775] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:09:41.775] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:09:41.793] [Engine] [info] FPS:89285.
+[2019-11-20 11:09:41.795] [Engine] [info] Mouse moved at: 641.0,362.0
+[2019-11-20 11:09:41.817] [Engine] [info] FPS:41.
+[2019-11-20 11:09:41.828] [Engine] [info] FPS:97.
+[2019-11-20 11:09:41.844] [Engine] [info] FPS:60.
+[2019-11-20 11:09:41.862] [Engine] [info] FPS:56.
+[2019-11-20 11:09:41.878] [Engine] [info] FPS:60.
+[2019-11-20 11:09:41.896] [Engine] [info] FPS:57.
+[2019-11-20 11:09:41.912] [Engine] [info] FPS:59.
+[2019-11-20 11:09:41.927] [Engine] [info] FPS:66.
+[2019-11-20 11:09:41.945] [Engine] [info] FPS:56.
+[2019-11-20 11:09:41.961] [Engine] [info] FPS:64.
+[2019-11-20 11:09:41.977] [Engine] [info] FPS:61.
+[2019-11-20 11:09:41.994] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.010] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.027] [Engine] [info] FPS:59.
+[2019-11-20 11:09:42.044] [Engine] [info] FPS:59.
+[2019-11-20 11:09:42.060] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.078] [Engine] [info] FPS:57.
+[2019-11-20 11:09:42.094] [Engine] [info] FPS:62.
+[2019-11-20 11:09:42.112] [Engine] [info] FPS:54.
+[2019-11-20 11:09:42.128] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.145] [Engine] [info] FPS:59.
+[2019-11-20 11:09:42.161] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.178] [Engine] [info] FPS:60.
+[2019-11-20 11:09:42.194] [Engine] [info] FPS:62.
+[2019-11-20 11:09:42.212] [Engine] [info] FPS:56.
+[2019-11-20 11:09:42.227] [Engine] [info] FPS:63.
+[2019-11-20 11:09:42.246] [Engine] [info] FPS:53.
+[2019-11-20 11:09:42.261] [Engine] [info] FPS:66.
+[2019-11-20 11:09:42.278] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.295] [Engine] [info] FPS:60.
+[2019-11-20 11:09:42.313] [Engine] [info] FPS:56.
+[2019-11-20 11:09:42.328] [Engine] [info] FPS:64.
+[2019-11-20 11:09:42.345] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.361] [Engine] [info] FPS:59.
+[2019-11-20 11:09:42.378] [Engine] [info] FPS:59.
+[2019-11-20 11:09:42.394] [Engine] [info] FPS:62.
+[2019-11-20 11:09:42.413] [Engine] [info] FPS:52.
+[2019-11-20 11:09:42.429] [Engine] [info] FPS:63.
+[2019-11-20 11:09:42.431] [Engine] [info] Mouse moved at: 641.0,363.0
+[2019-11-20 11:09:42.447] [Engine] [info] FPS:57.
+[2019-11-20 11:09:42.448] [Engine] [info] Mouse moved at: 642.0,363.0
+[2019-11-20 11:09:42.461] [Engine] [info] FPS:68.
+[2019-11-20 11:09:42.463] [Engine] [info] Mouse moved at: 643.0,364.0
+[2019-11-20 11:09:42.478] [Engine] [info] FPS:60.
+[2019-11-20 11:09:42.479] [Engine] [info] Mouse moved at: 644.0,364.0
+[2019-11-20 11:09:42.496] [Engine] [info] FPS:54.
+[2019-11-20 11:09:42.498] [Engine] [info] Mouse moved at: 645.0,364.0
+[2019-11-20 11:09:42.512] [Engine] [info] FPS:63.
+[2019-11-20 11:09:42.528] [Engine] [info] FPS:63.
+[2019-11-20 11:09:42.546] [Engine] [info] FPS:55.
+[2019-11-20 11:09:42.548] [Engine] [info] Mouse moved at: 645.0,358.0
+[2019-11-20 11:09:42.561] [Engine] [info] FPS:65.
+[2019-11-20 11:09:42.563] [Engine] [info] Mouse moved at: 645.0,351.0
+[2019-11-20 11:09:42.579] [Engine] [info] FPS:56.
+[2019-11-20 11:09:42.581] [Engine] [info] Mouse moved at: 646.0,342.0
+[2019-11-20 11:09:42.595] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.598] [Engine] [info] Mouse moved at: 647.0,333.0
+[2019-11-20 11:09:42.611] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.613] [Engine] [info] Mouse moved at: 648.0,322.0
+[2019-11-20 11:09:42.629] [Engine] [info] FPS:55.
+[2019-11-20 11:09:42.630] [Engine] [info] Mouse moved at: 650.0,308.0
+[2019-11-20 11:09:42.646] [Engine] [info] FPS:56.
+[2019-11-20 11:09:42.647] [Engine] [info] Mouse moved at: 655.0,290.0
+[2019-11-20 11:09:42.661] [Engine] [info] FPS:67.
+[2019-11-20 11:09:42.663] [Engine] [info] Mouse moved at: 659.0,271.0
+[2019-11-20 11:09:42.678] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.680] [Engine] [info] Mouse moved at: 665.0,250.0
+[2019-11-20 11:09:42.695] [Engine] [info] FPS:59.
+[2019-11-20 11:09:42.697] [Engine] [info] Mouse moved at: 673.0,230.0
+[2019-11-20 11:09:42.712] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.714] [Engine] [info] Mouse moved at: 679.0,209.0
+[2019-11-20 11:09:42.715] [Engine] [info] Mouse moved at: 683.0,198.0
+[2019-11-20 11:09:42.729] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.731] [Engine] [info] Mouse moved at: 689.0,180.0
+[2019-11-20 11:09:42.745] [Engine] [info] FPS:64.
+[2019-11-20 11:09:42.746] [Engine] [info] Mouse moved at: 691.0,170.0
+[2019-11-20 11:09:42.747] [Engine] [info] Mouse moved at: 693.0,163.0
+[2019-11-20 11:09:42.761] [Engine] [info] FPS:59.
+[2019-11-20 11:09:42.763] [Engine] [info] Mouse moved at: 697.0,148.0
+[2019-11-20 11:09:42.778] [Engine] [info] FPS:60.
+[2019-11-20 11:09:42.780] [Engine] [info] Mouse moved at: 700.0,133.0
+[2019-11-20 11:09:42.795] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.797] [Engine] [info] Mouse moved at: 706.0,117.0
+[2019-11-20 11:09:42.811] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.814] [Engine] [info] Mouse moved at: 711.0,103.0
+[2019-11-20 11:09:42.832] [Engine] [info] FPS:47.
+[2019-11-20 11:09:42.833] [Engine] [info] Mouse moved at: 717.0,90.0
+[2019-11-20 11:09:42.845] [Engine] [info] FPS:79.
+[2019-11-20 11:09:42.848] [Engine] [info] Mouse moved at: 724.0,76.0
+[2019-11-20 11:09:42.861] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.864] [Engine] [info] Mouse moved at: 731.0,63.0
+[2019-11-20 11:09:42.880] [Engine] [info] FPS:54.
+[2019-11-20 11:09:42.881] [Engine] [info] Mouse moved at: 739.0,51.0
+[2019-11-20 11:09:42.897] [Engine] [info] FPS:57.
+[2019-11-20 11:09:42.899] [Engine] [info] Mouse moved at: 748.0,38.0
+[2019-11-20 11:09:42.913] [Engine] [info] FPS:63.
+[2019-11-20 11:09:42.915] [Engine] [info] Mouse moved at: 753.0,33.0
+[2019-11-20 11:09:42.929] [Engine] [info] FPS:62.
+[2019-11-20 11:09:42.931] [Engine] [info] Mouse moved at: 757.0,28.0
+[2019-11-20 11:09:42.946] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.948] [Engine] [info] Mouse moved at: 759.0,26.0
+[2019-11-20 11:09:42.961] [Engine] [info] FPS:67.
+[2019-11-20 11:09:42.963] [Engine] [info] Mouse moved at: 761.0,23.0
+[2019-11-20 11:09:42.978] [Engine] [info] FPS:58.
+[2019-11-20 11:09:42.980] [Engine] [info] Mouse moved at: 763.0,21.0
+[2019-11-20 11:09:42.994] [Engine] [info] FPS:61.
+[2019-11-20 11:09:42.996] [Engine] [info] Mouse moved at: 764.0,18.0
+[2019-11-20 11:09:43.011] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.013] [Engine] [info] Mouse moved at: 766.0,15.0
+[2019-11-20 11:09:43.028] [Engine] [info] FPS:60.
+[2019-11-20 11:09:43.030] [Engine] [info] Mouse moved at: 768.0,11.0
+[2019-11-20 11:09:43.045] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.047] [Engine] [info] Mouse moved at: 770.0,6.0
+[2019-11-20 11:09:43.061] [Engine] [info] FPS:60.
+[2019-11-20 11:09:43.063] [Engine] [info] Mouse moved at: 772.0,1.0
+[2019-11-20 11:09:43.078] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.098] [Engine] [info] FPS:50.
+[2019-11-20 11:09:43.112] [Engine] [info] FPS:70.
+[2019-11-20 11:09:43.130] [Engine] [info] FPS:57.
+[2019-11-20 11:09:43.147] [Engine] [info] FPS:57.
+[2019-11-20 11:09:43.163] [Engine] [info] FPS:62.
+[2019-11-20 11:09:43.180] [Engine] [info] FPS:58.
+[2019-11-20 11:09:43.197] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.213] [Engine] [info] FPS:62.
+[2019-11-20 11:09:43.230] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.247] [Engine] [info] FPS:56.
+[2019-11-20 11:09:43.263] [Engine] [info] FPS:62.
+[2019-11-20 11:09:43.280] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.297] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.314] [Engine] [info] FPS:58.
+[2019-11-20 11:09:43.331] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.347] [Engine] [info] FPS:61.
+[2019-11-20 11:09:43.363] [Engine] [info] FPS:65.
+[2019-11-20 11:09:43.381] [Engine] [info] FPS:55.
+[2019-11-20 11:09:43.396] [Engine] [info] FPS:63.
+[2019-11-20 11:09:43.413] [Engine] [info] FPS:58.
+[2019-11-20 11:09:43.429] [Engine] [info] FPS:62.
+[2019-11-20 11:09:43.447] [Engine] [info] FPS:56.
+[2019-11-20 11:09:43.464] [Engine] [info] FPS:60.
+[2019-11-20 11:09:43.480] [Engine] [info] FPS:61.
+[2019-11-20 11:09:43.497] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.514] [Engine] [info] FPS:59.
+[2019-11-20 11:09:43.610] [Engine] [warning] Closing Application
+[2019-11-20 11:10:55.379] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:10:55.386] [Engine] [warning] Log Initialized
+[2019-11-20 11:10:55.386] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:10:55.386] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:10:55.652] [Engine] [warning] Window System Started
+[2019-11-20 11:10:56.655] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:10:56.656] [Engine] [warning] Window Created
+[2019-11-20 11:10:56.656] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:10:56.657] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:10:56.657] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:10:56.670] [Engine] [info] FPS:109890.
+[2019-11-20 11:10:56.673] [Engine] [info] Mouse moved at: 603.0,167.0
+[2019-11-20 11:10:56.694] [Engine] [info] FPS:42.
+[2019-11-20 11:10:56.701] [Engine] [info] FPS:145.
+[2019-11-20 11:10:56.719] [Engine] [info] FPS:55.
+[2019-11-20 11:10:56.735] [Engine] [info] FPS:64.
+[2019-11-20 11:10:56.750] [Engine] [info] FPS:65.
+[2019-11-20 11:10:56.768] [Engine] [info] FPS:56.
+[2019-11-20 11:10:56.783] [Engine] [info] FPS:64.
+[2019-11-20 11:10:56.800] [Engine] [info] FPS:58.
+[2019-11-20 11:10:56.817] [Engine] [info] FPS:59.
+[2019-11-20 11:10:56.833] [Engine] [info] FPS:60.
+[2019-11-20 11:10:56.850] [Engine] [info] FPS:60.
+[2019-11-20 11:10:56.867] [Engine] [info] FPS:59.
+[2019-11-20 11:10:56.885] [Engine] [info] FPS:53.
+[2019-11-20 11:10:56.902] [Engine] [info] FPS:61.
+[2019-11-20 11:10:56.917] [Engine] [info] FPS:63.
+[2019-11-20 11:10:56.935] [Engine] [info] FPS:55.
+[2019-11-20 11:10:56.951] [Engine] [info] FPS:65.
+[2019-11-20 11:10:56.966] [Engine] [info] FPS:63.
+[2019-11-20 11:10:56.985] [Engine] [info] FPS:53.
+[2019-11-20 11:10:57.000] [Engine] [info] FPS:67.
+[2019-11-20 11:10:57.018] [Engine] [info] FPS:56.
+[2019-11-20 11:10:57.034] [Engine] [info] FPS:61.
+[2019-11-20 11:10:57.051] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.068] [Engine] [info] FPS:57.
+[2019-11-20 11:10:57.084] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.101] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.117] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.136] [Engine] [info] FPS:54.
+[2019-11-20 11:10:57.151] [Engine] [info] FPS:67.
+[2019-11-20 11:10:57.167] [Engine] [info] FPS:59.
+[2019-11-20 11:10:57.186] [Engine] [info] FPS:53.
+[2019-11-20 11:10:57.201] [Engine] [info] FPS:68.
+[2019-11-20 11:10:57.218] [Engine] [info] FPS:58.
+[2019-11-20 11:10:57.233] [Engine] [info] FPS:63.
+[2019-11-20 11:10:57.251] [Engine] [info] FPS:55.
+[2019-11-20 11:10:57.267] [Engine] [info] FPS:63.
+[2019-11-20 11:10:57.285] [Engine] [info] FPS:56.
+[2019-11-20 11:10:57.301] [Engine] [info] FPS:62.
+[2019-11-20 11:10:57.318] [Engine] [info] FPS:59.
+[2019-11-20 11:10:57.335] [Engine] [info] FPS:59.
+[2019-11-20 11:10:57.351] [Engine] [info] FPS:61.
+[2019-11-20 11:10:57.369] [Engine] [info] FPS:56.
+[2019-11-20 11:10:57.384] [Engine] [info] FPS:64.
+[2019-11-20 11:10:57.401] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.419] [Engine] [info] FPS:53.
+[2019-11-20 11:10:57.435] [Engine] [info] FPS:64.
+[2019-11-20 11:10:57.451] [Engine] [info] FPS:64.
+[2019-11-20 11:10:57.468] [Engine] [info] FPS:58.
+[2019-11-20 11:10:57.484] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.486] [Engine] [info] Mouse moved at: 603.0,162.0
+[2019-11-20 11:10:57.501] [Engine] [info] FPS:58.
+[2019-11-20 11:10:57.503] [Engine] [info] Mouse moved at: 607.0,149.0
+[2019-11-20 11:10:57.518] [Engine] [info] FPS:59.
+[2019-11-20 11:10:57.520] [Engine] [info] Mouse moved at: 616.0,133.0
+[2019-11-20 11:10:57.534] [Engine] [info] FPS:63.
+[2019-11-20 11:10:57.536] [Engine] [info] Mouse moved at: 626.0,117.0
+[2019-11-20 11:10:57.552] [Engine] [info] FPS:55.
+[2019-11-20 11:10:57.554] [Engine] [info] Mouse moved at: 639.0,105.0
+[2019-11-20 11:10:57.555] [Engine] [info] Mouse moved at: 645.0,100.0
+[2019-11-20 11:10:57.567] [Engine] [info] FPS:65.
+[2019-11-20 11:10:57.569] [Engine] [info] Mouse moved at: 652.0,96.0
+[2019-11-20 11:10:57.585] [Engine] [info] FPS:57.
+[2019-11-20 11:10:57.587] [Engine] [info] Mouse moved at: 667.0,87.0
+[2019-11-20 11:10:57.587] [Engine] [info] Mouse moved at: 674.0,83.0
+[2019-11-20 11:10:57.601] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.603] [Engine] [info] Mouse moved at: 681.0,79.0
+[2019-11-20 11:10:57.605] [Engine] [info] Mouse moved at: 688.0,75.0
+[2019-11-20 11:10:57.617] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.621] [Engine] [info] Mouse moved at: 698.0,68.0
+[2019-11-20 11:10:57.634] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.637] [Engine] [info] Mouse moved at: 705.0,64.0
+[2019-11-20 11:10:57.652] [Engine] [info] FPS:56.
+[2019-11-20 11:10:57.654] [Engine] [info] Mouse moved at: 710.0,58.0
+[2019-11-20 11:10:57.668] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.671] [Engine] [info] Mouse moved at: 714.0,52.0
+[2019-11-20 11:10:57.689] [Engine] [info] FPS:47.
+[2019-11-20 11:10:57.690] [Engine] [info] Mouse moved at: 718.0,48.0
+[2019-11-20 11:10:57.701] [Engine] [info] FPS:86.
+[2019-11-20 11:10:57.702] [Engine] [info] Mouse moved at: 721.0,44.0
+[2019-11-20 11:10:57.718] [Engine] [info] FPS:57.
+[2019-11-20 11:10:57.720] [Engine] [info] Mouse moved at: 725.0,41.0
+[2019-11-20 11:10:57.736] [Engine] [info] FPS:55.
+[2019-11-20 11:10:57.738] [Engine] [info] Mouse moved at: 728.0,39.0
+[2019-11-20 11:10:57.751] [Engine] [info] FPS:66.
+[2019-11-20 11:10:57.754] [Engine] [info] Mouse moved at: 729.0,38.0
+[2019-11-20 11:10:57.768] [Engine] [info] FPS:61.
+[2019-11-20 11:10:57.770] [Engine] [info] Mouse moved at: 729.0,37.0
+[2019-11-20 11:10:57.785] [Engine] [info] FPS:57.
+[2019-11-20 11:10:57.787] [Engine] [info] Mouse moved at: 729.0,36.0
+[2019-11-20 11:10:57.788] [Engine] [info] Mouse moved at: 729.0,35.0
+[2019-11-20 11:10:57.801] [Engine] [info] FPS:63.
+[2019-11-20 11:10:57.817] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.819] [Engine] [info] Mouse moved at: 729.0,32.0
+[2019-11-20 11:10:57.834] [Engine] [info] FPS:59.
+[2019-11-20 11:10:57.837] [Engine] [info] Mouse moved at: 729.0,28.0
+[2019-11-20 11:10:57.851] [Engine] [info] FPS:58.
+[2019-11-20 11:10:57.853] [Engine] [info] Mouse moved at: 729.0,25.0
+[2019-11-20 11:10:57.868] [Engine] [info] FPS:60.
+[2019-11-20 11:10:57.870] [Engine] [info] Mouse moved at: 731.0,21.0
+[2019-11-20 11:10:57.885] [Engine] [info] FPS:58.
+[2019-11-20 11:10:57.888] [Engine] [info] Mouse moved at: 733.0,18.0
+[2019-11-20 11:10:57.904] [Engine] [info] FPS:53.
+[2019-11-20 11:10:57.905] [Engine] [info] Mouse moved at: 736.0,13.0
+[2019-11-20 11:10:57.919] [Engine] [info] FPS:67.
+[2019-11-20 11:10:57.920] [Engine] [info] Mouse moved at: 739.0,9.0
+[2019-11-20 11:10:57.937] [Engine] [info] FPS:54.
+[2019-11-20 11:10:57.939] [Engine] [info] Mouse moved at: 743.0,5.0
+[2019-11-20 11:10:57.940] [Engine] [info] Mouse moved at: 744.0,3.0
+[2019-11-20 11:10:57.952] [Engine] [info] FPS:67.
+[2019-11-20 11:10:57.954] [Engine] [info] Mouse moved at: 746.0,1.0
+[2019-11-20 11:10:57.969] [Engine] [info] FPS:59.
+[2019-11-20 11:10:57.985] [Engine] [info] FPS:62.
+[2019-11-20 11:10:58.001] [Engine] [info] FPS:60.
+[2019-11-20 11:10:58.018] [Engine] [info] FPS:59.
+[2019-11-20 11:10:58.035] [Engine] [info] FPS:60.
+[2019-11-20 11:10:58.051] [Engine] [info] FPS:59.
+[2019-11-20 11:10:58.068] [Engine] [info] FPS:60.
+[2019-11-20 11:10:58.085] [Engine] [info] FPS:59.
+[2019-11-20 11:10:58.101] [Engine] [info] FPS:59.
+[2019-11-20 11:10:58.121] [Engine] [info] FPS:51.
+[2019-11-20 11:10:58.135] [Engine] [info] FPS:70.
+[2019-11-20 11:10:58.152] [Engine] [info] FPS:57.
+[2019-11-20 11:10:58.169] [Engine] [info] FPS:60.
+[2019-11-20 11:10:58.186] [Engine] [info] FPS:57.
+[2019-11-20 11:10:58.202] [Engine] [info] FPS:64.
+[2019-11-20 11:10:58.218] [Engine] [info] FPS:61.
+[2019-11-20 11:10:58.234] [Engine] [info] FPS:62.
+[2019-11-20 11:10:58.251] [Engine] [info] FPS:58.
+[2019-11-20 11:10:58.268] [Engine] [info] FPS:58.
+[2019-11-20 11:10:58.285] [Engine] [info] FPS:61.
+[2019-11-20 11:10:58.355] [Engine] [warning] Closing Application
+[2019-11-20 11:11:41.480] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2019-11-20 11:11:41.487] [Engine] [warning] Log Initialized
+[2019-11-20 11:11:41.488] [Engine] [warning] Frame Counter Started
+[2019-11-20 11:11:41.488] [Engine] [warning] GLFW Window System Started
+[2019-11-20 11:11:41.768] [Engine] [warning] Window System Started
+[2019-11-20 11:11:42.772] [Engine] [warning] GLAD Loaded
+[2019-11-20 11:11:42.773] [Engine] [warning] Window Created
+[2019-11-20 11:11:42.773] [Engine] [warning] Window Event Callback Set
+[2019-11-20 11:11:42.773] [Engine] [warning] Z-Buffer Enabled
+[2019-11-20 11:11:42.773] [Engine] [warning] CCW Enabled (Backface culling)
+[2019-11-20 11:11:42.792] [Engine] [info] FPS:67567.
+[2019-11-20 11:11:42.794] [Engine] [info] Mouse moved at: 439.0,108.0
+[2019-11-20 11:11:42.808] [Engine] [info] FPS:63.
+[2019-11-20 11:11:42.822] [Engine] [info] FPS:70.
+[2019-11-20 11:11:42.836] [Engine] [info] FPS:74.
+[2019-11-20 11:11:42.853] [Engine] [info] FPS:58.
+[2019-11-20 11:11:42.869] [Engine] [info] FPS:60.
+[2019-11-20 11:11:42.887] [Engine] [info] FPS:56.
+[2019-11-20 11:11:42.903] [Engine] [info] FPS:63.
+[2019-11-20 11:11:42.919] [Engine] [info] FPS:61.
+[2019-11-20 11:11:42.935] [Engine] [info] FPS:61.
+[2019-11-20 11:11:42.952] [Engine] [info] FPS:61.
+[2019-11-20 11:11:42.968] [Engine] [info] FPS:61.
+[2019-11-20 11:11:42.985] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.002] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.019] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.035] [Engine] [info] FPS:62.
+[2019-11-20 11:11:43.052] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.070] [Engine] [info] FPS:56.
+[2019-11-20 11:11:43.086] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.102] [Engine] [info] FPS:61.
+[2019-11-20 11:11:43.120] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.136] [Engine] [info] FPS:61.
+[2019-11-20 11:11:43.153] [Engine] [info] FPS:57.
+[2019-11-20 11:11:43.169] [Engine] [info] FPS:62.
+[2019-11-20 11:11:43.185] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.202] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.219] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.236] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.252] [Engine] [info] FPS:63.
+[2019-11-20 11:11:43.269] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.285] [Engine] [info] FPS:61.
+[2019-11-20 11:11:43.302] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.319] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.336] [Engine] [info] FPS:57.
+[2019-11-20 11:11:43.353] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.368] [Engine] [info] FPS:65.
+[2019-11-20 11:11:43.385] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.387] [Engine] [info] Mouse moved at: 450.0,105.0
+[2019-11-20 11:11:43.405] [Engine] [info] FPS:50.
+[2019-11-20 11:11:43.406] [Engine] [info] Mouse moved at: 481.0,101.0
+[2019-11-20 11:11:43.407] [Engine] [info] Mouse moved at: 491.0,100.0
+[2019-11-20 11:11:43.419] [Engine] [info] FPS:72.
+[2019-11-20 11:11:43.421] [Engine] [info] Mouse moved at: 501.0,99.0
+[2019-11-20 11:11:43.435] [Engine] [info] FPS:61.
+[2019-11-20 11:11:43.437] [Engine] [info] Mouse moved at: 519.0,94.0
+[2019-11-20 11:11:43.452] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.455] [Engine] [info] Mouse moved at: 544.0,89.0
+[2019-11-20 11:11:43.456] [Engine] [info] Mouse moved at: 564.0,86.0
+[2019-11-20 11:11:43.469] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.470] [Engine] [info] Mouse moved at: 587.0,83.0
+[2019-11-20 11:11:43.471] [Engine] [info] Mouse moved at: 605.0,82.0
+[2019-11-20 11:11:43.485] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.488] [Engine] [info] Mouse moved at: 636.0,81.0
+[2019-11-20 11:11:43.502] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.505] [Engine] [info] Mouse moved at: 663.0,81.0
+[2019-11-20 11:11:43.519] [Engine] [info] FPS:56.
+[2019-11-20 11:11:43.521] [Engine] [info] Mouse moved at: 687.0,79.0
+[2019-11-20 11:11:43.537] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.538] [Engine] [info] Mouse moved at: 707.0,72.0
+[2019-11-20 11:11:43.552] [Engine] [info] FPS:63.
+[2019-11-20 11:11:43.556] [Engine] [info] Mouse moved at: 722.0,65.0
+[2019-11-20 11:11:43.569] [Engine] [info] FPS:58.
+[2019-11-20 11:11:43.571] [Engine] [info] Mouse moved at: 730.0,58.0
+[2019-11-20 11:11:43.584] [Engine] [info] FPS:67.
+[2019-11-20 11:11:43.586] [Engine] [info] Mouse moved at: 734.0,53.0
+[2019-11-20 11:11:43.603] [Engine] [info] FPS:53.
+[2019-11-20 11:11:43.605] [Engine] [info] Mouse moved at: 735.0,48.0
+[2019-11-20 11:11:43.619] [Engine] [info] FPS:62.
+[2019-11-20 11:11:43.622] [Engine] [info] Mouse moved at: 735.0,46.0
+[2019-11-20 11:11:43.623] [Engine] [info] Mouse moved at: 735.0,45.0
+[2019-11-20 11:11:43.636] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.638] [Engine] [info] Mouse moved at: 735.0,44.0
+[2019-11-20 11:11:43.652] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.654] [Engine] [info] Mouse moved at: 732.0,42.0
+[2019-11-20 11:11:43.655] [Engine] [info] Mouse moved at: 731.0,40.0
+[2019-11-20 11:11:43.669] [Engine] [info] FPS:57.
+[2019-11-20 11:11:43.672] [Engine] [info] Mouse moved at: 727.0,38.0
+[2019-11-20 11:11:43.685] [Engine] [info] FPS:63.
+[2019-11-20 11:11:43.688] [Engine] [info] Mouse moved at: 726.0,37.0
+[2019-11-20 11:11:43.688] [Engine] [info] Mouse moved at: 725.0,36.0
+[2019-11-20 11:11:43.702] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.704] [Engine] [info] Mouse moved at: 724.0,34.0
+[2019-11-20 11:11:43.719] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.721] [Engine] [info] Mouse moved at: 723.0,31.0
+[2019-11-20 11:11:43.737] [Engine] [info] FPS:56.
+[2019-11-20 11:11:43.738] [Engine] [info] Mouse moved at: 723.0,29.0
+[2019-11-20 11:11:43.752] [Engine] [info] FPS:63.
+[2019-11-20 11:11:43.755] [Engine] [info] Mouse moved at: 723.0,26.0
+[2019-11-20 11:11:43.770] [Engine] [info] FPS:56.
+[2019-11-20 11:11:43.771] [Engine] [info] Mouse moved at: 726.0,23.0
+[2019-11-20 11:11:43.786] [Engine] [info] FPS:63.
+[2019-11-20 11:11:43.787] [Engine] [info] Mouse moved at: 730.0,20.0
+[2019-11-20 11:11:43.807] [Engine] [info] FPS:47.
+[2019-11-20 11:11:43.807] [Engine] [info] Mouse moved at: 737.0,17.0
+[2019-11-20 11:11:43.820] [Engine] [info] FPS:77.
+[2019-11-20 11:11:43.821] [Engine] [info] Mouse moved at: 741.0,16.0
+[2019-11-20 11:11:43.835] [Engine] [info] FPS:62.
+[2019-11-20 11:11:43.838] [Engine] [info] Mouse moved at: 747.0,14.0
+[2019-11-20 11:11:43.839] [Engine] [info] Mouse moved at: 751.0,13.0
+[2019-11-20 11:11:43.852] [Engine] [info] FPS:61.
+[2019-11-20 11:11:43.853] [Engine] [info] Mouse moved at: 753.0,13.0
+[2019-11-20 11:11:43.869] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.871] [Engine] [info] Mouse moved at: 758.0,13.0
+[2019-11-20 11:11:43.872] [Engine] [info] Mouse moved at: 761.0,13.0
+[2019-11-20 11:11:43.885] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.888] [Engine] [info] Mouse moved at: 764.0,13.0
+[2019-11-20 11:11:43.902] [Engine] [info] FPS:59.
+[2019-11-20 11:11:43.904] [Engine] [info] Mouse moved at: 767.0,13.0
+[2019-11-20 11:11:43.921] [Engine] [info] FPS:55.
+[2019-11-20 11:11:43.923] [Engine] [info] Mouse moved at: 768.0,12.0
+[2019-11-20 11:11:43.937] [Engine] [info] FPS:60.
+[2019-11-20 11:11:43.939] [Engine] [info] Mouse moved at: 769.0,11.0
+[2019-11-20 11:11:43.952] [Engine] [info] FPS:64.
+[2019-11-20 11:11:43.954] [Engine] [info] Mouse moved at: 771.0,10.0
+[2019-11-20 11:11:43.970] [Engine] [info] FPS:56.
+[2019-11-20 11:11:43.972] [Engine] [info] Mouse moved at: 772.0,9.0
+[2019-11-20 11:11:43.985] [Engine] [info] FPS:64.
+[2019-11-20 11:11:43.987] [Engine] [info] Mouse moved at: 772.0,8.0
+[2019-11-20 11:11:44.002] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.005] [Engine] [info] Mouse moved at: 773.0,7.0
+[2019-11-20 11:11:44.019] [Engine] [info] FPS:59.
+[2019-11-20 11:11:44.021] [Engine] [info] Mouse moved at: 773.0,5.0
+[2019-11-20 11:11:44.022] [Engine] [info] Mouse moved at: 774.0,4.0
+[2019-11-20 11:11:44.036] [Engine] [info] FPS:56.
+[2019-11-20 11:11:44.053] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.056] [Engine] [info] Mouse moved at: 774.0,3.0
+[2019-11-20 11:11:44.056] [Engine] [info] Mouse moved at: 774.0,2.0
+[2019-11-20 11:11:44.069] [Engine] [info] FPS:62.
+[2019-11-20 11:11:44.085] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.088] [Engine] [info] Mouse moved at: 774.0,1.0
+[2019-11-20 11:11:44.103] [Engine] [info] FPS:57.
+[2019-11-20 11:11:44.119] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.121] [Engine] [info] Mouse moved at: 774.0,0.0
+[2019-11-20 11:11:44.138] [Engine] [info] FPS:54.
+[2019-11-20 11:11:44.153] [Engine] [info] FPS:63.
+[2019-11-20 11:11:44.170] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.187] [Engine] [info] FPS:58.
+[2019-11-20 11:11:44.203] [Engine] [info] FPS:62.
+[2019-11-20 11:11:44.219] [Engine] [info] FPS:59.
+[2019-11-20 11:11:44.236] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.254] [Engine] [info] FPS:54.
+[2019-11-20 11:11:44.269] [Engine] [info] FPS:66.
+[2019-11-20 11:11:44.286] [Engine] [info] FPS:59.
+[2019-11-20 11:11:44.304] [Engine] [info] FPS:55.
+[2019-11-20 11:11:44.321] [Engine] [info] FPS:57.
+[2019-11-20 11:11:44.338] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.353] [Engine] [info] FPS:65.
+[2019-11-20 11:11:44.370] [Engine] [info] FPS:58.
+[2019-11-20 11:11:44.387] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.403] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.419] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.436] [Engine] [info] FPS:59.
+[2019-11-20 11:11:44.453] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.470] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.486] [Engine] [info] FPS:59.
+[2019-11-20 11:11:44.504] [Engine] [info] FPS:55.
+[2019-11-20 11:11:44.519] [Engine] [info] FPS:66.
+[2019-11-20 11:11:44.537] [Engine] [info] FPS:55.
+[2019-11-20 11:11:44.553] [Engine] [info] FPS:64.
+[2019-11-20 11:11:44.570] [Engine] [info] FPS:56.
+[2019-11-20 11:11:44.586] [Engine] [info] FPS:64.
+[2019-11-20 11:11:44.602] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.620] [Engine] [info] FPS:58.
+[2019-11-20 11:11:44.636] [Engine] [info] FPS:59.
+[2019-11-20 11:11:44.653] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.669] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.686] [Engine] [info] FPS:58.
+[2019-11-20 11:11:44.703] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.720] [Engine] [info] FPS:58.
+[2019-11-20 11:11:44.737] [Engine] [info] FPS:58.
+[2019-11-20 11:11:44.753] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.771] [Engine] [info] FPS:55.
+[2019-11-20 11:11:44.786] [Engine] [info] FPS:65.
+[2019-11-20 11:11:44.802] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.820] [Engine] [info] FPS:56.
+[2019-11-20 11:11:44.836] [Engine] [info] FPS:62.
+[2019-11-20 11:11:44.853] [Engine] [info] FPS:60.
+[2019-11-20 11:11:44.869] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.888] [Engine] [info] FPS:54.
+[2019-11-20 11:11:44.903] [Engine] [info] FPS:66.
+[2019-11-20 11:11:44.920] [Engine] [info] FPS:58.
+[2019-11-20 11:11:44.939] [Engine] [info] FPS:52.
+[2019-11-20 11:11:44.954] [Engine] [info] FPS:64.
+[2019-11-20 11:11:44.970] [Engine] [info] FPS:61.
+[2019-11-20 11:11:44.986] [Engine] [info] FPS:62.
+[2019-11-20 11:11:45.003] [Engine] [info] FPS:60.
+[2019-11-20 11:11:45.021] [Engine] [info] FPS:56.
+[2019-11-20 11:11:45.037] [Engine] [info] FPS:62.
+[2019-11-20 11:11:45.053] [Engine] [info] FPS:60.
+[2019-11-20 11:11:45.070] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.088] [Engine] [info] FPS:54.
+[2019-11-20 11:11:45.103] [Engine] [info] FPS:66.
+[2019-11-20 11:11:45.121] [Engine] [info] FPS:56.
+[2019-11-20 11:11:45.137] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.154] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.171] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.186] [Engine] [info] FPS:63.
+[2019-11-20 11:11:45.204] [Engine] [info] FPS:57.
+[2019-11-20 11:11:45.220] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.236] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.254] [Engine] [info] FPS:55.
+[2019-11-20 11:11:45.270] [Engine] [info] FPS:63.
+[2019-11-20 11:11:45.287] [Engine] [info] FPS:60.
+[2019-11-20 11:11:45.303] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.323] [Engine] [info] FPS:50.
+[2019-11-20 11:11:45.338] [Engine] [info] FPS:67.
+[2019-11-20 11:11:45.355] [Engine] [info] FPS:58.
+[2019-11-20 11:11:45.371] [Engine] [info] FPS:62.
+[2019-11-20 11:11:45.387] [Engine] [info] FPS:64.
+[2019-11-20 11:11:45.404] [Engine] [info] FPS:56.
+[2019-11-20 11:11:45.420] [Engine] [info] FPS:62.
+[2019-11-20 11:11:45.437] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.453] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.470] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.487] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.504] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.520] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.539] [Engine] [info] FPS:53.
+[2019-11-20 11:11:45.555] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.570] [Engine] [info] FPS:65.
+[2019-11-20 11:11:45.588] [Engine] [info] FPS:56.
+[2019-11-20 11:11:45.605] [Engine] [info] FPS:56.
+[2019-11-20 11:11:45.620] [Engine] [info] FPS:68.
+[2019-11-20 11:11:45.637] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.654] [Engine] [info] FPS:57.
+[2019-11-20 11:11:45.670] [Engine] [info] FPS:62.
+[2019-11-20 11:11:45.687] [Engine] [info] FPS:58.
+[2019-11-20 11:11:45.704] [Engine] [info] FPS:60.
+[2019-11-20 11:11:45.721] [Engine] [info] FPS:58.
+[2019-11-20 11:11:45.739] [Engine] [info] FPS:55.
+[2019-11-20 11:11:45.755] [Engine] [info] FPS:60.
+[2019-11-20 11:11:45.771] [Engine] [info] FPS:63.
+[2019-11-20 11:11:45.789] [Engine] [info] FPS:57.
+[2019-11-20 11:11:45.805] [Engine] [info] FPS:60.
+[2019-11-20 11:11:45.821] [Engine] [info] FPS:61.
+[2019-11-20 11:11:45.837] [Engine] [info] FPS:64.
+[2019-11-20 11:11:45.854] [Engine] [info] FPS:56.
+[2019-11-20 11:11:45.870] [Engine] [info] FPS:62.
+[2019-11-20 11:11:45.888] [Engine] [info] FPS:57.
+[2019-11-20 11:11:45.904] [Engine] [info] FPS:62.
+[2019-11-20 11:11:45.920] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.937] [Engine] [info] FPS:59.
+[2019-11-20 11:11:45.954] [Engine] [info] FPS:58.
+[2019-11-20 11:11:45.970] [Engine] [info] FPS:63.
+[2019-11-20 11:11:45.988] [Engine] [info] FPS:57.
+[2019-11-20 11:11:46.004] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.021] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.037] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.054] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.071] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.087] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.104] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.122] [Engine] [info] FPS:54.
+[2019-11-20 11:11:46.137] [Engine] [info] FPS:65.
+[2019-11-20 11:11:46.156] [Engine] [info] FPS:54.
+[2019-11-20 11:11:46.171] [Engine] [info] FPS:65.
+[2019-11-20 11:11:46.188] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.205] [Engine] [info] FPS:56.
+[2019-11-20 11:11:46.221] [Engine] [info] FPS:63.
+[2019-11-20 11:11:46.239] [Engine] [info] FPS:56.
+[2019-11-20 11:11:46.254] [Engine] [info] FPS:64.
+[2019-11-20 11:11:46.271] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.288] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.304] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.321] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.338] [Engine] [info] FPS:57.
+[2019-11-20 11:11:46.354] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.372] [Engine] [info] FPS:57.
+[2019-11-20 11:11:46.389] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.405] [Engine] [info] FPS:62.
+[2019-11-20 11:11:46.421] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.437] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.455] [Engine] [info] FPS:57.
+[2019-11-20 11:11:46.471] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.487] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.504] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.521] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.539] [Engine] [info] FPS:54.
+[2019-11-20 11:11:46.556] [Engine] [info] FPS:57.
+[2019-11-20 11:11:46.572] [Engine] [info] FPS:63.
+[2019-11-20 11:11:46.588] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.605] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.621] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.638] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.654] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.671] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.688] [Engine] [info] FPS:58.
+[2019-11-20 11:11:46.704] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.721] [Engine] [info] FPS:59.
+[2019-11-20 11:11:46.738] [Engine] [info] FPS:58.
+[2019-11-20 11:11:46.755] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.772] [Engine] [info] FPS:58.
+[2019-11-20 11:11:46.789] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.805] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.822] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.838] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.856] [Engine] [info] FPS:56.
+[2019-11-20 11:11:46.871] [Engine] [info] FPS:64.
+[2019-11-20 11:11:46.888] [Engine] [info] FPS:57.
+[2019-11-20 11:11:46.904] [Engine] [info] FPS:61.
+[2019-11-20 11:11:46.921] [Engine] [info] FPS:60.
+[2019-11-20 11:11:46.938] [Engine] [info] FPS:58.
+[2019-11-20 11:11:46.956] [Engine] [info] FPS:55.
+[2019-11-20 11:11:46.972] [Engine] [info] FPS:63.
+[2019-11-20 11:11:46.988] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.005] [Engine] [info] FPS:56.
+[2019-11-20 11:11:47.021] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.038] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.055] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.071] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.088] [Engine] [info] FPS:58.
+[2019-11-20 11:11:47.104] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.122] [Engine] [info] FPS:56.
+[2019-11-20 11:11:47.138] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.155] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.171] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.189] [Engine] [info] FPS:58.
+[2019-11-20 11:11:47.206] [Engine] [info] FPS:58.
+[2019-11-20 11:11:47.222] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.238] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.256] [Engine] [info] FPS:56.
+[2019-11-20 11:11:47.272] [Engine] [info] FPS:63.
+[2019-11-20 11:11:47.288] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.304] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.321] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.338] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.355] [Engine] [info] FPS:57.
+[2019-11-20 11:11:47.372] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.388] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.406] [Engine] [info] FPS:56.
+[2019-11-20 11:11:47.421] [Engine] [info] FPS:63.
+[2019-11-20 11:11:47.438] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.455] [Engine] [info] FPS:58.
+[2019-11-20 11:11:47.471] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.488] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.505] [Engine] [info] FPS:58.
+[2019-11-20 11:11:47.522] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.538] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.557] [Engine] [info] FPS:53.
+[2019-11-20 11:11:47.573] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.590] [Engine] [info] FPS:57.
+[2019-11-20 11:11:47.606] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.622] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.639] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.655] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.672] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.689] [Engine] [info] FPS:58.
+[2019-11-20 11:11:47.705] [Engine] [info] FPS:62.
+[2019-11-20 11:11:47.722] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.738] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.755] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.775] [Engine] [info] FPS:51.
+[2019-11-20 11:11:47.789] [Engine] [info] FPS:68.
+[2019-11-20 11:11:47.806] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.822] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.838] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.855] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.873] [Engine] [info] FPS:54.
+[2019-11-20 11:11:47.890] [Engine] [info] FPS:61.
+[2019-11-20 11:11:47.906] [Engine] [info] FPS:63.
+[2019-11-20 11:11:47.922] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.939] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.955] [Engine] [info] FPS:60.
+[2019-11-20 11:11:47.972] [Engine] [info] FPS:59.
+[2019-11-20 11:11:47.989] [Engine] [info] FPS:58.
+[2019-11-20 11:11:48.007] [Engine] [info] FPS:58.
+[2019-11-20 11:11:48.022] [Engine] [info] FPS:63.
+[2019-11-20 11:11:48.039] [Engine] [info] FPS:60.
+[2019-11-20 11:11:48.055] [Engine] [info] FPS:60.
+[2019-11-20 11:11:48.072] [Engine] [info] FPS:58.
+[2019-11-20 11:11:48.089] [Engine] [info] FPS:60.
+[2019-11-20 11:11:48.107] [Engine] [info] FPS:55.
+[2019-11-20 11:11:48.122] [Engine] [info] FPS:66.
+[2019-11-20 11:11:48.139] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.155] [Engine] [info] FPS:60.
+[2019-11-20 11:11:48.172] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.190] [Engine] [info] FPS:56.
+[2019-11-20 11:11:48.207] [Engine] [info] FPS:58.
+[2019-11-20 11:11:48.222] [Engine] [info] FPS:66.
+[2019-11-20 11:11:48.240] [Engine] [info] FPS:56.
+[2019-11-20 11:11:48.255] [Engine] [info] FPS:63.
+[2019-11-20 11:11:48.273] [Engine] [info] FPS:58.
+[2019-11-20 11:11:48.288] [Engine] [info] FPS:62.
+[2019-11-20 11:11:48.307] [Engine] [info] FPS:55.
+[2019-11-20 11:11:48.322] [Engine] [info] FPS:64.
+[2019-11-20 11:11:48.339] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.356] [Engine] [info] FPS:57.
+[2019-11-20 11:11:48.373] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.389] [Engine] [info] FPS:61.
+[2019-11-20 11:11:48.407] [Engine] [info] FPS:56.
+[2019-11-20 11:11:48.423] [Engine] [info] FPS:62.
+[2019-11-20 11:11:48.439] [Engine] [info] FPS:62.
+[2019-11-20 11:11:48.456] [Engine] [info] FPS:57.
+[2019-11-20 11:11:48.472] [Engine] [info] FPS:62.
+[2019-11-20 11:11:48.490] [Engine] [info] FPS:58.
+[2019-11-20 11:11:48.506] [Engine] [info] FPS:62.
+[2019-11-20 11:11:48.523] [Engine] [info] FPS:58.
+[2019-11-20 11:11:48.539] [Engine] [info] FPS:61.
+[2019-11-20 11:11:48.556] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.574] [Engine] [info] FPS:55.
+[2019-11-20 11:11:48.590] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.606] [Engine] [info] FPS:62.
+[2019-11-20 11:11:48.623] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.640] [Engine] [info] FPS:60.
+[2019-11-20 11:11:48.656] [Engine] [info] FPS:63.
+[2019-11-20 11:11:48.672] [Engine] [info] FPS:59.
+[2019-11-20 11:11:48.774] [Engine] [warning] Closing Application

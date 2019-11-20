@@ -269,7 +269,7 @@ namespace Engine {
 
 		m_TPShader.reset(Shader::create("assets/shaders/texturedPhong.glsl"));
 
-		
+		/*
 		std::string TPvertSrc = R"(
 				#version 440 core
 			
@@ -471,9 +471,10 @@ namespace Engine {
 			// End of code to make the cube move.
 
 			glm::mat4 fcMVP = projection * view * FCmodel;
-			glUseProgram(m_FCprogram);
+			//glUseProgram(m_FCprogram);
+			m_FCShader->bind();
 			m_vertexArrayFC->bind();
-			GLuint MVPLoc = glGetUniformLocation(m_FCprogram, "u_MVP");
+			GLuint MVPLoc = glGetUniformLocation(m_FCShader->id(), "u_MVP");
 			glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &fcMVP[0][0]);
 			glDrawElements(GL_TRIANGLES, 3 * 12, GL_UNSIGNED_INT, nullptr);
 
@@ -482,28 +483,29 @@ namespace Engine {
 			if (m_goingUp) texSlot = m_textureSlots[0];
 			else texSlot = m_textureSlots[1];
 
-			glUseProgram(m_TPprogram);
+			//glUseProgram(m_TPprogram);
+			m_TPShader->bind();
 			m_vertexArrayTP->bind();
 
-			MVPLoc = glGetUniformLocation(m_TPprogram, "u_MVP");
+			MVPLoc = glGetUniformLocation(m_TPShader->id(), "u_MVP");
 			glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &tpMVP[0][0]);
 
-			GLuint modelLoc = glGetUniformLocation(m_TPprogram, "u_model");
+			GLuint modelLoc = glGetUniformLocation(m_TPShader->id(), "u_model");
 			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, &TPmodel[0][0]);
 
-			GLuint colLoc = glGetUniformLocation(m_TPprogram, "u_objectColour");
+			GLuint colLoc = glGetUniformLocation(m_TPShader->id(), "u_objectColour");
 			glUniform3f(colLoc, 0.2f, 0.8f, 0.5f);
 
-			GLuint lightColLoc = glGetUniformLocation(m_TPprogram, "u_lightColour");
+			GLuint lightColLoc = glGetUniformLocation(m_TPShader->id(), "u_lightColour");
 			glUniform3f(lightColLoc, 1.0f, 1.0f, 1.0f);
 
-			GLuint lightPosLoc = glGetUniformLocation(m_TPprogram, "u_lightPos");
+			GLuint lightPosLoc = glGetUniformLocation(m_TPShader->id(), "u_lightPos");
 			glUniform3f(lightPosLoc, 1.0f, 4.0f, -6.0f);
 
-			GLuint viewPosLoc = glGetUniformLocation(m_TPprogram, "u_viewPos");
+			GLuint viewPosLoc = glGetUniformLocation(m_TPShader->id(), "u_viewPos");
 			glUniform3f(viewPosLoc, 0.0f, 0.0f, -4.5f);
 
-			GLuint texDataLoc = glGetUniformLocation(m_TPprogram, "u_texData");
+			GLuint texDataLoc = glGetUniformLocation(m_TPShader->id(), "u_texData");
 			glUniform1i(texDataLoc, texSlot);
 
 			glDrawElements(GL_TRIANGLES, 3 * 12, GL_UNSIGNED_INT, nullptr);
