@@ -87,9 +87,9 @@ namespace Engine {
 			glGetProgramInfoLog(program, maxLength, &maxLength, &infoLog[0]);
 			LOG_ERROR("Shader program linking error: {0}", std::string(infoLog.begin(), infoLog.end()));
 
-			glDeleteProgram(program);
-			glDeleteShader(vertShader);
-			glDeleteShader(fragShader);
+			//glDeleteProgram(program);
+			//glDeleteShader(vertShader);
+			//glDeleteShader(fragShader);
 
 			return;
 		}
@@ -201,19 +201,24 @@ namespace Engine {
 
 	OpenGLShader::~OpenGLShader()
 	{
+		glDeleteProgram(program);
+		glDeleteShader(vertShader);
+		glDeleteShader(fragShader);
 	}
 
 	unsigned int OpenGLShader::id()
 	{
-		return 0;
+		return program;
 	}
 
 	void OpenGLShader::bind()
 	{
+		glUseProgram(program);
 	}
 
 	void OpenGLShader::unbind()
 	{
+		glUseProgram(0);
 	}
 
 	bool OpenGLShader::uploadData(const std::string & name, void * data)

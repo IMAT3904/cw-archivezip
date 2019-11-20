@@ -77,8 +77,8 @@ namespace Engine {
 	OpenGLIndexBuffer::OpenGLIndexBuffer(unsigned int * indicies, unsigned int count) : m_count(count)
 	{
 		glCreateBuffers(1, &m_objID);
-		glBindBuffer(GL_ARRAY_BUFFER, m_objID);
-		glBufferData(GL_ARRAY_BUFFER, count, indicies, GL_STATIC_DRAW);
+		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_objID);
+		glBufferData(GL_ELEMENT_ARRAY_BUFFER, count * sizeof(unsigned int), indicies, GL_STATIC_DRAW);
 	}
 
 	OpenGLIndexBuffer::~OpenGLIndexBuffer()
