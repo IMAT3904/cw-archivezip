@@ -25,10 +25,8 @@ namespace Engine {
 		unsigned int id() override;
 		void bind() override;
 		void unbind() override;
-		bool uploadData(const std::string& name, void * data) override;
-		bool uploadData(const UniformLayout& uniforms) override;
-		BufferLayout getBufferLayout() const override;
-		UniformLayout getUniformLayout() const override;
+
+		void uploadMat4(const std::string& name, glm::mat4* data);
 
 
 	private:

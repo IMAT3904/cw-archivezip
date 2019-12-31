@@ -87,9 +87,9 @@ namespace Engine {
 			glGetProgramInfoLog(program, maxLength, &maxLength, &infoLog[0]);
 			LOG_ERROR("Shader program linking error: {0}", std::string(infoLog.begin(), infoLog.end()));
 
-			//glDeleteProgram(program);
-			//glDeleteShader(vertShader);
-			//glDeleteShader(fragShader);
+			glDeleteProgram(program);
+			glDeleteShader(vertShader);
+			glDeleteShader(fragShader);
 
 			return;
 		}
@@ -221,24 +221,7 @@ namespace Engine {
 		glUseProgram(0);
 	}
 
-	bool OpenGLShader::uploadData(const std::string & name, void * data)
-	{
-		return false;
-	}
+	
 
-	bool OpenGLShader::uploadData(const UniformLayout & uniforms)
-	{
-		return false;
-	}
-
-	BufferLayout OpenGLShader::getBufferLayout() const
-	{
-		return BufferLayout();
-	}
-
-	UniformLayout OpenGLShader::getUniformLayout() const
-	{
-		return UniformLayout();
-	}
 
 }
