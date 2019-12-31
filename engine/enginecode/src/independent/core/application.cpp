@@ -112,20 +112,6 @@ namespace Engine {
 			{ShaderDataType::Float3}
 		};
 
-		m_vertexArrayFC.reset(VertexArray::create());
-		m_vertexArrayFC->bind();
-		std::shared_ptr<VertexBuffer> m_vertexBufferFC(VertexBuffer::create(FCvertices, sizeof(FCvertices)));
-		m_vertexBufferFC->setLayout(FCLayout);
-		m_vertexArrayFC->setVertexBuffer(m_vertexBufferFC);
-		std::shared_ptr<IndexBuffer> m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
-		m_vertexArrayFC->setIndexBuffer(m_indexBufferFC);
-		m_FCShader.reset(Shader::create("assets/shaders/flatColour.glsl"));
-
-
-
-#pragma region TempSetup
-		
-	
 		float TPvertices[8 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.f, 0.f, -1.f, 0.33f, 0.5f,
 			 0.5f, -0.5f, -0.5f, 0.f, 0.f, -1.f, 0.f, 0.5f,
@@ -159,6 +145,19 @@ namespace Engine {
 			{ShaderDataType::Float2}
 		};
 
+		m_vertexArrayFC.reset(VertexArray::create());
+		m_vertexArrayFC->bind();
+		std::shared_ptr<VertexBuffer> m_vertexBufferFC(VertexBuffer::create(FCvertices, sizeof(FCvertices)));
+		m_vertexBufferFC->setLayout(FCLayout);
+		m_vertexArrayFC->setVertexBuffer(m_vertexBufferFC);
+		std::shared_ptr<IndexBuffer> m_indexBufferFC(IndexBuffer::create(indices, sizeof(indices)));
+		m_vertexArrayFC->setIndexBuffer(m_indexBufferFC);
+
+		m_FCShader.reset(Shader::create("assets/shaders/flatColour.glsl"));
+		m_FCTex->createFromFile("assets/textures/letterCube.png");
+
+		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
+
 		m_vertexArrayTP.reset(VertexArray::create());
 		m_vertexArrayTP->bind();
 		std::shared_ptr<VertexBuffer>m_vertexBufferTP(VertexBuffer::create(TPvertices, sizeof(TPvertices)));
@@ -166,17 +165,14 @@ namespace Engine {
 		std::shared_ptr<IndexBuffer>m_indexBufferTP(IndexBuffer::create(indices, sizeof(indices)));
 		m_vertexArrayTP->setVertexBuffer(m_vertexBufferTP);
 		m_vertexArrayTP->setIndexBuffer(m_indexBufferTP);
-		m_TPShader.reset(Shader::create("assets/shaders/texturedPhong.glsl"));
 
-		m_FCTex->createFromFile("assets/textures/letterCube.png");
+
+		m_TPShader.reset(Shader::create("assets/shaders/texturedPhong.glsl"));
 		m_TPTex->createFromFile("assets/textures/numberCube.png");
 
-		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
 		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
 
 		// End temporary code
-
-#pragma endregion TempSetup
 
 		m_timer->frameDuration(); //reset our timer
 	}
@@ -199,11 +195,10 @@ namespace Engine {
 			frameDuration = m_timer->frameDuration();				//calculate frame duration
 			fpsControl += frameDuration;
 
-			LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
-
+			//print fps to console every second
 			if (fpsControl > 1.f)
 			{
-				
+				LOG_INFO("FPS:{0}.", (int)(1.0f / frameDuration));	//convert into and show fps
 				fpsControl = 0.f;
 			}
 
@@ -246,18 +241,20 @@ namespace Engine {
 			TPmodel = glm::rotate(TPtranslation, glm::radians(-20.f) * frameDuration, glm::vec3(0.f, 1.f, 0.f)); // Spin the cube at 20 degrees per second
 			
 
-			// End of code to make the cube move.
+			// Flat Cube
 
 			glm::mat4 fcMVP = projection * view * FCmodel;
-
 			m_FCShader->bind();
 			m_vertexArrayFC->bind();
-			
-			GLuint MVPLoc = glGetUniformLocation(m_FCShader->id(), "u_MVP");
-			glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &fcMVP[0][0]);
 
-			glDrawElements(GL_TRIANGLES, 3 * 12, GL_UNSIGNED_INT, nullptr);
+			//GLuint MVPLoc = glGetUniformLocation(m_FCShader->id(), "u_MVP");
+			//glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &fcMVP[0][0]);
+			m_FCShader->uploadData("u_MVP", (void *)&fcMVP[0][0]);
 
+
+			glDrawElements(GL_TRIANGLES, m_vertexArrayFC->getIndexBuffer()->getCount(), GL_UNSIGNED_INT, nullptr);
+
+			// Textured Phong
 			glm::mat4 tpMVP = projection * view * TPmodel;
 			unsigned int texSlot;
 			if (m_goingUp) texSlot = m_textureSlots[0];
@@ -266,30 +263,40 @@ namespace Engine {
 			m_TPShader->bind();
 			m_vertexArrayTP->bind();
 
-			MVPLoc = glGetUniformLocation(m_TPShader->id(), "u_MVP");
-			glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &tpMVP[0][0]);
+			//MVPLoc = glGetUniformLocation(m_TPShader->id(), "u_MVP");
+			//glUniformMatrix4fv(MVPLoc, 1, GL_FALSE, &tpMVP[0][0]);
+			m_TPShader->uploadData("u_MVP", (void *)&tpMVP[0][0]);
 
-			GLuint modelLoc = glGetUniformLocation(m_TPShader->id(), "u_model");
-			glUniformMatrix4fv(modelLoc, 1, GL_FALSE, &TPmodel[0][0]);
+			//GLuint modelLoc = glGetUniformLocation(m_TPShader->id(), "u_model");
+			//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, &TPmodel[0][0]);
+			m_TPShader->uploadData("u_model", (void *)&TPmodel[0][0]);
 
-			GLuint colLoc = glGetUniformLocation(m_TPShader->id(), "u_objectColour");
-			glUniform3f(colLoc, 0.2f, 0.8f, 0.5f);
+			glm::vec3 m_objectColour = glm::vec3(0.2f, 0.8f, 0.5f);
+			glm::vec3 m_lightColour = glm::vec3(1.0f, 1.0f, 1.0f);
+			glm::vec3 m_lightPosition = glm::vec3(1.0f, 4.0f, -6.0f);
+			glm::vec3 m_viewPosition = glm::vec3(0.0f, 0.0f, -4.5f);
 
-			GLuint lightColLoc = glGetUniformLocation(m_TPShader->id(), "u_lightColour");
-			glUniform3f(lightColLoc, 1.0f, 1.0f, 1.0f);
+			//GLuint colLoc = glGetUniformLocation(m_TPShader->id(), "u_objectColour");
+			//glUniform3f(colLoc, 0.2f, 0.8f, 0.5f);
+			m_TPShader->uploadData("u_objectColour", (void *)&m_objectColour[0]);
 
-			GLuint lightPosLoc = glGetUniformLocation(m_TPShader->id(), "u_lightPos");
-			glUniform3f(lightPosLoc, 1.0f, 4.0f, -6.0f);
+			//GLuint lightColLoc = glGetUniformLocation(m_TPShader->id(), "u_lightColour");
+			//glUniform3f(lightColLoc, 1.0f, 1.0f, 1.0f);
+			m_TPShader->uploadData("u_lightColour", (void *)&m_lightColour[0]);
 
-			GLuint viewPosLoc = glGetUniformLocation(m_TPShader->id(), "u_viewPos");
-			glUniform3f(viewPosLoc, 0.0f, 0.0f, -4.5f);
+			//GLuint lightPosLoc = glGetUniformLocation(m_TPShader->id(), "u_lightPos");
+			//glUniform3f(lightPosLoc, 1.0f, 4.0f, -6.0f);
+			m_TPShader->uploadData("u_lightPos", (void *)&m_lightPosition[0]);
 
-			GLuint texDataLoc = glGetUniformLocation(m_TPShader->id(), "u_texData");
-			glUniform1i(texDataLoc, texSlot);
+			//GLuint viewPosLoc = glGetUniformLocation(m_TPShader->id(), "u_viewPos");
+			//glUniform3f(viewPosLoc, 0.0f, 0.0f, -4.5f);
+			m_TPShader->uploadData("m_viewPosition", (void *)&m_viewPosition[0]);
 
-			glDrawElements(GL_TRIANGLES, 3 * 12, GL_UNSIGNED_INT, nullptr);
+			//GLuint texDataLoc = glGetUniformLocation(m_TPShader->id(), "u_texData");
+			//glUniform1i(texDataLoc, texSlot);
+			m_TPShader->uploadData("u_texData", (void *)&texSlot);
 
-			// End temporary code
+			glDrawElements(GL_TRIANGLES, m_vertexArrayTP->getIndexBuffer()->getCount(), GL_UNSIGNED_INT, nullptr);
 #pragma endregion TempDrawCode
 
 			m_window->onUpdate();									//frame
