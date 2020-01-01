@@ -15,7 +15,7 @@ namespace Engine {
 		enum { NONE = -1, VERTEX = 0, FRAGMENT = 1, GEOMETRY = 2 } region;
 		if (!handle.is_open()) LOG_FATAL("Could not open shader file '{0}'", filepath);
 
-		std::string line, src[2];
+		std::string line, code[2], type, name;
 
 		while (getline(handle, line))
 		{
@@ -24,13 +24,22 @@ namespace Engine {
 			if (line.find("#region Geometry") != std::string::npos) { region = NONE; continue; }
 			if (line.find("#region Tessalation") != std::string::npos) { region = NONE; continue; }
 
-			if (region != NONE) src[region] += (line + "\n");
+			if (region != NONE) code[region] += (line + "\n");
+
+			if (line._Starts_with("uniform"))
+			{
+				std::string uniformLine = line.substr(line.find(" ") + 1);
+				type = uniformLine.substr(0, uniformLine.find(" "));
+				name = uniformLine.substr(uniformLine.find(" ") + 1);
+				name = name.substr(0, name.find(";"));
+
+				glLayout[name] = type;
+			}
 		}
-		handle.close();
 
 		vertShader = glCreateShader(GL_VERTEX_SHADER);
 
-		const GLchar* source = src[VERTEX].c_str();
+		const GLchar* source = code[VERTEX].c_str();
 		glShaderSource(vertShader, 1, &source, 0);
 		glCompileShader(vertShader);
 
@@ -51,7 +60,7 @@ namespace Engine {
 
 		fragShader = glCreateShader(GL_FRAGMENT_SHADER);
 
-		source = src[FRAGMENT].c_str();
+		source = code[FRAGMENT].c_str();
 		glShaderSource(fragShader, 1, &source, 0);
 		glCompileShader(fragShader);
 
@@ -104,13 +113,22 @@ namespace Engine {
 	{
 		std::fstream handleVert(vertexFilepath, std::ios::in);
 		if (!handleVert.is_open()) LOG_FATAL("Could not open vertex shader file '{0}'", vertexFilepath);
-		std::string line, filesource;
+		std::string line, filesource, type, name;
 
 		bool found = false;
 		while (getline(handleVert, line))
 		{
 			if (line.find("#region Vertex") != std::string::npos) { found = true; continue; }
 			if (found) filesource += (line + "\n");
+			if (line._Starts_with("uniform"))
+			{
+				std::string uniformLine = line.substr(line.find(" ") + 1);
+				type = uniformLine.substr(0, uniformLine.find(" "));
+				name = uniformLine.substr(uniformLine.find(" ") + 1);
+				name = name.substr(0, name.find(";"));
+
+				glLayout[name] = type;
+			}
 		}
 		handleVert.close();
 
@@ -221,68 +239,66 @@ namespace Engine {
 		glUseProgram(0);
 	}
 
-	bool OpenGLShader::uploadData(const std::string & name, void * data)
+	void OpenGLShader::uploadData(const std::string & name, void * data)
 	{
+		GLuint loc = glGetUniformLocation(id(), name.c_str());
+		DispatchUniformUpload(GLSLStrToSDT(glLayout[name]), loc, data);
+		uniformLayout[name] = data;
+
+	}
+
+
+
+	void OpenGLShader::DispatchUniformUpload(ShaderDataType type, GLuint location, void * data)
+	{
+		const float * addrf;
+		const int * addri;
+		GLfloat valueFloat;
+		GLint valueInt;
 		
+	    switch (type)
+		{
+				
+			case ShaderDataType::Float:
+				valueFloat = *(float*)data;
+				glUniform1f(location, valueFloat);
+				break;
+			case ShaderDataType::Float2:
+				addrf = (const float*)data;
+				glUniform2fv(location, 1, addrf);
+				break;
+			case ShaderDataType::Float3:
+				valueFloat = *(float*)data;
+				glUniform3f(location, 1, 1, valueFloat);
+				break;
+			case ShaderDataType::Mat4:
+				addrf = (const float*)data;
+				glUniformMatrix4fv(location, 1, GL_FALSE, addrf);
+				break;
+			case ShaderDataType::Int:
+				valueInt = *(int*)data;
+				glUniform1i(location, valueInt);
+				break;
+			case ShaderDataType::Int2:
+				addri = (const int *)data;
+				glUniform2iv(location, 1, addri);
+				break;
+			case ShaderDataType::Int3:
+				addri = (const int *)data;
+				glUniform3iv(location, 1, addri);
+				break;
+			case ShaderDataType::Int4:
+				addri = (const int *)data;
+				glUniform4iv(location, 1, addri);
+				break;
+			case ShaderDataType::Bool:
+				valueInt = *(bool*)data;
+				glUniform1i(location, valueInt);
+				break;
+			defualt:
+				LOG_ERROR("Shader data type not supported.");
+				break;
+		}
 	}
-
-	bool OpenGLShader::uploadData(const UniformLayout & uniforms)
-	{
-		return false;
-	}
-
-	BufferLayout OpenGLShader::getBufferLayout() const
-	{
-		return BufferLayout();
-	}
-
-	UniformLayout OpenGLShader::getUniformLayout() const
-	{
-		return UniformLayout();
-	}
-
-	void OpenGLShader::uploadUniformInt(const std::string& name, int value)
-	{
-		GLint location = glGetUniformLocation(shader_ID, name.c_str());
-		glUniform1i(location, value);
-	}
-
-	void OpenGLShader::uploadUniformFloat(const std::string& name, float value)
-	{
-		GLint location = glGetUniformLocation(shader_ID, name.c_str());
-		glUniform1f(location, value);
-	}
-
-	void OpenGLShader::uploadUniformFloat2(const std::string& name, const glm::vec2& value)
-	{
-		GLint location = glGetUniformLocation(shader_ID, name.c_str());
-		glUniform2f(location, value.x, value.y);
-	}
-
-	void OpenGLShader::uploadUniformFloat3(const std::string& name, const glm::vec3& value)
-	{
-		GLint location = glGetUniformLocation(shader_ID, name.c_str());
-		glUniform3f(location, value.x, value.y, value.z);
-	}
-
-	void OpenGLShader::uploadUniformFloat4(const std::string& name, const glm::vec4& value)
-	{
-		GLint location = glGetUniformLocation(shader_ID, name.c_str());
-		glUniform4f(location, value.x, value.y, value.z, value.w);
-	}
-
-	void OpenGLShader::uploadUniformMat3(const std::string& name, const glm::mat3& matrix)
-	{
-		GLint location = glGetUniformLocation(shader_ID, name.c_str());
-		glUniformMatrix3fv(location, 1, GL_FALSE, &matrix[0][0]);
-	}
-
-	void OpenGLShader::uploadUniformMat4(const std::string& name, const glm::mat4& matrix)
-	{
-		GLint location = glGetUniformLocation(shader_ID, name.c_str());
-		glUniformMatrix4fv(location, 1, GL_FALSE, &matrix[0][0]);
-	}
-
-
-
+	
 }

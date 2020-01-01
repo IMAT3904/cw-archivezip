@@ -15,6 +15,8 @@ namespace Engine {
 	*	\brief 
 	*/
 
+	using GLLayout = std::map<std::string, std::string>;
+
 	class OpenGLShader : public Shader
 	{
 	public:
@@ -27,19 +29,11 @@ namespace Engine {
 		void bind() override;
 		void unbind() override;
 
-		void uploadMat4(const std::string& name, glm::mat4* data);
-
-		void uploadUniformInt(const std::string& name, int value);
-		void uploadUniformFloat(const std::string& name, float value);
-		void uploadUniformFloat2(const std::string& name, const glm::vec2& value);
-		void uploadUniformFloat3(const std::string& name, const glm::vec3& value);
-		void uploadUniformFloat4(const std::string& name, const glm::vec4& value);
-		void uploadUniformMat3(const std::string& name, const glm::mat3& matrix);
-		void uploadUniformMat4(const std::string& name, const glm::mat4& matrix);
-
+		void uploadData(const std::string& name, void* data);
+		void DispatchUniformUpload(ShaderDataType type, GLuint location, void* data);
 
 	private:
-		
+		GLLayout glLayout;
 		GLuint vertShader, fragShader;
 		unsigned int shader_ID;
 	};

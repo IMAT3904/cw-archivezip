@@ -12,11 +12,10 @@
 #include "events/windowEvents.h"
 #include "events/keyEvents.h"
 #include "events/mouseEvents.h"
-#include "rendering/buffers.h"
 #include "rendering/vertexArray.h"
 #include "rendering/texture.h"
 #include "rendering/shader.h"
-
+#include "systems/resourceManager.h"
 
 namespace Engine {
 
@@ -40,6 +39,9 @@ namespace Engine {
 		//! Float which holds how long a frame takes
 		float frameDuration = 0.f;
 
+		//! Reference to our resource manager
+		std::shared_ptr<ResourceManager> m_resources;
+
 		//! Reference to our window
 		std::shared_ptr<Window> m_window;
 
@@ -53,10 +55,10 @@ namespace Engine {
 		std::shared_ptr<WindowSystem> m_windowsSystem;
 		
 		//! Reference to our flat color vertex array
-		std::shared_ptr<VertexArray> m_vertexArrayFC;
+		std::shared_ptr<VertexArray> m_FCVAO;
 
 		//! Reference to our textured phong vertex array
-		std::shared_ptr<VertexArray> m_vertexArrayTP;
+		std::shared_ptr<VertexArray> m_TPVAO;
 
 		std::shared_ptr<Texture> m_FCTex;
 		std::shared_ptr<Texture> m_TPTex;
@@ -64,22 +66,12 @@ namespace Engine {
 		std::shared_ptr<Shader> m_FCShader;
 		std::shared_ptr<Shader> m_TPShader;
 
-#pragma region TempVars
-		// Temp stuff
-		//unsigned int m_FCvertexArray; // Flat Colour VAO
-		//unsigned int m_FCvertexBuffer;// Flat Colour VBO
-		//unsigned int m_TPvertexArray; // Textured Phong VAO
-		//unsigned int m_TPvertexBuffer;// Textured Phong VBO
-		//unsigned int m_FCindexBuffer; // Index buffer for colour cube
-		//unsigned int m_TPindexBuffer; // Index buffer for texture Phong cube
-		unsigned int m_FCprogram; // Flat colour shader ID
-		unsigned int m_TPprogram; // Textured Phong shader ID
 		unsigned int m_numberTexture; // Texture ID
 		unsigned int m_letterTexture; // Texture ID
 		unsigned int m_textureSlots[2]; // Slot where the textures are stored
 		bool m_goingUp = false; // Is the cude going up?
 		float m_timeSummed = 10.f; // How much timer has elasped?
-#pragma endregion TempVars
+
 
 	public:
 		//! Deconstructor
