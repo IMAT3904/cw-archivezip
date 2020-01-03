@@ -38,44 +38,33 @@ namespace Engine {
 
 		m_log.reset(new Logger);		//Start our logger
 		m_log->start();
-		LOG_WARN("Log Initialized");
+		LOG_WARN("Logger Initialized");
+
+		m_resources.reset(new ResourceManager);
+		m_resources->start();
+		LOG_WARN("Resource Manager Started");
 
 		m_timer.reset(new Timer);
 		m_timer->start();	//Start our frame counter
-		LOG_WARN("Frame Counter Started");
-
+		LOG_WARN("Timing system Started");
 		// Start windows system
 #ifdef NG_PLATFORM_WINDOWS	
 		m_windowsSystem = std::shared_ptr<WindowSystem>(new GLFWWindowSystem());
 		LOG_WARN("GLFW Window System Started");
 #endif
 		m_windowsSystem->start();
-		LOG_WARN("Window System Started");
-
 		m_window = std::shared_ptr<Window>(Window::create());
-		LOG_WARN("Window Created");
-
 		m_window->setEventCallback(BIND_EVENT_FN(onEvent));
-		LOG_WARN("Window Event Callback Set");
-
-		m_resources.reset(new ResourceManager);
-		m_resources->start();
-		LOG_WARN("Resource Manager Started");
+		LOG_WARN("Window Created");
 
 		m_renderer.reset(Renderer::createBasic3D());
 		LOG_WARN("Created Basic3D Renderer");
+		m_renderer->actionCommand(RenderCommand::setDepthTestLessCommand(true));
+		m_renderer->actionCommand(RenderCommand::setBackfaceCullingCommand(true));		
 
-		m_textRenderer.reset(Renderer::createBasicTextRenderer2D());
-		LOG_WARN("Created Basic Text Renderer");
+		//m_textRenderer.reset(Renderer::createBasicTextRenderer2D());
+		//LOG_WARN("Created Basic Text Renderer");
 
-
-		// Enable standard depth detest (Z-buffer)
-		glEnable(GL_DEPTH_TEST);
-		glDepthFunc(GL_LESS);
-		// Enabling backface culling to ensure triangle vertices are correct ordered (CCW)
-		glEnable(GL_CULL_FACE);
-		glCullFace(GL_BACK);
-	
 		float FCvertices[6 * 24] = {
 			-0.5f, -0.5f, -0.5f, 0.8f, 0.2f, 0.2f, // red square
 			 0.5f, -0.5f, -0.5f, 0.8f, 0.2f, 0.2f,
@@ -130,7 +119,6 @@ namespace Engine {
 			0.5f,  -0.5f, 0.5f,  1.f, 0.f, 0.f, 0.66f, 1.0f
 		};
 
-
 		unsigned int indices[3 * 12] = {
 		2, 1, 0,
 		0, 3, 2,
@@ -148,23 +136,36 @@ namespace Engine {
 
 
 		VertexBufferLayout FCLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3} };
+		
 		m_FCShader = m_resources->addShader("assets/shaders/flatColour.glsl");
 		m_FCVAO = m_resources->addVAO("flatColorCube");
 		m_FCVAO->setVertexBuffer(m_resources->addVBO("FlatColorVBO", FCvertices, sizeof(FCvertices), FCLayout));
 		m_FCVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, sizeof(indices)));
+		m_FCCube->create(m_FCShader, m_FCVAO);
 
 		VertexBufferLayout TPLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float2} };
 		m_TPShader = m_resources->addShader("assets/shaders/texturedPhong.glsl");
 		m_TPVAO = m_resources->addVAO("texturedPhongCube");
 		m_TPVAO->setVertexBuffer(m_resources->addVBO("texturedPhongVBO", TPvertices, sizeof(TPvertices), TPLayout));
 		m_TPVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, sizeof(indices)));
+		m_TPCube->create(m_TPShader, m_TPVAO);
+		
+		UniformBufferLayout uboMatricesLayout = { {ShaderDataType::Mat4},{ShaderDataType::Mat4} };
+		m_UBOMatrices = m_resources->addUBO("Matrices", 2 * sizeof(glm::mat4), uboMatricesLayout);
+		m_UBOMatrices->attachShaderBlock(m_FCShader, "Matrices");
+		m_UBOMatrices->attachShaderBlock(m_TPShader, "Matrices");
+
+		UniformBufferLayout uboLightsLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float3} };
+		m_UBOLights = m_resources->addUBO("Lights", 3 * sizeof(glm::mat4), uboLightsLayout);
+		m_UBOLights->attachShaderBlock(m_TPCube, "Lights");
 		
 		m_FCTex = m_resources->addTexture("assets/textures/letterCube.png");
 		m_TPTex = m_resources->addTexture("assets/textures/numberCube.png");
 
-		UniformBufferLayout uboMatricesLayout = { {ShaderDataType::Mat4},{ShaderDataType::Mat4} };
-		UniformBufferLayout uboLightsLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float3} };
+		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
+		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
 
+		/*
 		float textVertices[4 * 4] =	{
 			0.f, 0.f, 0.f, 1.0f,
 			0.f, 150.f, 0.f, 0.0f,
@@ -193,21 +194,22 @@ namespace Engine {
 
 		m_textMaterial.reset(Material::create(m_textShader, m_textVAO));
 
-		
+		glm::mat4 textProjection = glm::ortho(0.f, 800.f, 600.f, 0.f);
+		glm::mat4 textView = glm::mat4(1.0f);
+		glm::mat4 textMode = glm::translate(glm::mat4(1.0f), glm::vec3(100.f, 100.f, 0.f));
+		*/
 
-		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
-		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
 		m_timer->frameDuration(); //reset our timer
 	}
 
 	Application::~Application()
 	{
-		m_resources.reset();
-		LOG_INFO("Cleared Resource System");
 		m_window.reset();
 		LOG_INFO("Cleared Window");
 		m_windowsSystem->stop();
 		LOG_INFO("Windows System Stopped");
+		m_resources.reset();
+		LOG_INFO("Cleared Resource System");
 		m_timer->stop();
 		LOG_INFO("Timer Stopped");
 		LOG_INFO("Ending Log...");
@@ -232,21 +234,15 @@ namespace Engine {
 			}
 
 			// Temporary draw code to be abstracted
-
-			glClearColor(0.8f, 0.8f, 0.8f, 1);
-			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+			m_renderer->actionCommand(RenderCommand::setClearColourCommand(0.8f, 0.8f, 0.8f, 1));			
 
 			glm::mat4 projection = glm::perspective(glm::radians(45.0f), 4.0f / 3.0f, 0.1f, 100.0f); // Basic 4:3 camera
-
 			glm::mat4 view = glm::lookAt(
 				glm::vec3(0.0f, 0.0f, -4.5f), // Camera is at (0.0,0.0,-4.5), in World Space
 				glm::vec3(0.f, 0.f, 0.f), // and looks at the origin
 				glm::vec3(0.f, 1.f, 0.f)  // Standing straight  up
 			);
-
-			// Code to make the cube move, you can ignore this more or less.
 			glm::mat4 FCtranslation, TPtranslation;
-
 			if (m_goingUp)
 			{
 				FCtranslation = glm::translate(FCmodel, glm::vec3(0.0f, 0.2f * frameDuration, 0.0f));
@@ -257,24 +253,17 @@ namespace Engine {
 				FCtranslation = glm::translate(FCmodel, glm::vec3(0.0f, -0.2f * frameDuration, 0.0f));
 				TPtranslation = glm::translate(TPmodel, glm::vec3(0.0f, 0.2f * frameDuration, 0.0f));
 			}
-
 			m_timeSummed += frameDuration;
 			if (m_timeSummed > 20.0f) {
 				m_timeSummed = 0.f;
 				m_goingUp = !m_goingUp;
 			}
 
-			
 			FCmodel = glm::rotate(FCtranslation, glm::radians(20.f) * frameDuration, glm::vec3(0.f, 1.f, 0.f)); // Spin the cube at 20 degrees per second
 			TPmodel = glm::rotate(TPtranslation, glm::radians(-20.f) * frameDuration, glm::vec3(0.f, 1.f, 0.f)); // Spin the cube at 20 degrees per second
 			
-
 			// Flat Cube
 			glm::mat4 fcMVP = projection * view * FCmodel;
-			m_FCShader->bind();
-			m_FCVAO->bind();
-			m_FCShader->uploadData("u_MVP", &fcMVP[0][0]);
-			glDrawElements(GL_TRIANGLES, m_FCVAO->getIndexBuffer()->getCount(), GL_UNSIGNED_INT, nullptr);
 
 			// Textured Phong
 			glm::mat4 tpMVP = projection * view * TPmodel;
@@ -282,24 +271,28 @@ namespace Engine {
 			if (m_goingUp) texSlot = m_textureSlots[0];
 			else texSlot = m_textureSlots[1];
 
-			m_TPShader->bind();
-			m_TPVAO->bind();
-			
-			m_TPShader->uploadData("u_MVP", &tpMVP[0][0]);
-			m_TPShader->uploadData("u_model", &TPmodel[0][0]);
+			m_renderer->actionCommand(RenderCommand::ClearDepthColorBufferCommand());
+
+			m_renderer->beginScene();
+
+			m_FCCube->setDataElement("u_MVP", &fcMVP[0][0]);
+			m_renderer->submit(m_FCCube);
+
+			m_TPCube->setDataElement("u_MVP", &tpMVP[0][0]);
+			m_TPCube->setDataElement("u_model", &TPmodel[0][0]);
 
 			glm::vec3 m_objectColour = glm::vec3(0.2f, 0.8f, 0.5f);
 			glm::vec3 m_lightColour = glm::vec3(1.0f, 1.0f, 1.0f);
 			glm::vec3 m_lightPosition = glm::vec3(1.0f, 4.0f, -6.0f);
 			glm::vec3 m_viewPosition = glm::vec3(0.0f, 0.0f, -4.5f);
 
-			m_TPShader->uploadData("u_objectColour", &m_objectColour[0]);
-			m_TPShader->uploadData("u_lightColour", &m_lightColour[0]);
-			m_TPShader->uploadData("u_lightPos", &m_lightPosition[0]);
-			m_TPShader->uploadData("u_viewPos", &m_viewPosition[0]);
-			m_TPShader->uploadData("u_texData", &texSlot);
+			m_TPCube->setDataElement("u_objectColour", &m_objectColour[0]);
+			m_TPCube->setDataElement("u_lightColour", &m_lightColour[0]);
+			m_TPCube->setDataElement("u_lightPos", &m_lightPosition[0]);
+			m_TPCube->setDataElement("u_viewPos", &m_viewPosition[0]);
+			m_TPCube->setDataElement("u_texData", &texSlot);
 
-			glDrawElements(GL_TRIANGLES, m_TPVAO->getIndexBuffer()->getCount(), GL_UNSIGNED_INT, nullptr);
+			m_renderer->submit(m_TPCube);
 
 			m_window->onUpdate();									//frame
 		}

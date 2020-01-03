@@ -49,8 +49,6 @@ namespace Engine {
 		
 		//! Reference to our flat color vertex array
 		std::shared_ptr<VertexArray> m_FCVAO;
-
-		//! Reference to our textured phong vertex array
 		std::shared_ptr<VertexArray> m_TPVAO;
 
 		//! Reference to our flat cube and textured phong textures
@@ -61,10 +59,14 @@ namespace Engine {
 		std::shared_ptr<Shader> m_FCShader;
 		std::shared_ptr<Shader> m_TPShader;
 
+		std::shared_ptr<UniformBuffer> m_UBOMatrices;
+		std::shared_ptr<UniformBuffer> m_UBOLights;
+
+		std::shared_ptr<Material> m_FCCube;
+		std::shared_ptr<Material> m_TPCube;
+
 		//! Reference to our Renderer
 		std::shared_ptr<Renderer> m_renderer;
-
-
 		//! Reference to our Text Renderer
 		std::shared_ptr<Renderer> m_textRenderer;
 		std::shared_ptr<Shader> m_textShader;
@@ -72,12 +74,14 @@ namespace Engine {
 		std::shared_ptr<Texture> m_textTexture;
 		std::shared_ptr<Material> m_textMaterial;
 
+
+		SceneData sceneData;
+
 		unsigned int m_numberTexture; // Texture ID
 		unsigned int m_letterTexture; // Texture ID
 		unsigned int m_textureSlots[2]; // Slot where the textures are stored
 		bool m_goingUp = false; // Is the cude going up?
 		float m_timeSummed = 10.f; // How much timer has elasped?
-
 
 	public:
 		//! Deconstructor

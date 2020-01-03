@@ -14,7 +14,6 @@ namespace Engine {
 	{
 	public:
 		virtual void action() = 0; //!< action a render command
-	private:
 		static RenderCommand * ClearDepthColorBufferCommand();
 		static RenderCommand * setClearColourCommand(float r, float g, float b, float a);
 		static RenderCommand * setDepthTestLessCommand(bool enabled);

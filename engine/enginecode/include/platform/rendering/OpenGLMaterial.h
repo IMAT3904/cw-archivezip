@@ -21,7 +21,7 @@ namespace Engine {
 		void setGeometry(const std::variant<std::shared_ptr<VertexArray>, std::shared_ptr<VertexBuffer>>& geometry) override; //!<)
 		void setDataBlock(const std::map<std::string, void *>& data) override; //!< Set a block of data as the per draw data
 		void setDataElement(const std::string& dataName, void * data) override; //!< set a single uniform
-
+		void setMaterial(const std::string& dataName, const std::shared_ptr<Shader>& shader, void * data) override; //!< Set a material
 		//void setVertexData(float * vertices, unsigned int size, unsigned int offset) override; //!< Set the geometry directly
 		
 		inline std::shared_ptr<Shader> getShader() override { return m_shader; }; //!< Get the shader
