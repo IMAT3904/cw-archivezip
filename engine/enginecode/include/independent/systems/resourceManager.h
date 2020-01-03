@@ -35,7 +35,7 @@ namespace Engine {
 		static std::shared_ptr<Shader>  addShader(const std::string& filepath);
 		static std::shared_ptr<Texture>  addTexture(const std::string& filepath);
 		static std::shared_ptr<VertexArray>  addVAO(const std::string& name);
-		static std::shared_ptr<VertexBuffer>  addVBO(const std::string& name, float* vertices, unsigned int size, BufferLayout& layout);
+		static std::shared_ptr<VertexBuffer>  addVBO(const std::string& name, float* vertices, unsigned int size, VertexBufferLayout& layout);
 	};
 
 }

@@ -4,6 +4,7 @@
 
 #pragma once
 #include "systems/logger.h"
+#include "shader.h"
 
 namespace Engine {
 	
@@ -73,7 +74,9 @@ namespace Engine {
 		return result;
 	}
 
-
+	/**	\class
+	*	\brief
+	*/
 	class BufferElement 
 	{
 	public:
@@ -87,11 +90,14 @@ namespace Engine {
 		//!< Constructor which processes passed element information
 	};
 
-	class BufferLayout
+	/**	\class
+	*	\brief
+	*/
+	class VertexBufferLayout
 	{
 	public:
-		BufferLayout() {};	//!< Default Constructor
-		BufferLayout(const std::initializer_list<BufferElement>& elements); //!< Constructor which processes passed layout information
+		VertexBufferLayout() {};	//!< Default Constructor
+		VertexBufferLayout(const std::initializer_list<BufferElement>& elements); //!< Constructor which processes passed layout information
 		inline unsigned int getStride() const { return m_stride; }	//!< Returns the stride of the layout
 		std::vector<BufferElement>::iterator begin() { return m_elements.begin(); }
 		std::vector<BufferElement>::const_iterator begin() const { return m_elements.begin(); }
@@ -109,17 +115,48 @@ namespace Engine {
 		
 	};
 
+	/**	\class
+	*	\brief
+	*/
+	class UniformBufferLayout
+	{
+	public:
+		UniformBufferLayout() {};	//!< Default Constructor
+		UniformBufferLayout(const std::initializer_list<BufferElement>& elements); //!< Constructor which processes passed layout information
+		inline unsigned int getStride() const { return m_stride; }	//!< Returns the stride of the layout
+		std::vector<BufferElement>::iterator begin() { return m_elements.begin(); }
+		std::vector<BufferElement>::const_iterator begin() const { return m_elements.begin(); }
+		std::vector<BufferElement>::iterator end() { return m_elements.end(); }
+		std::vector<BufferElement>::const_iterator end() const { return m_elements.end(); }
+		void addElement(ShaderDataType dataType)
+		{
+			m_elements.push_back(BufferElement(dataType));
+			calcStrideAndOffsets();
+		}
+	private:
+		std::vector<BufferElement> m_elements;	//!< vector of buffer elements
+		unsigned int m_stride;			//!< the stride (distance between the data lines) of the layout
+		void calcStrideAndOffsets();	//!< function to calculate the stride distance and offset for each element in the layout
+	};
+
+
+	/**	\class
+	*	\brief
+	*/
 	class VertexBuffer {
 	public:
 		virtual void bind() = 0;	//!< Binds the buffer
 		virtual void unbind() = 0;	//!< unbinds the buffer
-		virtual void setLayout(BufferLayout& layout) = 0;	//!< Sets the layout of the vertex buffer
-		virtual const BufferLayout& getLayout() const = 0; //!< Returns the layout of the vertex buffer
+		virtual void setLayout(VertexBufferLayout& layout) = 0;	//!< Sets the layout of the vertex buffer
+		virtual const VertexBufferLayout& getLayout() const = 0; //!< Returns the layout of the vertex buffer
 		virtual void edit(float* verticies, unsigned int size, unsigned int offset) = 0; //!<  edit the data stored inside the buffer
 		
 		static VertexBuffer * create(float* verticies, unsigned int size);	//!< returns an rendering api specific vertex buffer
 	};
 
+	/**	\class
+	*	\brief
+	*/
 	class IndexBuffer {
 	public:
 		virtual void bind() = 0; //!< Binds the buffer
@@ -127,4 +164,21 @@ namespace Engine {
 		virtual unsigned int getCount() const = 0;	//!< Get the buffer count
 		static IndexBuffer * create(unsigned int* indicies, unsigned int count); //!< returns an rendering api specific index buffer
 	};
+
+	/**	\class
+	*	\brief
+	*/
+	class UniformBuffer
+	{
+	public:
+		virtual void bind() = 0; //!< Bind the buffer
+		virtual void unbind() = 0; //!< unbind the buffer
+		virtual void attachShaderBlock(const std::shared_ptr<Shader>& shader, const std::string& blockName) = 0; //!< Bind the buffer
+		virtual void setData(unsigned int offset, unsigned int size, void * data) = 0; //!< Bind the buffer
+		virtual UniformBufferLayout getLayout() const = 0; //!< Bind the buffer
+
+		static UniformBuffer * create(unsigned int size, UniformBufferLayout& layout);
+		static UniformBuffer * create(unsigned int size, unsigned int rangeStart, unsigned int rangeEnd, UniformBufferLayout& layout);
+	};
+
 }

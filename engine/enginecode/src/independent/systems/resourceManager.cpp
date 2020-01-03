@@ -42,7 +42,7 @@ namespace Engine {
 		return vao;
 	}	
 
-	std::shared_ptr<VertexBuffer> ResourceManager::addVBO(const std::string & name, float * vertices, unsigned int size, BufferLayout & layout)
+	std::shared_ptr<VertexBuffer> ResourceManager::addVBO(const std::string & name, float * vertices, unsigned int size, VertexBufferLayout & layout)
 	{
 		std::shared_ptr<VertexBuffer> vbo(VertexBuffer::create(vertices, size));
 		vbo->setLayout(layout);

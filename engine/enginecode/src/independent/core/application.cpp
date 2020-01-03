@@ -62,6 +62,13 @@ namespace Engine {
 		m_resources->start();
 		LOG_WARN("Resource Manager Started");
 
+		m_renderer.reset(Renderer::createBasic3D());
+		LOG_WARN("Created Basic3D Renderer");
+
+		m_textRenderer.reset(Renderer::createBasicTextRenderer2D());
+		LOG_WARN("Created Basic Text Renderer");
+
+
 		// Enable standard depth detest (Z-buffer)
 		glEnable(GL_DEPTH_TEST);
 		glDepthFunc(GL_LESS);
@@ -139,23 +146,14 @@ namespace Engine {
 		22, 23, 20
 		};
 
-		BufferLayout FCLayout = {
-			{ShaderDataType::Float3},
-			{ShaderDataType::Float3}
-		};
 
-		BufferLayout TPLayout = {
-			{ShaderDataType::Float3},
-			{ShaderDataType::Float3},
-			{ShaderDataType::Float2}
-		};
-
-		
+		VertexBufferLayout FCLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3} };
 		m_FCShader = m_resources->addShader("assets/shaders/flatColour.glsl");
 		m_FCVAO = m_resources->addVAO("flatColorCube");
 		m_FCVAO->setVertexBuffer(m_resources->addVBO("FlatColorVBO", FCvertices, sizeof(FCvertices), FCLayout));
 		m_FCVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, sizeof(indices)));
-		
+
+		VertexBufferLayout TPLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float2} };
 		m_TPShader = m_resources->addShader("assets/shaders/texturedPhong.glsl");
 		m_TPVAO = m_resources->addVAO("texturedPhongCube");
 		m_TPVAO->setVertexBuffer(m_resources->addVBO("texturedPhongVBO", TPvertices, sizeof(TPvertices), TPLayout));
@@ -163,6 +161,39 @@ namespace Engine {
 		
 		m_FCTex = m_resources->addTexture("assets/textures/letterCube.png");
 		m_TPTex = m_resources->addTexture("assets/textures/numberCube.png");
+
+		UniformBufferLayout uboMatricesLayout = { {ShaderDataType::Mat4},{ShaderDataType::Mat4} };
+		UniformBufferLayout uboLightsLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float3} };
+
+		float textVertices[4 * 4] =	{
+			0.f, 0.f, 0.f, 1.0f,
+			0.f, 150.f, 0.f, 0.0f,
+			266.f, 150.f, 1.0f, 0.0f,
+			266.f, 0.f, 1.0f, 1.f,
+
+		};
+		unsigned int textIndices[4] = { 0,1,2,3 };
+
+		m_textVAO.reset(VertexArray::create());
+		m_textVAO->bind();
+
+		VertexBufferLayout vbl = { {ShaderDataType::Float2}, {ShaderDataType::Float2} };
+
+		std::shared_ptr<VertexBuffer> textVBO;
+		textVBO.reset(VertexBuffer::create(textVertices, sizeof(textIndices)), vbl);
+		m_textVAO->setVertexBuffer(textVBO);
+
+		std::shared_ptr<IndexBuffer> textIBO;
+		textIBO.reset(IndexBuffer::create(textIndices, 4));
+		m_textVAO->setIndexBuffer(textIBO);
+
+		m_textTexture.reset(Texture::createFromFile("assets/textres/hello.png"));
+
+		m_textShader.reset(Shader::create("assets/shaders/text.glsl"));
+
+		m_textMaterial.reset(Material::create(m_textShader, m_textVAO));
+
+		
 
 		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
 		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
@@ -172,9 +203,14 @@ namespace Engine {
 	Application::~Application()
 	{
 		m_resources.reset();
+		LOG_INFO("Cleared Resource System");
 		m_window.reset();
+		LOG_INFO("Cleared Window");
 		m_windowsSystem->stop();
+		LOG_INFO("Windows System Stopped");
 		m_timer->stop();
+		LOG_INFO("Timer Stopped");
+		LOG_INFO("Ending Log...");
 		m_log->stop();
 		
 	}

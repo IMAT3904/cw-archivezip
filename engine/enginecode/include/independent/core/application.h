@@ -16,6 +16,8 @@
 #include "rendering/texture.h"
 #include "rendering/shader.h"
 #include "systems/resourceManager.h"
+#include "rendering/material.h"
+#include "rendering/renderer.h"
 
 namespace Engine {
 
@@ -38,21 +40,12 @@ namespace Engine {
 
 		//! Float which holds how long a frame takes
 		float frameDuration = 0.f;
-
-		//! Reference to our resource manager
-		std::shared_ptr<ResourceManager> m_resources;
-
-		//! Reference to our window
-		std::shared_ptr<Window> m_window;
-
-		//! Reference to our log
-		std::shared_ptr<Logger> m_log;
-
-		//! Reference to our timer
-		std::shared_ptr<Timer> m_timer;
-
-		//! Reference to our windows system
-		std::shared_ptr<WindowSystem> m_windowsSystem;
+		
+		std::shared_ptr<Window> m_window; //!< Reference to our window		
+		std::shared_ptr<ResourceManager> m_resources; //!< Resource manager
+		std::shared_ptr<Timer> m_timer; //!< Timing system
+		std::shared_ptr<WindowSystem> m_windowsSystem; //!< Windows System
+		std::shared_ptr<Logger> m_log; //!< Logging System
 		
 		//! Reference to our flat color vertex array
 		std::shared_ptr<VertexArray> m_FCVAO;
@@ -60,11 +53,24 @@ namespace Engine {
 		//! Reference to our textured phong vertex array
 		std::shared_ptr<VertexArray> m_TPVAO;
 
+		//! Reference to our flat cube and textured phong textures
 		std::shared_ptr<Texture> m_FCTex;
 		std::shared_ptr<Texture> m_TPTex;
 
+		//! Reference to our flat cube and textured phong shaders
 		std::shared_ptr<Shader> m_FCShader;
 		std::shared_ptr<Shader> m_TPShader;
+
+		//! Reference to our Renderer
+		std::shared_ptr<Renderer> m_renderer;
+
+
+		//! Reference to our Text Renderer
+		std::shared_ptr<Renderer> m_textRenderer;
+		std::shared_ptr<Shader> m_textShader;
+		std::shared_ptr<VertexArray> m_textVAO;
+		std::shared_ptr<Texture> m_textTexture;
+		std::shared_ptr<Material> m_textMaterial;
 
 		unsigned int m_numberTexture; // Texture ID
 		unsigned int m_letterTexture; // Texture ID

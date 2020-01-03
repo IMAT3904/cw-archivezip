@@ -12,12 +12,12 @@
 
 namespace Engine {
 	
-	BufferLayout::BufferLayout(const std::initializer_list<BufferElement>& elements) : m_elements(elements)
+	VertexBufferLayout::VertexBufferLayout(const std::initializer_list<BufferElement>& elements) : m_elements(elements)
 	{
 		calcStrideAndOffsets();
 	}
 
-	void BufferLayout::calcStrideAndOffsets()
+	void VertexBufferLayout::calcStrideAndOffsets()
 	{
 		int offset = 0;
 		m_stride = 0;
@@ -27,6 +27,31 @@ namespace Engine {
 			offset += element.m_size;
 			m_stride += element.m_size;
 		}
+	}
+
+	UniformBufferLayout::UniformBufferLayout(const std::initializer_list<BufferElement>& elements)
+	{
+		calcStrideAndOffsets();
+	}
+
+	void UniformBufferLayout::calcStrideAndOffsets()
+	{
+		unsigned int offset = 0;
+		m_stride = 0;
+
+		for (auto& element : m_elements)
+		{
+			element.m_offset = offset;
+			offset += element.m_size;
+
+			for (int i = offset; !(offset % 16 == 0); i++)
+			{
+				offset = i;
+			}
+
+			m_stride = offset;
+		}
+
 	}
 
 	VertexBuffer* VertexBuffer::create(float* verticies, unsigned int size)
@@ -68,4 +93,16 @@ namespace Engine {
 			break;
 		}
 	}
+
+	
+	UniformBuffer * UniformBuffer::create(unsigned int size, UniformBufferLayout & layout)
+	{
+		return nullptr;
+	}
+
+	UniformBuffer * UniformBuffer::create(unsigned int size, unsigned int rangeStart, unsigned int rangeEnd, UniformBufferLayout & layout)
+	{
+		return nullptr;
+	}
+
 }
