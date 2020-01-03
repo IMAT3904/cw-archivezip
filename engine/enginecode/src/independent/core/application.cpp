@@ -16,7 +16,7 @@
 #include "core/application.h"
 
 #ifdef NG_PLATFORM_WINDOWS
-	#include "include/platform/windows/GLFWWindowSystem.h"
+	#include "include/platform/GLFW/GLFWWindowSystem.h"
 #endif //NG_PLATFORM_WINDOWS
 
 namespace Engine {
@@ -136,19 +136,18 @@ namespace Engine {
 
 
 		VertexBufferLayout FCLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3} };
-		
 		m_FCShader = m_resources->addShader("assets/shaders/flatColour.glsl");
 		m_FCVAO = m_resources->addVAO("flatColorCube");
 		m_FCVAO->setVertexBuffer(m_resources->addVBO("FlatColorVBO", FCvertices, sizeof(FCvertices), FCLayout));
 		m_FCVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, sizeof(indices)));
-		m_FCCube->create(m_FCShader, m_FCVAO);
+		m_FCCube->setMaterial("FCCUBE", m_FCShader, &m_FCVAO);
 
 		VertexBufferLayout TPLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float2} };
 		m_TPShader = m_resources->addShader("assets/shaders/texturedPhong.glsl");
 		m_TPVAO = m_resources->addVAO("texturedPhongCube");
 		m_TPVAO->setVertexBuffer(m_resources->addVBO("texturedPhongVBO", TPvertices, sizeof(TPvertices), TPLayout));
 		m_TPVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, sizeof(indices)));
-		m_TPCube->create(m_TPShader, m_TPVAO);
+		m_TPCube->setMaterial("TPCUBE", m_TPShader, &m_TPVAO);
 		
 		UniformBufferLayout uboMatricesLayout = { {ShaderDataType::Mat4},{ShaderDataType::Mat4} };
 		m_UBOMatrices = m_resources->addUBO("Matrices", 2 * sizeof(glm::mat4), uboMatricesLayout);
@@ -157,47 +156,13 @@ namespace Engine {
 
 		UniformBufferLayout uboLightsLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float3} };
 		m_UBOLights = m_resources->addUBO("Lights", 3 * sizeof(glm::mat4), uboLightsLayout);
-		m_UBOLights->attachShaderBlock(m_TPCube, "Lights");
+		m_UBOLights->attachShaderBlock(m_TPShader, "Lights");
 		
 		m_FCTex = m_resources->addTexture("assets/textures/letterCube.png");
 		m_TPTex = m_resources->addTexture("assets/textures/numberCube.png");
 
 		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
 		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
-
-		/*
-		float textVertices[4 * 4] =	{
-			0.f, 0.f, 0.f, 1.0f,
-			0.f, 150.f, 0.f, 0.0f,
-			266.f, 150.f, 1.0f, 0.0f,
-			266.f, 0.f, 1.0f, 1.f,
-
-		};
-		unsigned int textIndices[4] = { 0,1,2,3 };
-
-		m_textVAO.reset(VertexArray::create());
-		m_textVAO->bind();
-
-		VertexBufferLayout vbl = { {ShaderDataType::Float2}, {ShaderDataType::Float2} };
-
-		std::shared_ptr<VertexBuffer> textVBO;
-		textVBO.reset(VertexBuffer::create(textVertices, sizeof(textIndices)), vbl);
-		m_textVAO->setVertexBuffer(textVBO);
-
-		std::shared_ptr<IndexBuffer> textIBO;
-		textIBO.reset(IndexBuffer::create(textIndices, 4));
-		m_textVAO->setIndexBuffer(textIBO);
-
-		m_textTexture.reset(Texture::createFromFile("assets/textres/hello.png"));
-
-		m_textShader.reset(Shader::create("assets/shaders/text.glsl"));
-
-		m_textMaterial.reset(Material::create(m_textShader, m_textVAO));
-
-		glm::mat4 textProjection = glm::ortho(0.f, 800.f, 600.f, 0.f);
-		glm::mat4 textView = glm::mat4(1.0f);
-		glm::mat4 textMode = glm::translate(glm::mat4(1.0f), glm::vec3(100.f, 100.f, 0.f));
-		*/
 
 		m_timer->frameDuration(); //reset our timer
 	}
@@ -262,6 +227,11 @@ namespace Engine {
 			FCmodel = glm::rotate(FCtranslation, glm::radians(20.f) * frameDuration, glm::vec3(0.f, 1.f, 0.f)); // Spin the cube at 20 degrees per second
 			TPmodel = glm::rotate(TPtranslation, glm::radians(-20.f) * frameDuration, glm::vec3(0.f, 1.f, 0.f)); // Spin the cube at 20 degrees per second
 			
+			glm::vec3 m_objectColour = glm::vec3(0.2f, 0.8f, 0.5f);
+			glm::vec3 m_lightColour = glm::vec3(1.0f, 1.0f, 1.0f);
+			glm::vec3 m_lightPosition = glm::vec3(1.0f, 4.0f, -6.0f);
+			glm::vec3 m_viewPosition = glm::vec3(0.0f, 0.0f, -4.5f);
+
 			// Flat Cube
 			glm::mat4 fcMVP = projection * view * FCmodel;
 
@@ -273,18 +243,20 @@ namespace Engine {
 
 			m_renderer->actionCommand(RenderCommand::ClearDepthColorBufferCommand());
 
-			m_renderer->beginScene();
+			std::vector<void *> lightData(4);
+			lightData[0] = ((void*)&m_lightPosition);
+			lightData[1] = ((void*)&m_viewPosition);
+			lightData[2] = ((void*)&m_lightColour);
+			lightData[3] = ((void*)&m_objectColour);
+
+			m_lights[m_UBOLights] = lightData;
+			m_renderer->beginScene(m_lights);
 
 			m_FCCube->setDataElement("u_MVP", &fcMVP[0][0]);
 			m_renderer->submit(m_FCCube);
 
 			m_TPCube->setDataElement("u_MVP", &tpMVP[0][0]);
 			m_TPCube->setDataElement("u_model", &TPmodel[0][0]);
-
-			glm::vec3 m_objectColour = glm::vec3(0.2f, 0.8f, 0.5f);
-			glm::vec3 m_lightColour = glm::vec3(1.0f, 1.0f, 1.0f);
-			glm::vec3 m_lightPosition = glm::vec3(1.0f, 4.0f, -6.0f);
-			glm::vec3 m_viewPosition = glm::vec3(0.0f, 0.0f, -4.5f);
 
 			m_TPCube->setDataElement("u_objectColour", &m_objectColour[0]);
 			m_TPCube->setDataElement("u_lightColour", &m_lightColour[0]);

@@ -10,6 +10,7 @@
 #include "rendering/vertexArray.h"
 #include "rendering/texture.h"
 #include "rendering/shader.h"
+#include "rendering/uniformBuffers.h"
 
 
 namespace Engine {
@@ -26,6 +27,7 @@ namespace Engine {
 		static AssetManager<Texture> m_textures;
 		static AssetManager<VertexArray> m_VAOs;
 		static AssetManager<VertexBuffer> m_VBOs;
+		static AssetManager<UniformBuffer> m_UBOs;
 
 	public:
 		void start(SystemSignal init = SystemSignal::None, ...) override {};	//!< overridden start/init function
@@ -36,6 +38,7 @@ namespace Engine {
 		static std::shared_ptr<Texture>  addTexture(const std::string& filepath);
 		static std::shared_ptr<VertexArray>  addVAO(const std::string& name);
 		static std::shared_ptr<VertexBuffer>  addVBO(const std::string& name, float* vertices, unsigned int size, VertexBufferLayout& layout);
+		static std::shared_ptr<UniformBuffer>  addUBO(const std::string& name, unsigned int size, UniformBufferLayout& layout);
 	};
 
 }

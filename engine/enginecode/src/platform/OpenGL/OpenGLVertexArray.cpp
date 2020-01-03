@@ -3,7 +3,7 @@
 */
 
 #include "engine_pch.h"
-#include "..\..\..\include\platform\rendering\OpenGLVertexArray.h"
+#include "include/platform/OpenGL/OpenGLVertexArray.h"
 
 namespace Engine {
 	

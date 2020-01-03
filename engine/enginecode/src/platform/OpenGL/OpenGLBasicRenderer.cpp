@@ -3,7 +3,7 @@
 */
 
 #include "engine_pch.h"
-#include "../platform/rendering/OpenGLBasicRenderer.h"
+#include "include/platform/OpenGL/OpenGLBasicRenderer.h"
 
 namespace Engine {
 
@@ -17,7 +17,7 @@ namespace Engine {
 		for (auto uboPair : sceneData)
 		{
 			unsigned int offset = 0;
-			unsigned int size;
+			unsigned int size = 0;
 			int i = 0;
 
 			UniformBufferLayout layout = uboPair.first->getLayout();

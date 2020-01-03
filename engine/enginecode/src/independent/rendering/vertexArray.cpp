@@ -7,7 +7,7 @@
 
 #include "systems/logger.h"
 #include "rendering/RenderAPI.h"
-#include "../platform/rendering/OpenGLVertexArray.h"
+#include "include/platform/OpenGL/OpenGLVertexArray.h"
 
 
 

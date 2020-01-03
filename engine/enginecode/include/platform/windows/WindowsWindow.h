@@ -10,7 +10,7 @@
 #include "events/keyEvents.h"
 #include "events/mouseEvents.h"
 #include "events/windowEvents.h"
-#include "OpenGL_GLFWGraphicsContext.h"
+#include "include/platform/OpenGL/OpenGLGLFWGraphicsContext.h"
 #include "GLFW/glfw3.h"
 
 namespace Engine {

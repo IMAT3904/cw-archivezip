@@ -4,7 +4,7 @@
 
 #include "engine_pch.h"
 #include <stb_image.h>
-#include "..\..\..\include\platform\rendering\OpenGLTexture.h"
+#include "include/platform/OpenGL/OpenGLTexture.h"
 
 namespace Engine {
 	

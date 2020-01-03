@@ -1,5 +1,5 @@
 #include "engine_pch.h"
-#include "include/platform/windows/GLFWWindowSystem.h"
+#include "include/platform/GLFW/GLFWWindowSystem.h"
 
 
 namespace Engine {

@@ -4,10 +4,7 @@
 
 #include "engine_pch.h"
 #include "systems/logger.h"
-#include "..\platform\rendering\OpenGLClearDepthColorBufferCommand.h"
-#include "..\platform\rendering\OpenGLSetBackFaceCullingCommand.h"
-#include "..\platform\rendering\OpenGLSetClearColourCommand.h"
-#include "..\platform\rendering\OpenGLsetDepthTestLessCommand.h"
+#include "include/platform/OpenGL/OpenGLRenderCommands.h"
 #include "rendering/RenderAPI.h"
 #include "rendering/renderCommand.h"
 

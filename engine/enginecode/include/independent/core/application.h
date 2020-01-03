@@ -67,15 +67,16 @@ namespace Engine {
 
 		//! Reference to our Renderer
 		std::shared_ptr<Renderer> m_renderer;
-		//! Reference to our Text Renderer
+		
+		/* Reference to our Text Renderer
 		std::shared_ptr<Renderer> m_textRenderer;
 		std::shared_ptr<Shader> m_textShader;
 		std::shared_ptr<VertexArray> m_textVAO;
 		std::shared_ptr<Texture> m_textTexture;
 		std::shared_ptr<Material> m_textMaterial;
+		*/
 
-
-		SceneData sceneData;
+		SceneData m_lights;
 
 		unsigned int m_numberTexture; // Texture ID
 		unsigned int m_letterTexture; // Texture ID

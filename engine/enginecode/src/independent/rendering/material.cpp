@@ -5,10 +5,11 @@
 #include "engine_pch.h"
 #include "rendering/material.h"
 #include "rendering/RenderAPI.h"
-#include "../platform/rendering/OpenGLMaterial.h"
+#include "include/platform/OpenGL/OpenGLMaterial.h"
 #include "systems/logger.h"
 
 namespace Engine {
+
 	Material * Material::create(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& VAO)
 	{
 		switch (RenderAPI::getApi())
@@ -19,7 +20,7 @@ namespace Engine {
 			break;
 		case RenderAPI::API::OpenGL:
 			LOG_TRACE("OpenGLMaterial Loaded from filepath");
-			return new OpenGLMaterial();
+			return new OpenGLMaterial(shader,VAO);
 			break;
 		case RenderAPI::API::Direct3D:
 			LOG_FATAL("Direct3D not yet supported");
@@ -32,7 +33,7 @@ namespace Engine {
 		}
 	}
 
-	Material * Material::create(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& VBO)
+	Material * Material::create(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexBuffer>& VBO)
 	{
 		switch (RenderAPI::getApi())
 		{
@@ -42,7 +43,7 @@ namespace Engine {
 			break;
 		case RenderAPI::API::OpenGL:
 			LOG_TRACE("OpenGLMaterial Loaded from filepath");
-			return new OpenGLMaterial();
+			return new OpenGLMaterial(shader,VBO);
 			break;
 		case RenderAPI::API::Direct3D:
 			LOG_FATAL("Direct3D not yet supported");
@@ -54,4 +55,7 @@ namespace Engine {
 			break;
 		}
 	}
+
+
+
 }

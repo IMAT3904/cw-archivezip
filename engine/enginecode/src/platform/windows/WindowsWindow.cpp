@@ -6,7 +6,7 @@
 
 
 #ifdef NG_PLATFORM_WINDOWS	
-#include "include/platform/windows/OpenGL_GLFWGraphicsContext.h"
+#include "include/platform/OpenGL/OpenGLGLFWGraphicsContext.h"
 #endif
 
 

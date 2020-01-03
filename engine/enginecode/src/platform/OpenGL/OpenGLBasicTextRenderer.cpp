@@ -3,7 +3,7 @@
 */
 
 #include "engine_pch.h"
-#include "include/platform/rendering/OpenGLBasicTextRenderer.h"
+#include "include/platform/OpenGL/OpenGLBasicTextRenderer.h"
 
 namespace Engine {
 

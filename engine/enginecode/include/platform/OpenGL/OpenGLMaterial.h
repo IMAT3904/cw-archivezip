@@ -16,7 +16,10 @@ namespace Engine {
 	class OpenGLMaterial : public Material
 	{
 	public:
-		void init(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& VAO); //!< Initialise the material
+
+		OpenGLMaterial(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& VAO); //!< Initialise the material
+		OpenGLMaterial(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexBuffer>& VBO); //!< Initialise the material
+
 		void setShader(const std::shared_ptr<Shader>& shader) override; //!< Set the shader
 		void setGeometry(const std::variant<std::shared_ptr<VertexArray>, std::shared_ptr<VertexBuffer>>& geometry) override; //!<)
 		void setDataBlock(const std::map<std::string, void *>& data) override; //!< Set a block of data as the per draw data
@@ -33,6 +36,7 @@ namespace Engine {
 
 		std::shared_ptr<Shader> m_shader; //!< The shader
 		std::shared_ptr<VertexArray> m_geometry; //!< The geometry
+		std::shared_ptr<UniformBuffer> m_uniform; //!< Uniforms
 		std::map<std::string, void*> m_data; //!< The data
 
 	};

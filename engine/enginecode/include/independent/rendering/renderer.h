@@ -4,7 +4,9 @@
 
 #pragma once
 #include "renderCommand.h"
+#include "uniformBuffers.h"
 #include "buffers.h"
+#include "material.h"
 #include <map>
 #include <memory>
 

@@ -4,10 +4,10 @@
 
 #include "engine_pch.h"
 #include "rendering/shader.h"
-
+#include <memory>
 #include "systems/logger.h"
 #include "rendering/RenderAPI.h"
-#include "../platform/rendering/OpenGLShader.h"
+#include "include/platform/OpenGL/OpenGLShader.h"
 
 namespace Engine {
 

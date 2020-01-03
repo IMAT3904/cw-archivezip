@@ -3,8 +3,10 @@
 */
 #pragma once
 #include "rendering/buffers.h"
+#include "include/platform/OpenGL/OpenGLBuffers.h"
 
 namespace Engine {
+
 
 	class OpenGLVertexBuffer : public VertexBuffer
 	{
@@ -35,27 +37,6 @@ namespace Engine {
 		unsigned int m_objID;
 		unsigned int m_count;
 		
-	};
-
-	/**	\class
-	*	\brief
-	*/
-	class OpenGLUniformBuffer : public UniformBuffer
-	{
-	public:
-
-		OpenGLUniformBuffer(unsigned int size);
-		~OpenGLUniformBuffer();
-		void bind() override; //!< Bind the buffer
-		void unbind() override; //!< unbind the buffer
-		void attachShaderBlock(const std::shared_ptr<Shader>& shader, const std::string& blockName) override; //!< Bind the buffer
-		void setData(unsigned int offset, unsigned int size, void * data) override; //!< Bind the buffer
-		UniformBufferLayout getLayout() const override; //!< Bind the buffer
-	private:
-		unsigned int m_objID;
-		unsigned int m_bindingPoint;
-		unsigned int m_uniformBufferIndex;
-
 	};
 
 

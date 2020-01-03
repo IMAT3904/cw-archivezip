@@ -9,7 +9,7 @@
 #include "rendering/material.h"
 #include "shader.h"
 #include "vertexArray.h"
-#include  "buffers.h"
+#include "uniformBuffers.h"
 
 namespace Engine {
 
@@ -31,7 +31,8 @@ namespace Engine {
 		virtual std::map<std::string, void *> getData() = 0; //!< Get the per draw data
 
 		static Material * create(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& VAO); //!< Create a VAO
-		static Material * create(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& VBO); //!< Create a VBO
+		static Material * create(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexBuffer>& VBO); //!< Create a VBO
+		static Material * create(const std::shared_ptr<Shader>& shader, const std::shared_ptr<UniformBuffer>& UBO); //!< Create a UBO
 
 	};
 }

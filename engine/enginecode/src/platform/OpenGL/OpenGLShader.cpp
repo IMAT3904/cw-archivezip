@@ -3,7 +3,8 @@
 */
 
 #include "engine_pch.h"
-#include "..\..\..\include\platform\rendering\OpenGLShader.h"
+#include "include/platform/OpenGL/OpenGLShader.h"
+#include <memory>
 #include <string>
 #include <fstream>
 

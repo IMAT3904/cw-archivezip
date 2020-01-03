@@ -12,6 +12,7 @@ namespace Engine {
 	AssetManager<Texture> ResourceManager::m_textures;
 	AssetManager<VertexArray> ResourceManager::m_VAOs;
 	AssetManager<VertexBuffer> ResourceManager::m_VBOs;
+	AssetManager<UniformBuffer> ResourceManager::m_UBOs;
 
 	std::shared_ptr<IndexBuffer> ResourceManager::addIndexBuffer(const std::string & name, unsigned int * indices, unsigned int count)
 	{
@@ -48,5 +49,12 @@ namespace Engine {
 		vbo->setLayout(layout);
 		m_VBOs.add(name, vbo);
 		return vbo;
+	}
+
+	std::shared_ptr<UniformBuffer> ResourceManager::addUBO(const std::string & name, unsigned int size, UniformBufferLayout & layout)
+	{
+		std::shared_ptr<UniformBuffer> ubo(UniformBuffer::create(size, layout));
+		m_UBOs.add(name, ubo);
+		return ubo;
 	}
 }

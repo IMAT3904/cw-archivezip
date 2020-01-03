@@ -3,8 +3,8 @@
 */
 
 #include "engine_pch.h"
-#include "include/platform/rendering/OpenGLBasicRenderer.h"
-#include "include/platform/rendering/OpenGLBasicTextRenderer.h"
+#include "include/platform/OpenGL/OpenGLBasicRenderer.h"
+#include "include/platform/OpenGL/OpenGLBasicTextRenderer.h"
 #include "rendering/RenderAPI.h"
 #include "systems/logger.h"
 
