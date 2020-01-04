@@ -12,12 +12,11 @@ namespace Engine {
 		command->action();
 		delete command;
 	}
+
 	void OpenGLBasicRenderer::beginScene(const SceneData & sceneData)
 	{
 		for (auto uboPair : sceneData)
 		{
-			unsigned int offset = 0;
-			unsigned int size = 0;
 			int i = 0;
 
 			UniformBufferLayout layout = uboPair.first->getLayout();
@@ -29,9 +28,13 @@ namespace Engine {
 			}
 		}
 	}
+
 	void OpenGLBasicRenderer::endScene()
 	{
+
 	}
+
+
 	void OpenGLBasicRenderer::submit(const std::shared_ptr<Material> material)
 	{
 		//Bind the shader
@@ -53,6 +56,7 @@ namespace Engine {
 		glDrawElements(GL_TRIANGLES, geometry->getDrawCount(), GL_UNSIGNED_INT, nullptr);
 
 	}
+
 	void OpenGLBasicRenderer::flush()
 	{
 	}

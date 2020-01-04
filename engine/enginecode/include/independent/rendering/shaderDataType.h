@@ -69,7 +69,7 @@ static ShaderDataType GLSLStrToSDT(const std::string& glslSrc)
 	if (glslSrc == "vec4") result = ShaderDataType::Float4;
 	if (glslSrc == "mat3") result = ShaderDataType::Mat3;
 	if (glslSrc == "mat4") result = ShaderDataType::Mat4;
-	if (glslSrc == "sampler2d") result = ShaderDataType::Sampler2D;
+	if (glslSrc == "sampler2D") result = ShaderDataType::Sampler2D;
 	return result;
 }
 

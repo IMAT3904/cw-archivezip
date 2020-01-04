@@ -13,6 +13,7 @@ namespace Engine {
 	AssetManager<VertexArray> ResourceManager::m_VAOs;
 	AssetManager<VertexBuffer> ResourceManager::m_VBOs;
 	AssetManager<UniformBuffer> ResourceManager::m_UBOs;
+	AssetManager<Material> ResourceManager::m_materials;
 
 	std::shared_ptr<IndexBuffer> ResourceManager::addIndexBuffer(const std::string & name, unsigned int * indices, unsigned int count)
 	{
@@ -56,5 +57,12 @@ namespace Engine {
 		std::shared_ptr<UniformBuffer> ubo(UniformBuffer::create(size, layout));
 		m_UBOs.add(name, ubo);
 		return ubo;
+	}
+
+	std::shared_ptr<Material> ResourceManager::addMaterial(const std::string & name, const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& VAO)
+	{
+		std::shared_ptr<Material> material(Material::create(shader, VAO));
+		m_materials.add(name, material);
+		return material;
 	}
 }

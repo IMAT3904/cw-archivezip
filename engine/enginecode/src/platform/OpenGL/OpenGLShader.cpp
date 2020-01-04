@@ -34,7 +34,7 @@ namespace Engine {
 				name = uniformLine.substr(uniformLine.find(" ") + 1);
 				name = name.substr(0, name.find(";"));
 
-				glLayout[name] = type;
+				glLayout[name] = GLSLStrToSDT(type);
 			}
 		}
 
@@ -128,7 +128,7 @@ namespace Engine {
 				name = uniformLine.substr(uniformLine.find(" ") + 1);
 				name = name.substr(0, name.find(";"));
 
-				glLayout[name] = type;
+				glLayout[name] = GLSLStrToSDT(type);
 			}
 		}
 		handleVert.close();
@@ -225,6 +225,17 @@ namespace Engine {
 		glDeleteShader(fragShader);
 	}
 
+	ShaderDataType OpenGLShader::getGLSL(const std::string & name)
+	{
+		for (const auto& types : glLayout)
+		{
+			if (types.first == name)
+			{
+				return types.second;
+			}
+		}
+	}
+
 	unsigned int OpenGLShader::id()
 	{
 		return shader_ID;
@@ -243,8 +254,8 @@ namespace Engine {
 	void OpenGLShader::uploadData(const std::string & name, void * data)
 	{
 		GLuint loc = glGetUniformLocation(id(), name.c_str());
-		DispatchUniformUpload(GLSLStrToSDT(glLayout[name]), loc, data);
-		uniformLayout[name] = data;
+		DispatchUniformUpload(getGLSL(name), loc, data);
+		//uniformLayout[name] = data;
 
 	}
 
@@ -259,7 +270,6 @@ namespace Engine {
 		
 	    switch (type)
 		{
-				
 			case ShaderDataType::Float:
 				valueFloat = *(float*)data;
 				glUniform1f(location, valueFloat);
@@ -296,7 +306,11 @@ namespace Engine {
 				valueInt = *(bool*)data;
 				glUniform1i(location, valueInt);
 				break;
-			defualt:
+			case ShaderDataType::Sampler2D:
+				valueInt = *(int*)data;
+				glUniform1i(location, valueInt);
+				break;
+			default:
 				LOG_ERROR("Shader data type not supported.");
 				break;
 		}

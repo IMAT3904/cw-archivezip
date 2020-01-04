@@ -29,8 +29,17 @@ namespace Engine {
 	
 	void OpenGLVertexArray::setVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer)
 	{
-		glBindVertexArray(m_objID);
-		vertexBuffer->bind();
+		const auto& layout = vertexBuffer->getLayout();
+
+		for (const auto& element : layout)
+		{
+			glEnableVertexAttribArray(m_vertexBufferIndex);
+			glVertexAttribPointer(m_vertexBufferIndex, ShaderDataTypeComponentCount(element.m_dataType), 
+				ShaderDataTypeToOpenGLType(element.m_dataType), element.m_normalized ? GL_TRUE : GL_FALSE, 
+				layout.getStride(), (void*)element.m_offset);
+			m_vertexBufferIndex++;
+		}
+
 		m_vertexBuffers.push_back(vertexBuffer);
 	}
 	

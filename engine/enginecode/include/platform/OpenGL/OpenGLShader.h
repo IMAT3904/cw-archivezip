@@ -15,7 +15,7 @@ namespace Engine {
 	*	\brief 
 	*/
 
-	using GLLayout = std::map<std::string, std::string>;
+	using GLLayout = std::map<std::string, ShaderDataType>;
 
 	class OpenGLShader : public Shader
 	{
@@ -24,6 +24,8 @@ namespace Engine {
 		OpenGLShader(const std::string& filepath);
 		OpenGLShader(const std::string& vertexFilepath, const std::string& fragmentFilepath);
 		~OpenGLShader();
+
+		ShaderDataType getGLSL(const std::string& name);
 
 		unsigned int id() override;
 		void bind() override;

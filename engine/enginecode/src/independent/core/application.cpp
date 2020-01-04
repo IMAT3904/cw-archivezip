@@ -139,27 +139,18 @@ namespace Engine {
 		m_FCShader = m_resources->addShader("assets/shaders/flatColour.glsl");
 		m_FCVAO = m_resources->addVAO("flatColorCube");
 		m_FCVAO->setVertexBuffer(m_resources->addVBO("FlatColorVBO", FCvertices, sizeof(FCvertices), FCLayout));
-		m_FCVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, sizeof(indices)));
-		m_FCCube->setMaterial("FCCUBE", m_FCShader, &m_FCVAO);
+		m_FCVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, 3 * 12));
+		m_FCCube = m_resources->addMaterial("FCCUBE", m_FCShader, m_FCVAO);
 
 		VertexBufferLayout TPLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float2} };
 		m_TPShader = m_resources->addShader("assets/shaders/texturedPhong.glsl");
 		m_TPVAO = m_resources->addVAO("texturedPhongCube");
 		m_TPVAO->setVertexBuffer(m_resources->addVBO("texturedPhongVBO", TPvertices, sizeof(TPvertices), TPLayout));
-		m_TPVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, sizeof(indices)));
-		m_TPCube->setMaterial("TPCUBE", m_TPShader, &m_TPVAO);
+		m_TPVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, 3*12));
+		m_TPCube = m_resources->addMaterial("TPCUBE", m_TPShader, m_TPVAO);
 		
-		UniformBufferLayout uboMatricesLayout = { {ShaderDataType::Mat4},{ShaderDataType::Mat4} };
-		m_UBOMatrices = m_resources->addUBO("Matrices", 2 * sizeof(glm::mat4), uboMatricesLayout);
-		m_UBOMatrices->attachShaderBlock(m_FCShader, "Matrices");
-		m_UBOMatrices->attachShaderBlock(m_TPShader, "Matrices");
-
-		UniformBufferLayout uboLightsLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float3} };
-		m_UBOLights = m_resources->addUBO("Lights", 3 * sizeof(glm::mat4), uboLightsLayout);
-		m_UBOLights->attachShaderBlock(m_TPShader, "Lights");
-		
-		m_FCTex = m_resources->addTexture("assets/textures/letterCube.png");
-		m_TPTex = m_resources->addTexture("assets/textures/numberCube.png");
+		m_FCTexLetter = m_resources->addTexture("assets/textures/letterCube.png");
+		m_TPTexNumber = m_resources->addTexture("assets/textures/numberCube.png");
 
 		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
 		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
@@ -243,22 +234,12 @@ namespace Engine {
 
 			m_renderer->actionCommand(RenderCommand::ClearDepthColorBufferCommand());
 
-			std::vector<void *> lightData(4);
-			lightData[0] = ((void*)&m_lightPosition);
-			lightData[1] = ((void*)&m_viewPosition);
-			lightData[2] = ((void*)&m_lightColour);
-			lightData[3] = ((void*)&m_objectColour);
-
-			m_lights[m_UBOLights] = lightData;
-			m_renderer->beginScene(m_lights);
-
 			m_FCCube->setDataElement("u_MVP", &fcMVP[0][0]);
 			m_renderer->submit(m_FCCube);
 
 			m_TPCube->setDataElement("u_MVP", &tpMVP[0][0]);
 			m_TPCube->setDataElement("u_model", &TPmodel[0][0]);
 
-			m_TPCube->setDataElement("u_objectColour", &m_objectColour[0]);
 			m_TPCube->setDataElement("u_lightColour", &m_lightColour[0]);
 			m_TPCube->setDataElement("u_lightPos", &m_lightPosition[0]);
 			m_TPCube->setDataElement("u_viewPos", &m_viewPosition[0]);

@@ -40,9 +40,4 @@ namespace Engine {
 	{
 		m_data[dataName] = data;
 	}
-	void OpenGLMaterial::setMaterial(const std::string & dataName, const std::shared_ptr<Shader>& shader, void * data)
-	{
-		setShader(shader);
-		m_data[dataName] = data;
-	}
 }

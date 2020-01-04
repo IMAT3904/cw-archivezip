@@ -52,8 +52,8 @@ namespace Engine {
 		std::shared_ptr<VertexArray> m_TPVAO;
 
 		//! Reference to our flat cube and textured phong textures
-		std::shared_ptr<Texture> m_FCTex;
-		std::shared_ptr<Texture> m_TPTex;
+		std::shared_ptr<Texture> m_FCTexLetter;
+		std::shared_ptr<Texture> m_TPTexNumber;
 
 		//! Reference to our flat cube and textured phong shaders
 		std::shared_ptr<Shader> m_FCShader;
