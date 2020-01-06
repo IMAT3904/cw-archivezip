@@ -52,8 +52,8 @@ namespace Engine {
 		std::shared_ptr<VertexArray> m_TPVAO;
 
 		//! Reference to our flat cube and textured phong textures
-		std::shared_ptr<Texture> m_FCTexLetter;
-		std::shared_ptr<Texture> m_TPTexNumber;
+		std::shared_ptr<Texture> m_texLetter;
+		std::shared_ptr<Texture> m_texNumber;
 
 		//! Reference to our flat cube and textured phong shaders
 		std::shared_ptr<Shader> m_FCShader;
@@ -68,21 +68,21 @@ namespace Engine {
 		//! Reference to our Renderer
 		std::shared_ptr<Renderer> m_renderer;
 		
-		/* Reference to our Text Renderer
+		//Reference to our Text Renderer
 		std::shared_ptr<Renderer> m_textRenderer;
 		std::shared_ptr<Shader> m_textShader;
 		std::shared_ptr<VertexArray> m_textVAO;
 		std::shared_ptr<Texture> m_textTexture;
 		std::shared_ptr<Material> m_textMaterial;
-		*/
 
-		SceneData m_lights;
 
 		unsigned int m_numberTexture; // Texture ID
 		unsigned int m_letterTexture; // Texture ID
 		unsigned int m_textureSlots[2]; // Slot where the textures are stored
 		bool m_goingUp = false; // Is the cude going up?
 		float m_timeSummed = 10.f; // How much timer has elasped?
+		int m_texSlot; // Current Tex Slot
+		float fpsControl = 0.f; // FPS display timer
 
 	public:
 		//! Deconstructor
