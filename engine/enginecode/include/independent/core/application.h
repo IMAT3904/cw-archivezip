@@ -3,6 +3,7 @@
 */
 #pragma once
 
+#include <memory>
 #include "math.h"
 #include "systems/WindowSystem.h"
 #include "windows/window.h"
@@ -74,6 +75,9 @@ namespace Engine {
 		std::shared_ptr<VertexArray> m_textVAO;
 		std::shared_ptr<Texture> m_textTexture;
 		std::shared_ptr<Material> m_textMaterial;
+
+		std::shared_ptr<VertexBuffer> textVBO;
+		std::shared_ptr<IndexBuffer> textIBO;
 
 
 		unsigned int m_numberTexture; // Texture ID

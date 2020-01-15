@@ -59,6 +59,10 @@ namespace Engine {
 
 		m_renderer.reset(Renderer::createBasic3D());
 		LOG_WARN("Created Basic3D Renderer");
+
+		m_textRenderer.reset(Renderer::createBasicTextRenderer2D());
+		LOG_WARN("Created Basic3D Renderer");
+
 		m_renderer->actionCommand(RenderCommand::setDepthTestLessCommand(true));
 		m_renderer->actionCommand(RenderCommand::setBackfaceCullingCommand(true));		
 
@@ -132,6 +136,14 @@ namespace Engine {
 		22, 23, 20
 		};
 
+		float textVertices[4 * 4] = {
+			0.f, 0.f, 0.f, 0.0f,
+			0.f, 271.f, 0.f, 1.f,
+			644.f, 271.f, 1.0f, 1.f,
+			644.f, 0.f, 1.0f, 0.0f,
+		};
+
+		unsigned int textIndices[4] = { 0,1,2,3 };
 
 		VertexBufferLayout FCLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3} };
 		m_FCShader = m_resources->addShader("assets/shaders/flatColour.glsl");
@@ -144,17 +156,18 @@ namespace Engine {
 		m_TPShader = m_resources->addShader("assets/shaders/texturedPhong.glsl");
 		m_TPVAO = m_resources->addVAO("texturedPhongCube");
 		m_TPVAO->setVertexBuffer(m_resources->addVBO("texturedPhongVBO", TPvertices, sizeof(TPvertices), TPLayout));
-		m_TPVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, 3*12));
+		m_TPVAO->setIndexBuffer(m_resources->addIndexBuffer("CubeIndices", indices, 3 * 12));
 		m_TPCube = m_resources->addMaterial("TPCUBE", m_TPShader, m_TPVAO);
 		
-		UniformBufferLayout uboMatricesLayout = { {ShaderDataType::Mat4},{ShaderDataType::Mat4} };
-		m_UBOMatrices = m_resources->addUBO("Matrices", 2 * sizeof(glm::mat4), uboMatricesLayout);
-		m_UBOMatrices->attachShaderBlock(m_FCShader, "Matrices");
-		m_UBOMatrices->attachShaderBlock(m_TPShader, "Matrices");
 
-		UniformBufferLayout uboLightsLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float3} };
-		m_UBOLights = m_resources->addUBO("Lights", 3 * sizeof(glm::mat4), uboLightsLayout);
-		m_UBOLights->attachShaderBlock(m_TPShader, "Lights");
+		VertexBufferLayout textLayout = { {ShaderDataType::Float2},{ShaderDataType::Float2} };
+		m_textShader = m_resources->addShader("assets/shaders/text.glsl");
+		m_textVAO = m_resources->addVAO("textVAO");
+		m_textVAO->setVertexBuffer(m_resources->addVBO("textVBO", textVertices, sizeof(textVertices), textLayout));
+		m_textVAO->setIndexBuffer(m_resources->addIndexBuffer("textIBO", textIndices, 4));
+		m_textMaterial = m_resources->addMaterial("TEXT", m_textShader, m_textVAO);
+		
+		m_textTexture = m_resources->addTexture("assets/textures/hello.png");
 
 		m_texLetter = m_resources->addTexture("assets/textures/letterCube.png");
 		m_texNumber = m_resources->addTexture("assets/textures/numberCube.png");
@@ -162,30 +175,19 @@ namespace Engine {
 		TPmodel = glm::translate(glm::mat4(1), glm::vec3(-1.5, 0, 3));
 		FCmodel = glm::translate(glm::mat4(1), glm::vec3(1.5, 0, 3));
 
-
-		/*
-		float textVertices[4 * 4] = {
-			0.f, 0.f, 0.f, 1.0f,
-			0.f, 150.f, 0.f, 0.0f,
-			266.f, 150.f, 1.0f, 0.0f,
-			266.f, 0.f, 1.0f, 1.f,
-		};
-		unsigned int textIndices[4] = { 0,1,2,3 };
-		m_textVAO.reset(VertexArray::create());
-		m_textVAO->bind();
-		VertexBufferLayout vbl = { {ShaderDataType::Float2}, {ShaderDataType::Float2} };
-		std::shared_ptr<VertexBuffer> textVBO;
-		textVBO.reset(VertexBuffer::create(textVertices, sizeof(textIndices)), vbl);
-		m_textVAO->setVertexBuffer(textVBO);
-		std::shared_ptr<IndexBuffer> textIBO;
-		textIBO.reset(IndexBuffer::create(textIndices, 4));
-		m_textVAO->setIndexBuffer(textIBO);
-		m_textTexture.reset(Texture::createFromFile("assets/textres/hello.png"));
-		m_textShader.reset(Shader::create("assets/shaders/text.glsl"));
-		m_textMaterial.reset(Material::create(m_textShader, m_textVAO));
 		glm::mat4 textProjection = glm::ortho(0.f, 800.f, 600.f, 0.f);
 		glm::mat4 textView = glm::mat4(1.0f);
 		glm::mat4 textMode = glm::translate(glm::mat4(1.0f), glm::vec3(100.f, 100.f, 0.f));
+
+
+		/*
+		UniformBufferLayout uboMatricesLayout = { {ShaderDataType::Mat4},{ShaderDataType::Mat4} };
+		m_UBOMatrices = m_resources->addUBO("Matrices", 2 * sizeof(glm::mat4), uboMatricesLayout);
+		m_UBOMatrices->attachShaderBlock(m_FCShader, "Matrices");
+		m_UBOMatrices->attachShaderBlock(m_TPShader, "Matrices");
+		UniformBufferLayout uboLightsLayout = { {ShaderDataType::Float3},{ShaderDataType::Float3},{ShaderDataType::Float3} };
+		m_UBOLights = m_resources->addUBO("Lights", 3 * sizeof(glm::mat4), uboLightsLayout);
+		m_UBOLights->attachShaderBlock(m_TPShader, "Lights");
 		*/
 
 		m_timer->frameDuration(); //reset our timer
@@ -208,7 +210,6 @@ namespace Engine {
 
 	void Application::run()
 	{
-
 		m_running = true;		//start run/frame/event loop
 		glm::mat4 projection = glm::perspective(glm::radians(45.0f), 4.0f / 3.0f, 0.1f, 100.0f); // Basic 4:3 camera
 		glm::mat4 view = glm::lookAt(
@@ -217,24 +218,29 @@ namespace Engine {
 			glm::vec3(0.f, 1.f, 0.f)  // Standing straight  up
 		);
 
-		std::vector<void*> sceneData1(2);
-		sceneData1[0] = (void*)&projection[0][0];
-		sceneData1[1] = (void*)&view[0][0];
-
 		glm::vec3 m_lightPosition = glm::vec3(1.0f, 4.0f, -6.0f);
 		glm::vec3 m_viewPosition = glm::vec3(0.0f, 0.0f, -4.5f);
 		glm::vec3 m_lightColour = glm::vec3(1.0f, 1.0f, 1.0f);
 
+		/*
+		std::vector<void*> sceneData1(2);
+		sceneData1[0] = (void*)&projection[0][0];
+		sceneData1[1] = (void*)&view[0][0];
 		std::vector<void*> sceneData2(3);
 		sceneData2[0] = (void*)&m_lightPosition[0];
 		sceneData2[1] = (void*)&m_viewPosition[0];
 		sceneData2[2] = (void*)&m_lightColour[0];
-
 		SceneData sceneData;
 		sceneData[m_UBOMatrices] = sceneData1;
 		sceneData[m_UBOLights] = sceneData1;
+		*/
 
 		m_renderer->actionCommand(RenderCommand::setClearColourCommand(0.8f, 0.8f, 0.8f, 1.f));
+
+		glm::mat4 textProjection = glm::ortho(0.f, 800.f, 600.f, 0.f);
+		glm::mat4 textView = glm::mat4(1.0f);
+		glm::mat4 textModel = glm::translate(glm::mat4(1.0f), glm::vec3(100.f, 100.f, 0.f));
+
 
 		while (m_running) {		//while the application is running
 			
@@ -279,20 +285,31 @@ namespace Engine {
 
 			m_renderer->actionCommand(RenderCommand::ClearDepthColorBufferCommand());
 
-			m_renderer->beginScene(sceneData);
-
+			//m_renderer->beginScene(sceneData);
+			
+			//ubo stuff
 			m_FCCube->setDataElement("u_MVP", &fcMVP[0][0]);
 			m_renderer->submit(m_FCCube);
 
-			m_texSlot = m_texLetter->getSlot();
-
-			m_TPCube->setDataElement("u_MVP", &tpMVP[0][0]);
 			m_TPCube->setDataElement("u_model", &TPmodel[0][0]);
+			m_TPCube->setDataElement("u_texData", &m_texSlot);
+			//ubo stuff
+			m_TPCube->setDataElement("u_MVP", &tpMVP[0][0]);
 			m_TPCube->setDataElement("u_lightColour", &m_lightColour[0]);
 			m_TPCube->setDataElement("u_lightPos", &m_lightPosition[0]);
 			m_TPCube->setDataElement("u_viewPos", &m_viewPosition[0]);
-			m_TPCube->setDataElement("u_texData", &m_texSlot);
 			m_renderer->submit(m_TPCube);
+
+			m_texSlot = m_textTexture->getSlot();
+
+			m_textMaterial->setDataElement("u_projection", (void*)&textProjection[0][0]);
+			m_textMaterial->setDataElement("u_view", (void*)&textView[0][0]);
+			m_textMaterial->setDataElement("u_model", (void*)&textModel[0][0]);
+			m_textMaterial->setDataElement("u_texData", (void*)&m_texSlot);
+
+			m_textRenderer->actionCommand(RenderCommand::setOneMinusAlphaBlending(true));
+			m_textRenderer->submit(m_textMaterial);
+			m_textRenderer->actionCommand(RenderCommand::setOneMinusAlphaBlending(false));
 
 			m_window->onUpdate();									//frame
 		}

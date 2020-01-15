@@ -61,6 +61,15 @@ namespace Engine {
 		void action() override;
 	};
 
+	class OpenGLSetOneMinusAlphaBlending : public RenderCommand
+	{
+	private:
+		bool m_enabled;
+	public:
+		OpenGLSetOneMinusAlphaBlending(bool enabled) : m_enabled(enabled) {};
+		void action() override;
+	};
+
 	void OpenGLSetClearColourCommand::action()
 	{
 		glClearColor(m_r, m_g, m_g, m_a);
@@ -71,6 +80,14 @@ namespace Engine {
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	}
 
+	void OpenGLSetOneMinusAlphaBlending::action()
+	{
+		if (m_enabled)
+		{
+			glEnable(GL_BLEND);
+			glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+		}
+	}
 
 	void OpenGLSetDepthTestLessCommand::action()
 	{
@@ -91,6 +108,7 @@ namespace Engine {
 
 	}
 
+	
 
 	
 

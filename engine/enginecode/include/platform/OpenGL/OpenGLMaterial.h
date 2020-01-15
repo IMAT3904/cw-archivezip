@@ -35,7 +35,6 @@ namespace Engine {
 
 		std::shared_ptr<Shader> m_shader; //!< The shader
 		std::shared_ptr<VertexArray> m_geometry; //!< The geometry
-		//std::shared_ptr<UniformBuffer> m_uniform; //!< Uniforms
 		std::map<std::string, void*> m_data; //!< The data
 
 	};

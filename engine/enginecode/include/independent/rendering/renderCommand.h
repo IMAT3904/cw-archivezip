@@ -18,6 +18,7 @@ namespace Engine {
 		static RenderCommand * setClearColourCommand(float r, float g, float b, float a);
 		static RenderCommand * setDepthTestLessCommand(bool enabled);
 		static RenderCommand * setBackfaceCullingCommand(bool enabled);
+		static RenderCommand * setOneMinusAlphaBlending(bool enabled);
 	};
 
 }

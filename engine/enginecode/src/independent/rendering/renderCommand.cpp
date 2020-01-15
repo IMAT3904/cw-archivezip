@@ -66,4 +66,18 @@ namespace Engine {
 		}
 	}
 
+	RenderCommand * RenderCommand::setOneMinusAlphaBlending(bool enabled)
+	{
+		switch (RenderAPI::getApi())
+		{
+		case RenderAPI::API::None:
+			LOG_ASSERT(false, "RendererAPI::None is currently not supported!");
+			return nullptr;
+			break;
+		case RenderAPI::API::OpenGL:
+			return new OpenGLSetOneMinusAlphaBlending(enabled);
+			break;
+		}
+	}
+
 }
