@@ -18,6 +18,7 @@ namespace Engine {
 		virtual void updateView() = 0;
 		const glm::mat4& getProjection() { return m_projection; }
 		const glm::mat4& getView() { return m_view; }
+		const glm::mat4& getViewProjection() { return m_viewProjection; }
 
 	};
 

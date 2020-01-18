@@ -211,6 +211,7 @@ namespace Engine {
 	void Application::run()
 	{
 		m_running = true;		//start run/frame/event loop
+		
 		glm::mat4 projection = glm::perspective(glm::radians(45.0f), 4.0f / 3.0f, 0.1f, 100.0f); // Basic 4:3 camera
 		glm::mat4 view = glm::lookAt(
 			glm::vec3(0.0f, 0.0f, -4.5f), // Camera is at (0.0,0.0,-4.5), in World Space
@@ -222,7 +223,13 @@ namespace Engine {
 		glm::vec3 m_viewPosition = glm::vec3(0.0f, 0.0f, -4.5f);
 		glm::vec3 m_lightColour = glm::vec3(1.0f, 1.0f, 1.0f);
 
-		/*
+		glm::mat4 textProjection = glm::ortho(0.f, 800.f, 600.f, 0.f);
+		glm::mat4 textView = glm::mat4(1.0f);
+		glm::mat4 textModel = glm::translate(glm::mat4(1.0f), glm::vec3(100.f, 100.f, 0.f));
+
+
+
+		/* Failed UBO Scene Data
 		std::vector<void*> sceneData1(2);
 		sceneData1[0] = (void*)&projection[0][0];
 		sceneData1[1] = (void*)&view[0][0];
@@ -236,11 +243,6 @@ namespace Engine {
 		*/
 
 		m_renderer->actionCommand(RenderCommand::setClearColourCommand(0.8f, 0.8f, 0.8f, 1.f));
-
-		glm::mat4 textProjection = glm::ortho(0.f, 800.f, 600.f, 0.f);
-		glm::mat4 textView = glm::mat4(1.0f);
-		glm::mat4 textModel = glm::translate(glm::mat4(1.0f), glm::vec3(100.f, 100.f, 0.f));
-
 
 		while (m_running) {		//while the application is running
 			

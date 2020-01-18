@@ -15,12 +15,12 @@ namespace Engine {
 	{
 	private:
 		std::shared_ptr<OrthographicCamera2D> m_camera;
-		glm::vec2 m_position = glm::vec3(0.f);
+		glm::vec3 m_position;
 		float m_rotation = 0.f;
 		float m_translationSpeed = 0.f;
 		float m_rotationSpeed = 10.f;
 	public:
-		FreeOrthoCameraController2D();
+		FreeOrthoCameraController2D(float translateSpeed);
 		void init(float left, float top, float width, float height) override;
 		std::shared_ptr<Camera> getCamera() override { return m_camera; }
 		void onUpdate(float timestep) override;

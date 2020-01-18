@@ -5,7 +5,7 @@
 #include "engine_pch.h"
 #include "include/platform/GLFW/GLFWCodes.h"
 #include "include/independent/events/inputPoller.h"
-#include "cameras/fpsCameraControllerEuler.h"
+#include "cameras/fpsCameraControllerEuler3D.h"
 
 namespace Engine {
 	
