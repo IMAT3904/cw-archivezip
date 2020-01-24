@@ -37494,3 +37494,2432 @@ void main()
 [2020-01-16 14:26:40.804] [Engine] [info] Cleared Resource System
 [2020-01-16 14:26:40.804] [Engine] [info] Timer Stopped
 [2020-01-16 14:26:40.805] [Engine] [info] Ending Log...
+[2020-01-23 18:20:20.252] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-23 18:20:20.255] [Engine] [warning] Logger Initialized
+[2020-01-23 18:20:20.255] [Engine] [warning] Resource Manager Started
+[2020-01-23 18:20:20.255] [Engine] [warning] Timing system Started
+[2020-01-23 18:20:20.255] [Engine] [warning] GLFW Window System Started
+[2020-01-23 18:20:21.179] [Engine] [warning] GLAD Loaded
+[2020-01-23 18:20:21.180] [Engine] [warning] Window Created
+[2020-01-23 18:20:21.180] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:20:21.180] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:20:23.897] [Engine] [warning] Closing Application
+[2020-01-23 18:20:23.909] [Engine] [info] Cleared Window
+[2020-01-23 18:20:23.926] [Engine] [info] Windows System Stopped
+[2020-01-23 18:20:23.927] [Engine] [info] Cleared Resource System
+[2020-01-23 18:20:23.927] [Engine] [info] Timer Stopped
+[2020-01-23 18:20:23.927] [Engine] [info] Ending Log...
+[2020-01-23 18:20:43.834] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-23 18:20:43.835] [Engine] [warning] Logger Initialized
+[2020-01-23 18:20:43.835] [Engine] [warning] Resource Manager Started
+[2020-01-23 18:20:43.836] [Engine] [warning] Timing system Started
+[2020-01-23 18:20:43.836] [Engine] [warning] GLFW Window System Started
+[2020-01-23 18:20:44.716] [Engine] [warning] GLAD Loaded
+[2020-01-23 18:20:44.717] [Engine] [warning] Window Created
+[2020-01-23 18:20:44.717] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:20:44.717] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:20:46.772] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-23 18:20:47.001] [Engine] [info] Key Released: 87
+[2020-01-23 18:20:47.598] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-23 18:20:47.695] [Engine] [info] Key Released: 83
+[2020-01-23 18:20:47.752] [Engine] [info] Mouse moved at: 389.0,9.0
+[2020-01-23 18:20:47.753] [Engine] [info] Mouse moved at: 391.0,13.0
+[2020-01-23 18:20:47.757] [Engine] [info] Mouse moved at: 395.0,24.0
+[2020-01-23 18:20:47.764] [Engine] [info] Mouse moved at: 399.0,39.0
+[2020-01-23 18:20:47.765] [Engine] [info] Mouse moved at: 401.0,45.0
+[2020-01-23 18:20:47.771] [Engine] [info] Mouse moved at: 405.0,60.0
+[2020-01-23 18:20:47.778] [Engine] [info] Mouse moved at: 409.0,77.0
+[2020-01-23 18:20:47.785] [Engine] [info] Mouse moved at: 411.0,89.0
+[2020-01-23 18:20:47.792] [Engine] [info] Mouse moved at: 412.0,98.0
+[2020-01-23 18:20:47.793] [Engine] [info] Mouse moved at: 413.0,101.0
+[2020-01-23 18:20:47.800] [Engine] [info] Mouse moved at: 414.0,108.0
+[2020-01-23 18:20:47.807] [Engine] [info] Mouse moved at: 415.0,114.0
+[2020-01-23 18:20:47.813] [Engine] [info] Mouse moved at: 416.0,117.0
+[2020-01-23 18:20:47.820] [Engine] [info] Mouse moved at: 416.0,119.0
+[2020-01-23 18:20:47.854] [Engine] [info] Mouse moved at: 416.0,121.0
+[2020-01-23 18:20:47.862] [Engine] [info] Mouse moved at: 416.0,123.0
+[2020-01-23 18:20:47.869] [Engine] [info] Mouse moved at: 416.0,125.0
+[2020-01-23 18:20:47.876] [Engine] [info] Mouse moved at: 415.0,128.0
+[2020-01-23 18:20:47.883] [Engine] [info] Mouse moved at: 414.0,130.0
+[2020-01-23 18:20:47.890] [Engine] [info] Mouse moved at: 414.0,132.0
+[2020-01-23 18:20:47.896] [Engine] [info] Mouse moved at: 414.0,133.0
+[2020-01-23 18:20:47.903] [Engine] [info] Mouse moved at: 413.0,134.0
+[2020-01-23 18:20:47.911] [Engine] [info] Mouse moved at: 413.0,135.0
+[2020-01-23 18:20:47.911] [Engine] [info] Mouse moved at: 412.0,135.0
+[2020-01-23 18:20:48.008] [Engine] [info] Mouse button pressed: 0
+[2020-01-23 18:20:48.112] [Engine] [info] Mouse button released: 0
+[2020-01-23 18:20:48.246] [Engine] [info] Mouse moved at: 413.0,135.0
+[2020-01-23 18:20:48.251] [Engine] [info] Mouse moved at: 414.0,135.0
+[2020-01-23 18:20:48.258] [Engine] [info] Mouse moved at: 416.0,135.0
+[2020-01-23 18:20:48.259] [Engine] [info] Mouse moved at: 417.0,135.0
+[2020-01-23 18:20:48.265] [Engine] [info] Mouse moved at: 420.0,134.0
+[2020-01-23 18:20:48.272] [Engine] [info] Mouse moved at: 423.0,134.0
+[2020-01-23 18:20:48.279] [Engine] [info] Mouse moved at: 428.0,133.0
+[2020-01-23 18:20:48.286] [Engine] [info] Mouse moved at: 432.0,132.0
+[2020-01-23 18:20:48.293] [Engine] [info] Mouse moved at: 437.0,131.0
+[2020-01-23 18:20:48.299] [Engine] [info] Mouse moved at: 441.0,130.0
+[2020-01-23 18:20:48.307] [Engine] [info] Mouse moved at: 446.0,129.0
+[2020-01-23 18:20:48.314] [Engine] [info] Mouse moved at: 449.0,128.0
+[2020-01-23 18:20:48.320] [Engine] [info] Mouse moved at: 453.0,128.0
+[2020-01-23 18:20:48.327] [Engine] [info] Mouse moved at: 456.0,127.0
+[2020-01-23 18:20:48.334] [Engine] [info] Mouse moved at: 459.0,127.0
+[2020-01-23 18:20:48.341] [Engine] [info] Mouse moved at: 461.0,126.0
+[2020-01-23 18:20:48.348] [Engine] [info] Mouse moved at: 462.0,126.0
+[2020-01-23 18:20:48.403] [Engine] [info] Mouse moved at: 463.0,126.0
+[2020-01-23 18:20:48.411] [Engine] [info] Mouse moved at: 464.0,126.0
+[2020-01-23 18:20:48.418] [Engine] [info] Mouse moved at: 465.0,125.0
+[2020-01-23 18:20:48.419] [Engine] [info] Mouse moved at: 466.0,125.0
+[2020-01-23 18:20:48.425] [Engine] [info] Mouse moved at: 469.0,125.0
+[2020-01-23 18:20:48.432] [Engine] [info] Mouse moved at: 473.0,124.0
+[2020-01-23 18:20:48.433] [Engine] [info] Mouse moved at: 475.0,123.0
+[2020-01-23 18:20:48.439] [Engine] [info] Mouse moved at: 479.0,122.0
+[2020-01-23 18:20:48.446] [Engine] [info] Mouse moved at: 484.0,121.0
+[2020-01-23 18:20:48.452] [Engine] [info] Mouse moved at: 488.0,119.0
+[2020-01-23 18:20:48.453] [Engine] [info] Mouse moved at: 490.0,119.0
+[2020-01-23 18:20:48.459] [Engine] [info] Mouse moved at: 495.0,117.0
+[2020-01-23 18:20:48.466] [Engine] [info] Mouse moved at: 499.0,116.0
+[2020-01-23 18:20:48.473] [Engine] [info] Mouse moved at: 505.0,114.0
+[2020-01-23 18:20:48.480] [Engine] [info] Mouse moved at: 509.0,113.0
+[2020-01-23 18:20:48.481] [Engine] [info] Mouse moved at: 510.0,112.0
+[2020-01-23 18:20:48.487] [Engine] [info] Mouse moved at: 513.0,111.0
+[2020-01-23 18:20:48.494] [Engine] [info] Mouse moved at: 517.0,111.0
+[2020-01-23 18:20:48.495] [Engine] [info] Mouse moved at: 518.0,110.0
+[2020-01-23 18:20:48.501] [Engine] [info] Mouse moved at: 519.0,110.0
+[2020-01-23 18:20:48.508] [Engine] [info] Mouse moved at: 521.0,109.0
+[2020-01-23 18:20:48.515] [Engine] [info] Mouse moved at: 523.0,108.0
+[2020-01-23 18:20:48.523] [Engine] [info] Mouse moved at: 525.0,108.0
+[2020-01-23 18:20:48.529] [Engine] [info] Mouse moved at: 526.0,107.0
+[2020-01-23 18:20:48.536] [Engine] [info] Mouse moved at: 527.0,107.0
+[2020-01-23 18:20:48.544] [Engine] [info] Mouse moved at: 528.0,107.0
+[2020-01-23 18:20:48.549] [Engine] [info] Mouse moved at: 530.0,106.0
+[2020-01-23 18:20:48.557] [Engine] [info] Mouse moved at: 532.0,106.0
+[2020-01-23 18:20:48.557] [Engine] [info] Mouse moved at: 533.0,105.0
+[2020-01-23 18:20:48.559] [Engine] [info] Mouse moved at: 534.0,105.0
+[2020-01-23 18:20:48.563] [Engine] [info] Mouse moved at: 536.0,104.0
+[2020-01-23 18:20:48.570] [Engine] [info] Mouse moved at: 539.0,103.0
+[2020-01-23 18:20:48.570] [Engine] [info] Mouse moved at: 541.0,103.0
+[2020-01-23 18:20:48.577] [Engine] [info] Mouse moved at: 545.0,101.0
+[2020-01-23 18:20:48.584] [Engine] [info] Mouse moved at: 549.0,100.0
+[2020-01-23 18:20:48.585] [Engine] [info] Mouse moved at: 550.0,99.0
+[2020-01-23 18:20:48.591] [Engine] [info] Mouse moved at: 555.0,97.0
+[2020-01-23 18:20:48.598] [Engine] [info] Mouse moved at: 559.0,95.0
+[2020-01-23 18:20:48.605] [Engine] [info] Mouse moved at: 566.0,92.0
+[2020-01-23 18:20:48.612] [Engine] [info] Mouse moved at: 571.0,90.0
+[2020-01-23 18:20:48.619] [Engine] [info] Mouse moved at: 578.0,86.0
+[2020-01-23 18:20:48.626] [Engine] [info] Mouse moved at: 583.0,83.0
+[2020-01-23 18:20:48.627] [Engine] [info] Mouse moved at: 585.0,82.0
+[2020-01-23 18:20:48.633] [Engine] [info] Mouse moved at: 591.0,78.0
+[2020-01-23 18:20:48.639] [Engine] [info] Mouse moved at: 598.0,74.0
+[2020-01-23 18:20:48.647] [Engine] [info] Mouse moved at: 607.0,67.0
+[2020-01-23 18:20:48.653] [Engine] [info] Mouse moved at: 616.0,62.0
+[2020-01-23 18:20:48.660] [Engine] [info] Mouse moved at: 624.0,57.0
+[2020-01-23 18:20:48.661] [Engine] [info] Mouse moved at: 628.0,55.0
+[2020-01-23 18:20:48.667] [Engine] [info] Mouse moved at: 638.0,50.0
+[2020-01-23 18:20:48.674] [Engine] [info] Mouse moved at: 648.0,45.0
+[2020-01-23 18:20:48.675] [Engine] [info] Mouse moved at: 653.0,43.0
+[2020-01-23 18:20:48.681] [Engine] [info] Mouse moved at: 664.0,38.0
+[2020-01-23 18:20:48.688] [Engine] [info] Mouse moved at: 681.0,32.0
+[2020-01-23 18:20:48.695] [Engine] [info] Mouse moved at: 693.0,28.0
+[2020-01-23 18:20:48.702] [Engine] [info] Mouse moved at: 705.0,24.0
+[2020-01-23 18:20:48.703] [Engine] [info] Mouse moved at: 709.0,23.0
+[2020-01-23 18:20:48.709] [Engine] [info] Mouse moved at: 721.0,19.0
+[2020-01-23 18:20:48.716] [Engine] [info] Mouse moved at: 731.0,16.0
+[2020-01-23 18:20:48.717] [Engine] [info] Mouse moved at: 733.0,15.0
+[2020-01-23 18:20:48.723] [Engine] [info] Mouse moved at: 742.0,12.0
+[2020-01-23 18:20:48.730] [Engine] [info] Mouse moved at: 749.0,10.0
+[2020-01-23 18:20:48.731] [Engine] [info] Mouse moved at: 751.0,10.0
+[2020-01-23 18:20:48.737] [Engine] [info] Mouse moved at: 755.0,8.0
+[2020-01-23 18:20:48.744] [Engine] [info] Mouse moved at: 758.0,8.0
+[2020-01-23 18:20:48.745] [Engine] [info] Mouse moved at: 759.0,8.0
+[2020-01-23 18:20:48.750] [Engine] [info] Mouse moved at: 760.0,7.0
+[2020-01-23 18:20:48.952] [Engine] [info] Mouse moved at: 760.0,8.0
+[2020-01-23 18:20:48.966] [Engine] [info] Mouse moved at: 759.0,8.0
+[2020-01-23 18:20:48.994] [Engine] [info] Mouse moved at: 758.0,8.0
+[2020-01-23 18:20:48.995] [Engine] [info] Mouse moved at: 758.0,9.0
+[2020-01-23 18:20:49.008] [Engine] [info] Mouse moved at: 757.0,9.0
+[2020-01-23 18:20:49.015] [Engine] [info] Mouse moved at: 757.0,10.0
+[2020-01-23 18:20:49.022] [Engine] [info] Mouse moved at: 756.0,10.0
+[2020-01-23 18:20:49.029] [Engine] [info] Mouse moved at: 756.0,11.0
+[2020-01-23 18:20:49.036] [Engine] [info] Mouse moved at: 755.0,11.0
+[2020-01-23 18:20:49.043] [Engine] [info] Mouse moved at: 754.0,12.0
+[2020-01-23 18:20:49.050] [Engine] [info] Mouse moved at: 752.0,13.0
+[2020-01-23 18:20:49.056] [Engine] [info] Mouse moved at: 751.0,14.0
+[2020-01-23 18:20:49.063] [Engine] [info] Mouse moved at: 749.0,15.0
+[2020-01-23 18:20:49.070] [Engine] [info] Mouse moved at: 747.0,16.0
+[2020-01-23 18:20:49.071] [Engine] [info] Mouse moved at: 745.0,17.0
+[2020-01-23 18:20:49.078] [Engine] [info] Mouse moved at: 742.0,19.0
+[2020-01-23 18:20:49.084] [Engine] [info] Mouse moved at: 739.0,21.0
+[2020-01-23 18:20:49.085] [Engine] [info] Mouse moved at: 738.0,22.0
+[2020-01-23 18:20:49.091] [Engine] [info] Mouse moved at: 734.0,24.0
+[2020-01-23 18:20:49.098] [Engine] [info] Mouse moved at: 730.0,27.0
+[2020-01-23 18:20:49.105] [Engine] [info] Mouse moved at: 726.0,30.0
+[2020-01-23 18:20:49.112] [Engine] [info] Mouse moved at: 722.0,33.0
+[2020-01-23 18:20:49.119] [Engine] [info] Mouse moved at: 718.0,36.0
+[2020-01-23 18:20:49.126] [Engine] [info] Mouse moved at: 714.0,39.0
+[2020-01-23 18:20:49.127] [Engine] [info] Mouse moved at: 713.0,40.0
+[2020-01-23 18:20:49.133] [Engine] [info] Mouse moved at: 710.0,42.0
+[2020-01-23 18:20:49.139] [Engine] [info] Mouse moved at: 707.0,46.0
+[2020-01-23 18:20:49.147] [Engine] [info] Mouse moved at: 704.0,50.0
+[2020-01-23 18:20:49.153] [Engine] [info] Mouse moved at: 701.0,53.0
+[2020-01-23 18:20:49.161] [Engine] [info] Mouse moved at: 697.0,58.0
+[2020-01-23 18:20:49.167] [Engine] [info] Mouse moved at: 694.0,61.0
+[2020-01-23 18:20:49.174] [Engine] [info] Mouse moved at: 690.0,65.0
+[2020-01-23 18:20:49.174] [Engine] [info] Mouse moved at: 689.0,66.0
+[2020-01-23 18:20:49.182] [Engine] [info] Mouse moved at: 686.0,70.0
+[2020-01-23 18:20:49.188] [Engine] [info] Mouse moved at: 683.0,75.0
+[2020-01-23 18:20:49.189] [Engine] [info] Mouse moved at: 682.0,76.0
+[2020-01-23 18:20:49.195] [Engine] [info] Mouse moved at: 679.0,80.0
+[2020-01-23 18:20:49.202] [Engine] [info] Mouse moved at: 676.0,85.0
+[2020-01-23 18:20:49.209] [Engine] [info] Mouse moved at: 672.0,91.0
+[2020-01-23 18:20:49.216] [Engine] [info] Mouse moved at: 669.0,95.0
+[2020-01-23 18:20:49.224] [Engine] [info] Mouse moved at: 665.0,101.0
+[2020-01-23 18:20:49.231] [Engine] [info] Mouse moved at: 662.0,105.0
+[2020-01-23 18:20:49.231] [Engine] [info] Mouse moved at: 662.0,106.0
+[2020-01-23 18:20:49.237] [Engine] [info] Mouse moved at: 659.0,109.0
+[2020-01-23 18:20:49.244] [Engine] [info] Mouse moved at: 657.0,112.0
+[2020-01-23 18:20:49.251] [Engine] [info] Mouse moved at: 655.0,116.0
+[2020-01-23 18:20:49.259] [Engine] [info] Mouse moved at: 654.0,118.0
+[2020-01-23 18:20:49.260] [Engine] [info] Mouse moved at: 653.0,118.0
+[2020-01-23 18:20:49.261] [Engine] [info] Mouse moved at: 653.0,119.0
+[2020-01-23 18:20:49.272] [Engine] [info] Mouse moved at: 652.0,119.0
+[2020-01-23 18:20:49.279] [Engine] [info] Mouse moved at: 652.0,120.0
+[2020-01-23 18:20:49.369] [Engine] [info] Mouse moved at: 654.0,118.0
+[2020-01-23 18:20:49.376] [Engine] [info] Mouse moved at: 656.0,116.0
+[2020-01-23 18:20:49.383] [Engine] [info] Mouse moved at: 659.0,111.0
+[2020-01-23 18:20:49.390] [Engine] [info] Mouse moved at: 663.0,108.0
+[2020-01-23 18:20:49.396] [Engine] [info] Mouse moved at: 667.0,104.0
+[2020-01-23 18:20:49.397] [Engine] [info] Mouse moved at: 668.0,103.0
+[2020-01-23 18:20:49.403] [Engine] [info] Mouse moved at: 673.0,98.0
+[2020-01-23 18:20:49.410] [Engine] [info] Mouse moved at: 677.0,94.0
+[2020-01-23 18:20:49.411] [Engine] [info] Mouse moved at: 679.0,93.0
+[2020-01-23 18:20:49.418] [Engine] [info] Mouse moved at: 684.0,88.0
+[2020-01-23 18:20:49.424] [Engine] [info] Mouse moved at: 688.0,84.0
+[2020-01-23 18:20:49.426] [Engine] [info] Mouse moved at: 689.0,83.0
+[2020-01-23 18:20:49.427] [Engine] [info] Mouse moved at: 691.0,81.0
+[2020-01-23 18:20:49.432] [Engine] [info] Mouse moved at: 694.0,79.0
+[2020-01-23 18:20:49.438] [Engine] [info] Mouse moved at: 698.0,75.0
+[2020-01-23 18:20:49.439] [Engine] [info] Mouse moved at: 699.0,74.0
+[2020-01-23 18:20:49.446] [Engine] [info] Mouse moved at: 702.0,70.0
+[2020-01-23 18:20:49.452] [Engine] [info] Mouse moved at: 705.0,66.0
+[2020-01-23 18:20:49.459] [Engine] [info] Mouse moved at: 708.0,62.0
+[2020-01-23 18:20:49.466] [Engine] [info] Mouse moved at: 710.0,59.0
+[2020-01-23 18:20:49.466] [Engine] [info] Mouse moved at: 710.0,58.0
+[2020-01-23 18:20:49.473] [Engine] [info] Mouse moved at: 712.0,56.0
+[2020-01-23 18:20:49.481] [Engine] [info] Mouse moved at: 714.0,54.0
+[2020-01-23 18:20:49.482] [Engine] [info] Mouse moved at: 714.0,53.0
+[2020-01-23 18:20:49.487] [Engine] [info] Mouse moved at: 715.0,51.0
+[2020-01-23 18:20:49.494] [Engine] [info] Mouse moved at: 716.0,49.0
+[2020-01-23 18:20:49.495] [Engine] [info] Mouse moved at: 717.0,48.0
+[2020-01-23 18:20:49.501] [Engine] [info] Mouse moved at: 718.0,46.0
+[2020-01-23 18:20:49.508] [Engine] [info] Mouse moved at: 719.0,44.0
+[2020-01-23 18:20:49.509] [Engine] [info] Mouse moved at: 720.0,44.0
+[2020-01-23 18:20:49.514] [Engine] [info] Mouse moved at: 720.0,43.0
+[2020-01-23 18:20:49.522] [Engine] [info] Mouse moved at: 721.0,42.0
+[2020-01-23 18:20:49.529] [Engine] [info] Mouse moved at: 721.0,41.0
+[2020-01-23 18:20:49.536] [Engine] [info] Mouse moved at: 721.0,40.0
+[2020-01-23 18:20:49.537] [Engine] [info] Mouse moved at: 722.0,40.0
+[2020-01-23 18:20:49.542] [Engine] [info] Mouse moved at: 722.0,39.0
+[2020-01-23 18:20:49.563] [Engine] [info] Mouse moved at: 722.0,38.0
+[2020-01-23 18:20:49.570] [Engine] [info] Mouse moved at: 722.0,37.0
+[2020-01-23 18:20:49.571] [Engine] [info] Mouse moved at: 723.0,37.0
+[2020-01-23 18:20:49.577] [Engine] [info] Mouse moved at: 723.0,36.0
+[2020-01-23 18:20:49.584] [Engine] [info] Mouse moved at: 723.0,35.0
+[2020-01-23 18:20:49.591] [Engine] [info] Mouse moved at: 724.0,34.0
+[2020-01-23 18:20:49.598] [Engine] [info] Mouse moved at: 724.0,33.0
+[2020-01-23 18:20:49.598] [Engine] [info] Mouse moved at: 725.0,32.0
+[2020-01-23 18:20:49.605] [Engine] [info] Mouse moved at: 725.0,31.0
+[2020-01-23 18:20:49.619] [Engine] [info] Mouse moved at: 726.0,29.0
+[2020-01-23 18:20:49.625] [Engine] [info] Mouse moved at: 727.0,28.0
+[2020-01-23 18:20:49.633] [Engine] [info] Mouse moved at: 727.0,27.0
+[2020-01-23 18:20:49.640] [Engine] [info] Mouse moved at: 728.0,26.0
+[2020-01-23 18:20:49.647] [Engine] [info] Mouse moved at: 729.0,24.0
+[2020-01-23 18:20:49.654] [Engine] [info] Mouse moved at: 730.0,23.0
+[2020-01-23 18:20:49.661] [Engine] [info] Mouse moved at: 730.0,21.0
+[2020-01-23 18:20:49.668] [Engine] [info] Mouse moved at: 731.0,20.0
+[2020-01-23 18:20:49.674] [Engine] [info] Mouse moved at: 732.0,19.0
+[2020-01-23 18:20:49.676] [Engine] [info] Mouse moved at: 732.0,18.0
+[2020-01-23 18:20:49.682] [Engine] [info] Mouse moved at: 733.0,17.0
+[2020-01-23 18:20:49.688] [Engine] [info] Mouse moved at: 734.0,15.0
+[2020-01-23 18:20:49.695] [Engine] [info] Mouse moved at: 734.0,14.0
+[2020-01-23 18:20:49.702] [Engine] [info] Mouse moved at: 735.0,13.0
+[2020-01-23 18:20:49.703] [Engine] [info] Mouse moved at: 735.0,12.0
+[2020-01-23 18:20:49.709] [Engine] [info] Mouse moved at: 736.0,11.0
+[2020-01-23 18:20:49.716] [Engine] [info] Mouse moved at: 736.0,10.0
+[2020-01-23 18:20:49.723] [Engine] [info] Mouse moved at: 737.0,8.0
+[2020-01-23 18:20:49.731] [Engine] [info] Mouse moved at: 738.0,7.0
+[2020-01-23 18:20:49.737] [Engine] [info] Mouse moved at: 739.0,5.0
+[2020-01-23 18:20:49.744] [Engine] [info] Mouse moved at: 740.0,4.0
+[2020-01-23 18:20:49.751] [Engine] [info] Mouse moved at: 741.0,3.0
+[2020-01-23 18:20:49.757] [Engine] [info] FPS:140.
+[2020-01-23 18:20:49.758] [Engine] [info] Mouse moved at: 741.0,2.0
+[2020-01-23 18:20:49.759] [Engine] [info] Mouse moved at: 742.0,1.0
+[2020-01-23 18:20:49.764] [Engine] [info] Mouse moved at: 742.0,0.0
+[2020-01-23 18:20:50.871] [Engine] [warning] Closing Application
+[2020-01-23 18:20:50.880] [Engine] [info] Cleared Window
+[2020-01-23 18:20:50.901] [Engine] [info] Windows System Stopped
+[2020-01-23 18:20:50.902] [Engine] [info] Cleared Resource System
+[2020-01-23 18:20:50.903] [Engine] [info] Timer Stopped
+[2020-01-23 18:20:50.903] [Engine] [info] Ending Log...
+[2020-01-23 18:23:45.053] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-23 18:23:45.054] [Engine] [warning] Logger Initialized
+[2020-01-23 18:23:45.054] [Engine] [warning] Resource Manager Started
+[2020-01-23 18:23:45.054] [Engine] [warning] Timing system Started
+[2020-01-23 18:23:45.055] [Engine] [warning] GLFW Window System Started
+[2020-01-23 18:23:45.945] [Engine] [warning] GLAD Loaded
+[2020-01-23 18:23:45.946] [Engine] [warning] Window Created
+[2020-01-23 18:23:45.946] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:23:45.946] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:23:46.534] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-23 18:23:46.869] [Engine] [info] Key Released: 83
+[2020-01-23 18:23:47.026] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:47.200] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:47.367] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-23 18:23:47.499] [Engine] [info] Key Released: 65
+[2020-01-23 18:23:47.735] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:47.846] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:48.159] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:48.241] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:48.360] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:48.443] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:48.554] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:48.630] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:50.790] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:50.951] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:50.991] [Engine] [info] FPS:138.
+[2020-01-23 18:23:51.367] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:51.450] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:52.248] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:52.325] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:52.575] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-23 18:23:52.665] [Engine] [info] Key Released: 68
+[2020-01-23 18:23:52.853] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-23 18:23:52.950] [Engine] [info] Key Released: 65
+[2020-01-23 18:23:53.228] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-23 18:23:53.318] [Engine] [info] Key Released: 65
+[2020-01-23 18:23:53.485] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-23 18:23:53.568] [Engine] [info] Key Released: 65
+[2020-01-23 18:23:53.728] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-23 18:23:53.797] [Engine] [info] Key Released: 87
+[2020-01-23 18:23:54.055] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-23 18:23:54.131] [Engine] [info] Key Released: 83
+[2020-01-23 18:23:55.998] [Engine] [info] FPS:140.
+[2020-01-23 18:23:56.938] [Engine] [info] Mouse moved at: 613.0,1.0
+[2020-01-23 18:23:56.939] [Engine] [info] Mouse moved at: 619.0,1.0
+[2020-01-23 18:23:56.943] [Engine] [info] Mouse moved at: 624.0,2.0
+[2020-01-23 18:23:56.950] [Engine] [info] Mouse moved at: 632.0,3.0
+[2020-01-23 18:23:56.957] [Engine] [info] Mouse moved at: 642.0,4.0
+[2020-01-23 18:23:56.958] [Engine] [info] Mouse moved at: 644.0,4.0
+[2020-01-23 18:23:56.964] [Engine] [info] Mouse moved at: 652.0,4.0
+[2020-01-23 18:23:56.971] [Engine] [info] Mouse moved at: 661.0,4.0
+[2020-01-23 18:23:56.972] [Engine] [info] Mouse moved at: 663.0,4.0
+[2020-01-23 18:23:56.978] [Engine] [info] Mouse moved at: 671.0,4.0
+[2020-01-23 18:23:56.985] [Engine] [info] Mouse moved at: 682.0,4.0
+[2020-01-23 18:23:56.992] [Engine] [info] Mouse moved at: 690.0,4.0
+[2020-01-23 18:23:56.999] [Engine] [info] Mouse moved at: 696.0,4.0
+[2020-01-23 18:23:56.999] [Engine] [info] Mouse moved at: 700.0,4.0
+[2020-01-23 18:23:57.006] [Engine] [info] Mouse moved at: 706.0,4.0
+[2020-01-23 18:23:57.013] [Engine] [info] Mouse moved at: 712.0,4.0
+[2020-01-23 18:23:57.013] [Engine] [info] Mouse moved at: 713.0,4.0
+[2020-01-23 18:23:57.020] [Engine] [info] Mouse moved at: 719.0,4.0
+[2020-01-23 18:23:57.027] [Engine] [info] Mouse moved at: 723.0,4.0
+[2020-01-23 18:23:57.033] [Engine] [info] Mouse moved at: 727.0,4.0
+[2020-01-23 18:23:57.042] [Engine] [info] Mouse moved at: 730.0,4.0
+[2020-01-23 18:23:57.042] [Engine] [info] Mouse moved at: 731.0,4.0
+[2020-01-23 18:23:57.048] [Engine] [info] Mouse moved at: 734.0,3.0
+[2020-01-23 18:23:57.055] [Engine] [info] Mouse moved at: 736.0,3.0
+[2020-01-23 18:23:57.062] [Engine] [info] Mouse moved at: 738.0,3.0
+[2020-01-23 18:23:57.068] [Engine] [info] Mouse moved at: 740.0,2.0
+[2020-01-23 18:23:57.076] [Engine] [info] Mouse moved at: 742.0,2.0
+[2020-01-23 18:23:57.082] [Engine] [info] Mouse moved at: 743.0,2.0
+[2020-01-23 18:23:57.089] [Engine] [info] Mouse moved at: 745.0,1.0
+[2020-01-23 18:23:57.096] [Engine] [info] Mouse moved at: 747.0,1.0
+[2020-01-23 18:23:57.103] [Engine] [info] Mouse moved at: 749.0,1.0
+[2020-01-23 18:23:57.110] [Engine] [info] Mouse moved at: 751.0,0.0
+[2020-01-23 18:23:57.117] [Engine] [info] Mouse moved at: 752.0,0.0
+[2020-01-23 18:23:57.118] [Engine] [info] Mouse moved at: 753.0,0.0
+[2020-01-23 18:23:57.124] [Engine] [info] Mouse moved at: 754.0,0.0
+[2020-01-23 18:23:57.131] [Engine] [info] Mouse moved at: 755.0,0.0
+[2020-01-23 18:23:57.427] [Engine] [warning] Closing Application
+[2020-01-23 18:23:57.443] [Engine] [info] Cleared Window
+[2020-01-23 18:23:57.468] [Engine] [info] Windows System Stopped
+[2020-01-23 18:23:57.468] [Engine] [info] Cleared Resource System
+[2020-01-23 18:23:57.469] [Engine] [info] Timer Stopped
+[2020-01-23 18:23:57.469] [Engine] [info] Ending Log...
+[2020-01-23 18:38:43.937] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-23 18:38:43.938] [Engine] [warning] Logger Initialized
+[2020-01-23 18:38:43.938] [Engine] [warning] Resource Manager Started
+[2020-01-23 18:38:43.938] [Engine] [warning] Timing system Started
+[2020-01-23 18:38:43.939] [Engine] [warning] GLFW Window System Started
+[2020-01-23 18:38:44.840] [Engine] [warning] GLAD Loaded
+[2020-01-23 18:38:44.841] [Engine] [warning] Window Created
+[2020-01-23 18:38:44.842] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:38:44.842] [Engine] [warning] Created Basic3D Renderer
+[2020-01-23 18:38:48.029] [Engine] [warning] Closing Application
+[2020-01-23 18:38:48.046] [Engine] [info] Cleared Window
+[2020-01-23 18:38:48.064] [Engine] [info] Windows System Stopped
+[2020-01-23 18:38:48.064] [Engine] [info] Cleared Resource System
+[2020-01-23 18:38:48.065] [Engine] [info] Timer Stopped
+[2020-01-23 18:38:48.065] [Engine] [info] Ending Log...
+[2020-01-24 11:20:59.337] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 11:20:59.339] [Engine] [warning] Logger Initialized
+[2020-01-24 11:20:59.339] [Engine] [warning] Resource Manager Started
+[2020-01-24 11:20:59.339] [Engine] [warning] Timing system Started
+[2020-01-24 11:20:59.339] [Engine] [warning] GLFW Window System Started
+[2020-01-24 11:21:00.203] [Engine] [warning] GLAD Loaded
+[2020-01-24 11:21:00.204] [Engine] [warning] Window Created
+[2020-01-24 11:21:00.204] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:21:00.204] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:21:00.245] [Engine] [info] Mouse moved at: 633.0,125.0
+[2020-01-24 11:21:01.116] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:21:01.420] [Engine] [info] Key Released: 68
+[2020-01-24 11:21:02.261] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 11:21:02.365] [Engine] [info] Key Released: 65
+[2020-01-24 11:21:02.844] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:21:03.045] [Engine] [info] Key Released: 87
+[2020-01-24 11:21:03.198] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:21:03.358] [Engine] [info] Key Released: 83
+[2020-01-24 11:21:03.490] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:21:03.684] [Engine] [info] Key Released: 68
+[2020-01-24 11:21:04.413] [Engine] [info] Mouse moved at: 632.0,125.0
+[2020-01-24 11:21:04.414] [Engine] [info] Mouse moved at: 632.0,124.0
+[2020-01-24 11:21:04.420] [Engine] [info] Mouse moved at: 631.0,123.0
+[2020-01-24 11:21:04.428] [Engine] [info] Mouse moved at: 630.0,122.0
+[2020-01-24 11:21:04.428] [Engine] [info] Mouse moved at: 629.0,122.0
+[2020-01-24 11:21:04.435] [Engine] [info] Mouse moved at: 629.0,120.0
+[2020-01-24 11:21:04.442] [Engine] [info] Mouse moved at: 629.0,118.0
+[2020-01-24 11:21:04.442] [Engine] [info] Mouse moved at: 629.0,117.0
+[2020-01-24 11:21:04.449] [Engine] [info] Mouse moved at: 631.0,115.0
+[2020-01-24 11:21:04.455] [Engine] [info] Mouse moved at: 633.0,112.0
+[2020-01-24 11:21:04.456] [Engine] [info] Mouse moved at: 634.0,111.0
+[2020-01-24 11:21:04.463] [Engine] [info] Mouse moved at: 637.0,108.0
+[2020-01-24 11:21:04.464] [Engine] [info] Mouse moved at: 639.0,106.0
+[2020-01-24 11:21:04.470] [Engine] [info] Mouse moved at: 646.0,101.0
+[2020-01-24 11:21:04.476] [Engine] [info] Mouse moved at: 655.0,96.0
+[2020-01-24 11:21:04.483] [Engine] [info] Mouse moved at: 667.0,88.0
+[2020-01-24 11:21:04.484] [Engine] [info] Mouse moved at: 671.0,85.0
+[2020-01-24 11:21:04.490] [Engine] [info] Mouse moved at: 687.0,75.0
+[2020-01-24 11:21:04.497] [Engine] [info] Mouse moved at: 705.0,64.0
+[2020-01-24 11:21:04.498] [Engine] [info] Mouse moved at: 715.0,57.0
+[2020-01-24 11:21:04.504] [Engine] [info] Mouse moved at: 736.0,43.0
+[2020-01-24 11:21:04.511] [Engine] [info] Mouse moved at: 756.0,29.0
+[2020-01-24 11:21:04.512] [Engine] [info] Mouse moved at: 762.0,24.0
+[2020-01-24 11:21:04.518] [Engine] [info] Mouse moved at: 782.0,12.0
+[2020-01-24 11:21:04.525] [Engine] [info] Mouse moved at: 798.0,1.0
+[2020-01-24 11:21:05.174] [Engine] [warning] Closing Application
+[2020-01-24 11:21:05.183] [Engine] [info] Cleared Window
+[2020-01-24 11:21:05.205] [Engine] [info] Windows System Stopped
+[2020-01-24 11:21:05.206] [Engine] [info] Cleared Resource System
+[2020-01-24 11:21:05.206] [Engine] [info] Timer Stopped
+[2020-01-24 11:21:05.207] [Engine] [info] Ending Log...
+[2020-01-24 11:21:55.882] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 11:21:55.884] [Engine] [warning] Logger Initialized
+[2020-01-24 11:21:55.884] [Engine] [warning] Resource Manager Started
+[2020-01-24 11:21:55.884] [Engine] [warning] Timing system Started
+[2020-01-24 11:21:55.884] [Engine] [warning] GLFW Window System Started
+[2020-01-24 11:21:56.743] [Engine] [warning] GLAD Loaded
+[2020-01-24 11:21:56.744] [Engine] [warning] Window Created
+[2020-01-24 11:21:56.744] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:21:56.744] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:21:56.785] [Engine] [info] Mouse moved at: 599.0,355.0
+[2020-01-24 11:21:57.816] [Engine] [info] Mouse moved at: 598.0,355.0
+[2020-01-24 11:21:58.031] [Engine] [info] Mouse moved at: 597.0,355.0
+[2020-01-24 11:21:58.045] [Engine] [info] Mouse moved at: 597.0,354.0
+[2020-01-24 11:21:58.052] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:21:58.247] [Engine] [info] Key Released: 83
+[2020-01-24 11:21:58.586] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:21:58.802] [Engine] [info] Key Released: 87
+[2020-01-24 11:21:58.802] [Engine] [info] Mouse moved at: 596.0,354.0
+[2020-01-24 11:21:58.921] [Engine] [info] Mouse moved at: 595.0,354.0
+[2020-01-24 11:21:58.996] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 11:21:59.136] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:21:59.211] [Engine] [info] Key Released: 65
+[2020-01-24 11:21:59.240] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:21:59.267] [Engine] [info] Key Released: 83
+[2020-01-24 11:21:59.392] [Engine] [info] Key Released: 68
+[2020-01-24 11:21:59.461] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:21:59.475] [Engine] [info] Mouse moved at: 595.0,353.0
+[2020-01-24 11:21:59.503] [Engine] [info] Mouse moved at: 595.0,352.0
+[2020-01-24 11:21:59.510] [Engine] [info] Mouse moved at: 595.0,351.0
+[2020-01-24 11:21:59.517] [Engine] [info] Mouse moved at: 595.0,350.0
+[2020-01-24 11:21:59.526] [Engine] [info] Mouse moved at: 595.0,349.0
+[2020-01-24 11:21:59.532] [Engine] [info] Mouse moved at: 595.0,348.0
+[2020-01-24 11:21:59.538] [Engine] [info] Mouse moved at: 596.0,347.0
+[2020-01-24 11:21:59.546] [Engine] [info] Mouse moved at: 596.0,345.0
+[2020-01-24 11:21:59.552] [Engine] [info] Mouse moved at: 597.0,344.0
+[2020-01-24 11:21:59.560] [Engine] [info] Mouse moved at: 597.0,343.0
+[2020-01-24 11:21:59.560] [Engine] [info] Key Released: 87
+[2020-01-24 11:21:59.566] [Engine] [info] Mouse moved at: 599.0,341.0
+[2020-01-24 11:21:59.573] [Engine] [info] Mouse moved at: 600.0,339.0
+[2020-01-24 11:21:59.580] [Engine] [info] Mouse moved at: 601.0,337.0
+[2020-01-24 11:21:59.588] [Engine] [info] Mouse moved at: 602.0,335.0
+[2020-01-24 11:21:59.588] [Engine] [info] Mouse moved at: 602.0,334.0
+[2020-01-24 11:21:59.593] [Engine] [info] Mouse moved at: 603.0,332.0
+[2020-01-24 11:21:59.601] [Engine] [info] Mouse moved at: 604.0,330.0
+[2020-01-24 11:21:59.601] [Engine] [info] Mouse moved at: 605.0,329.0
+[2020-01-24 11:21:59.608] [Engine] [info] Mouse moved at: 606.0,327.0
+[2020-01-24 11:21:59.614] [Engine] [info] Mouse moved at: 607.0,325.0
+[2020-01-24 11:21:59.622] [Engine] [info] Mouse moved at: 608.0,323.0
+[2020-01-24 11:21:59.622] [Engine] [info] Mouse moved at: 608.0,322.0
+[2020-01-24 11:21:59.628] [Engine] [info] Mouse moved at: 610.0,320.0
+[2020-01-24 11:21:59.635] [Engine] [info] Mouse moved at: 612.0,316.0
+[2020-01-24 11:21:59.642] [Engine] [info] Mouse moved at: 614.0,313.0
+[2020-01-24 11:21:59.650] [Engine] [info] Mouse moved at: 615.0,310.0
+[2020-01-24 11:21:59.656] [Engine] [info] Mouse moved at: 617.0,307.0
+[2020-01-24 11:21:59.663] [Engine] [info] Mouse moved at: 620.0,302.0
+[2020-01-24 11:21:59.670] [Engine] [info] Mouse moved at: 621.0,298.0
+[2020-01-24 11:21:59.677] [Engine] [info] Mouse moved at: 623.0,295.0
+[2020-01-24 11:21:59.678] [Engine] [info] Mouse moved at: 623.0,294.0
+[2020-01-24 11:21:59.684] [Engine] [info] Mouse moved at: 624.0,290.0
+[2020-01-24 11:21:59.691] [Engine] [info] Mouse moved at: 626.0,287.0
+[2020-01-24 11:21:59.692] [Engine] [info] Mouse moved at: 626.0,286.0
+[2020-01-24 11:21:59.698] [Engine] [info] Mouse moved at: 627.0,283.0
+[2020-01-24 11:21:59.699] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 11:21:59.699] [Engine] [info] Mouse moved at: 628.0,281.0
+[2020-01-24 11:21:59.705] [Engine] [info] Mouse moved at: 628.0,279.0
+[2020-01-24 11:21:59.705] [Engine] [info] Mouse moved at: 629.0,278.0
+[2020-01-24 11:21:59.712] [Engine] [info] Mouse moved at: 630.0,275.0
+[2020-01-24 11:21:59.719] [Engine] [info] Mouse moved at: 630.0,272.0
+[2020-01-24 11:21:59.719] [Engine] [info] Mouse moved at: 631.0,272.0
+[2020-01-24 11:21:59.725] [Engine] [info] Mouse moved at: 631.0,269.0
+[2020-01-24 11:21:59.733] [Engine] [info] Mouse moved at: 632.0,266.0
+[2020-01-24 11:21:59.740] [Engine] [info] Mouse moved at: 633.0,263.0
+[2020-01-24 11:21:59.748] [Engine] [info] Mouse moved at: 634.0,260.0
+[2020-01-24 11:21:59.754] [Engine] [info] Mouse moved at: 635.0,259.0
+[2020-01-24 11:21:59.760] [Engine] [info] Mouse moved at: 636.0,256.0
+[2020-01-24 11:21:59.767] [Engine] [info] Mouse moved at: 637.0,254.0
+[2020-01-24 11:21:59.774] [Engine] [info] Mouse moved at: 638.0,251.0
+[2020-01-24 11:21:59.781] [Engine] [info] Mouse moved at: 639.0,248.0
+[2020-01-24 11:21:59.788] [Engine] [info] Mouse moved at: 641.0,245.0
+[2020-01-24 11:21:59.795] [Engine] [info] Mouse moved at: 643.0,241.0
+[2020-01-24 11:21:59.802] [Engine] [info] Mouse moved at: 644.0,238.0
+[2020-01-24 11:21:59.809] [Engine] [info] Mouse moved at: 646.0,235.0
+[2020-01-24 11:21:59.810] [Engine] [info] Mouse moved at: 646.0,234.0
+[2020-01-24 11:21:59.816] [Engine] [info] Mouse moved at: 647.0,231.0
+[2020-01-24 11:21:59.824] [Engine] [info] Mouse moved at: 649.0,227.0
+[2020-01-24 11:21:59.830] [Engine] [info] Mouse moved at: 650.0,224.0
+[2020-01-24 11:21:59.831] [Engine] [info] Key Released: 65
+[2020-01-24 11:21:59.832] [Engine] [info] Mouse moved at: 651.0,223.0
+[2020-01-24 11:21:59.836] [Engine] [info] Mouse moved at: 651.0,221.0
+[2020-01-24 11:21:59.844] [Engine] [info] Mouse moved at: 653.0,217.0
+[2020-01-24 11:21:59.851] [Engine] [info] Mouse moved at: 654.0,214.0
+[2020-01-24 11:21:59.851] [Engine] [info] Mouse moved at: 654.0,213.0
+[2020-01-24 11:21:59.857] [Engine] [info] Mouse moved at: 656.0,210.0
+[2020-01-24 11:21:59.865] [Engine] [info] Mouse moved at: 657.0,207.0
+[2020-01-24 11:21:59.865] [Engine] [info] Mouse moved at: 658.0,206.0
+[2020-01-24 11:21:59.872] [Engine] [info] Mouse moved at: 660.0,202.0
+[2020-01-24 11:21:59.879] [Engine] [info] Mouse moved at: 661.0,199.0
+[2020-01-24 11:21:59.879] [Engine] [info] Mouse moved at: 662.0,198.0
+[2020-01-24 11:21:59.886] [Engine] [info] Mouse moved at: 664.0,194.0
+[2020-01-24 11:21:59.892] [Engine] [info] Mouse moved at: 667.0,191.0
+[2020-01-24 11:21:59.899] [Engine] [info] Mouse moved at: 670.0,186.0
+[2020-01-24 11:21:59.906] [Engine] [info] Mouse moved at: 672.0,183.0
+[2020-01-24 11:21:59.913] [Engine] [info] Mouse moved at: 676.0,178.0
+[2020-01-24 11:21:59.920] [Engine] [info] Mouse moved at: 678.0,174.0
+[2020-01-24 11:21:59.927] [Engine] [info] Mouse moved at: 681.0,169.0
+[2020-01-24 11:21:59.934] [Engine] [info] Mouse moved at: 684.0,165.0
+[2020-01-24 11:21:59.941] [Engine] [info] Mouse moved at: 687.0,161.0
+[2020-01-24 11:21:59.942] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:21:59.943] [Engine] [info] Mouse moved at: 688.0,159.0
+[2020-01-24 11:21:59.944] [Engine] [info] Mouse moved at: 689.0,158.0
+[2020-01-24 11:21:59.948] [Engine] [info] Mouse moved at: 690.0,155.0
+[2020-01-24 11:21:59.949] [Engine] [info] Mouse moved at: 691.0,154.0
+[2020-01-24 11:21:59.955] [Engine] [info] Mouse moved at: 693.0,151.0
+[2020-01-24 11:21:59.956] [Engine] [info] Mouse moved at: 694.0,150.0
+[2020-01-24 11:21:59.963] [Engine] [info] Mouse moved at: 697.0,145.0
+[2020-01-24 11:21:59.969] [Engine] [info] Mouse moved at: 700.0,141.0
+[2020-01-24 11:21:59.969] [Engine] [info] Mouse moved at: 701.0,139.0
+[2020-01-24 11:21:59.975] [Engine] [info] Mouse moved at: 704.0,135.0
+[2020-01-24 11:21:59.983] [Engine] [info] Mouse moved at: 706.0,131.0
+[2020-01-24 11:21:59.983] [Engine] [info] Mouse moved at: 707.0,129.0
+[2020-01-24 11:21:59.990] [Engine] [info] Mouse moved at: 710.0,125.0
+[2020-01-24 11:21:59.996] [Engine] [info] Mouse moved at: 712.0,122.0
+[2020-01-24 11:22:00.004] [Engine] [info] Mouse moved at: 716.0,116.0
+[2020-01-24 11:22:00.011] [Engine] [info] Mouse moved at: 718.0,112.0
+[2020-01-24 11:22:00.017] [Engine] [info] Mouse moved at: 722.0,107.0
+[2020-01-24 11:22:00.024] [Engine] [info] Mouse moved at: 724.0,103.0
+[2020-01-24 11:22:00.031] [Engine] [info] Mouse moved at: 726.0,98.0
+[2020-01-24 11:22:00.038] [Engine] [info] Mouse moved at: 728.0,95.0
+[2020-01-24 11:22:00.045] [Engine] [info] Mouse moved at: 730.0,91.0
+[2020-01-24 11:22:00.045] [Engine] [info] Mouse moved at: 730.0,90.0
+[2020-01-24 11:22:00.052] [Engine] [info] Mouse moved at: 731.0,87.0
+[2020-01-24 11:22:00.059] [Engine] [info] Mouse moved at: 733.0,83.0
+[2020-01-24 11:22:00.066] [Engine] [info] Mouse moved at: 734.0,80.0
+[2020-01-24 11:22:00.073] [Engine] [info] Mouse moved at: 735.0,77.0
+[2020-01-24 11:22:00.073] [Engine] [info] Mouse moved at: 736.0,76.0
+[2020-01-24 11:22:00.080] [Engine] [info] Mouse moved at: 736.0,74.0
+[2020-01-24 11:22:00.087] [Engine] [info] Mouse moved at: 737.0,72.0
+[2020-01-24 11:22:00.088] [Engine] [info] Mouse moved at: 738.0,71.0
+[2020-01-24 11:22:00.094] [Engine] [info] Mouse moved at: 739.0,68.0
+[2020-01-24 11:22:00.101] [Engine] [info] Mouse moved at: 740.0,66.0
+[2020-01-24 11:22:00.101] [Engine] [info] Mouse moved at: 740.0,65.0
+[2020-01-24 11:22:00.108] [Engine] [info] Mouse moved at: 741.0,64.0
+[2020-01-24 11:22:00.109] [Engine] [info] Key Released: 83
+[2020-01-24 11:22:00.109] [Engine] [info] Mouse moved at: 741.0,63.0
+[2020-01-24 11:22:00.114] [Engine] [info] Mouse moved at: 741.0,61.0
+[2020-01-24 11:22:00.121] [Engine] [info] Mouse moved at: 742.0,58.0
+[2020-01-24 11:22:00.128] [Engine] [info] Mouse moved at: 743.0,56.0
+[2020-01-24 11:22:00.129] [Engine] [info] Mouse moved at: 743.0,55.0
+[2020-01-24 11:22:00.135] [Engine] [info] Mouse moved at: 744.0,53.0
+[2020-01-24 11:22:00.142] [Engine] [info] Mouse moved at: 744.0,51.0
+[2020-01-24 11:22:00.150] [Engine] [info] Mouse moved at: 745.0,49.0
+[2020-01-24 11:22:00.156] [Engine] [info] Mouse moved at: 745.0,46.0
+[2020-01-24 11:22:00.163] [Engine] [info] Mouse moved at: 746.0,44.0
+[2020-01-24 11:22:00.170] [Engine] [info] Mouse moved at: 746.0,42.0
+[2020-01-24 11:22:00.177] [Engine] [info] Mouse moved at: 747.0,40.0
+[2020-01-24 11:22:00.184] [Engine] [info] Mouse moved at: 747.0,38.0
+[2020-01-24 11:22:00.191] [Engine] [info] Mouse moved at: 748.0,36.0
+[2020-01-24 11:22:00.198] [Engine] [info] Mouse moved at: 748.0,34.0
+[2020-01-24 11:22:00.205] [Engine] [info] Mouse moved at: 749.0,33.0
+[2020-01-24 11:22:00.205] [Engine] [info] Mouse moved at: 749.0,32.0
+[2020-01-24 11:22:00.212] [Engine] [info] Mouse moved at: 749.0,30.0
+[2020-01-24 11:22:00.219] [Engine] [info] Mouse moved at: 750.0,28.0
+[2020-01-24 11:22:00.226] [Engine] [info] Mouse moved at: 751.0,26.0
+[2020-01-24 11:22:00.233] [Engine] [info] Mouse moved at: 751.0,24.0
+[2020-01-24 11:22:00.233] [Engine] [info] Mouse moved at: 752.0,24.0
+[2020-01-24 11:22:00.240] [Engine] [info] Mouse moved at: 752.0,22.0
+[2020-01-24 11:22:00.247] [Engine] [info] Mouse moved at: 753.0,19.0
+[2020-01-24 11:22:00.253] [Engine] [info] Mouse moved at: 754.0,18.0
+[2020-01-24 11:22:00.262] [Engine] [info] Mouse moved at: 754.0,16.0
+[2020-01-24 11:22:00.267] [Engine] [info] Mouse moved at: 755.0,14.0
+[2020-01-24 11:22:00.282] [Engine] [info] Mouse moved at: 756.0,11.0
+[2020-01-24 11:22:00.288] [Engine] [info] Mouse moved at: 757.0,10.0
+[2020-01-24 11:22:00.295] [Engine] [info] Mouse moved at: 758.0,9.0
+[2020-01-24 11:22:00.302] [Engine] [info] Mouse moved at: 759.0,7.0
+[2020-01-24 11:22:00.310] [Engine] [info] Mouse moved at: 759.0,6.0
+[2020-01-24 11:22:00.310] [Engine] [info] Mouse moved at: 760.0,6.0
+[2020-01-24 11:22:00.316] [Engine] [info] Mouse moved at: 760.0,5.0
+[2020-01-24 11:22:00.323] [Engine] [info] Mouse moved at: 761.0,4.0
+[2020-01-24 11:22:00.324] [Engine] [info] Mouse moved at: 762.0,3.0
+[2020-01-24 11:22:00.330] [Engine] [info] Mouse moved at: 762.0,2.0
+[2020-01-24 11:22:00.337] [Engine] [info] Mouse moved at: 763.0,1.0
+[2020-01-24 11:22:00.344] [Engine] [info] Mouse moved at: 764.0,0.0
+[2020-01-24 11:22:00.597] [Engine] [warning] Closing Application
+[2020-01-24 11:22:00.608] [Engine] [info] Cleared Window
+[2020-01-24 11:22:00.627] [Engine] [info] Windows System Stopped
+[2020-01-24 11:22:00.628] [Engine] [info] Cleared Resource System
+[2020-01-24 11:22:00.628] [Engine] [info] Timer Stopped
+[2020-01-24 11:22:00.629] [Engine] [info] Ending Log...
+[2020-01-24 11:22:52.245] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 11:22:52.250] [Engine] [warning] Logger Initialized
+[2020-01-24 11:22:52.250] [Engine] [warning] Resource Manager Started
+[2020-01-24 11:22:52.250] [Engine] [warning] Timing system Started
+[2020-01-24 11:22:52.251] [Engine] [warning] GLFW Window System Started
+[2020-01-24 11:22:53.172] [Engine] [warning] GLAD Loaded
+[2020-01-24 11:22:53.173] [Engine] [warning] Window Created
+[2020-01-24 11:22:53.173] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:22:53.174] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:22:53.227] [Engine] [info] Mouse moved at: 497.0,7.0
+[2020-01-24 11:22:53.949] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:22:54.135] [Engine] [info] Key Released: 68
+[2020-01-24 11:22:54.468] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:22:54.572] [Engine] [info] Key Released: 83
+[2020-01-24 11:22:54.780] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 11:22:54.898] [Engine] [info] Key Released: 65
+[2020-01-24 11:22:54.989] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:22:55.079] [Engine] [info] Key Released: 87
+[2020-01-24 11:22:55.329] [Engine] [info] Key Pressed: 256, R#:0
+[2020-01-24 11:22:55.398] [Engine] [info] Key Released: 256
+[2020-01-24 11:22:55.544] [Engine] [info] Mouse moved at: 496.0,9.0
+[2020-01-24 11:22:55.551] [Engine] [info] Mouse moved at: 495.0,12.0
+[2020-01-24 11:22:55.558] [Engine] [info] Mouse moved at: 494.0,16.0
+[2020-01-24 11:22:55.559] [Engine] [info] Mouse moved at: 494.0,17.0
+[2020-01-24 11:22:55.565] [Engine] [info] Mouse moved at: 493.0,22.0
+[2020-01-24 11:22:55.572] [Engine] [info] Mouse moved at: 491.0,27.0
+[2020-01-24 11:22:55.579] [Engine] [info] Mouse moved at: 490.0,35.0
+[2020-01-24 11:22:55.586] [Engine] [info] Mouse moved at: 488.0,43.0
+[2020-01-24 11:22:55.593] [Engine] [info] Mouse moved at: 486.0,53.0
+[2020-01-24 11:22:55.600] [Engine] [info] Mouse moved at: 485.0,63.0
+[2020-01-24 11:22:55.607] [Engine] [info] Mouse moved at: 483.0,72.0
+[2020-01-24 11:22:55.614] [Engine] [info] Mouse moved at: 481.0,82.0
+[2020-01-24 11:22:55.615] [Engine] [info] Mouse moved at: 481.0,86.0
+[2020-01-24 11:22:55.621] [Engine] [info] Mouse moved at: 478.0,97.0
+[2020-01-24 11:22:55.628] [Engine] [info] Mouse moved at: 476.0,108.0
+[2020-01-24 11:22:55.636] [Engine] [info] Mouse moved at: 473.0,123.0
+[2020-01-24 11:22:55.642] [Engine] [info] Mouse moved at: 471.0,135.0
+[2020-01-24 11:22:55.649] [Engine] [info] Mouse moved at: 468.0,151.0
+[2020-01-24 11:22:55.656] [Engine] [info] Mouse moved at: 465.0,163.0
+[2020-01-24 11:22:55.657] [Engine] [info] Mouse moved at: 464.0,167.0
+[2020-01-24 11:22:55.663] [Engine] [info] Mouse moved at: 461.0,178.0
+[2020-01-24 11:22:55.670] [Engine] [info] Mouse moved at: 457.0,189.0
+[2020-01-24 11:22:55.676] [Engine] [info] Mouse moved at: 453.0,200.0
+[2020-01-24 11:22:55.677] [Engine] [info] Mouse moved at: 452.0,203.0
+[2020-01-24 11:22:55.684] [Engine] [info] Mouse moved at: 448.0,213.0
+[2020-01-24 11:22:55.691] [Engine] [info] Mouse moved at: 442.0,226.0
+[2020-01-24 11:22:55.697] [Engine] [info] Mouse moved at: 437.0,236.0
+[2020-01-24 11:22:55.704] [Engine] [info] Mouse moved at: 432.0,246.0
+[2020-01-24 11:22:55.705] [Engine] [info] Mouse moved at: 430.0,249.0
+[2020-01-24 11:22:55.711] [Engine] [info] Mouse moved at: 426.0,259.0
+[2020-01-24 11:22:55.718] [Engine] [info] Mouse moved at: 422.0,268.0
+[2020-01-24 11:22:55.719] [Engine] [info] Mouse moved at: 420.0,271.0
+[2020-01-24 11:22:55.725] [Engine] [info] Mouse moved at: 416.0,281.0
+[2020-01-24 11:22:55.732] [Engine] [info] Mouse moved at: 413.0,291.0
+[2020-01-24 11:22:55.733] [Engine] [info] Mouse moved at: 412.0,294.0
+[2020-01-24 11:22:55.739] [Engine] [info] Mouse moved at: 408.0,302.0
+[2020-01-24 11:22:55.747] [Engine] [info] Mouse moved at: 405.0,311.0
+[2020-01-24 11:22:55.747] [Engine] [info] Mouse moved at: 404.0,313.0
+[2020-01-24 11:22:55.753] [Engine] [info] Mouse moved at: 402.0,319.0
+[2020-01-24 11:22:55.753] [Engine] [info] Mouse moved at: 401.0,321.0
+[2020-01-24 11:22:55.760] [Engine] [info] Mouse moved at: 398.0,329.0
+[2020-01-24 11:22:55.767] [Engine] [info] Mouse moved at: 395.0,337.0
+[2020-01-24 11:22:55.774] [Engine] [info] Mouse moved at: 394.0,341.0
+[2020-01-24 11:22:55.780] [Engine] [info] Mouse moved at: 394.0,343.0
+[2020-01-24 11:22:55.795] [Engine] [info] Mouse moved at: 395.0,342.0
+[2020-01-24 11:22:55.802] [Engine] [info] Mouse moved at: 397.0,340.0
+[2020-01-24 11:22:55.808] [Engine] [info] Mouse moved at: 399.0,338.0
+[2020-01-24 11:22:55.809] [Engine] [info] Mouse moved at: 400.0,337.0
+[2020-01-24 11:22:55.815] [Engine] [info] Mouse moved at: 404.0,334.0
+[2020-01-24 11:22:55.823] [Engine] [info] Mouse moved at: 408.0,329.0
+[2020-01-24 11:22:55.823] [Engine] [info] Mouse moved at: 410.0,327.0
+[2020-01-24 11:22:55.829] [Engine] [info] Mouse moved at: 416.0,321.0
+[2020-01-24 11:22:55.836] [Engine] [info] Mouse moved at: 423.0,314.0
+[2020-01-24 11:22:55.843] [Engine] [info] Mouse moved at: 436.0,303.0
+[2020-01-24 11:22:55.850] [Engine] [info] Mouse moved at: 447.0,293.0
+[2020-01-24 11:22:55.851] [Engine] [info] Mouse moved at: 451.0,290.0
+[2020-01-24 11:22:55.858] [Engine] [info] Mouse moved at: 465.0,278.0
+[2020-01-24 11:22:55.864] [Engine] [info] Mouse moved at: 481.0,266.0
+[2020-01-24 11:22:55.871] [Engine] [info] Mouse moved at: 505.0,246.0
+[2020-01-24 11:22:55.878] [Engine] [info] Mouse moved at: 527.0,230.0
+[2020-01-24 11:22:55.886] [Engine] [info] Mouse moved at: 548.0,215.0
+[2020-01-24 11:22:55.886] [Engine] [info] Mouse moved at: 555.0,210.0
+[2020-01-24 11:22:55.887] [Engine] [info] Mouse moved at: 562.0,206.0
+[2020-01-24 11:22:55.892] [Engine] [info] Mouse moved at: 576.0,196.0
+[2020-01-24 11:22:55.899] [Engine] [info] Mouse moved at: 604.0,177.0
+[2020-01-24 11:22:55.906] [Engine] [info] Mouse moved at: 625.0,163.0
+[2020-01-24 11:22:55.913] [Engine] [info] Mouse moved at: 651.0,145.0
+[2020-01-24 11:22:55.919] [Engine] [info] Mouse moved at: 670.0,132.0
+[2020-01-24 11:22:55.927] [Engine] [info] Mouse moved at: 692.0,116.0
+[2020-01-24 11:22:55.933] [Engine] [info] Mouse moved at: 708.0,104.0
+[2020-01-24 11:22:55.940] [Engine] [info] Mouse moved at: 722.0,94.0
+[2020-01-24 11:22:55.947] [Engine] [info] Mouse moved at: 738.0,81.0
+[2020-01-24 11:22:55.954] [Engine] [info] Mouse moved at: 747.0,72.0
+[2020-01-24 11:22:55.955] [Engine] [info] Mouse moved at: 750.0,69.0
+[2020-01-24 11:22:55.961] [Engine] [info] Mouse moved at: 758.0,61.0
+[2020-01-24 11:22:55.968] [Engine] [info] Mouse moved at: 764.0,54.0
+[2020-01-24 11:22:55.969] [Engine] [info] Mouse moved at: 766.0,52.0
+[2020-01-24 11:22:55.975] [Engine] [info] Mouse moved at: 771.0,47.0
+[2020-01-24 11:22:55.982] [Engine] [info] Mouse moved at: 775.0,41.0
+[2020-01-24 11:22:55.983] [Engine] [info] Mouse moved at: 777.0,39.0
+[2020-01-24 11:22:55.989] [Engine] [info] Mouse moved at: 780.0,34.0
+[2020-01-24 11:22:55.996] [Engine] [info] Mouse moved at: 783.0,30.0
+[2020-01-24 11:22:56.003] [Engine] [info] Mouse moved at: 785.0,25.0
+[2020-01-24 11:22:56.011] [Engine] [info] Mouse moved at: 786.0,22.0
+[2020-01-24 11:22:56.017] [Engine] [info] Mouse moved at: 787.0,20.0
+[2020-01-24 11:22:56.023] [Engine] [info] Mouse moved at: 787.0,19.0
+[2020-01-24 11:22:56.031] [Engine] [info] Mouse moved at: 787.0,17.0
+[2020-01-24 11:22:56.037] [Engine] [info] Mouse moved at: 787.0,16.0
+[2020-01-24 11:22:56.045] [Engine] [info] Mouse moved at: 787.0,15.0
+[2020-01-24 11:22:56.053] [Engine] [info] Mouse moved at: 788.0,13.0
+[2020-01-24 11:22:56.053] [Engine] [info] Mouse moved at: 788.0,12.0
+[2020-01-24 11:22:56.059] [Engine] [info] Mouse moved at: 788.0,10.0
+[2020-01-24 11:22:56.065] [Engine] [info] Mouse moved at: 788.0,8.0
+[2020-01-24 11:22:56.073] [Engine] [info] Mouse moved at: 789.0,6.0
+[2020-01-24 11:22:56.079] [Engine] [info] Mouse moved at: 789.0,4.0
+[2020-01-24 11:22:56.086] [Engine] [info] Mouse moved at: 789.0,3.0
+[2020-01-24 11:22:56.093] [Engine] [info] Mouse moved at: 789.0,2.0
+[2020-01-24 11:22:56.100] [Engine] [info] Mouse moved at: 788.0,1.0
+[2020-01-24 11:22:56.337] [Engine] [warning] Closing Application
+[2020-01-24 11:22:56.348] [Engine] [info] Cleared Window
+[2020-01-24 11:22:56.369] [Engine] [info] Windows System Stopped
+[2020-01-24 11:22:56.370] [Engine] [info] Cleared Resource System
+[2020-01-24 11:22:56.370] [Engine] [info] Timer Stopped
+[2020-01-24 11:22:56.371] [Engine] [info] Ending Log...
+[2020-01-24 11:23:09.896] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 11:23:09.898] [Engine] [warning] Logger Initialized
+[2020-01-24 11:23:09.898] [Engine] [warning] Resource Manager Started
+[2020-01-24 11:23:09.898] [Engine] [warning] Timing system Started
+[2020-01-24 11:23:09.898] [Engine] [warning] GLFW Window System Started
+[2020-01-24 11:23:10.759] [Engine] [warning] GLAD Loaded
+[2020-01-24 11:23:10.760] [Engine] [warning] Window Created
+[2020-01-24 11:23:10.760] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:23:10.760] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:23:10.797] [Engine] [info] Mouse moved at: 273.0,441.0
+[2020-01-24 11:23:11.365] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:23:11.539] [Engine] [info] Key Released: 87
+[2020-01-24 11:23:11.733] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:11.850] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:11.870] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 11:23:11.975] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:12.058] [Engine] [info] Key Released: 65
+[2020-01-24 11:23:12.079] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:12.107] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:12.225] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:12.385] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:12.676] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:12.746] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:23:13.149] [Engine] [info] Key Released: 87
+[2020-01-24 11:23:13.287] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:13.447] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:13.697] [Engine] [info] Key Pressed: 256, R#:0
+[2020-01-24 11:23:13.780] [Engine] [info] Key Released: 256
+[2020-01-24 11:23:14.323] [Engine] [info] Mouse moved at: 274.0,440.0
+[2020-01-24 11:23:14.323] [Engine] [info] Mouse moved at: 275.0,440.0
+[2020-01-24 11:23:14.329] [Engine] [info] Mouse moved at: 277.0,438.0
+[2020-01-24 11:23:14.336] [Engine] [info] Mouse moved at: 280.0,436.0
+[2020-01-24 11:23:14.337] [Engine] [info] Mouse moved at: 281.0,435.0
+[2020-01-24 11:23:14.343] [Engine] [info] Mouse moved at: 286.0,430.0
+[2020-01-24 11:23:14.350] [Engine] [info] Mouse moved at: 294.0,421.0
+[2020-01-24 11:23:14.351] [Engine] [info] Mouse moved at: 297.0,417.0
+[2020-01-24 11:23:14.357] [Engine] [info] Mouse moved at: 308.0,403.0
+[2020-01-24 11:23:14.364] [Engine] [info] Mouse moved at: 321.0,388.0
+[2020-01-24 11:23:14.372] [Engine] [info] Mouse moved at: 341.0,366.0
+[2020-01-24 11:23:14.378] [Engine] [info] Mouse moved at: 363.0,346.0
+[2020-01-24 11:23:14.379] [Engine] [info] Mouse moved at: 370.0,340.0
+[2020-01-24 11:23:14.385] [Engine] [info] Mouse moved at: 392.0,324.0
+[2020-01-24 11:23:14.392] [Engine] [info] Mouse moved at: 413.0,309.0
+[2020-01-24 11:23:14.393] [Engine] [info] Mouse moved at: 426.0,301.0
+[2020-01-24 11:23:14.399] [Engine] [info] Mouse moved at: 444.0,289.0
+[2020-01-24 11:23:14.399] [Engine] [info] Mouse moved at: 453.0,284.0
+[2020-01-24 11:23:14.406] [Engine] [info] Mouse moved at: 483.0,266.0
+[2020-01-24 11:23:14.407] [Engine] [info] Mouse moved at: 494.0,259.0
+[2020-01-24 11:23:14.413] [Engine] [info] Mouse moved at: 514.0,247.0
+[2020-01-24 11:23:14.413] [Engine] [info] Mouse moved at: 524.0,242.0
+[2020-01-24 11:23:14.419] [Engine] [info] Mouse moved at: 555.0,224.0
+[2020-01-24 11:23:14.426] [Engine] [info] Mouse moved at: 583.0,207.0
+[2020-01-24 11:23:14.427] [Engine] [info] Mouse moved at: 591.0,202.0
+[2020-01-24 11:23:14.433] [Engine] [info] Mouse moved at: 614.0,185.0
+[2020-01-24 11:23:14.440] [Engine] [info] Mouse moved at: 634.0,169.0
+[2020-01-24 11:23:14.441] [Engine] [info] Mouse moved at: 640.0,164.0
+[2020-01-24 11:23:14.447] [Engine] [info] Mouse moved at: 657.0,148.0
+[2020-01-24 11:23:14.454] [Engine] [info] Mouse moved at: 672.0,132.0
+[2020-01-24 11:23:14.455] [Engine] [info] Mouse moved at: 677.0,126.0
+[2020-01-24 11:23:14.461] [Engine] [info] Mouse moved at: 690.0,108.0
+[2020-01-24 11:23:14.468] [Engine] [info] Mouse moved at: 702.0,89.0
+[2020-01-24 11:23:14.475] [Engine] [info] Mouse moved at: 717.0,62.0
+[2020-01-24 11:23:14.482] [Engine] [info] Mouse moved at: 727.0,41.0
+[2020-01-24 11:23:14.489] [Engine] [info] Mouse moved at: 741.0,11.0
+[2020-01-24 11:23:14.968] [Engine] [info] Mouse moved at: 799.0,4.0
+[2020-01-24 11:23:14.976] [Engine] [info] Mouse moved at: 798.0,4.0
+[2020-01-24 11:23:14.982] [Engine] [info] Mouse moved at: 798.0,3.0
+[2020-01-24 11:23:14.989] [Engine] [info] Mouse moved at: 796.0,2.0
+[2020-01-24 11:23:14.996] [Engine] [info] Mouse moved at: 796.0,1.0
+[2020-01-24 11:23:14.997] [Engine] [info] Mouse moved at: 795.0,1.0
+[2020-01-24 11:23:15.003] [Engine] [info] Mouse moved at: 794.0,0.0
+[2020-01-24 11:23:15.010] [Engine] [info] Mouse moved at: 793.0,0.0
+[2020-01-24 11:23:15.199] [Engine] [warning] Closing Application
+[2020-01-24 11:23:15.208] [Engine] [info] Cleared Window
+[2020-01-24 11:23:15.230] [Engine] [info] Windows System Stopped
+[2020-01-24 11:23:15.230] [Engine] [info] Cleared Resource System
+[2020-01-24 11:23:15.231] [Engine] [info] Timer Stopped
+[2020-01-24 11:23:15.231] [Engine] [info] Ending Log...
+[2020-01-24 11:23:46.482] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 11:23:46.483] [Engine] [warning] Logger Initialized
+[2020-01-24 11:23:46.484] [Engine] [warning] Resource Manager Started
+[2020-01-24 11:23:46.484] [Engine] [warning] Timing system Started
+[2020-01-24 11:23:46.484] [Engine] [warning] GLFW Window System Started
+[2020-01-24 11:23:47.281] [Engine] [warning] GLAD Loaded
+[2020-01-24 11:23:47.282] [Engine] [warning] Window Created
+[2020-01-24 11:23:47.283] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:23:47.283] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 11:23:49.252] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:49.467] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:49.676] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:49.793] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:49.967] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:50.086] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:50.238] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:50.349] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:50.474] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:50.585] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:51.121] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:51.252] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:51.426] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:51.516] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:51.675] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:51.759] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:52.071] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:52.120] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:52.266] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:52.320] [Engine] [info] FPS:148.
+[2020-01-24 11:23:52.335] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:52.453] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:52.516] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:54.900] [Engine] [info] Mouse moved at: 706.0,98.0
+[2020-01-24 11:23:54.905] [Engine] [info] Mouse moved at: 705.0,97.0
+[2020-01-24 11:23:54.912] [Engine] [info] Mouse moved at: 705.0,96.0
+[2020-01-24 11:23:54.913] [Engine] [info] Mouse moved at: 704.0,96.0
+[2020-01-24 11:23:55.085] [Engine] [info] Mouse moved at: 704.0,95.0
+[2020-01-24 11:23:55.099] [Engine] [info] Mouse moved at: 705.0,95.0
+[2020-01-24 11:23:55.141] [Engine] [info] Mouse moved at: 705.0,94.0
+[2020-01-24 11:23:55.156] [Engine] [info] Mouse moved at: 706.0,94.0
+[2020-01-24 11:23:55.245] [Engine] [info] Mouse moved at: 706.0,95.0
+[2020-01-24 11:23:55.259] [Engine] [info] Mouse moved at: 707.0,96.0
+[2020-01-24 11:23:55.266] [Engine] [info] Mouse moved at: 707.0,97.0
+[2020-01-24 11:23:55.273] [Engine] [info] Mouse moved at: 708.0,98.0
+[2020-01-24 11:23:56.495] [Engine] [info] Mouse moved at: 777.0,502.0
+[2020-01-24 11:23:56.502] [Engine] [info] Mouse moved at: 738.0,515.0
+[2020-01-24 11:23:56.509] [Engine] [info] Mouse moved at: 714.0,523.0
+[2020-01-24 11:23:56.516] [Engine] [info] Mouse moved at: 682.0,531.0
+[2020-01-24 11:23:56.530] [Engine] [info] Mouse moved at: 629.0,540.0
+[2020-01-24 11:23:56.544] [Engine] [info] Mouse moved at: 587.0,543.0
+[2020-01-24 11:23:56.545] [Engine] [info] Mouse moved at: 581.0,543.0
+[2020-01-24 11:23:56.565] [Engine] [info] Mouse moved at: 527.0,542.0
+[2020-01-24 11:23:56.579] [Engine] [info] Mouse moved at: 502.0,537.0
+[2020-01-24 11:23:56.593] [Engine] [info] Mouse moved at: 486.0,528.0
+[2020-01-24 11:23:56.614] [Engine] [info] Mouse moved at: 478.0,509.0
+[2020-01-24 11:23:56.615] [Engine] [info] Mouse moved at: 477.0,507.0
+[2020-01-24 11:23:56.628] [Engine] [info] Mouse moved at: 477.0,493.0
+[2020-01-24 11:23:56.629] [Engine] [info] Mouse moved at: 478.0,490.0
+[2020-01-24 11:23:56.649] [Engine] [info] Mouse moved at: 484.0,465.0
+[2020-01-24 11:23:56.662] [Engine] [info] Mouse moved at: 491.0,446.0
+[2020-01-24 11:23:56.676] [Engine] [info] Mouse moved at: 498.0,427.0
+[2020-01-24 11:23:56.697] [Engine] [info] Mouse moved at: 505.0,404.0
+[2020-01-24 11:23:56.711] [Engine] [info] Mouse moved at: 505.0,396.0
+[2020-01-24 11:23:56.732] [Engine] [info] Mouse moved at: 505.0,394.0
+[2020-01-24 11:23:56.761] [Engine] [info] Mouse button pressed: 0
+[2020-01-24 11:23:56.828] [Engine] [info] Mouse button released: 0
+[2020-01-24 11:23:56.939] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:57.050] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:57.327] [Engine] [info] FPS:141.
+[2020-01-24 11:23:57.419] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:57.523] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:57.641] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:57.745] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:57.856] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 11:23:57.953] [Engine] [info] Key Released: 83
+[2020-01-24 11:23:58.071] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 11:23:58.321] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 11:23:58.322] [Engine] [info] Key Released: 65
+[2020-01-24 11:23:58.323] [Engine] [info] Mouse moved at: 505.0,395.0
+[2020-01-24 11:23:58.523] [Engine] [info] Key Released: 68
+[2020-01-24 11:23:58.731] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:23:58.835] [Engine] [info] Key Released: 87
+[2020-01-24 11:23:58.960] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 11:23:59.273] [Engine] [info] Mouse moved at: 505.0,396.0
+[2020-01-24 11:23:59.460] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.495] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.530] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.564] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.592] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.627] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.662] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.696] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.731] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.759] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.794] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.828] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.863] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.898] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.925] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.960] [Engine] [info] Key Pressed: 87, R#:1
+[2020-01-24 11:23:59.974] [Engine] [info] Key Released: 87
+[2020-01-24 11:23:59.995] [Engine] [info] Mouse moved at: 505.0,398.0
+[2020-01-24 11:24:00.010] [Engine] [info] Mouse moved at: 504.0,400.0
+[2020-01-24 11:24:00.030] [Engine] [info] Mouse moved at: 504.0,402.0
+[2020-01-24 11:24:00.045] [Engine] [info] Mouse moved at: 505.0,406.0
+[2020-01-24 11:24:00.065] [Engine] [info] Mouse moved at: 507.0,413.0
+[2020-01-24 11:24:00.079] [Engine] [info] Mouse moved at: 507.0,415.0
+[2020-01-24 11:24:00.093] [Engine] [info] Mouse moved at: 507.0,416.0
+[2020-01-24 11:24:00.148] [Engine] [info] Mouse moved at: 508.0,414.0
+[2020-01-24 11:24:00.149] [Engine] [info] Mouse moved at: 509.0,413.0
+[2020-01-24 11:24:00.155] [Engine] [info] Mouse moved at: 510.0,410.0
+[2020-01-24 11:24:00.162] [Engine] [info] Mouse moved at: 512.0,406.0
+[2020-01-24 11:24:00.169] [Engine] [info] Mouse moved at: 515.0,402.0
+[2020-01-24 11:24:00.176] [Engine] [info] Mouse moved at: 518.0,397.0
+[2020-01-24 11:24:00.198] [Engine] [info] Mouse moved at: 533.0,376.0
+[2020-01-24 11:24:00.198] [Engine] [info] Mouse moved at: 535.0,373.0
+[2020-01-24 11:24:00.211] [Engine] [info] Mouse moved at: 550.0,352.0
+[2020-01-24 11:24:00.232] [Engine] [info] Mouse moved at: 581.0,311.0
+[2020-01-24 11:24:00.232] [Engine] [info] Mouse moved at: 585.0,306.0
+[2020-01-24 11:24:00.246] [Engine] [info] Mouse moved at: 604.0,277.0
+[2020-01-24 11:24:00.247] [Engine] [info] Mouse moved at: 608.0,272.0
+[2020-01-24 11:24:00.260] [Engine] [info] Mouse moved at: 631.0,238.0
+[2020-01-24 11:24:00.281] [Engine] [info] Mouse moved at: 661.0,196.0
+[2020-01-24 11:24:00.294] [Engine] [info] Mouse moved at: 679.0,173.0
+[2020-01-24 11:24:00.315] [Engine] [info] Mouse moved at: 696.0,149.0
+[2020-01-24 11:24:00.329] [Engine] [info] Mouse moved at: 699.0,139.0
+[2020-01-24 11:24:00.343] [Engine] [info] Mouse moved at: 700.0,131.0
+[2020-01-24 11:24:00.364] [Engine] [info] Mouse moved at: 700.0,125.0
+[2020-01-24 11:24:00.364] [Engine] [info] Mouse moved at: 700.0,124.0
+[2020-01-24 11:24:00.378] [Engine] [info] Mouse moved at: 699.0,121.0
+[2020-01-24 11:24:00.379] [Engine] [info] Mouse moved at: 699.0,120.0
+[2020-01-24 11:24:00.398] [Engine] [info] Mouse moved at: 698.0,114.0
+[2020-01-24 11:24:00.412] [Engine] [info] Mouse moved at: 697.0,109.0
+[2020-01-24 11:24:00.426] [Engine] [info] Mouse moved at: 694.0,106.0
+[2020-01-24 11:24:00.448] [Engine] [info] Mouse moved at: 684.0,99.0
+[2020-01-24 11:24:00.462] [Engine] [info] Mouse moved at: 674.0,95.0
+[2020-01-24 11:24:00.482] [Engine] [info] Mouse moved at: 656.0,89.0
+[2020-01-24 11:24:00.483] [Engine] [info] Mouse moved at: 655.0,89.0
+[2020-01-24 11:24:00.497] [Engine] [info] Mouse moved at: 645.0,85.0
+[2020-01-24 11:24:00.509] [Engine] [info] Mouse moved at: 640.0,82.0
+[2020-01-24 11:24:00.530] [Engine] [info] Mouse moved at: 639.0,81.0
+[2020-01-24 11:24:00.565] [Engine] [info] Mouse moved at: 642.0,78.0
+[2020-01-24 11:24:00.579] [Engine] [info] Mouse moved at: 648.0,75.0
+[2020-01-24 11:24:00.593] [Engine] [info] Mouse moved at: 657.0,70.0
+[2020-01-24 11:24:00.614] [Engine] [info] Mouse moved at: 675.0,58.0
+[2020-01-24 11:24:00.614] [Engine] [info] Mouse moved at: 677.0,57.0
+[2020-01-24 11:24:00.628] [Engine] [info] Mouse moved at: 691.0,49.0
+[2020-01-24 11:24:00.648] [Engine] [info] Mouse moved at: 720.0,32.0
+[2020-01-24 11:24:00.664] [Engine] [info] Mouse moved at: 734.0,24.0
+[2020-01-24 11:24:00.677] [Engine] [info] Mouse moved at: 745.0,17.0
+[2020-01-24 11:24:00.697] [Engine] [info] Mouse moved at: 757.0,9.0
+[2020-01-24 11:24:00.711] [Engine] [info] Mouse moved at: 762.0,4.0
+[2020-01-24 11:24:01.003] [Engine] [warning] Closing Application
+[2020-01-24 11:24:01.017] [Engine] [info] Cleared Window
+[2020-01-24 11:24:01.037] [Engine] [info] Windows System Stopped
+[2020-01-24 11:24:01.038] [Engine] [info] Cleared Resource System
+[2020-01-24 11:24:01.038] [Engine] [info] Timer Stopped
+[2020-01-24 11:24:01.039] [Engine] [info] Ending Log...
+[2020-01-24 12:42:57.890] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:42:57.892] [Engine] [warning] Logger Initialized
+[2020-01-24 12:42:57.892] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:42:57.892] [Engine] [warning] Timing system Started
+[2020-01-24 12:42:57.893] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:42:58.837] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:42:58.838] [Engine] [warning] Window Created
+[2020-01-24 12:42:58.838] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:42:58.839] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:42:59.430] [Engine] [info] Mouse moved at: 794.0,215.0
+[2020-01-24 12:42:59.430] [Engine] [info] Mouse moved at: 791.0,208.0
+[2020-01-24 12:42:59.440] [Engine] [info] Mouse moved at: 784.0,192.0
+[2020-01-24 12:42:59.461] [Engine] [info] Mouse moved at: 775.0,164.0
+[2020-01-24 12:42:59.475] [Engine] [info] Mouse moved at: 771.0,149.0
+[2020-01-24 12:42:59.488] [Engine] [info] Mouse moved at: 768.0,135.0
+[2020-01-24 12:42:59.510] [Engine] [info] Mouse moved at: 764.0,119.0
+[2020-01-24 12:42:59.510] [Engine] [info] Mouse moved at: 764.0,118.0
+[2020-01-24 12:42:59.523] [Engine] [info] Mouse moved at: 762.0,110.0
+[2020-01-24 12:42:59.546] [Engine] [info] Mouse moved at: 761.0,101.0
+[2020-01-24 12:42:59.558] [Engine] [info] Mouse moved at: 761.0,99.0
+[2020-01-24 12:42:59.572] [Engine] [info] Mouse moved at: 761.0,98.0
+[2020-01-24 12:42:59.593] [Engine] [info] Mouse moved at: 761.0,94.0
+[2020-01-24 12:42:59.607] [Engine] [info] Mouse moved at: 761.0,90.0
+[2020-01-24 12:42:59.627] [Engine] [info] Mouse moved at: 761.0,84.0
+[2020-01-24 12:42:59.628] [Engine] [info] Mouse moved at: 761.0,83.0
+[2020-01-24 12:42:59.642] [Engine] [info] Mouse moved at: 761.0,79.0
+[2020-01-24 12:42:59.642] [Engine] [info] Mouse moved at: 761.0,78.0
+[2020-01-24 12:42:59.655] [Engine] [info] Mouse moved at: 761.0,74.0
+[2020-01-24 12:42:59.677] [Engine] [info] Mouse moved at: 761.0,65.0
+[2020-01-24 12:42:59.690] [Engine] [info] Mouse moved at: 761.0,60.0
+[2020-01-24 12:42:59.691] [Engine] [info] Mouse moved at: 761.0,59.0
+[2020-01-24 12:42:59.711] [Engine] [info] Mouse moved at: 760.0,50.0
+[2020-01-24 12:42:59.712] [Engine] [info] Mouse moved at: 760.0,49.0
+[2020-01-24 12:42:59.725] [Engine] [info] Mouse moved at: 759.0,43.0
+[2020-01-24 12:42:59.740] [Engine] [info] Mouse moved at: 758.0,36.0
+[2020-01-24 12:42:59.760] [Engine] [info] Mouse moved at: 756.0,25.0
+[2020-01-24 12:42:59.774] [Engine] [info] Mouse moved at: 755.0,19.0
+[2020-01-24 12:42:59.775] [Engine] [info] Mouse moved at: 755.0,18.0
+[2020-01-24 12:42:59.794] [Engine] [info] Mouse moved at: 754.0,11.0
+[2020-01-24 12:42:59.809] [Engine] [info] Mouse moved at: 754.0,7.0
+[2020-01-24 12:42:59.822] [Engine] [info] Mouse moved at: 753.0,3.0
+[2020-01-24 12:43:00.500] [Engine] [warning] Closing Application
+[2020-01-24 12:43:00.516] [Engine] [info] Cleared Window
+[2020-01-24 12:43:00.535] [Engine] [info] Windows System Stopped
+[2020-01-24 12:43:00.535] [Engine] [info] Cleared Resource System
+[2020-01-24 12:43:00.535] [Engine] [info] Timer Stopped
+[2020-01-24 12:43:00.536] [Engine] [info] Ending Log...
+[2020-01-24 12:43:45.012] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:43:45.014] [Engine] [warning] Logger Initialized
+[2020-01-24 12:43:45.014] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:43:45.014] [Engine] [warning] Timing system Started
+[2020-01-24 12:43:45.014] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:43:45.915] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:43:45.916] [Engine] [warning] Window Created
+[2020-01-24 12:43:45.917] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:43:45.917] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:43:45.959] [Engine] [info] Mouse moved at: 660.0,588.0
+[2020-01-24 12:43:47.550] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 12:43:47.911] [Engine] [info] Key Released: 87
+[2020-01-24 12:43:47.946] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 12:43:48.224] [Engine] [info] Key Released: 68
+[2020-01-24 12:43:48.258] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 12:43:48.321] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 12:43:48.495] [Engine] [info] Key Released: 65
+[2020-01-24 12:43:48.543] [Engine] [info] Key Released: 83
+[2020-01-24 12:43:48.661] [Engine] [info] Key Pressed: 87, R#:0
+[2020-01-24 12:43:48.827] [Engine] [info] Key Released: 87
+[2020-01-24 12:43:48.869] [Engine] [info] Key Pressed: 65, R#:0
+[2020-01-24 12:43:48.953] [Engine] [info] Key Pressed: 83, R#:0
+[2020-01-24 12:43:49.015] [Engine] [info] Key Released: 65
+[2020-01-24 12:43:49.057] [Engine] [info] Key Released: 83
+[2020-01-24 12:43:49.321] [Engine] [info] Key Pressed: 256, R#:0
+[2020-01-24 12:43:49.411] [Engine] [info] Key Released: 256
+[2020-01-24 12:43:49.570] [Engine] [info] Mouse moved at: 660.0,587.0
+[2020-01-24 12:43:49.577] [Engine] [info] Mouse moved at: 659.0,586.0
+[2020-01-24 12:43:49.668] [Engine] [info] Mouse moved at: 660.0,586.0
+[2020-01-24 12:43:49.675] [Engine] [info] Mouse moved at: 665.0,585.0
+[2020-01-24 12:43:49.682] [Engine] [info] Mouse moved at: 677.0,583.0
+[2020-01-24 12:43:49.689] [Engine] [info] Mouse moved at: 690.0,581.0
+[2020-01-24 12:43:49.696] [Engine] [info] Mouse moved at: 709.0,576.0
+[2020-01-24 12:43:49.703] [Engine] [info] Mouse moved at: 726.0,572.0
+[2020-01-24 12:43:49.711] [Engine] [info] Mouse moved at: 749.0,565.0
+[2020-01-24 12:43:49.718] [Engine] [info] Mouse moved at: 773.0,557.0
+[2020-01-24 12:43:49.725] [Engine] [info] Mouse moved at: 790.0,550.0
+[2020-01-24 12:43:49.726] [Engine] [info] Mouse moved at: 795.0,548.0
+[2020-01-24 12:43:49.919] [Engine] [info] Mouse moved at: 796.0,72.0
+[2020-01-24 12:43:49.920] [Engine] [info] Mouse moved at: 794.0,70.0
+[2020-01-24 12:43:49.925] [Engine] [info] Mouse moved at: 789.0,65.0
+[2020-01-24 12:43:49.926] [Engine] [info] Mouse moved at: 786.0,62.0
+[2020-01-24 12:43:49.933] [Engine] [info] Mouse moved at: 779.0,55.0
+[2020-01-24 12:43:49.939] [Engine] [info] Mouse moved at: 772.0,48.0
+[2020-01-24 12:43:49.946] [Engine] [info] Mouse moved at: 763.0,41.0
+[2020-01-24 12:43:49.953] [Engine] [info] Mouse moved at: 754.0,34.0
+[2020-01-24 12:43:49.960] [Engine] [info] Mouse moved at: 746.0,26.0
+[2020-01-24 12:43:49.967] [Engine] [info] Mouse moved at: 740.0,20.0
+[2020-01-24 12:43:49.973] [Engine] [info] Mouse moved at: 735.0,15.0
+[2020-01-24 12:43:49.974] [Engine] [info] Mouse moved at: 733.0,13.0
+[2020-01-24 12:43:49.981] [Engine] [info] Mouse moved at: 728.0,8.0
+[2020-01-24 12:43:49.988] [Engine] [info] Mouse moved at: 723.0,1.0
+[2020-01-24 12:43:50.612] [Engine] [warning] Closing Application
+[2020-01-24 12:43:50.626] [Engine] [info] Cleared Window
+[2020-01-24 12:43:50.644] [Engine] [info] Windows System Stopped
+[2020-01-24 12:43:50.645] [Engine] [info] Cleared Resource System
+[2020-01-24 12:43:50.645] [Engine] [info] Timer Stopped
+[2020-01-24 12:43:50.646] [Engine] [info] Ending Log...
+[2020-01-24 12:44:15.051] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:44:15.052] [Engine] [warning] Logger Initialized
+[2020-01-24 12:44:15.053] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:44:15.053] [Engine] [warning] Timing system Started
+[2020-01-24 12:44:15.053] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:44:15.992] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:44:15.993] [Engine] [warning] Window Created
+[2020-01-24 12:44:15.993] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:44:15.993] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:44:17.711] [Engine] [info] Mouse moved at: 798.0,196.0
+[2020-01-24 12:44:17.712] [Engine] [info] Mouse moved at: 796.0,194.0
+[2020-01-24 12:44:17.717] [Engine] [info] Mouse moved at: 793.0,189.0
+[2020-01-24 12:44:17.718] [Engine] [info] Mouse moved at: 791.0,187.0
+[2020-01-24 12:44:17.724] [Engine] [info] Mouse moved at: 786.0,180.0
+[2020-01-24 12:44:17.731] [Engine] [info] Mouse moved at: 782.0,172.0
+[2020-01-24 12:44:17.744] [Engine] [info] Mouse moved at: 770.0,156.0
+[2020-01-24 12:44:17.751] [Engine] [info] Mouse moved at: 765.0,149.0
+[2020-01-24 12:44:17.751] [Engine] [info] Mouse moved at: 763.0,146.0
+[2020-01-24 12:44:17.759] [Engine] [info] Mouse moved at: 759.0,138.0
+[2020-01-24 12:44:17.765] [Engine] [info] Mouse moved at: 753.0,128.0
+[2020-01-24 12:44:17.772] [Engine] [info] Mouse moved at: 749.0,120.0
+[2020-01-24 12:44:17.779] [Engine] [info] Mouse moved at: 746.0,113.0
+[2020-01-24 12:44:17.779] [Engine] [info] Mouse moved at: 745.0,110.0
+[2020-01-24 12:44:17.786] [Engine] [info] Mouse moved at: 742.0,103.0
+[2020-01-24 12:44:17.793] [Engine] [info] Mouse moved at: 739.0,96.0
+[2020-01-24 12:44:17.793] [Engine] [info] Mouse moved at: 738.0,93.0
+[2020-01-24 12:44:17.800] [Engine] [info] Mouse moved at: 736.0,86.0
+[2020-01-24 12:44:17.808] [Engine] [info] Mouse moved at: 734.0,77.0
+[2020-01-24 12:44:17.814] [Engine] [info] Mouse moved at: 732.0,71.0
+[2020-01-24 12:44:17.828] [Engine] [info] Mouse moved at: 730.0,58.0
+[2020-01-24 12:44:17.834] [Engine] [info] Mouse moved at: 730.0,53.0
+[2020-01-24 12:44:17.842] [Engine] [info] Mouse moved at: 730.0,47.0
+[2020-01-24 12:44:17.849] [Engine] [info] Mouse moved at: 729.0,43.0
+[2020-01-24 12:44:17.850] [Engine] [info] Mouse moved at: 729.0,42.0
+[2020-01-24 12:44:17.856] [Engine] [info] Mouse moved at: 729.0,40.0
+[2020-01-24 12:44:17.856] [Engine] [info] Mouse moved at: 729.0,39.0
+[2020-01-24 12:44:17.863] [Engine] [info] Mouse moved at: 729.0,36.0
+[2020-01-24 12:44:17.863] [Engine] [info] Mouse moved at: 729.0,35.0
+[2020-01-24 12:44:17.870] [Engine] [info] Mouse moved at: 730.0,32.0
+[2020-01-24 12:44:17.876] [Engine] [info] Mouse moved at: 730.0,29.0
+[2020-01-24 12:44:17.884] [Engine] [info] Mouse moved at: 730.0,25.0
+[2020-01-24 12:44:17.890] [Engine] [info] Mouse moved at: 731.0,22.0
+[2020-01-24 12:44:17.897] [Engine] [info] Mouse moved at: 731.0,19.0
+[2020-01-24 12:44:17.904] [Engine] [info] Mouse moved at: 732.0,17.0
+[2020-01-24 12:44:17.911] [Engine] [info] Mouse moved at: 732.0,14.0
+[2020-01-24 12:44:17.920] [Engine] [info] Mouse moved at: 732.0,11.0
+[2020-01-24 12:44:17.925] [Engine] [info] Mouse moved at: 733.0,9.0
+[2020-01-24 12:44:17.932] [Engine] [info] Mouse moved at: 733.0,7.0
+[2020-01-24 12:44:17.938] [Engine] [info] Mouse moved at: 734.0,5.0
+[2020-01-24 12:44:17.946] [Engine] [info] Mouse moved at: 735.0,2.0
+[2020-01-24 12:44:17.953] [Engine] [info] Mouse moved at: 735.0,1.0
+[2020-01-24 12:44:17.953] [Engine] [info] Mouse moved at: 736.0,0.0
+[2020-01-24 12:44:18.317] [Engine] [warning] Closing Application
+[2020-01-24 12:44:18.330] [Engine] [info] Cleared Window
+[2020-01-24 12:44:18.350] [Engine] [info] Windows System Stopped
+[2020-01-24 12:44:18.351] [Engine] [info] Cleared Resource System
+[2020-01-24 12:44:18.351] [Engine] [info] Timer Stopped
+[2020-01-24 12:44:18.352] [Engine] [info] Ending Log...
+[2020-01-24 12:45:42.469] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:45:42.470] [Engine] [warning] Logger Initialized
+[2020-01-24 12:45:42.470] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:45:42.470] [Engine] [warning] Timing system Started
+[2020-01-24 12:45:42.470] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:45:43.363] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:45:43.364] [Engine] [warning] Window Created
+[2020-01-24 12:45:43.364] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:45:43.364] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:45:43.407] [Engine] [info] Mouse moved at: 598.0,273.0
+[2020-01-24 12:45:43.917] [Engine] [info] Mouse moved at: 599.0,273.0
+[2020-01-24 12:45:43.924] [Engine] [info] Mouse moved at: 599.0,272.0
+[2020-01-24 12:45:43.939] [Engine] [info] Mouse moved at: 600.0,272.0
+[2020-01-24 12:45:43.959] [Engine] [info] Mouse moved at: 600.0,271.0
+[2020-01-24 12:45:43.973] [Engine] [info] Mouse moved at: 601.0,270.0
+[2020-01-24 12:45:43.994] [Engine] [info] Mouse moved at: 602.0,269.0
+[2020-01-24 12:45:44.007] [Engine] [info] Mouse moved at: 603.0,267.0
+[2020-01-24 12:45:44.022] [Engine] [info] Mouse moved at: 604.0,265.0
+[2020-01-24 12:45:44.042] [Engine] [info] Mouse moved at: 605.0,263.0
+[2020-01-24 12:45:44.057] [Engine] [info] Mouse moved at: 606.0,261.0
+[2020-01-24 12:45:44.078] [Engine] [info] Mouse moved at: 608.0,258.0
+[2020-01-24 12:45:44.092] [Engine] [info] Mouse moved at: 611.0,255.0
+[2020-01-24 12:45:44.105] [Engine] [info] Mouse moved at: 614.0,250.0
+[2020-01-24 12:45:44.126] [Engine] [info] Mouse moved at: 619.0,244.0
+[2020-01-24 12:45:44.127] [Engine] [info] Mouse moved at: 619.0,243.0
+[2020-01-24 12:45:44.140] [Engine] [info] Mouse moved at: 624.0,239.0
+[2020-01-24 12:45:44.161] [Engine] [info] Mouse moved at: 633.0,230.0
+[2020-01-24 12:45:44.174] [Engine] [info] Mouse moved at: 639.0,225.0
+[2020-01-24 12:45:44.188] [Engine] [info] Mouse moved at: 646.0,219.0
+[2020-01-24 12:45:44.189] [Engine] [info] Mouse moved at: 647.0,219.0
+[2020-01-24 12:45:44.195] [Engine] [info] Mouse moved at: 649.0,217.0
+[2020-01-24 12:45:44.195] [Engine] [info] Mouse moved at: 650.0,216.0
+[2020-01-24 12:45:44.210] [Engine] [info] Mouse moved at: 657.0,210.0
+[2020-01-24 12:45:44.217] [Engine] [info] Mouse moved at: 659.0,208.0
+[2020-01-24 12:45:44.217] [Engine] [info] Mouse moved at: 660.0,207.0
+[2020-01-24 12:45:44.222] [Engine] [info] Mouse moved at: 662.0,206.0
+[2020-01-24 12:45:44.223] [Engine] [info] Mouse moved at: 663.0,205.0
+[2020-01-24 12:45:44.245] [Engine] [info] Mouse moved at: 670.0,198.0
+[2020-01-24 12:45:44.246] [Engine] [info] Mouse moved at: 671.0,197.0
+[2020-01-24 12:45:44.250] [Engine] [info] Mouse moved at: 672.0,196.0
+[2020-01-24 12:45:44.258] [Engine] [info] Mouse moved at: 674.0,193.0
+[2020-01-24 12:45:44.265] [Engine] [info] Mouse moved at: 677.0,191.0
+[2020-01-24 12:45:44.272] [Engine] [info] Mouse moved at: 679.0,189.0
+[2020-01-24 12:45:44.279] [Engine] [info] Mouse moved at: 680.0,188.0
+[2020-01-24 12:45:44.279] [Engine] [info] Mouse moved at: 681.0,187.0
+[2020-01-24 12:45:44.293] [Engine] [info] Mouse moved at: 684.0,183.0
+[2020-01-24 12:45:44.299] [Engine] [info] Mouse moved at: 685.0,181.0
+[2020-01-24 12:45:44.309] [Engine] [info] Mouse moved at: 687.0,179.0
+[2020-01-24 12:45:44.314] [Engine] [info] Mouse moved at: 687.0,178.0
+[2020-01-24 12:45:44.327] [Engine] [info] Mouse moved at: 690.0,174.0
+[2020-01-24 12:45:44.334] [Engine] [info] Mouse moved at: 690.0,173.0
+[2020-01-24 12:45:44.335] [Engine] [info] Mouse moved at: 691.0,172.0
+[2020-01-24 12:45:44.341] [Engine] [info] Mouse moved at: 691.0,171.0
+[2020-01-24 12:45:44.355] [Engine] [info] Mouse moved at: 693.0,168.0
+[2020-01-24 12:45:44.361] [Engine] [info] Mouse moved at: 693.0,167.0
+[2020-01-24 12:45:44.376] [Engine] [info] Mouse moved at: 694.0,166.0
+[2020-01-24 12:45:44.377] [Engine] [info] Mouse moved at: 694.0,165.0
+[2020-01-24 12:45:44.383] [Engine] [info] Mouse moved at: 695.0,165.0
+[2020-01-24 12:45:44.521] [Engine] [info] Mouse moved at: 695.0,164.0
+[2020-01-24 12:45:44.528] [Engine] [info] Mouse moved at: 695.0,163.0
+[2020-01-24 12:45:44.535] [Engine] [info] Mouse moved at: 694.0,162.0
+[2020-01-24 12:45:44.542] [Engine] [info] Mouse moved at: 694.0,161.0
+[2020-01-24 12:45:44.549] [Engine] [info] Mouse moved at: 693.0,158.0
+[2020-01-24 12:45:44.557] [Engine] [info] Mouse moved at: 692.0,157.0
+[2020-01-24 12:45:44.563] [Engine] [info] Mouse moved at: 692.0,155.0
+[2020-01-24 12:45:44.577] [Engine] [info] Mouse moved at: 691.0,152.0
+[2020-01-24 12:45:44.583] [Engine] [info] Mouse moved at: 690.0,150.0
+[2020-01-24 12:45:44.591] [Engine] [info] Mouse moved at: 689.0,148.0
+[2020-01-24 12:45:44.598] [Engine] [info] Mouse moved at: 689.0,147.0
+[2020-01-24 12:45:44.606] [Engine] [info] Mouse moved at: 689.0,146.0
+[2020-01-24 12:45:44.606] [Engine] [info] Mouse moved at: 688.0,145.0
+[2020-01-24 12:45:44.611] [Engine] [info] Mouse moved at: 688.0,144.0
+[2020-01-24 12:45:44.625] [Engine] [info] Mouse moved at: 687.0,141.0
+[2020-01-24 12:45:44.633] [Engine] [info] Mouse moved at: 687.0,140.0
+[2020-01-24 12:45:44.633] [Engine] [info] Mouse moved at: 687.0,139.0
+[2020-01-24 12:45:44.639] [Engine] [info] Mouse moved at: 687.0,138.0
+[2020-01-24 12:45:44.647] [Engine] [info] Mouse moved at: 686.0,136.0
+[2020-01-24 12:45:44.654] [Engine] [info] Mouse moved at: 686.0,135.0
+[2020-01-24 12:45:44.660] [Engine] [info] Mouse moved at: 686.0,134.0
+[2020-01-24 12:45:44.674] [Engine] [info] Mouse moved at: 686.0,131.0
+[2020-01-24 12:45:44.681] [Engine] [info] Mouse moved at: 686.0,130.0
+[2020-01-24 12:45:44.688] [Engine] [info] Mouse moved at: 686.0,129.0
+[2020-01-24 12:45:44.695] [Engine] [info] Mouse moved at: 686.0,128.0
+[2020-01-24 12:45:44.695] [Engine] [info] Mouse moved at: 686.0,127.0
+[2020-01-24 12:45:44.708] [Engine] [info] Mouse moved at: 687.0,126.0
+[2020-01-24 12:45:44.709] [Engine] [info] Mouse moved at: 687.0,125.0
+[2020-01-24 12:45:44.716] [Engine] [info] Mouse moved at: 688.0,124.0
+[2020-01-24 12:45:44.723] [Engine] [info] Mouse moved at: 689.0,123.0
+[2020-01-24 12:45:44.730] [Engine] [info] Mouse moved at: 691.0,121.0
+[2020-01-24 12:45:44.737] [Engine] [info] Mouse moved at: 693.0,119.0
+[2020-01-24 12:45:44.744] [Engine] [info] Mouse moved at: 695.0,117.0
+[2020-01-24 12:45:44.757] [Engine] [info] Mouse moved at: 700.0,112.0
+[2020-01-24 12:45:44.764] [Engine] [info] Mouse moved at: 702.0,110.0
+[2020-01-24 12:45:44.771] [Engine] [info] Mouse moved at: 706.0,106.0
+[2020-01-24 12:45:44.778] [Engine] [info] Mouse moved at: 709.0,103.0
+[2020-01-24 12:45:44.779] [Engine] [info] Mouse moved at: 710.0,103.0
+[2020-01-24 12:45:44.785] [Engine] [info] Mouse moved at: 712.0,101.0
+[2020-01-24 12:45:44.786] [Engine] [info] Mouse moved at: 713.0,100.0
+[2020-01-24 12:45:44.792] [Engine] [info] Mouse moved at: 716.0,97.0
+[2020-01-24 12:45:44.793] [Engine] [info] Mouse moved at: 717.0,96.0
+[2020-01-24 12:45:44.799] [Engine] [info] Mouse moved at: 720.0,94.0
+[2020-01-24 12:45:44.806] [Engine] [info] Mouse moved at: 723.0,91.0
+[2020-01-24 12:45:44.813] [Engine] [info] Mouse moved at: 727.0,87.0
+[2020-01-24 12:45:44.820] [Engine] [info] Mouse moved at: 730.0,85.0
+[2020-01-24 12:45:44.827] [Engine] [info] Mouse moved at: 734.0,81.0
+[2020-01-24 12:45:44.834] [Engine] [info] Mouse moved at: 736.0,80.0
+[2020-01-24 12:45:44.841] [Engine] [info] Mouse moved at: 739.0,77.0
+[2020-01-24 12:45:44.848] [Engine] [info] Mouse moved at: 741.0,75.0
+[2020-01-24 12:45:44.855] [Engine] [info] Mouse moved at: 743.0,73.0
+[2020-01-24 12:45:44.855] [Engine] [info] Mouse moved at: 744.0,72.0
+[2020-01-24 12:45:44.862] [Engine] [info] Mouse moved at: 745.0,70.0
+[2020-01-24 12:45:44.869] [Engine] [info] Mouse moved at: 748.0,67.0
+[2020-01-24 12:45:44.876] [Engine] [info] Mouse moved at: 749.0,64.0
+[2020-01-24 12:45:44.882] [Engine] [info] Mouse moved at: 750.0,62.0
+[2020-01-24 12:45:44.883] [Engine] [info] Mouse moved at: 751.0,61.0
+[2020-01-24 12:45:44.889] [Engine] [info] Mouse moved at: 752.0,59.0
+[2020-01-24 12:45:44.897] [Engine] [info] Mouse moved at: 753.0,58.0
+[2020-01-24 12:45:44.904] [Engine] [info] Mouse moved at: 754.0,56.0
+[2020-01-24 12:45:44.910] [Engine] [info] Mouse moved at: 755.0,54.0
+[2020-01-24 12:45:44.918] [Engine] [info] Mouse moved at: 757.0,52.0
+[2020-01-24 12:45:44.924] [Engine] [info] Mouse moved at: 758.0,50.0
+[2020-01-24 12:45:44.931] [Engine] [info] Mouse moved at: 759.0,49.0
+[2020-01-24 12:45:44.931] [Engine] [info] Mouse moved at: 759.0,48.0
+[2020-01-24 12:45:44.938] [Engine] [info] Mouse moved at: 760.0,47.0
+[2020-01-24 12:45:44.945] [Engine] [info] Mouse moved at: 760.0,46.0
+[2020-01-24 12:45:44.945] [Engine] [info] Mouse moved at: 761.0,45.0
+[2020-01-24 12:45:44.952] [Engine] [info] Mouse moved at: 761.0,44.0
+[2020-01-24 12:45:44.959] [Engine] [info] Mouse moved at: 762.0,42.0
+[2020-01-24 12:45:44.966] [Engine] [info] Mouse moved at: 762.0,41.0
+[2020-01-24 12:45:44.972] [Engine] [info] Mouse moved at: 763.0,40.0
+[2020-01-24 12:45:44.980] [Engine] [info] Mouse moved at: 763.0,38.0
+[2020-01-24 12:45:44.987] [Engine] [info] Mouse moved at: 764.0,37.0
+[2020-01-24 12:45:45.000] [Engine] [info] Mouse moved at: 764.0,36.0
+[2020-01-24 12:45:45.007] [Engine] [info] Mouse moved at: 765.0,35.0
+[2020-01-24 12:45:45.021] [Engine] [info] Mouse moved at: 765.0,34.0
+[2020-01-24 12:45:45.028] [Engine] [info] Mouse moved at: 765.0,33.0
+[2020-01-24 12:45:45.035] [Engine] [info] Mouse moved at: 766.0,33.0
+[2020-01-24 12:45:45.042] [Engine] [info] Mouse moved at: 766.0,32.0
+[2020-01-24 12:45:45.056] [Engine] [info] Mouse moved at: 766.0,31.0
+[2020-01-24 12:45:45.063] [Engine] [info] Mouse moved at: 767.0,31.0
+[2020-01-24 12:45:45.077] [Engine] [info] Mouse moved at: 767.0,29.0
+[2020-01-24 12:45:45.083] [Engine] [info] Mouse moved at: 768.0,28.0
+[2020-01-24 12:45:45.098] [Engine] [info] Mouse moved at: 769.0,27.0
+[2020-01-24 12:45:45.104] [Engine] [info] Mouse moved at: 769.0,26.0
+[2020-01-24 12:45:45.112] [Engine] [info] Mouse moved at: 770.0,25.0
+[2020-01-24 12:45:45.119] [Engine] [info] Mouse moved at: 771.0,24.0
+[2020-01-24 12:45:45.119] [Engine] [info] Mouse moved at: 771.0,23.0
+[2020-01-24 12:45:45.132] [Engine] [info] Mouse moved at: 772.0,22.0
+[2020-01-24 12:45:45.134] [Engine] [info] Mouse moved at: 773.0,21.0
+[2020-01-24 12:45:45.139] [Engine] [info] Mouse moved at: 773.0,20.0
+[2020-01-24 12:45:45.147] [Engine] [info] Mouse moved at: 774.0,19.0
+[2020-01-24 12:45:45.154] [Engine] [info] Mouse moved at: 775.0,18.0
+[2020-01-24 12:45:45.160] [Engine] [info] Mouse moved at: 776.0,18.0
+[2020-01-24 12:45:45.167] [Engine] [info] Mouse moved at: 776.0,17.0
+[2020-01-24 12:45:45.174] [Engine] [info] Mouse moved at: 777.0,16.0
+[2020-01-24 12:45:45.181] [Engine] [info] Mouse moved at: 777.0,15.0
+[2020-01-24 12:45:45.208] [Engine] [info] Mouse moved at: 778.0,15.0
+[2020-01-24 12:45:45.264] [Engine] [info] Mouse moved at: 778.0,14.0
+[2020-01-24 12:45:45.299] [Engine] [info] Mouse moved at: 778.0,13.0
+[2020-01-24 12:45:45.625] [Engine] [info] Mouse moved at: 778.0,14.0
+[2020-01-24 12:45:45.695] [Engine] [info] Mouse moved at: 778.0,15.0
+[2020-01-24 12:45:45.702] [Engine] [info] Mouse moved at: 777.0,16.0
+[2020-01-24 12:45:45.709] [Engine] [info] Mouse moved at: 777.0,17.0
+[2020-01-24 12:45:45.716] [Engine] [info] Mouse moved at: 776.0,18.0
+[2020-01-24 12:45:45.724] [Engine] [info] Mouse moved at: 776.0,19.0
+[2020-01-24 12:45:45.730] [Engine] [info] Mouse moved at: 775.0,20.0
+[2020-01-24 12:45:45.737] [Engine] [info] Mouse moved at: 775.0,21.0
+[2020-01-24 12:45:45.744] [Engine] [info] Mouse moved at: 774.0,22.0
+[2020-01-24 12:45:45.750] [Engine] [info] Mouse moved at: 774.0,23.0
+[2020-01-24 12:45:45.757] [Engine] [info] Mouse moved at: 773.0,24.0
+[2020-01-24 12:45:45.764] [Engine] [info] Mouse moved at: 772.0,25.0
+[2020-01-24 12:45:45.771] [Engine] [info] Mouse moved at: 771.0,27.0
+[2020-01-24 12:45:45.778] [Engine] [info] Mouse moved at: 771.0,28.0
+[2020-01-24 12:45:45.779] [Engine] [info] Mouse moved at: 770.0,28.0
+[2020-01-24 12:45:45.785] [Engine] [info] Mouse moved at: 770.0,30.0
+[2020-01-24 12:45:45.792] [Engine] [info] Mouse moved at: 768.0,32.0
+[2020-01-24 12:45:45.794] [Engine] [info] Mouse moved at: 768.0,33.0
+[2020-01-24 12:45:45.799] [Engine] [info] Mouse moved at: 767.0,34.0
+[2020-01-24 12:45:45.806] [Engine] [info] Mouse moved at: 766.0,36.0
+[2020-01-24 12:45:45.813] [Engine] [info] Mouse moved at: 765.0,39.0
+[2020-01-24 12:45:45.820] [Engine] [info] Mouse moved at: 763.0,41.0
+[2020-01-24 12:45:45.827] [Engine] [info] Mouse moved at: 762.0,44.0
+[2020-01-24 12:45:45.834] [Engine] [info] Mouse moved at: 761.0,46.0
+[2020-01-24 12:45:45.835] [Engine] [info] Mouse moved at: 761.0,47.0
+[2020-01-24 12:45:45.840] [Engine] [info] Mouse moved at: 760.0,48.0
+[2020-01-24 12:45:45.841] [Engine] [info] Mouse moved at: 760.0,49.0
+[2020-01-24 12:45:45.848] [Engine] [info] Mouse moved at: 758.0,51.0
+[2020-01-24 12:45:45.854] [Engine] [info] Mouse moved at: 757.0,54.0
+[2020-01-24 12:45:45.861] [Engine] [info] Mouse moved at: 755.0,57.0
+[2020-01-24 12:45:45.868] [Engine] [info] Mouse moved at: 753.0,60.0
+[2020-01-24 12:45:45.869] [Engine] [info] Mouse moved at: 753.0,61.0
+[2020-01-24 12:45:45.876] [Engine] [info] Mouse moved at: 751.0,64.0
+[2020-01-24 12:45:45.882] [Engine] [info] Mouse moved at: 749.0,67.0
+[2020-01-24 12:45:45.883] [Engine] [info] Mouse moved at: 748.0,68.0
+[2020-01-24 12:45:45.889] [Engine] [info] Mouse moved at: 747.0,71.0
+[2020-01-24 12:45:45.896] [Engine] [info] Mouse moved at: 745.0,74.0
+[2020-01-24 12:45:45.897] [Engine] [info] Mouse moved at: 744.0,75.0
+[2020-01-24 12:45:45.903] [Engine] [info] Mouse moved at: 743.0,78.0
+[2020-01-24 12:45:45.910] [Engine] [info] Mouse moved at: 741.0,80.0
+[2020-01-24 12:45:45.911] [Engine] [info] Mouse moved at: 740.0,81.0
+[2020-01-24 12:45:45.918] [Engine] [info] Mouse moved at: 739.0,83.0
+[2020-01-24 12:45:45.919] [Engine] [info] Mouse moved at: 738.0,84.0
+[2020-01-24 12:45:45.925] [Engine] [info] Mouse moved at: 737.0,86.0
+[2020-01-24 12:45:45.931] [Engine] [info] Mouse moved at: 736.0,88.0
+[2020-01-24 12:45:45.932] [Engine] [info] Mouse moved at: 736.0,89.0
+[2020-01-24 12:45:45.938] [Engine] [info] Mouse moved at: 735.0,91.0
+[2020-01-24 12:45:45.944] [Engine] [info] Mouse moved at: 734.0,93.0
+[2020-01-24 12:45:45.945] [Engine] [info] Mouse moved at: 733.0,93.0
+[2020-01-24 12:45:45.952] [Engine] [info] Mouse moved at: 733.0,95.0
+[2020-01-24 12:45:45.959] [Engine] [info] Mouse moved at: 732.0,96.0
+[2020-01-24 12:45:45.959] [Engine] [info] Mouse moved at: 732.0,97.0
+[2020-01-24 12:45:45.966] [Engine] [info] Mouse moved at: 731.0,98.0
+[2020-01-24 12:45:45.973] [Engine] [info] Mouse moved at: 730.0,99.0
+[2020-01-24 12:45:45.979] [Engine] [info] Mouse moved at: 730.0,100.0
+[2020-01-24 12:45:45.993] [Engine] [info] Mouse moved at: 729.0,101.0
+[2020-01-24 12:45:46.076] [Engine] [info] Mouse moved at: 729.0,100.0
+[2020-01-24 12:45:46.077] [Engine] [info] Mouse moved at: 730.0,100.0
+[2020-01-24 12:45:46.083] [Engine] [info] Mouse moved at: 731.0,98.0
+[2020-01-24 12:45:46.091] [Engine] [info] Mouse moved at: 732.0,95.0
+[2020-01-24 12:45:46.091] [Engine] [info] Mouse moved at: 732.0,94.0
+[2020-01-24 12:45:46.097] [Engine] [info] Mouse moved at: 734.0,92.0
+[2020-01-24 12:45:46.105] [Engine] [info] Mouse moved at: 736.0,87.0
+[2020-01-24 12:45:46.111] [Engine] [info] Mouse moved at: 738.0,84.0
+[2020-01-24 12:45:46.125] [Engine] [info] Mouse moved at: 743.0,76.0
+[2020-01-24 12:45:46.132] [Engine] [info] Mouse moved at: 745.0,72.0
+[2020-01-24 12:45:46.139] [Engine] [info] Mouse moved at: 747.0,68.0
+[2020-01-24 12:45:46.147] [Engine] [info] Mouse moved at: 749.0,63.0
+[2020-01-24 12:45:46.154] [Engine] [info] Mouse moved at: 750.0,59.0
+[2020-01-24 12:45:46.160] [Engine] [info] Mouse moved at: 751.0,55.0
+[2020-01-24 12:45:46.174] [Engine] [info] Mouse moved at: 753.0,47.0
+[2020-01-24 12:45:46.175] [Engine] [info] Mouse moved at: 753.0,46.0
+[2020-01-24 12:45:46.181] [Engine] [info] Mouse moved at: 753.0,43.0
+[2020-01-24 12:45:46.181] [Engine] [info] Mouse moved at: 753.0,42.0
+[2020-01-24 12:45:46.188] [Engine] [info] Mouse moved at: 754.0,39.0
+[2020-01-24 12:45:46.189] [Engine] [info] Mouse moved at: 754.0,38.0
+[2020-01-24 12:45:46.195] [Engine] [info] Mouse moved at: 754.0,35.0
+[2020-01-24 12:45:46.201] [Engine] [info] Mouse moved at: 754.0,33.0
+[2020-01-24 12:45:46.208] [Engine] [info] Mouse moved at: 754.0,30.0
+[2020-01-24 12:45:46.209] [Engine] [info] Mouse moved at: 754.0,29.0
+[2020-01-24 12:45:46.215] [Engine] [info] Mouse moved at: 755.0,27.0
+[2020-01-24 12:45:46.223] [Engine] [info] Mouse moved at: 755.0,24.0
+[2020-01-24 12:45:46.223] [Engine] [info] Mouse moved at: 755.0,23.0
+[2020-01-24 12:45:46.229] [Engine] [info] Mouse moved at: 755.0,21.0
+[2020-01-24 12:45:46.237] [Engine] [info] Mouse moved at: 756.0,19.0
+[2020-01-24 12:45:46.237] [Engine] [info] Mouse moved at: 756.0,18.0
+[2020-01-24 12:45:46.244] [Engine] [info] Mouse moved at: 756.0,15.0
+[2020-01-24 12:45:46.250] [Engine] [info] Mouse moved at: 757.0,13.0
+[2020-01-24 12:45:46.257] [Engine] [info] Mouse moved at: 757.0,11.0
+[2020-01-24 12:45:46.258] [Engine] [info] Mouse moved at: 757.0,10.0
+[2020-01-24 12:45:46.264] [Engine] [info] Mouse moved at: 758.0,8.0
+[2020-01-24 12:45:46.271] [Engine] [info] Mouse moved at: 758.0,6.0
+[2020-01-24 12:45:46.278] [Engine] [info] Mouse moved at: 758.0,4.0
+[2020-01-24 12:45:46.286] [Engine] [info] Mouse moved at: 759.0,2.0
+[2020-01-24 12:45:46.292] [Engine] [info] Mouse moved at: 759.0,1.0
+[2020-01-24 12:45:46.741] [Engine] [warning] Closing Application
+[2020-01-24 12:45:46.757] [Engine] [info] Cleared Window
+[2020-01-24 12:45:46.779] [Engine] [info] Windows System Stopped
+[2020-01-24 12:45:46.779] [Engine] [info] Cleared Resource System
+[2020-01-24 12:45:46.780] [Engine] [info] Timer Stopped
+[2020-01-24 12:45:46.780] [Engine] [info] Ending Log...
+[2020-01-24 12:46:03.012] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:46:03.013] [Engine] [warning] Logger Initialized
+[2020-01-24 12:46:03.014] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:46:03.014] [Engine] [warning] Timing system Started
+[2020-01-24 12:46:03.014] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:46:03.875] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:46:03.875] [Engine] [warning] Window Created
+[2020-01-24 12:46:03.875] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:46:03.876] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:46:03.914] [Engine] [info] Mouse moved at: 493.0,290.0
+[2020-01-24 12:46:05.403] [Engine] [info] Mouse moved at: 495.0,291.0
+[2020-01-24 12:46:05.409] [Engine] [info] Mouse moved at: 497.0,291.0
+[2020-01-24 12:46:05.417] [Engine] [info] Mouse moved at: 499.0,292.0
+[2020-01-24 12:46:05.424] [Engine] [info] Mouse moved at: 500.0,292.0
+[2020-01-24 12:46:05.431] [Engine] [info] Mouse moved at: 502.0,291.0
+[2020-01-24 12:46:05.438] [Engine] [info] Mouse moved at: 503.0,289.0
+[2020-01-24 12:46:05.445] [Engine] [info] Mouse moved at: 504.0,286.0
+[2020-01-24 12:46:05.445] [Engine] [info] Mouse moved at: 504.0,285.0
+[2020-01-24 12:46:05.452] [Engine] [info] Mouse moved at: 505.0,282.0
+[2020-01-24 12:46:05.458] [Engine] [info] Mouse moved at: 506.0,278.0
+[2020-01-24 12:46:05.466] [Engine] [info] Mouse moved at: 511.0,270.0
+[2020-01-24 12:46:05.473] [Engine] [info] Mouse moved at: 519.0,260.0
+[2020-01-24 12:46:05.479] [Engine] [info] Mouse moved at: 527.0,253.0
+[2020-01-24 12:46:05.493] [Engine] [info] Mouse moved at: 548.0,237.0
+[2020-01-24 12:46:05.500] [Engine] [info] Mouse moved at: 559.0,230.0
+[2020-01-24 12:46:05.507] [Engine] [info] Mouse moved at: 575.0,221.0
+[2020-01-24 12:46:05.515] [Engine] [info] Mouse moved at: 591.0,212.0
+[2020-01-24 12:46:05.521] [Engine] [info] Mouse moved at: 604.0,205.0
+[2020-01-24 12:46:05.527] [Engine] [info] Mouse moved at: 615.0,199.0
+[2020-01-24 12:46:05.535] [Engine] [info] Mouse moved at: 631.0,192.0
+[2020-01-24 12:46:05.542] [Engine] [info] Mouse moved at: 641.0,187.0
+[2020-01-24 12:46:05.549] [Engine] [info] Mouse moved at: 654.0,182.0
+[2020-01-24 12:46:05.556] [Engine] [info] Mouse moved at: 664.0,178.0
+[2020-01-24 12:46:05.557] [Engine] [info] Mouse moved at: 667.0,177.0
+[2020-01-24 12:46:05.563] [Engine] [info] Mouse moved at: 676.0,174.0
+[2020-01-24 12:46:05.570] [Engine] [info] Mouse moved at: 684.0,170.0
+[2020-01-24 12:46:05.576] [Engine] [info] Mouse moved at: 691.0,167.0
+[2020-01-24 12:46:05.577] [Engine] [info] Mouse moved at: 693.0,166.0
+[2020-01-24 12:46:05.583] [Engine] [info] Mouse moved at: 700.0,162.0
+[2020-01-24 12:46:05.590] [Engine] [info] Mouse moved at: 707.0,158.0
+[2020-01-24 12:46:05.591] [Engine] [info] Mouse moved at: 709.0,156.0
+[2020-01-24 12:46:05.597] [Engine] [info] Mouse moved at: 715.0,152.0
+[2020-01-24 12:46:05.605] [Engine] [info] Mouse moved at: 721.0,147.0
+[2020-01-24 12:46:05.612] [Engine] [info] Mouse moved at: 725.0,143.0
+[2020-01-24 12:46:05.626] [Engine] [info] Mouse moved at: 733.0,136.0
+[2020-01-24 12:46:05.632] [Engine] [info] Mouse moved at: 737.0,133.0
+[2020-01-24 12:46:05.633] [Engine] [info] Mouse moved at: 738.0,132.0
+[2020-01-24 12:46:05.639] [Engine] [info] Mouse moved at: 742.0,129.0
+[2020-01-24 12:46:05.646] [Engine] [info] Mouse moved at: 745.0,126.0
+[2020-01-24 12:46:05.647] [Engine] [info] Mouse moved at: 747.0,125.0
+[2020-01-24 12:46:05.653] [Engine] [info] Mouse moved at: 751.0,122.0
+[2020-01-24 12:46:05.660] [Engine] [info] Mouse moved at: 755.0,118.0
+[2020-01-24 12:46:05.674] [Engine] [info] Mouse moved at: 764.0,111.0
+[2020-01-24 12:46:05.681] [Engine] [info] Mouse moved at: 769.0,108.0
+[2020-01-24 12:46:05.688] [Engine] [info] Mouse moved at: 773.0,105.0
+[2020-01-24 12:46:05.695] [Engine] [info] Mouse moved at: 779.0,101.0
+[2020-01-24 12:46:05.701] [Engine] [info] Mouse moved at: 783.0,99.0
+[2020-01-24 12:46:05.709] [Engine] [info] Mouse moved at: 789.0,94.0
+[2020-01-24 12:46:05.716] [Engine] [info] Mouse moved at: 794.0,91.0
+[2020-01-24 12:46:05.722] [Engine] [info] Mouse moved at: 799.0,87.0
+[2020-01-24 12:46:05.786] [Engine] [info] Mouse moved at: 797.0,38.0
+[2020-01-24 12:46:05.787] [Engine] [info] Mouse moved at: 795.0,36.0
+[2020-01-24 12:46:05.787] [Engine] [info] Mouse moved at: 793.0,33.0
+[2020-01-24 12:46:05.791] [Engine] [info] Mouse moved at: 789.0,30.0
+[2020-01-24 12:46:05.799] [Engine] [info] Mouse moved at: 782.0,22.0
+[2020-01-24 12:46:05.805] [Engine] [info] Mouse moved at: 777.0,17.0
+[2020-01-24 12:46:05.813] [Engine] [info] Mouse moved at: 773.0,12.0
+[2020-01-24 12:46:05.813] [Engine] [info] Mouse moved at: 772.0,11.0
+[2020-01-24 12:46:05.815] [Engine] [info] Mouse moved at: 771.0,10.0
+[2020-01-24 12:46:05.819] [Engine] [info] Mouse moved at: 769.0,8.0
+[2020-01-24 12:46:05.827] [Engine] [info] Mouse moved at: 767.0,5.0
+[2020-01-24 12:46:05.834] [Engine] [info] Mouse moved at: 766.0,3.0
+[2020-01-24 12:46:05.841] [Engine] [info] Mouse moved at: 766.0,1.0
+[2020-01-24 12:46:06.121] [Engine] [warning] Closing Application
+[2020-01-24 12:46:06.129] [Engine] [info] Cleared Window
+[2020-01-24 12:46:06.150] [Engine] [info] Windows System Stopped
+[2020-01-24 12:46:06.151] [Engine] [info] Cleared Resource System
+[2020-01-24 12:46:06.152] [Engine] [info] Timer Stopped
+[2020-01-24 12:46:06.153] [Engine] [info] Ending Log...
+[2020-01-24 12:49:06.708] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:49:06.710] [Engine] [warning] Logger Initialized
+[2020-01-24 12:49:06.710] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:49:06.710] [Engine] [warning] Timing system Started
+[2020-01-24 12:49:06.710] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:49:07.707] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:49:07.708] [Engine] [warning] Window Created
+[2020-01-24 12:49:07.708] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:49:07.708] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:49:12.755] [Engine] [info] FPS:72.
+[2020-01-24 12:49:13.410] [Engine] [info] Mouse moved at: 778.0,17.0
+[2020-01-24 12:49:13.411] [Engine] [info] Mouse moved at: 773.0,19.0
+[2020-01-24 12:49:13.412] [Engine] [info] Mouse moved at: 768.0,21.0
+[2020-01-24 12:49:13.422] [Engine] [info] Mouse moved at: 744.0,29.0
+[2020-01-24 12:49:13.443] [Engine] [info] Mouse moved at: 710.0,42.0
+[2020-01-24 12:49:13.444] [Engine] [info] Mouse moved at: 707.0,44.0
+[2020-01-24 12:49:13.449] [Engine] [info] Mouse moved at: 701.0,47.0
+[2020-01-24 12:49:13.456] [Engine] [info] Mouse moved at: 696.0,49.0
+[2020-01-24 12:49:13.464] [Engine] [info] Mouse moved at: 691.0,50.0
+[2020-01-24 12:49:13.470] [Engine] [info] Mouse moved at: 689.0,51.0
+[2020-01-24 12:49:13.477] [Engine] [info] Mouse moved at: 687.0,52.0
+[2020-01-24 12:49:13.588] [Engine] [info] Mouse moved at: 685.0,51.0
+[2020-01-24 12:49:13.595] [Engine] [info] Mouse moved at: 683.0,49.0
+[2020-01-24 12:49:13.602] [Engine] [info] Mouse moved at: 680.0,47.0
+[2020-01-24 12:49:13.610] [Engine] [info] Mouse moved at: 676.0,44.0
+[2020-01-24 12:49:13.617] [Engine] [info] Mouse moved at: 671.0,42.0
+[2020-01-24 12:49:13.617] [Engine] [info] Mouse moved at: 670.0,41.0
+[2020-01-24 12:49:13.624] [Engine] [info] Mouse moved at: 664.0,38.0
+[2020-01-24 12:49:13.630] [Engine] [info] Mouse moved at: 658.0,35.0
+[2020-01-24 12:49:13.638] [Engine] [info] Mouse moved at: 649.0,30.0
+[2020-01-24 12:49:13.644] [Engine] [info] Mouse moved at: 641.0,27.0
+[2020-01-24 12:49:13.653] [Engine] [info] Mouse moved at: 631.0,22.0
+[2020-01-24 12:49:13.658] [Engine] [info] Mouse moved at: 624.0,19.0
+[2020-01-24 12:49:13.665] [Engine] [info] Mouse moved at: 616.0,15.0
+[2020-01-24 12:49:13.666] [Engine] [info] Mouse moved at: 614.0,14.0
+[2020-01-24 12:49:13.672] [Engine] [info] Mouse moved at: 607.0,11.0
+[2020-01-24 12:49:13.679] [Engine] [info] Mouse moved at: 599.0,8.0
+[2020-01-24 12:49:13.680] [Engine] [info] Mouse moved at: 597.0,7.0
+[2020-01-24 12:49:13.693] [Engine] [info] Mouse moved at: 581.0,2.0
+[2020-01-24 12:49:13.700] [Engine] [info] Mouse moved at: 576.0,1.0
+[2020-01-24 12:49:13.707] [Engine] [info] Mouse moved at: 571.0,0.0
+[2020-01-24 12:49:17.635] [Engine] [info] Window Resized to 800x601
+[2020-01-24 12:49:17.812] [Engine] [info] Window Resized to 800x602
+[2020-01-24 12:49:17.826] [Engine] [info] Window Resized to 800x603
+[2020-01-24 12:49:17.838] [Engine] [info] Window Resized to 800x604
+[2020-01-24 12:49:17.848] [Engine] [info] Window Resized to 800x605
+[2020-01-24 12:49:17.859] [Engine] [info] Window Resized to 800x606
+[2020-01-24 12:49:17.865] [Engine] [info] Window Resized to 800x607
+[2020-01-24 12:49:17.871] [Engine] [info] Window Resized to 800x608
+[2020-01-24 12:49:17.874] [Engine] [info] Window Resized to 800x609
+[2020-01-24 12:49:17.881] [Engine] [info] Window Resized to 800x610
+[2020-01-24 12:49:17.884] [Engine] [info] Window Resized to 800x611
+[2020-01-24 12:49:17.888] [Engine] [info] Window Resized to 800x612
+[2020-01-24 12:49:17.892] [Engine] [info] Window Resized to 800x613
+[2020-01-24 12:49:17.894] [Engine] [info] Window Resized to 800x614
+[2020-01-24 12:49:17.898] [Engine] [info] Window Resized to 800x615
+[2020-01-24 12:49:17.902] [Engine] [info] Window Resized to 800x616
+[2020-01-24 12:49:17.906] [Engine] [info] Window Resized to 800x617
+[2020-01-24 12:49:17.910] [Engine] [info] Window Resized to 800x618
+[2020-01-24 12:49:17.914] [Engine] [info] Window Resized to 800x619
+[2020-01-24 12:49:17.920] [Engine] [info] Window Resized to 800x620
+[2020-01-24 12:49:18.081] [Engine] [info] FPS:2.
+[2020-01-24 12:49:19.116] [Engine] [info] Mouse moved at: 536.0,2.0
+[2020-01-24 12:49:19.123] [Engine] [info] Mouse moved at: 542.0,5.0
+[2020-01-24 12:49:19.124] [Engine] [info] Mouse moved at: 544.0,6.0
+[2020-01-24 12:49:19.130] [Engine] [info] Mouse moved at: 552.0,10.0
+[2020-01-24 12:49:19.137] [Engine] [info] Mouse moved at: 560.0,13.0
+[2020-01-24 12:49:19.138] [Engine] [info] Mouse moved at: 563.0,14.0
+[2020-01-24 12:49:19.144] [Engine] [info] Mouse moved at: 573.0,17.0
+[2020-01-24 12:49:19.152] [Engine] [info] Mouse moved at: 587.0,21.0
+[2020-01-24 12:49:19.158] [Engine] [info] Mouse moved at: 600.0,24.0
+[2020-01-24 12:49:19.159] [Engine] [info] Mouse moved at: 604.0,25.0
+[2020-01-24 12:49:19.165] [Engine] [info] Mouse moved at: 614.0,27.0
+[2020-01-24 12:49:19.172] [Engine] [info] Mouse moved at: 633.0,30.0
+[2020-01-24 12:49:19.179] [Engine] [info] Mouse moved at: 650.0,33.0
+[2020-01-24 12:49:19.179] [Engine] [info] Mouse moved at: 655.0,34.0
+[2020-01-24 12:49:19.186] [Engine] [info] Mouse moved at: 672.0,37.0
+[2020-01-24 12:49:19.194] [Engine] [info] Mouse moved at: 696.0,42.0
+[2020-01-24 12:49:19.200] [Engine] [info] Mouse moved at: 714.0,46.0
+[2020-01-24 12:49:19.201] [Engine] [info] Mouse moved at: 719.0,47.0
+[2020-01-24 12:49:19.207] [Engine] [info] Mouse moved at: 730.0,49.0
+[2020-01-24 12:49:19.220] [Engine] [info] Mouse moved at: 771.0,60.0
+[2020-01-24 12:49:19.227] [Engine] [info] Mouse moved at: 792.0,67.0
+[2020-01-24 12:49:19.811] [Engine] [info] Key Pressed: 340, R#:0
+[2020-01-24 12:49:19.985] [Engine] [info] Key Pressed: 342, R#:0
+[2020-01-24 12:49:20.325] [Engine] [info] Key Released: 342
+[2020-01-24 12:49:20.339] [Engine] [info] Key Released: 340
+[2020-01-24 12:49:23.088] [Engine] [info] FPS:68.
+[2020-01-24 12:49:23.344] [Engine] [info] Mouse moved at: 246.0,270.0
+[2020-01-24 12:49:23.472] [Engine] [info] Mouse moved at: 246.0,271.0
+[2020-01-24 12:49:23.491] [Engine] [info] Mouse moved at: 247.0,272.0
+[2020-01-24 12:49:23.505] [Engine] [info] Mouse moved at: 248.0,272.0
+[2020-01-24 12:49:23.526] [Engine] [info] Mouse moved at: 252.0,275.0
+[2020-01-24 12:49:23.533] [Engine] [info] Mouse moved at: 254.0,276.0
+[2020-01-24 12:49:23.540] [Engine] [info] Mouse moved at: 255.0,277.0
+[2020-01-24 12:49:23.554] [Engine] [info] Mouse moved at: 259.0,279.0
+[2020-01-24 12:49:23.566] [Engine] [info] Mouse moved at: 262.0,280.0
+[2020-01-24 12:49:23.567] [Engine] [info] Mouse moved at: 263.0,281.0
+[2020-01-24 12:49:23.569] [Engine] [info] Mouse moved at: 264.0,281.0
+[2020-01-24 12:49:23.582] [Engine] [info] Mouse moved at: 268.0,282.0
+[2020-01-24 12:49:23.582] [Engine] [info] Mouse moved at: 269.0,283.0
+[2020-01-24 12:49:23.588] [Engine] [info] Mouse moved at: 272.0,283.0
+[2020-01-24 12:49:23.595] [Engine] [info] Mouse moved at: 276.0,285.0
+[2020-01-24 12:49:23.603] [Engine] [info] Mouse moved at: 283.0,287.0
+[2020-01-24 12:49:23.610] [Engine] [info] Mouse moved at: 289.0,288.0
+[2020-01-24 12:49:23.616] [Engine] [info] Mouse moved at: 296.0,289.0
+[2020-01-24 12:49:23.623] [Engine] [info] Mouse moved at: 309.0,292.0
+[2020-01-24 12:49:23.630] [Engine] [info] Mouse moved at: 318.0,293.0
+[2020-01-24 12:49:23.637] [Engine] [info] Mouse moved at: 330.0,296.0
+[2020-01-24 12:49:23.638] [Engine] [info] Mouse moved at: 334.0,296.0
+[2020-01-24 12:49:23.644] [Engine] [info] Mouse moved at: 345.0,298.0
+[2020-01-24 12:49:23.651] [Engine] [info] Mouse moved at: 364.0,300.0
+[2020-01-24 12:49:23.658] [Engine] [info] Mouse moved at: 378.0,302.0
+[2020-01-24 12:49:23.665] [Engine] [info] Mouse moved at: 393.0,304.0
+[2020-01-24 12:49:23.665] [Engine] [info] Mouse moved at: 398.0,305.0
+[2020-01-24 12:49:23.672] [Engine] [info] Mouse moved at: 414.0,307.0
+[2020-01-24 12:49:23.679] [Engine] [info] Mouse moved at: 431.0,309.0
+[2020-01-24 12:49:23.679] [Engine] [info] Mouse moved at: 437.0,309.0
+[2020-01-24 12:49:23.687] [Engine] [info] Mouse moved at: 455.0,311.0
+[2020-01-24 12:49:23.688] [Engine] [info] Mouse moved at: 461.0,312.0
+[2020-01-24 12:49:23.693] [Engine] [info] Mouse moved at: 474.0,314.0
+[2020-01-24 12:49:23.694] [Engine] [info] Mouse moved at: 480.0,315.0
+[2020-01-24 12:49:23.700] [Engine] [info] Mouse moved at: 499.0,317.0
+[2020-01-24 12:49:23.706] [Engine] [info] Mouse moved at: 519.0,320.0
+[2020-01-24 12:49:23.720] [Engine] [info] Mouse moved at: 563.0,326.0
+[2020-01-24 12:49:23.727] [Engine] [info] Mouse moved at: 581.0,328.0
+[2020-01-24 12:49:23.728] [Engine] [info] Mouse moved at: 588.0,330.0
+[2020-01-24 12:49:23.735] [Engine] [info] Mouse moved at: 605.0,332.0
+[2020-01-24 12:49:23.741] [Engine] [info] Mouse moved at: 622.0,336.0
+[2020-01-24 12:49:23.741] [Engine] [info] Mouse moved at: 627.0,336.0
+[2020-01-24 12:49:23.748] [Engine] [info] Mouse moved at: 644.0,340.0
+[2020-01-24 12:49:23.755] [Engine] [info] Mouse moved at: 660.0,343.0
+[2020-01-24 12:49:23.755] [Engine] [info] Mouse moved at: 664.0,344.0
+[2020-01-24 12:49:23.762] [Engine] [info] Mouse moved at: 679.0,347.0
+[2020-01-24 12:49:23.769] [Engine] [info] Mouse moved at: 696.0,351.0
+[2020-01-24 12:49:23.776] [Engine] [info] Mouse moved at: 708.0,353.0
+[2020-01-24 12:49:23.783] [Engine] [info] Mouse moved at: 717.0,356.0
+[2020-01-24 12:49:23.790] [Engine] [info] Mouse moved at: 727.0,360.0
+[2020-01-24 12:49:23.797] [Engine] [info] Mouse moved at: 732.0,362.0
+[2020-01-24 12:49:23.804] [Engine] [info] Mouse moved at: 734.0,365.0
+[2020-01-24 12:49:23.810] [Engine] [info] Mouse moved at: 735.0,366.0
+[2020-01-24 12:49:23.818] [Engine] [info] Mouse moved at: 731.0,368.0
+[2020-01-24 12:49:23.824] [Engine] [info] Mouse moved at: 727.0,369.0
+[2020-01-24 12:49:24.130] [Engine] [info] Mouse moved at: 729.0,367.0
+[2020-01-24 12:49:24.138] [Engine] [info] Mouse moved at: 730.0,366.0
+[2020-01-24 12:49:24.144] [Engine] [info] Mouse moved at: 731.0,365.0
+[2020-01-24 12:49:24.158] [Engine] [info] Mouse moved at: 733.0,364.0
+[2020-01-24 12:49:24.165] [Engine] [info] Mouse moved at: 734.0,363.0
+[2020-01-24 12:49:24.172] [Engine] [info] Mouse moved at: 735.0,362.0
+[2020-01-24 12:49:24.179] [Engine] [info] Mouse moved at: 736.0,361.0
+[2020-01-24 12:49:24.179] [Engine] [info] Mouse moved at: 737.0,361.0
+[2020-01-24 12:49:24.186] [Engine] [info] Mouse moved at: 739.0,359.0
+[2020-01-24 12:49:24.193] [Engine] [info] Mouse moved at: 740.0,358.0
+[2020-01-24 12:49:24.206] [Engine] [info] Mouse moved at: 742.0,356.0
+[2020-01-24 12:49:24.220] [Engine] [info] Mouse moved at: 744.0,354.0
+[2020-01-24 12:49:24.234] [Engine] [info] Mouse moved at: 745.0,353.0
+[2020-01-24 12:49:24.241] [Engine] [info] Mouse moved at: 746.0,353.0
+[2020-01-24 12:49:24.248] [Engine] [info] Mouse moved at: 746.0,352.0
+[2020-01-24 12:49:24.255] [Engine] [info] Mouse moved at: 747.0,352.0
+[2020-01-24 12:49:24.283] [Engine] [info] Mouse moved at: 748.0,352.0
+[2020-01-24 12:49:24.290] [Engine] [info] Mouse moved at: 748.0,351.0
+[2020-01-24 12:49:24.318] [Engine] [info] Mouse moved at: 749.0,351.0
+[2020-01-24 12:49:24.352] [Engine] [info] Mouse moved at: 749.0,350.0
+[2020-01-24 12:49:24.651] [Engine] [info] Mouse moved at: 750.0,350.0
+[2020-01-24 12:49:24.734] [Engine] [info] Mouse moved at: 751.0,350.0
+[2020-01-24 12:49:24.741] [Engine] [info] Mouse moved at: 751.0,349.0
+[2020-01-24 12:49:24.741] [Engine] [info] Mouse moved at: 752.0,349.0
+[2020-01-24 12:49:24.755] [Engine] [info] Mouse moved at: 754.0,347.0
+[2020-01-24 12:49:24.756] [Engine] [info] Mouse moved at: 755.0,346.0
+[2020-01-24 12:49:24.762] [Engine] [info] Mouse moved at: 756.0,345.0
+[2020-01-24 12:49:24.769] [Engine] [info] Mouse moved at: 759.0,343.0
+[2020-01-24 12:49:24.770] [Engine] [info] Mouse moved at: 760.0,343.0
+[2020-01-24 12:49:24.776] [Engine] [info] Mouse moved at: 764.0,341.0
+[2020-01-24 12:49:24.783] [Engine] [info] Mouse moved at: 770.0,338.0
+[2020-01-24 12:49:24.783] [Engine] [info] Mouse moved at: 772.0,337.0
+[2020-01-24 12:49:24.789] [Engine] [info] Mouse moved at: 779.0,334.0
+[2020-01-24 12:49:24.797] [Engine] [info] Mouse moved at: 787.0,331.0
+[2020-01-24 12:49:24.797] [Engine] [info] Mouse moved at: 789.0,330.0
+[2020-01-24 12:49:24.804] [Engine] [info] Mouse moved at: 798.0,326.0
+[2020-01-24 12:49:25.422] [Engine] [info] Mouse moved at: 798.0,13.0
+[2020-01-24 12:49:25.428] [Engine] [info] Mouse moved at: 796.0,11.0
+[2020-01-24 12:49:25.436] [Engine] [info] Mouse moved at: 794.0,8.0
+[2020-01-24 12:49:25.443] [Engine] [info] Mouse moved at: 791.0,5.0
+[2020-01-24 12:49:25.450] [Engine] [info] Mouse moved at: 789.0,3.0
+[2020-01-24 12:49:25.456] [Engine] [info] Mouse moved at: 787.0,1.0
+[2020-01-24 12:49:25.779] [Engine] [warning] Closing Application
+[2020-01-24 12:49:25.796] [Engine] [info] Cleared Window
+[2020-01-24 12:49:25.816] [Engine] [info] Windows System Stopped
+[2020-01-24 12:49:25.817] [Engine] [info] Cleared Resource System
+[2020-01-24 12:49:25.817] [Engine] [info] Timer Stopped
+[2020-01-24 12:49:25.818] [Engine] [info] Ending Log...
+[2020-01-24 12:49:43.710] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:49:43.711] [Engine] [warning] Logger Initialized
+[2020-01-24 12:49:43.711] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:49:43.711] [Engine] [warning] Timing system Started
+[2020-01-24 12:49:43.712] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:49:44.672] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:49:44.673] [Engine] [warning] Window Created
+[2020-01-24 12:49:44.673] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:49:44.674] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:49:46.254] [Engine] [info] Window Resized to 800x601
+[2020-01-24 12:49:46.260] [Engine] [info] Window Resized to 800x602
+[2020-01-24 12:49:46.266] [Engine] [info] Window Resized to 800x603
+[2020-01-24 12:49:46.272] [Engine] [info] Window Resized to 800x604
+[2020-01-24 12:49:46.278] [Engine] [info] Window Resized to 800x605
+[2020-01-24 12:49:46.282] [Engine] [info] Window Resized to 800x606
+[2020-01-24 12:49:46.286] [Engine] [info] Window Resized to 800x607
+[2020-01-24 12:49:46.290] [Engine] [info] Window Resized to 800x608
+[2020-01-24 12:49:46.294] [Engine] [info] Window Resized to 800x609
+[2020-01-24 12:49:46.298] [Engine] [info] Window Resized to 800x610
+[2020-01-24 12:49:46.302] [Engine] [info] Window Resized to 800x611
+[2020-01-24 12:49:46.306] [Engine] [info] Window Resized to 800x612
+[2020-01-24 12:49:46.311] [Engine] [info] Window Resized to 800x613
+[2020-01-24 12:49:46.314] [Engine] [info] Window Resized to 800x614
+[2020-01-24 12:49:46.318] [Engine] [info] Window Resized to 800x615
+[2020-01-24 12:49:46.322] [Engine] [info] Window Resized to 800x616
+[2020-01-24 12:49:46.328] [Engine] [info] Window Resized to 800x617
+[2020-01-24 12:49:46.332] [Engine] [info] Window Resized to 800x618
+[2020-01-24 12:49:46.336] [Engine] [info] Window Resized to 800x619
+[2020-01-24 12:49:46.340] [Engine] [info] Window Resized to 800x620
+[2020-01-24 12:49:46.344] [Engine] [info] Window Resized to 800x621
+[2020-01-24 12:49:46.350] [Engine] [info] Window Resized to 800x622
+[2020-01-24 12:49:46.352] [Engine] [info] Window Resized to 800x623
+[2020-01-24 12:49:46.356] [Engine] [info] Window Resized to 800x624
+[2020-01-24 12:49:46.362] [Engine] [info] Window Resized to 800x625
+[2020-01-24 12:49:46.364] [Engine] [info] Window Resized to 800x626
+[2020-01-24 12:49:46.368] [Engine] [info] Window Resized to 800x627
+[2020-01-24 12:49:46.372] [Engine] [info] Window Resized to 800x628
+[2020-01-24 12:49:46.376] [Engine] [info] Window Resized to 800x629
+[2020-01-24 12:49:46.382] [Engine] [info] Window Resized to 800x630
+[2020-01-24 12:49:46.387] [Engine] [info] Window Resized to 800x631
+[2020-01-24 12:49:46.390] [Engine] [info] Window Resized to 800x632
+[2020-01-24 12:49:46.391] [Engine] [info] Window Resized to 800x633
+[2020-01-24 12:49:46.396] [Engine] [info] Window Resized to 800x634
+[2020-01-24 12:49:46.400] [Engine] [info] Window Resized to 800x635
+[2020-01-24 12:49:46.404] [Engine] [info] Window Resized to 800x636
+[2020-01-24 12:49:46.407] [Engine] [info] Window Resized to 800x637
+[2020-01-24 12:49:46.410] [Engine] [info] Window Resized to 800x638
+[2020-01-24 12:49:46.416] [Engine] [info] Window Resized to 800x639
+[2020-01-24 12:49:46.420] [Engine] [info] Window Resized to 800x640
+[2020-01-24 12:49:46.426] [Engine] [info] Window Resized to 800x641
+[2020-01-24 12:49:46.436] [Engine] [info] Window Resized to 800x642
+[2020-01-24 12:49:46.448] [Engine] [info] Window Resized to 800x643
+[2020-01-24 12:49:47.921] [Engine] [info] Mouse moved at: 509.0,0.0
+[2020-01-24 12:49:47.928] [Engine] [info] Mouse moved at: 506.0,4.0
+[2020-01-24 12:49:47.936] [Engine] [info] Mouse moved at: 502.0,9.0
+[2020-01-24 12:49:47.943] [Engine] [info] Mouse moved at: 498.0,13.0
+[2020-01-24 12:49:47.943] [Engine] [info] Mouse moved at: 497.0,14.0
+[2020-01-24 12:49:47.949] [Engine] [info] Mouse moved at: 493.0,19.0
+[2020-01-24 12:49:47.956] [Engine] [info] Mouse moved at: 488.0,24.0
+[2020-01-24 12:49:47.970] [Engine] [info] Mouse moved at: 476.0,36.0
+[2020-01-24 12:49:47.977] [Engine] [info] Mouse moved at: 469.0,43.0
+[2020-01-24 12:49:47.985] [Engine] [info] Mouse moved at: 464.0,47.0
+[2020-01-24 12:49:47.985] [Engine] [info] Mouse moved at: 461.0,49.0
+[2020-01-24 12:49:47.991] [Engine] [info] Mouse moved at: 456.0,55.0
+[2020-01-24 12:49:47.998] [Engine] [info] Mouse moved at: 450.0,59.0
+[2020-01-24 12:49:48.005] [Engine] [info] Mouse moved at: 445.0,65.0
+[2020-01-24 12:49:48.006] [Engine] [info] Mouse moved at: 443.0,66.0
+[2020-01-24 12:49:48.012] [Engine] [info] Mouse moved at: 439.0,72.0
+[2020-01-24 12:49:48.019] [Engine] [info] Mouse moved at: 433.0,79.0
+[2020-01-24 12:49:48.027] [Engine] [info] Mouse moved at: 429.0,84.0
+[2020-01-24 12:49:48.027] [Engine] [info] Mouse moved at: 428.0,86.0
+[2020-01-24 12:49:48.033] [Engine] [info] Mouse moved at: 424.0,91.0
+[2020-01-24 12:49:48.040] [Engine] [info] Mouse moved at: 421.0,95.0
+[2020-01-24 12:49:48.054] [Engine] [info] Mouse moved at: 416.0,103.0
+[2020-01-24 12:49:48.060] [Engine] [info] Mouse moved at: 414.0,105.0
+[2020-01-24 12:49:48.068] [Engine] [info] Mouse moved at: 413.0,107.0
+[2020-01-24 12:49:49.456] [Engine] [info] Mouse moved at: 412.0,107.0
+[2020-01-24 12:49:49.463] [Engine] [info] Mouse moved at: 411.0,107.0
+[2020-01-24 12:49:49.470] [Engine] [info] Mouse moved at: 410.0,106.0
+[2020-01-24 12:49:49.477] [Engine] [info] Mouse moved at: 409.0,106.0
+[2020-01-24 12:49:49.478] [Engine] [info] Mouse moved at: 408.0,105.0
+[2020-01-24 12:49:49.484] [Engine] [info] Mouse moved at: 407.0,104.0
+[2020-01-24 12:49:49.491] [Engine] [info] Mouse moved at: 404.0,103.0
+[2020-01-24 12:49:49.491] [Engine] [info] Mouse moved at: 403.0,103.0
+[2020-01-24 12:49:49.498] [Engine] [info] Mouse moved at: 400.0,101.0
+[2020-01-24 12:49:49.505] [Engine] [info] Mouse moved at: 395.0,98.0
+[2020-01-24 12:49:49.512] [Engine] [info] Mouse moved at: 390.0,96.0
+[2020-01-24 12:49:49.526] [Engine] [info] Mouse moved at: 375.0,90.0
+[2020-01-24 12:49:49.532] [Engine] [info] Mouse moved at: 368.0,87.0
+[2020-01-24 12:49:49.540] [Engine] [info] Mouse moved at: 357.0,83.0
+[2020-01-24 12:49:49.547] [Engine] [info] Mouse moved at: 346.0,80.0
+[2020-01-24 12:49:49.554] [Engine] [info] Mouse moved at: 337.0,77.0
+[2020-01-24 12:49:49.561] [Engine] [info] Mouse moved at: 329.0,75.0
+[2020-01-24 12:49:49.562] [Engine] [info] Mouse moved at: 327.0,74.0
+[2020-01-24 12:49:49.568] [Engine] [info] Mouse moved at: 319.0,71.0
+[2020-01-24 12:49:49.574] [Engine] [info] Mouse moved at: 311.0,69.0
+[2020-01-24 12:49:49.581] [Engine] [info] Mouse moved at: 302.0,65.0
+[2020-01-24 12:49:49.589] [Engine] [info] Mouse moved at: 295.0,62.0
+[2020-01-24 12:49:49.589] [Engine] [info] Mouse moved at: 293.0,61.0
+[2020-01-24 12:49:49.595] [Engine] [info] Mouse moved at: 286.0,58.0
+[2020-01-24 12:49:49.609] [Engine] [info] Mouse moved at: 271.0,51.0
+[2020-01-24 12:49:49.616] [Engine] [info] Mouse moved at: 265.0,48.0
+[2020-01-24 12:49:49.623] [Engine] [info] Mouse moved at: 259.0,46.0
+[2020-01-24 12:49:49.624] [Engine] [info] Mouse moved at: 257.0,45.0
+[2020-01-24 12:49:49.629] [Engine] [info] Mouse moved at: 251.0,42.0
+[2020-01-24 12:49:49.637] [Engine] [info] Mouse moved at: 244.0,39.0
+[2020-01-24 12:49:49.644] [Engine] [info] Mouse moved at: 239.0,37.0
+[2020-01-24 12:49:49.658] [Engine] [info] Mouse moved at: 228.0,31.0
+[2020-01-24 12:49:49.664] [Engine] [info] Mouse moved at: 223.0,29.0
+[2020-01-24 12:49:49.665] [Engine] [info] Mouse moved at: 222.0,28.0
+[2020-01-24 12:49:49.671] [Engine] [info] Mouse moved at: 217.0,26.0
+[2020-01-24 12:49:49.679] [Engine] [info] Mouse moved at: 211.0,23.0
+[2020-01-24 12:49:49.686] [Engine] [info] Mouse moved at: 206.0,21.0
+[2020-01-24 12:49:49.693] [Engine] [info] Mouse moved at: 202.0,19.0
+[2020-01-24 12:49:49.693] [Engine] [info] Mouse moved at: 201.0,19.0
+[2020-01-24 12:49:49.699] [Engine] [info] Mouse moved at: 196.0,17.0
+[2020-01-24 12:49:49.706] [Engine] [info] Mouse moved at: 193.0,15.0
+[2020-01-24 12:49:49.713] [Engine] [info] Mouse moved at: 190.0,13.0
+[2020-01-24 12:49:49.714] [Engine] [info] Mouse moved at: 189.0,13.0
+[2020-01-24 12:49:49.719] [Engine] [info] FPS:135.
+[2020-01-24 12:49:49.721] [Engine] [info] Mouse moved at: 186.0,11.0
+[2020-01-24 12:49:49.721] [Engine] [info] Mouse moved at: 185.0,11.0
+[2020-01-24 12:49:49.727] [Engine] [info] Mouse moved at: 183.0,10.0
+[2020-01-24 12:49:49.734] [Engine] [info] Mouse moved at: 180.0,9.0
+[2020-01-24 12:49:49.735] [Engine] [info] Mouse moved at: 179.0,8.0
+[2020-01-24 12:49:49.741] [Engine] [info] Mouse moved at: 178.0,7.0
+[2020-01-24 12:49:49.755] [Engine] [info] Mouse moved at: 174.0,5.0
+[2020-01-24 12:49:49.756] [Engine] [info] Mouse moved at: 174.0,4.0
+[2020-01-24 12:49:49.757] [Engine] [info] Mouse moved at: 173.0,4.0
+[2020-01-24 12:49:49.762] [Engine] [info] Mouse moved at: 172.0,3.0
+[2020-01-24 12:49:49.769] [Engine] [info] Mouse moved at: 171.0,2.0
+[2020-01-24 12:49:49.776] [Engine] [info] Mouse moved at: 170.0,1.0
+[2020-01-24 12:49:49.782] [Engine] [info] Mouse moved at: 169.0,0.0
+[2020-01-24 12:49:49.783] [Engine] [info] Mouse moved at: 168.0,0.0
+[2020-01-24 12:49:50.626] [Engine] [info] Window Resized to 800x642
+[2020-01-24 12:49:50.646] [Engine] [info] Window Resized to 800x641
+[2020-01-24 12:49:50.665] [Engine] [info] Window Resized to 800x640
+[2020-01-24 12:49:50.682] [Engine] [info] Window Resized to 800x639
+[2020-01-24 12:49:50.704] [Engine] [info] Window Resized to 800x638
+[2020-01-24 12:49:50.730] [Engine] [info] Window Resized to 800x637
+[2020-01-24 12:49:50.758] [Engine] [info] Window Resized to 800x636
+[2020-01-24 12:49:50.775] [Engine] [info] Window Resized to 800x635
+[2020-01-24 12:49:50.797] [Engine] [info] Window Resized to 800x634
+[2020-01-24 12:49:52.740] [Engine] [info] Mouse moved at: 148.0,0.0
+[2020-01-24 12:49:52.761] [Engine] [info] Mouse moved at: 148.0,1.0
+[2020-01-24 12:49:52.776] [Engine] [info] Mouse moved at: 148.0,2.0
+[2020-01-24 12:49:52.811] [Engine] [info] Mouse moved at: 148.0,3.0
+[2020-01-24 12:49:52.845] [Engine] [info] Mouse moved at: 148.0,4.0
+[2020-01-24 12:49:52.873] [Engine] [info] Mouse moved at: 148.0,5.0
+[2020-01-24 12:49:52.901] [Engine] [info] Mouse moved at: 148.0,6.0
+[2020-01-24 12:49:52.928] [Engine] [info] Mouse moved at: 148.0,7.0
+[2020-01-24 12:49:53.401] [Engine] [info] Mouse scrolled at: 0.0,-1.0
+[2020-01-24 12:49:54.081] [Engine] [info] Key Pressed: 68, R#:0
+[2020-01-24 12:49:54.206] [Engine] [info] Key Released: 68
+[2020-01-24 12:49:54.725] [Engine] [info] FPS:148.
+[2020-01-24 12:49:55.310] [Engine] [info] Key Pressed: 52, R#:0
+[2020-01-24 12:49:55.443] [Engine] [info] Key Released: 52
+[2020-01-24 12:49:56.928] [Engine] [info] Mouse moved at: 148.0,8.0
+[2020-01-24 12:49:57.658] [Engine] [info] Key Pressed: 340, R#:0
+[2020-01-24 12:49:57.845] [Engine] [info] Key Pressed: 342, R#:0
+[2020-01-24 12:49:58.344] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.379] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.407] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.442] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.477] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.505] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.539] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.574] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.609] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:49:58.845] [Engine] [info] Key Released: 342
+[2020-01-24 12:49:58.848] [Engine] [info] Key Released: 340
+[2020-01-24 12:49:59.741] [Engine] [info] FPS:44.
+[2020-01-24 12:50:04.754] [Engine] [info] FPS:69.
+[2020-01-24 12:50:09.775] [Engine] [info] FPS:47.
+[2020-01-24 12:50:14.789] [Engine] [info] FPS:72.
+[2020-01-24 12:50:19.795] [Engine] [info] FPS:186.
+[2020-01-24 12:50:24.801] [Engine] [info] FPS:143.
+[2020-01-24 12:50:29.808] [Engine] [info] FPS:146.
+[2020-01-24 12:50:34.824] [Engine] [info] FPS:43.
+[2020-01-24 12:50:39.830] [Engine] [info] FPS:138.
+[2020-01-24 12:50:44.837] [Engine] [info] FPS:131.
+[2020-01-24 12:50:49.843] [Engine] [info] FPS:170.
+[2020-01-24 12:50:54.850] [Engine] [info] FPS:138.
+[2020-01-24 12:50:59.863] [Engine] [info] FPS:64.
+[2020-01-24 12:51:04.871] [Engine] [info] FPS:155.
+[2020-01-24 12:51:09.878] [Engine] [info] FPS:140.
+[2020-01-24 12:51:14.885] [Engine] [info] FPS:129.
+[2020-01-24 12:51:19.892] [Engine] [info] FPS:141.
+[2020-01-24 12:51:24.899] [Engine] [info] FPS:154.
+[2020-01-24 12:51:29.905] [Engine] [info] FPS:71.
+[2020-01-24 12:51:34.912] [Engine] [info] FPS:164.
+[2020-01-24 12:51:39.921] [Engine] [info] FPS:68.
+[2020-01-24 12:51:44.926] [Engine] [info] FPS:146.
+[2020-01-24 12:51:49.933] [Engine] [info] FPS:139.
+[2020-01-24 12:51:54.940] [Engine] [info] FPS:143.
+[2020-01-24 12:51:59.947] [Engine] [info] FPS:149.
+[2020-01-24 12:52:04.953] [Engine] [info] FPS:142.
+[2020-01-24 12:52:09.961] [Engine] [info] FPS:147.
+[2020-01-24 12:52:14.968] [Engine] [info] FPS:140.
+[2020-01-24 12:52:19.974] [Engine] [info] FPS:144.
+[2020-01-24 12:52:24.981] [Engine] [info] FPS:145.
+[2020-01-24 12:52:29.988] [Engine] [info] FPS:140.
+[2020-01-24 12:52:34.995] [Engine] [info] FPS:146.
+[2020-01-24 12:52:40.002] [Engine] [info] FPS:146.
+[2020-01-24 12:52:45.012] [Engine] [info] FPS:108.
+[2020-01-24 12:52:50.016] [Engine] [info] FPS:148.
+[2020-01-24 12:52:55.022] [Engine] [info] FPS:142.
+[2020-01-24 12:53:00.029] [Engine] [info] FPS:141.
+[2020-01-24 12:53:05.036] [Engine] [info] FPS:156.
+[2020-01-24 12:53:10.043] [Engine] [info] FPS:141.
+[2020-01-24 12:53:15.050] [Engine] [info] FPS:138.
+[2020-01-24 12:53:20.057] [Engine] [info] FPS:151.
+[2020-01-24 12:53:25.065] [Engine] [info] FPS:140.
+[2020-01-24 12:53:30.071] [Engine] [info] FPS:146.
+[2020-01-24 12:53:35.078] [Engine] [info] FPS:139.
+[2020-01-24 12:53:40.084] [Engine] [info] FPS:149.
+[2020-01-24 12:53:45.092] [Engine] [info] FPS:148.
+[2020-01-24 12:53:49.295] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:53:49.296] [Engine] [warning] Logger Initialized
+[2020-01-24 12:53:49.296] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:53:49.297] [Engine] [warning] Timing system Started
+[2020-01-24 12:53:49.297] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:53:50.176] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:53:50.177] [Engine] [warning] Window Created
+[2020-01-24 12:53:50.177] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:53:50.177] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:53:50.671] [Engine] [info] Mouse moved at: 760.0,43.0
+[2020-01-24 12:53:50.672] [Engine] [info] Mouse moved at: 754.0,41.0
+[2020-01-24 12:53:50.676] [Engine] [info] Mouse moved at: 744.0,37.0
+[2020-01-24 12:53:50.691] [Engine] [info] Mouse moved at: 706.0,27.0
+[2020-01-24 12:53:50.692] [Engine] [info] Mouse moved at: 701.0,25.0
+[2020-01-24 12:53:50.698] [Engine] [info] Mouse moved at: 685.0,21.0
+[2020-01-24 12:53:50.704] [Engine] [info] Mouse moved at: 669.0,17.0
+[2020-01-24 12:53:50.725] [Engine] [info] Mouse moved at: 614.0,6.0
+[2020-01-24 12:53:50.732] [Engine] [info] Mouse moved at: 601.0,4.0
+[2020-01-24 12:53:50.739] [Engine] [info] Mouse moved at: 587.0,1.0
+[2020-01-24 12:53:50.739] [Engine] [info] Mouse moved at: 583.0,0.0
+[2020-01-24 12:53:52.189] [Engine] [info] Mouse moved at: 563.0,1.0
+[2020-01-24 12:53:52.197] [Engine] [info] Mouse moved at: 578.0,2.0
+[2020-01-24 12:53:52.197] [Engine] [info] Mouse moved at: 581.0,3.0
+[2020-01-24 12:53:52.203] [Engine] [info] Mouse moved at: 600.0,4.0
+[2020-01-24 12:53:52.210] [Engine] [info] Mouse moved at: 614.0,4.0
+[2020-01-24 12:53:52.217] [Engine] [info] Mouse moved at: 630.0,5.0
+[2020-01-24 12:53:52.217] [Engine] [info] Mouse moved at: 635.0,5.0
+[2020-01-24 12:53:52.224] [Engine] [info] Mouse moved at: 651.0,6.0
+[2020-01-24 12:53:52.231] [Engine] [info] Mouse moved at: 666.0,6.0
+[2020-01-24 12:53:52.232] [Engine] [info] Mouse moved at: 669.0,6.0
+[2020-01-24 12:53:52.238] [Engine] [info] Mouse moved at: 686.0,7.0
+[2020-01-24 12:53:52.245] [Engine] [info] Mouse moved at: 706.0,7.0
+[2020-01-24 12:53:52.252] [Engine] [info] Mouse moved at: 720.0,7.0
+[2020-01-24 12:53:52.259] [Engine] [info] Mouse moved at: 733.0,7.0
+[2020-01-24 12:53:52.259] [Engine] [info] Mouse moved at: 737.0,7.0
+[2020-01-24 12:53:52.266] [Engine] [info] Mouse moved at: 749.0,8.0
+[2020-01-24 12:53:52.273] [Engine] [info] Mouse moved at: 760.0,8.0
+[2020-01-24 12:53:52.274] [Engine] [info] Mouse moved at: 763.0,8.0
+[2020-01-24 12:53:52.280] [Engine] [info] Mouse moved at: 773.0,8.0
+[2020-01-24 12:53:52.287] [Engine] [info] Mouse moved at: 781.0,8.0
+[2020-01-24 12:53:52.287] [Engine] [info] Mouse moved at: 784.0,8.0
+[2020-01-24 12:53:52.294] [Engine] [info] Mouse moved at: 790.0,8.0
+[2020-01-24 12:53:52.301] [Engine] [info] Mouse moved at: 795.0,8.0
+[2020-01-24 12:53:52.302] [Engine] [info] Mouse moved at: 797.0,8.0
+[2020-01-24 12:53:54.620] [Engine] [info] Mouse moved at: 340.0,1.0
+[2020-01-24 12:53:54.627] [Engine] [info] Mouse moved at: 360.0,3.0
+[2020-01-24 12:53:54.634] [Engine] [info] Mouse moved at: 386.0,5.0
+[2020-01-24 12:53:54.641] [Engine] [info] Mouse moved at: 404.0,7.0
+[2020-01-24 12:53:54.642] [Engine] [info] Mouse moved at: 410.0,7.0
+[2020-01-24 12:53:54.648] [Engine] [info] Mouse moved at: 427.0,9.0
+[2020-01-24 12:53:54.655] [Engine] [info] Mouse moved at: 443.0,10.0
+[2020-01-24 12:53:54.655] [Engine] [info] Mouse moved at: 448.0,10.0
+[2020-01-24 12:53:54.662] [Engine] [info] Mouse moved at: 463.0,11.0
+[2020-01-24 12:53:54.669] [Engine] [info] Mouse moved at: 477.0,12.0
+[2020-01-24 12:53:54.669] [Engine] [info] Mouse moved at: 481.0,12.0
+[2020-01-24 12:53:54.676] [Engine] [info] Mouse moved at: 495.0,13.0
+[2020-01-24 12:53:54.683] [Engine] [info] Mouse moved at: 507.0,14.0
+[2020-01-24 12:53:54.684] [Engine] [info] Mouse moved at: 512.0,14.0
+[2020-01-24 12:53:54.690] [Engine] [info] Mouse moved at: 523.0,15.0
+[2020-01-24 12:53:54.697] [Engine] [info] Mouse moved at: 535.0,16.0
+[2020-01-24 12:53:54.698] [Engine] [info] Mouse moved at: 539.0,16.0
+[2020-01-24 12:53:54.703] [Engine] [info] Mouse moved at: 550.0,17.0
+[2020-01-24 12:53:54.710] [Engine] [info] Mouse moved at: 560.0,17.0
+[2020-01-24 12:53:54.717] [Engine] [info] Mouse moved at: 573.0,18.0
+[2020-01-24 12:53:54.724] [Engine] [info] Mouse moved at: 582.0,18.0
+[2020-01-24 12:53:54.732] [Engine] [info] Mouse moved at: 590.0,19.0
+[2020-01-24 12:53:54.732] [Engine] [info] Mouse moved at: 592.0,19.0
+[2020-01-24 12:53:54.738] [Engine] [info] Mouse moved at: 600.0,19.0
+[2020-01-24 12:53:54.739] [Engine] [info] Mouse moved at: 602.0,19.0
+[2020-01-24 12:53:54.745] [Engine] [info] Mouse moved at: 607.0,19.0
+[2020-01-24 12:53:54.745] [Engine] [info] Mouse moved at: 609.0,19.0
+[2020-01-24 12:53:54.752] [Engine] [info] Mouse moved at: 615.0,19.0
+[2020-01-24 12:53:54.759] [Engine] [info] Mouse moved at: 622.0,19.0
+[2020-01-24 12:53:54.766] [Engine] [info] Mouse moved at: 627.0,19.0
+[2020-01-24 12:53:54.773] [Engine] [info] Mouse moved at: 631.0,18.0
+[2020-01-24 12:53:54.774] [Engine] [info] Mouse moved at: 633.0,18.0
+[2020-01-24 12:53:54.780] [Engine] [info] Mouse moved at: 637.0,18.0
+[2020-01-24 12:53:54.787] [Engine] [info] Mouse moved at: 642.0,17.0
+[2020-01-24 12:53:54.787] [Engine] [info] Mouse moved at: 643.0,17.0
+[2020-01-24 12:53:54.794] [Engine] [info] Mouse moved at: 647.0,17.0
+[2020-01-24 12:53:54.801] [Engine] [info] Mouse moved at: 650.0,16.0
+[2020-01-24 12:53:54.808] [Engine] [info] Mouse moved at: 653.0,15.0
+[2020-01-24 12:53:54.815] [Engine] [info] Mouse moved at: 655.0,15.0
+[2020-01-24 12:53:54.821] [Engine] [info] Mouse moved at: 657.0,14.0
+[2020-01-24 12:53:54.829] [Engine] [info] Mouse moved at: 658.0,13.0
+[2020-01-24 12:53:54.829] [Engine] [info] Mouse moved at: 659.0,13.0
+[2020-01-24 12:53:54.835] [Engine] [info] Mouse moved at: 660.0,12.0
+[2020-01-24 12:53:54.842] [Engine] [info] Mouse moved at: 661.0,11.0
+[2020-01-24 12:53:54.849] [Engine] [info] Mouse moved at: 663.0,11.0
+[2020-01-24 12:53:54.856] [Engine] [info] Mouse moved at: 665.0,10.0
+[2020-01-24 12:53:54.863] [Engine] [info] Mouse moved at: 668.0,9.0
+[2020-01-24 12:53:54.870] [Engine] [info] Mouse moved at: 671.0,8.0
+[2020-01-24 12:53:54.877] [Engine] [info] Mouse moved at: 674.0,7.0
+[2020-01-24 12:53:54.877] [Engine] [info] Mouse moved at: 675.0,7.0
+[2020-01-24 12:53:54.884] [Engine] [info] Mouse moved at: 679.0,6.0
+[2020-01-24 12:53:54.891] [Engine] [info] Mouse moved at: 683.0,6.0
+[2020-01-24 12:53:54.892] [Engine] [info] Mouse moved at: 685.0,6.0
+[2020-01-24 12:53:54.898] [Engine] [info] Mouse moved at: 690.0,5.0
+[2020-01-24 12:53:54.905] [Engine] [info] Mouse moved at: 695.0,5.0
+[2020-01-24 12:53:54.905] [Engine] [info] Mouse moved at: 697.0,5.0
+[2020-01-24 12:53:54.912] [Engine] [info] Mouse moved at: 702.0,4.0
+[2020-01-24 12:53:54.919] [Engine] [info] Mouse moved at: 707.0,4.0
+[2020-01-24 12:53:54.920] [Engine] [info] Mouse moved at: 709.0,3.0
+[2020-01-24 12:53:54.925] [Engine] [info] Mouse moved at: 715.0,3.0
+[2020-01-24 12:53:54.933] [Engine] [info] Mouse moved at: 720.0,2.0
+[2020-01-24 12:53:54.933] [Engine] [info] Mouse moved at: 722.0,2.0
+[2020-01-24 12:53:54.940] [Engine] [info] Mouse moved at: 727.0,2.0
+[2020-01-24 12:53:54.947] [Engine] [info] Mouse moved at: 732.0,1.0
+[2020-01-24 12:53:54.948] [Engine] [info] Mouse moved at: 733.0,1.0
+[2020-01-24 12:53:54.954] [Engine] [info] Mouse moved at: 738.0,0.0
+[2020-01-24 12:53:55.309] [Engine] [warning] Closing Application
+[2020-01-24 12:53:55.322] [Engine] [info] Cleared Window
+[2020-01-24 12:53:55.344] [Engine] [info] Windows System Stopped
+[2020-01-24 12:53:55.344] [Engine] [info] Cleared Resource System
+[2020-01-24 12:53:55.344] [Engine] [info] Timer Stopped
+[2020-01-24 12:53:55.345] [Engine] [info] Ending Log...
+[2020-01-24 12:54:03.669] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:54:03.670] [Engine] [warning] Logger Initialized
+[2020-01-24 12:54:03.671] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:54:03.671] [Engine] [warning] Timing system Started
+[2020-01-24 12:54:03.671] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:54:04.635] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:54:04.636] [Engine] [warning] Window Created
+[2020-01-24 12:54:04.636] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:54:04.636] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:54:05.113] [Engine] [info] Key Pressed: 342, R#:0
+[2020-01-24 12:54:05.149] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:54:05.176] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:54:05.225] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:54:05.245] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:54:05.280] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:54:05.308] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:54:05.343] [Engine] [info] Key Pressed: 342, R#:1
+[2020-01-24 12:54:05.377] [Engine] [info] Key Released: 342
+[2020-01-24 12:54:05.865] [Engine] [info] Mouse moved at: 760.0,164.0
+[2020-01-24 12:54:05.865] [Engine] [info] Mouse moved at: 748.0,162.0
+[2020-01-24 12:54:05.870] [Engine] [info] Mouse moved at: 724.0,158.0
+[2020-01-24 12:54:05.877] [Engine] [info] Mouse moved at: 690.0,151.0
+[2020-01-24 12:54:05.884] [Engine] [info] Mouse moved at: 651.0,140.0
+[2020-01-24 12:54:05.891] [Engine] [info] Mouse moved at: 616.0,128.0
+[2020-01-24 12:54:05.898] [Engine] [info] Mouse moved at: 591.0,118.0
+[2020-01-24 12:54:05.905] [Engine] [info] Mouse moved at: 568.0,108.0
+[2020-01-24 12:54:05.905] [Engine] [info] Mouse moved at: 560.0,104.0
+[2020-01-24 12:54:05.912] [Engine] [info] Mouse moved at: 538.0,95.0
+[2020-01-24 12:54:05.919] [Engine] [info] Mouse moved at: 511.0,84.0
+[2020-01-24 12:54:05.926] [Engine] [info] Mouse moved at: 493.0,75.0
+[2020-01-24 12:54:05.933] [Engine] [info] Mouse moved at: 478.0,68.0
+[2020-01-24 12:54:05.933] [Engine] [info] Mouse moved at: 474.0,66.0
+[2020-01-24 12:54:05.939] [Engine] [info] Mouse moved at: 462.0,59.0
+[2020-01-24 12:54:05.947] [Engine] [info] Mouse moved at: 453.0,53.0
+[2020-01-24 12:54:05.948] [Engine] [info] Mouse moved at: 450.0,51.0
+[2020-01-24 12:54:05.953] [Engine] [info] Mouse moved at: 443.0,46.0
+[2020-01-24 12:54:05.961] [Engine] [info] Mouse moved at: 438.0,42.0
+[2020-01-24 12:54:05.961] [Engine] [info] Mouse moved at: 437.0,41.0
+[2020-01-24 12:54:05.968] [Engine] [info] Mouse moved at: 433.0,38.0
+[2020-01-24 12:54:05.974] [Engine] [info] Mouse moved at: 431.0,37.0
+[2020-01-24 12:54:05.975] [Engine] [info] Mouse moved at: 431.0,36.0
+[2020-01-24 12:54:05.981] [Engine] [info] Mouse moved at: 430.0,36.0
+[2020-01-24 12:54:06.161] [Engine] [info] Mouse moved at: 430.0,35.0
+[2020-01-24 12:54:06.168] [Engine] [info] Mouse moved at: 430.0,33.0
+[2020-01-24 12:54:06.175] [Engine] [info] Mouse moved at: 430.0,30.0
+[2020-01-24 12:54:06.182] [Engine] [info] Mouse moved at: 430.0,28.0
+[2020-01-24 12:54:06.189] [Engine] [info] Mouse moved at: 430.0,25.0
+[2020-01-24 12:54:06.197] [Engine] [info] Mouse moved at: 430.0,23.0
+[2020-01-24 12:54:06.203] [Engine] [info] Mouse moved at: 430.0,19.0
+[2020-01-24 12:54:06.210] [Engine] [info] Mouse moved at: 430.0,17.0
+[2020-01-24 12:54:06.217] [Engine] [info] Mouse moved at: 430.0,14.0
+[2020-01-24 12:54:06.224] [Engine] [info] Mouse moved at: 429.0,12.0
+[2020-01-24 12:54:06.231] [Engine] [info] Mouse moved at: 429.0,9.0
+[2020-01-24 12:54:06.238] [Engine] [info] Mouse moved at: 429.0,7.0
+[2020-01-24 12:54:06.245] [Engine] [info] Mouse moved at: 429.0,5.0
+[2020-01-24 12:54:06.252] [Engine] [info] Mouse moved at: 428.0,4.0
+[2020-01-24 12:54:06.259] [Engine] [info] Mouse moved at: 428.0,3.0
+[2020-01-24 12:54:06.266] [Engine] [info] Mouse moved at: 428.0,2.0
+[2020-01-24 12:54:06.391] [Engine] [info] Mouse moved at: 428.0,1.0
+[2020-01-24 12:54:06.391] [Engine] [info] Mouse moved at: 427.0,1.0
+[2020-01-24 12:54:06.398] [Engine] [info] Mouse moved at: 427.0,0.0
+[2020-01-24 12:54:07.272] [Engine] [info] Mouse moved at: 387.0,3.0
+[2020-01-24 12:54:07.273] [Engine] [info] Mouse moved at: 386.0,4.0
+[2020-01-24 12:54:07.280] [Engine] [info] Mouse moved at: 384.0,8.0
+[2020-01-24 12:54:07.287] [Engine] [info] Mouse moved at: 381.0,12.0
+[2020-01-24 12:54:07.287] [Engine] [info] Mouse moved at: 380.0,13.0
+[2020-01-24 12:54:07.294] [Engine] [info] Mouse moved at: 378.0,16.0
+[2020-01-24 12:54:07.301] [Engine] [info] Mouse moved at: 375.0,20.0
+[2020-01-24 12:54:07.302] [Engine] [info] Mouse moved at: 374.0,21.0
+[2020-01-24 12:54:07.308] [Engine] [info] Mouse moved at: 371.0,25.0
+[2020-01-24 12:54:07.310] [Engine] [info] Mouse moved at: 370.0,26.0
+[2020-01-24 12:54:07.314] [Engine] [info] Mouse moved at: 368.0,28.0
+[2020-01-24 12:54:07.322] [Engine] [info] Mouse moved at: 364.0,34.0
+[2020-01-24 12:54:07.329] [Engine] [info] Mouse moved at: 360.0,38.0
+[2020-01-24 12:54:07.329] [Engine] [info] Mouse moved at: 359.0,40.0
+[2020-01-24 12:54:07.335] [Engine] [info] Mouse moved at: 354.0,45.0
+[2020-01-24 12:54:07.343] [Engine] [info] Mouse moved at: 349.0,50.0
+[2020-01-24 12:54:07.343] [Engine] [info] Mouse moved at: 348.0,52.0
+[2020-01-24 12:54:07.349] [Engine] [info] Mouse moved at: 343.0,58.0
+[2020-01-24 12:54:07.357] [Engine] [info] Mouse moved at: 338.0,64.0
+[2020-01-24 12:54:07.358] [Engine] [info] Mouse moved at: 336.0,66.0
+[2020-01-24 12:54:07.363] [Engine] [info] Mouse moved at: 331.0,73.0
+[2020-01-24 12:54:07.370] [Engine] [info] Mouse moved at: 327.0,80.0
+[2020-01-24 12:54:07.377] [Engine] [info] Mouse moved at: 322.0,87.0
+[2020-01-24 12:54:07.378] [Engine] [info] Mouse moved at: 320.0,89.0
+[2020-01-24 12:54:07.384] [Engine] [info] Mouse moved at: 315.0,96.0
+[2020-01-24 12:54:07.391] [Engine] [info] Mouse moved at: 311.0,103.0
+[2020-01-24 12:54:07.391] [Engine] [info] Mouse moved at: 309.0,106.0
+[2020-01-24 12:54:07.398] [Engine] [info] Mouse moved at: 305.0,114.0
+[2020-01-24 12:54:07.405] [Engine] [info] Mouse moved at: 301.0,122.0
+[2020-01-24 12:54:07.405] [Engine] [info] Mouse moved at: 299.0,125.0
+[2020-01-24 12:54:07.412] [Engine] [info] Mouse moved at: 295.0,133.0
+[2020-01-24 12:54:07.418] [Engine] [info] Mouse moved at: 291.0,142.0
+[2020-01-24 12:54:07.425] [Engine] [info] Mouse moved at: 286.0,153.0
+[2020-01-24 12:54:07.433] [Engine] [info] Mouse moved at: 282.0,160.0
+[2020-01-24 12:54:07.433] [Engine] [info] Mouse moved at: 280.0,163.0
+[2020-01-24 12:54:07.439] [Engine] [info] Mouse moved at: 276.0,170.0
+[2020-01-24 12:54:07.448] [Engine] [info] Mouse moved at: 273.0,177.0
+[2020-01-24 12:54:07.448] [Engine] [info] Mouse moved at: 271.0,180.0
+[2020-01-24 12:54:07.453] [Engine] [info] Mouse moved at: 268.0,186.0
+[2020-01-24 12:54:07.461] [Engine] [info] Mouse moved at: 265.0,193.0
+[2020-01-24 12:54:07.461] [Engine] [info] Mouse moved at: 264.0,194.0
+[2020-01-24 12:54:07.467] [Engine] [info] Mouse moved at: 261.0,200.0
+[2020-01-24 12:54:07.474] [Engine] [info] Mouse moved at: 259.0,205.0
+[2020-01-24 12:54:07.475] [Engine] [info] Mouse moved at: 258.0,206.0
+[2020-01-24 12:54:07.481] [Engine] [info] Mouse moved at: 257.0,209.0
+[2020-01-24 12:54:07.481] [Engine] [info] Mouse moved at: 256.0,211.0
+[2020-01-24 12:54:07.488] [Engine] [info] Mouse moved at: 254.0,215.0
+[2020-01-24 12:54:07.495] [Engine] [info] Mouse moved at: 253.0,220.0
+[2020-01-24 12:54:07.502] [Engine] [info] Mouse moved at: 252.0,223.0
+[2020-01-24 12:54:07.509] [Engine] [info] Mouse moved at: 251.0,226.0
+[2020-01-24 12:54:07.509] [Engine] [info] Mouse moved at: 251.0,227.0
+[2020-01-24 12:54:07.516] [Engine] [info] Mouse moved at: 250.0,229.0
+[2020-01-24 12:54:07.524] [Engine] [info] Mouse moved at: 249.0,232.0
+[2020-01-24 12:54:07.531] [Engine] [info] Mouse moved at: 249.0,234.0
+[2020-01-24 12:54:07.538] [Engine] [info] Mouse moved at: 249.0,235.0
+[2020-01-24 12:54:07.544] [Engine] [info] Mouse moved at: 249.0,236.0
+[2020-01-24 12:54:07.551] [Engine] [info] Mouse moved at: 249.0,237.0
+[2020-01-24 12:54:07.551] [Engine] [info] Mouse moved at: 248.0,237.0
+[2020-01-24 12:54:07.558] [Engine] [info] Mouse moved at: 248.0,238.0
+[2020-01-24 12:54:07.592] [Engine] [info] Mouse moved at: 248.0,239.0
+[2020-01-24 12:54:07.703] [Engine] [info] Key Pressed: 342, R#:0
+[2020-01-24 12:54:07.842] [Engine] [info] Key Released: 342
+[2020-01-24 12:54:08.432] [Engine] [info] Key Pressed: 256, R#:0
+[2020-01-24 12:54:08.495] [Engine] [info] Key Released: 256
+[2020-01-24 12:54:08.890] [Engine] [info] Mouse moved at: 249.0,239.0
+[2020-01-24 12:54:08.891] [Engine] [info] Mouse moved at: 250.0,239.0
+[2020-01-24 12:54:08.897] [Engine] [info] Mouse moved at: 253.0,239.0
+[2020-01-24 12:54:08.905] [Engine] [info] Mouse moved at: 258.0,238.0
+[2020-01-24 12:54:08.905] [Engine] [info] Mouse moved at: 260.0,237.0
+[2020-01-24 12:54:08.911] [Engine] [info] Mouse moved at: 267.0,236.0
+[2020-01-24 12:54:08.918] [Engine] [info] Mouse moved at: 275.0,233.0
+[2020-01-24 12:54:08.925] [Engine] [info] Mouse moved at: 289.0,229.0
+[2020-01-24 12:54:08.933] [Engine] [info] Mouse moved at: 302.0,225.0
+[2020-01-24 12:54:08.933] [Engine] [info] Mouse moved at: 308.0,223.0
+[2020-01-24 12:54:08.939] [Engine] [info] Mouse moved at: 324.0,219.0
+[2020-01-24 12:54:08.948] [Engine] [info] Mouse moved at: 348.0,212.0
+[2020-01-24 12:54:08.953] [Engine] [info] Mouse moved at: 368.0,206.0
+[2020-01-24 12:54:08.961] [Engine] [info] Mouse moved at: 390.0,200.0
+[2020-01-24 12:54:08.962] [Engine] [info] Mouse moved at: 397.0,198.0
+[2020-01-24 12:54:08.968] [Engine] [info] Mouse moved at: 421.0,192.0
+[2020-01-24 12:54:08.975] [Engine] [info] Mouse moved at: 445.0,185.0
+[2020-01-24 12:54:08.975] [Engine] [info] Mouse moved at: 452.0,183.0
+[2020-01-24 12:54:08.981] [Engine] [info] Mouse moved at: 476.0,177.0
+[2020-01-24 12:54:08.988] [Engine] [info] Mouse moved at: 500.0,171.0
+[2020-01-24 12:54:08.996] [Engine] [info] Mouse moved at: 521.0,165.0
+[2020-01-24 12:54:08.996] [Engine] [info] Mouse moved at: 529.0,163.0
+[2020-01-24 12:54:09.002] [Engine] [info] Mouse moved at: 549.0,158.0
+[2020-01-24 12:54:09.009] [Engine] [info] Mouse moved at: 568.0,152.0
+[2020-01-24 12:54:09.010] [Engine] [info] Mouse moved at: 575.0,150.0
+[2020-01-24 12:54:09.016] [Engine] [info] Mouse moved at: 591.0,145.0
+[2020-01-24 12:54:09.023] [Engine] [info] Mouse moved at: 607.0,139.0
+[2020-01-24 12:54:09.023] [Engine] [info] Mouse moved at: 611.0,138.0
+[2020-01-24 12:54:09.030] [Engine] [info] Mouse moved at: 624.0,132.0
+[2020-01-24 12:54:09.037] [Engine] [info] Mouse moved at: 639.0,126.0
+[2020-01-24 12:54:09.043] [Engine] [info] Mouse moved at: 648.0,122.0
+[2020-01-24 12:54:09.050] [Engine] [info] Mouse moved at: 655.0,118.0
+[2020-01-24 12:54:09.058] [Engine] [info] Mouse moved at: 663.0,113.0
+[2020-01-24 12:54:09.065] [Engine] [info] Mouse moved at: 667.0,110.0
+[2020-01-24 12:54:09.065] [Engine] [info] Mouse moved at: 668.0,109.0
+[2020-01-24 12:54:09.071] [Engine] [info] Mouse moved at: 671.0,107.0
+[2020-01-24 12:54:09.078] [Engine] [info] Mouse moved at: 673.0,105.0
+[2020-01-24 12:54:09.079] [Engine] [info] Mouse moved at: 674.0,105.0
+[2020-01-24 12:54:09.085] [Engine] [info] Mouse moved at: 675.0,103.0
+[2020-01-24 12:54:09.092] [Engine] [info] Mouse moved at: 676.0,102.0
+[2020-01-24 12:54:09.099] [Engine] [info] Mouse moved at: 676.0,101.0
+[2020-01-24 12:54:09.113] [Engine] [info] Mouse moved at: 676.0,100.0
+[2020-01-24 12:54:09.120] [Engine] [info] Mouse moved at: 677.0,99.0
+[2020-01-24 12:54:09.134] [Engine] [info] Mouse moved at: 677.0,98.0
+[2020-01-24 12:54:09.149] [Engine] [info] Mouse moved at: 677.0,97.0
+[2020-01-24 12:54:09.224] [Engine] [info] Mouse moved at: 676.0,95.0
+[2020-01-24 12:54:09.231] [Engine] [info] Mouse moved at: 675.0,94.0
+[2020-01-24 12:54:09.238] [Engine] [info] Mouse moved at: 675.0,92.0
+[2020-01-24 12:54:09.245] [Engine] [info] Mouse moved at: 674.0,90.0
+[2020-01-24 12:54:09.246] [Engine] [info] Mouse moved at: 674.0,89.0
+[2020-01-24 12:54:09.252] [Engine] [info] Mouse moved at: 674.0,87.0
+[2020-01-24 12:54:09.259] [Engine] [info] Mouse moved at: 674.0,83.0
+[2020-01-24 12:54:09.260] [Engine] [info] Mouse moved at: 674.0,82.0
+[2020-01-24 12:54:09.266] [Engine] [info] Mouse moved at: 674.0,78.0
+[2020-01-24 12:54:09.273] [Engine] [info] Mouse moved at: 675.0,73.0
+[2020-01-24 12:54:09.274] [Engine] [info] Mouse moved at: 675.0,72.0
+[2020-01-24 12:54:09.280] [Engine] [info] Mouse moved at: 676.0,67.0
+[2020-01-24 12:54:09.287] [Engine] [info] Mouse moved at: 677.0,62.0
+[2020-01-24 12:54:09.293] [Engine] [info] Mouse moved at: 680.0,55.0
+[2020-01-24 12:54:09.300] [Engine] [info] Mouse moved at: 681.0,49.0
+[2020-01-24 12:54:09.307] [Engine] [info] Mouse moved at: 684.0,42.0
+[2020-01-24 12:54:09.314] [Engine] [info] Mouse moved at: 686.0,37.0
+[2020-01-24 12:54:09.321] [Engine] [info] Mouse moved at: 688.0,30.0
+[2020-01-24 12:54:09.328] [Engine] [info] Mouse moved at: 690.0,25.0
+[2020-01-24 12:54:09.335] [Engine] [info] Mouse moved at: 692.0,19.0
+[2020-01-24 12:54:09.342] [Engine] [info] Mouse moved at: 694.0,15.0
+[2020-01-24 12:54:09.349] [Engine] [info] Mouse moved at: 697.0,10.0
+[2020-01-24 12:54:09.356] [Engine] [info] Mouse moved at: 699.0,6.0
+[2020-01-24 12:54:09.363] [Engine] [info] Mouse moved at: 702.0,2.0
+[2020-01-24 12:54:09.674] [Engine] [info] FPS:143.
+[2020-01-24 12:54:10.155] [Engine] [warning] Closing Application
+[2020-01-24 12:54:10.171] [Engine] [info] Cleared Window
+[2020-01-24 12:54:10.193] [Engine] [info] Windows System Stopped
+[2020-01-24 12:54:10.194] [Engine] [info] Cleared Resource System
+[2020-01-24 12:54:10.195] [Engine] [info] Timer Stopped
+[2020-01-24 12:54:10.195] [Engine] [info] Ending Log...
+[2020-01-24 12:58:19.466] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-01-24 12:58:19.467] [Engine] [warning] Logger Initialized
+[2020-01-24 12:58:19.467] [Engine] [warning] Resource Manager Started
+[2020-01-24 12:58:19.467] [Engine] [warning] Timing system Started
+[2020-01-24 12:58:19.467] [Engine] [warning] GLFW Window System Started
+[2020-01-24 12:58:20.337] [Engine] [warning] GLAD Loaded
+[2020-01-24 12:58:20.338] [Engine] [warning] Window Created
+[2020-01-24 12:58:20.339] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:58:20.339] [Engine] [warning] Created Basic3D Renderer
+[2020-01-24 12:58:25.380] [Engine] [info] FPS:148.
+[2020-01-24 12:58:30.387] [Engine] [info] FPS:147.
+[2020-01-24 12:58:35.394] [Engine] [info] FPS:151.
+[2020-01-24 12:58:35.403] [Engine] [info] Mouse moved at: 793.0,197.0
+[2020-01-24 12:58:35.403] [Engine] [info] Mouse moved at: 791.0,198.0
+[2020-01-24 12:58:35.409] [Engine] [info] Mouse moved at: 787.0,200.0
+[2020-01-24 12:58:35.410] [Engine] [info] Mouse moved at: 785.0,201.0
+[2020-01-24 12:58:35.416] [Engine] [info] Mouse moved at: 781.0,203.0
+[2020-01-24 12:58:35.423] [Engine] [info] Mouse moved at: 778.0,204.0
+[2020-01-24 12:58:35.423] [Engine] [info] Mouse moved at: 777.0,205.0
+[2020-01-24 12:58:35.443] [Engine] [info] Mouse moved at: 778.0,204.0
+[2020-01-24 12:58:35.450] [Engine] [info] Mouse moved at: 780.0,203.0
+[2020-01-24 12:58:35.457] [Engine] [info] Mouse moved at: 782.0,202.0
+[2020-01-24 12:58:35.728] [Engine] [info] Mouse moved at: 782.0,201.0
+[2020-01-24 12:58:35.742] [Engine] [info] Mouse moved at: 782.0,200.0
+[2020-01-24 12:58:35.749] [Engine] [info] Mouse moved at: 782.0,199.0
+[2020-01-24 12:58:35.763] [Engine] [info] Mouse moved at: 781.0,198.0
+[2020-01-24 12:58:35.763] [Engine] [info] Mouse moved at: 780.0,198.0
+[2020-01-24 12:58:35.770] [Engine] [info] Mouse moved at: 779.0,198.0
+[2020-01-24 12:58:35.777] [Engine] [info] Mouse moved at: 777.0,197.0
+[2020-01-24 12:58:35.784] [Engine] [info] Mouse moved at: 774.0,196.0
+[2020-01-24 12:58:35.791] [Engine] [info] Mouse moved at: 770.0,196.0
+[2020-01-24 12:58:35.791] [Engine] [info] Mouse moved at: 769.0,196.0
+[2020-01-24 12:58:35.798] [Engine] [info] Mouse moved at: 765.0,195.0
+[2020-01-24 12:58:35.805] [Engine] [info] Mouse moved at: 761.0,195.0
+[2020-01-24 12:58:35.812] [Engine] [info] Mouse moved at: 755.0,194.0
+[2020-01-24 12:58:35.819] [Engine] [info] Mouse moved at: 750.0,193.0
+[2020-01-24 12:58:35.825] [Engine] [info] Mouse moved at: 746.0,192.0
+[2020-01-24 12:58:35.826] [Engine] [info] Mouse moved at: 744.0,192.0
+[2020-01-24 12:58:35.832] [Engine] [info] Mouse moved at: 740.0,192.0
+[2020-01-24 12:58:35.839] [Engine] [info] Mouse moved at: 735.0,191.0
+[2020-01-24 12:58:35.846] [Engine] [info] Mouse moved at: 732.0,190.0
+[2020-01-24 12:58:35.854] [Engine] [info] Mouse moved at: 728.0,190.0
+[2020-01-24 12:58:35.860] [Engine] [info] Mouse moved at: 726.0,189.0
+[2020-01-24 12:58:35.867] [Engine] [info] Mouse moved at: 723.0,189.0
+[2020-01-24 12:58:35.874] [Engine] [info] Mouse moved at: 722.0,189.0
+[2020-01-24 12:58:35.965] [Engine] [info] Mouse moved at: 721.0,189.0
+[2020-01-24 12:58:35.978] [Engine] [info] Mouse moved at: 720.0,189.0
+[2020-01-24 12:58:35.985] [Engine] [info] Mouse moved at: 719.0,189.0
+[2020-01-24 12:58:35.992] [Engine] [info] Mouse moved at: 718.0,189.0
+[2020-01-24 12:58:35.999] [Engine] [info] Mouse moved at: 717.0,190.0
+[2020-01-24 12:58:36.000] [Engine] [info] Mouse moved at: 716.0,190.0
+[2020-01-24 12:58:36.006] [Engine] [info] Mouse moved at: 715.0,190.0
+[2020-01-24 12:58:36.014] [Engine] [info] Mouse moved at: 714.0,190.0
+[2020-01-24 12:58:36.020] [Engine] [info] Mouse moved at: 712.0,190.0
+[2020-01-24 12:58:36.027] [Engine] [info] Mouse moved at: 711.0,191.0
+[2020-01-24 12:58:36.034] [Engine] [info] Mouse moved at: 709.0,191.0
+[2020-01-24 12:58:36.041] [Engine] [info] Mouse moved at: 707.0,191.0
+[2020-01-24 12:58:36.048] [Engine] [info] Mouse moved at: 705.0,191.0
+[2020-01-24 12:58:36.055] [Engine] [info] Mouse moved at: 703.0,191.0
+[2020-01-24 12:58:36.055] [Engine] [info] Mouse moved at: 702.0,191.0
+[2020-01-24 12:58:36.061] [Engine] [info] Mouse moved at: 700.0,191.0
+[2020-01-24 12:58:36.069] [Engine] [info] Mouse moved at: 698.0,191.0
+[2020-01-24 12:58:36.069] [Engine] [info] Mouse moved at: 697.0,191.0
+[2020-01-24 12:58:36.076] [Engine] [info] Mouse moved at: 695.0,192.0
+[2020-01-24 12:58:36.082] [Engine] [info] Mouse moved at: 692.0,192.0
+[2020-01-24 12:58:36.090] [Engine] [info] Mouse moved at: 688.0,192.0
+[2020-01-24 12:58:36.096] [Engine] [info] Mouse moved at: 686.0,192.0
+[2020-01-24 12:58:36.103] [Engine] [info] Mouse moved at: 682.0,192.0
+[2020-01-24 12:58:36.110] [Engine] [info] Mouse moved at: 679.0,192.0
+[2020-01-24 12:58:36.117] [Engine] [info] Mouse moved at: 675.0,192.0
+[2020-01-24 12:58:36.124] [Engine] [info] Mouse moved at: 673.0,192.0
+[2020-01-24 12:58:36.131] [Engine] [info] Mouse moved at: 669.0,192.0
+[2020-01-24 12:58:36.138] [Engine] [info] Mouse moved at: 666.0,192.0
+[2020-01-24 12:58:36.145] [Engine] [info] Mouse moved at: 662.0,192.0
+[2020-01-24 12:58:36.152] [Engine] [info] Mouse moved at: 659.0,192.0
+[2020-01-24 12:58:36.159] [Engine] [info] Mouse moved at: 656.0,192.0
+[2020-01-24 12:58:36.160] [Engine] [info] Mouse moved at: 655.0,192.0
+[2020-01-24 12:58:36.166] [Engine] [info] Mouse moved at: 652.0,192.0
+[2020-01-24 12:58:36.173] [Engine] [info] Mouse moved at: 649.0,192.0
+[2020-01-24 12:58:36.174] [Engine] [info] Mouse moved at: 648.0,192.0
+[2020-01-24 12:58:36.180] [Engine] [info] Mouse moved at: 645.0,192.0
+[2020-01-24 12:58:36.187] [Engine] [info] Mouse moved at: 643.0,192.0
+[2020-01-24 12:58:36.187] [Engine] [info] Mouse moved at: 642.0,192.0
+[2020-01-24 12:58:36.193] [Engine] [info] Mouse moved at: 639.0,192.0
+[2020-01-24 12:58:36.200] [Engine] [info] Mouse moved at: 636.0,192.0
+[2020-01-24 12:58:36.207] [Engine] [info] Mouse moved at: 631.0,192.0
+[2020-01-24 12:58:36.214] [Engine] [info] Mouse moved at: 628.0,192.0
+[2020-01-24 12:58:36.221] [Engine] [info] Mouse moved at: 624.0,192.0
+[2020-01-24 12:58:36.228] [Engine] [info] Mouse moved at: 621.0,192.0
+[2020-01-24 12:58:36.230] [Engine] [info] Mouse moved at: 620.0,192.0
+[2020-01-24 12:58:36.235] [Engine] [info] Mouse moved at: 617.0,192.0
+[2020-01-24 12:58:36.242] [Engine] [info] Mouse moved at: 614.0,192.0
+[2020-01-24 12:58:36.249] [Engine] [info] Mouse moved at: 611.0,192.0
+[2020-01-24 12:58:36.250] [Engine] [info] Mouse moved at: 610.0,192.0
+[2020-01-24 12:58:36.256] [Engine] [info] Mouse moved at: 607.0,192.0
+[2020-01-24 12:58:36.263] [Engine] [info] Mouse moved at: 605.0,192.0
+[2020-01-24 12:58:36.264] [Engine] [info] Mouse moved at: 604.0,192.0
+[2020-01-24 12:58:36.270] [Engine] [info] Mouse moved at: 601.0,192.0
+[2020-01-24 12:58:36.277] [Engine] [info] Mouse moved at: 599.0,192.0
+[2020-01-24 12:58:36.284] [Engine] [info] Mouse moved at: 595.0,192.0
+[2020-01-24 12:58:36.291] [Engine] [info] Mouse moved at: 592.0,192.0
+[2020-01-24 12:58:36.298] [Engine] [info] Mouse moved at: 589.0,192.0
+[2020-01-24 12:58:36.305] [Engine] [info] Mouse moved at: 586.0,192.0
+[2020-01-24 12:58:36.312] [Engine] [info] Mouse moved at: 583.0,192.0
+[2020-01-24 12:58:36.318] [Engine] [info] Mouse moved at: 580.0,192.0
+[2020-01-24 12:58:36.326] [Engine] [info] Mouse moved at: 577.0,192.0
+[2020-01-24 12:58:36.332] [Engine] [info] Mouse moved at: 575.0,192.0
+[2020-01-24 12:58:36.339] [Engine] [info] Mouse moved at: 571.0,192.0
+[2020-01-24 12:58:36.347] [Engine] [info] Mouse moved at: 569.0,192.0
+[2020-01-24 12:58:36.353] [Engine] [info] Mouse moved at: 566.0,193.0
+[2020-01-24 12:58:36.361] [Engine] [info] Mouse moved at: 564.0,193.0
+[2020-01-24 12:58:36.361] [Engine] [info] Mouse moved at: 563.0,193.0
+[2020-01-24 12:58:36.367] [Engine] [info] Mouse moved at: 561.0,193.0
+[2020-01-24 12:58:36.374] [Engine] [info] Mouse moved at: 559.0,193.0
+[2020-01-24 12:58:36.381] [Engine] [info] Mouse moved at: 557.0,193.0
+[2020-01-24 12:58:36.382] [Engine] [info] Mouse moved at: 556.0,193.0
+[2020-01-24 12:58:36.388] [Engine] [info] Mouse moved at: 553.0,193.0
+[2020-01-24 12:58:36.395] [Engine] [info] Mouse moved at: 551.0,193.0
+[2020-01-24 12:58:36.396] [Engine] [info] Mouse moved at: 550.0,193.0
+[2020-01-24 12:58:36.402] [Engine] [info] Mouse moved at: 548.0,193.0
+[2020-01-24 12:58:36.409] [Engine] [info] Mouse moved at: 545.0,192.0
+[2020-01-24 12:58:36.410] [Engine] [info] Mouse moved at: 544.0,192.0
+[2020-01-24 12:58:36.416] [Engine] [info] Mouse moved at: 542.0,192.0
+[2020-01-24 12:58:36.423] [Engine] [info] Mouse moved at: 539.0,192.0
+[2020-01-24 12:58:36.423] [Engine] [info] Mouse moved at: 538.0,192.0
+[2020-01-24 12:58:36.430] [Engine] [info] Mouse moved at: 535.0,191.0
+[2020-01-24 12:58:36.436] [Engine] [info] Mouse moved at: 533.0,191.0
+[2020-01-24 12:58:36.443] [Engine] [info] Mouse moved at: 529.0,191.0
+[2020-01-24 12:58:36.450] [Engine] [info] Mouse moved at: 526.0,191.0
+[2020-01-24 12:58:36.457] [Engine] [info] Mouse moved at: 523.0,190.0
+[2020-01-24 12:58:36.464] [Engine] [info] Mouse moved at: 520.0,190.0
+[2020-01-24 12:58:36.471] [Engine] [info] Mouse moved at: 517.0,190.0
+[2020-01-24 12:58:36.479] [Engine] [info] Mouse moved at: 515.0,190.0
+[2020-01-24 12:58:36.480] [Engine] [info] Mouse moved at: 514.0,190.0
+[2020-01-24 12:58:36.485] [Engine] [info] Mouse moved at: 512.0,189.0
+[2020-01-24 12:58:36.492] [Engine] [info] Mouse moved at: 509.0,189.0
+[2020-01-24 12:58:36.499] [Engine] [info] Mouse moved at: 507.0,189.0
+[2020-01-24 12:58:36.506] [Engine] [info] Mouse moved at: 505.0,188.0
+[2020-01-24 12:58:36.513] [Engine] [info] Mouse moved at: 503.0,188.0
+[2020-01-24 12:58:36.520] [Engine] [info] Mouse moved at: 501.0,188.0
+[2020-01-24 12:58:36.528] [Engine] [info] Mouse moved at: 500.0,188.0
+[2020-01-24 12:58:36.534] [Engine] [info] Mouse moved at: 498.0,187.0
+[2020-01-24 12:58:36.541] [Engine] [info] Mouse moved at: 497.0,187.0
+[2020-01-24 12:58:36.548] [Engine] [info] Mouse moved at: 496.0,187.0
+[2020-01-24 12:58:36.555] [Engine] [info] Mouse moved at: 495.0,187.0
+[2020-01-24 12:58:36.562] [Engine] [info] Mouse moved at: 494.0,187.0
+[2020-01-24 12:58:36.582] [Engine] [info] Mouse moved at: 493.0,187.0
+[2020-01-24 12:58:37.006] [Engine] [info] Mouse moved at: 493.0,186.0
+[2020-01-24 12:58:37.093] [Engine] [info] Mouse button pressed: 0
+[2020-01-24 12:58:37.145] [Engine] [info] Mouse button released: 0
+[2020-01-24 12:58:37.208] [Engine] [info] Mouse moved at: 493.0,185.0
+[2020-01-24 12:58:37.221] [Engine] [info] Mouse moved at: 493.0,182.0
+[2020-01-24 12:58:37.235] [Engine] [info] Mouse moved at: 494.0,177.0
+[2020-01-24 12:58:37.242] [Engine] [info] Mouse moved at: 495.0,175.0
+[2020-01-24 12:58:37.249] [Engine] [info] Mouse moved at: 497.0,171.0
+[2020-01-24 12:58:37.256] [Engine] [info] Mouse moved at: 500.0,167.0
+[2020-01-24 12:58:37.263] [Engine] [info] Mouse moved at: 503.0,164.0
+[2020-01-24 12:58:37.264] [Engine] [info] Mouse moved at: 504.0,162.0
+[2020-01-24 12:58:37.270] [Engine] [info] Mouse moved at: 508.0,157.0
+[2020-01-24 12:58:37.277] [Engine] [info] Mouse moved at: 513.0,152.0
+[2020-01-24 12:58:37.277] [Engine] [info] Mouse moved at: 516.0,150.0
+[2020-01-24 12:58:37.284] [Engine] [info] Mouse moved at: 521.0,144.0
+[2020-01-24 12:58:37.292] [Engine] [info] Mouse moved at: 531.0,135.0
+[2020-01-24 12:58:37.298] [Engine] [info] Mouse moved at: 538.0,128.0
+[2020-01-24 12:58:37.304] [Engine] [info] Mouse moved at: 547.0,120.0
+[2020-01-24 12:58:37.311] [Engine] [info] Mouse moved at: 560.0,109.0
+[2020-01-24 12:58:37.319] [Engine] [info] Mouse moved at: 569.0,101.0
+[2020-01-24 12:58:37.319] [Engine] [info] Mouse moved at: 572.0,98.0
+[2020-01-24 12:58:37.325] [Engine] [info] Mouse moved at: 582.0,90.0
+[2020-01-24 12:58:37.332] [Engine] [info] Mouse moved at: 593.0,82.0
+[2020-01-24 12:58:37.339] [Engine] [info] Mouse moved at: 607.0,72.0
+[2020-01-24 12:58:37.347] [Engine] [info] Mouse moved at: 618.0,65.0
+[2020-01-24 12:58:37.347] [Engine] [info] Mouse moved at: 621.0,63.0
+[2020-01-24 12:58:37.353] [Engine] [info] Mouse moved at: 628.0,59.0
+[2020-01-24 12:58:37.354] [Engine] [info] Mouse moved at: 631.0,57.0
+[2020-01-24 12:58:37.356] [Engine] [info] Mouse moved at: 634.0,55.0
+[2020-01-24 12:58:37.361] [Engine] [info] Mouse moved at: 640.0,52.0
+[2020-01-24 12:58:37.367] [Engine] [info] Mouse moved at: 650.0,46.0
+[2020-01-24 12:58:37.374] [Engine] [info] Mouse moved at: 656.0,41.0
+[2020-01-24 12:58:37.381] [Engine] [info] Mouse moved at: 661.0,38.0
+[2020-01-24 12:58:37.383] [Engine] [info] Mouse moved at: 663.0,37.0
+[2020-01-24 12:58:37.383] [Engine] [info] Mouse moved at: 664.0,36.0
+[2020-01-24 12:58:37.388] [Engine] [info] Mouse moved at: 668.0,34.0
+[2020-01-24 12:58:37.395] [Engine] [info] Mouse moved at: 672.0,31.0
+[2020-01-24 12:58:37.395] [Engine] [info] Mouse moved at: 673.0,30.0
+[2020-01-24 12:58:37.402] [Engine] [info] Mouse moved at: 677.0,28.0
+[2020-01-24 12:58:37.409] [Engine] [info] Mouse moved at: 681.0,25.0
+[2020-01-24 12:58:37.410] [Engine] [info] Mouse moved at: 682.0,25.0
+[2020-01-24 12:58:37.416] [Engine] [info] Mouse moved at: 685.0,22.0
+[2020-01-24 12:58:37.423] [Engine] [info] Mouse moved at: 688.0,20.0
+[2020-01-24 12:58:37.423] [Engine] [info] Mouse moved at: 690.0,20.0
+[2020-01-24 12:58:37.430] [Engine] [info] Mouse moved at: 693.0,18.0
+[2020-01-24 12:58:37.437] [Engine] [info] Mouse moved at: 696.0,16.0
+[2020-01-24 12:58:37.438] [Engine] [info] Mouse moved at: 697.0,15.0
+[2020-01-24 12:58:37.443] [Engine] [info] Mouse moved at: 700.0,13.0
+[2020-01-24 12:58:37.450] [Engine] [info] Mouse moved at: 703.0,11.0
+[2020-01-24 12:58:37.458] [Engine] [info] Mouse moved at: 706.0,9.0
+[2020-01-24 12:58:37.464] [Engine] [info] Mouse moved at: 708.0,7.0
+[2020-01-24 12:58:37.472] [Engine] [info] Mouse moved at: 712.0,5.0
+[2020-01-24 12:58:37.478] [Engine] [info] Mouse moved at: 714.0,3.0
+[2020-01-24 12:58:37.485] [Engine] [info] Mouse moved at: 717.0,1.0
+[2020-01-24 12:58:37.493] [Engine] [info] Mouse moved at: 719.0,0.0
+[2020-01-24 12:58:38.292] [Engine] [info] Mouse moved at: 783.0,3.0
+[2020-01-24 12:58:38.298] [Engine] [info] Mouse moved at: 788.0,9.0
+[2020-01-24 12:58:38.305] [Engine] [info] Mouse moved at: 793.0,14.0
+[2020-01-24 12:58:38.306] [Engine] [info] Mouse moved at: 794.0,16.0
+[2020-01-24 12:58:38.312] [Engine] [info] Mouse moved at: 799.0,21.0
+[2020-01-24 12:58:38.486] [Engine] [info] Mouse moved at: 799.0,27.0
+[2020-01-24 12:58:38.487] [Engine] [info] Mouse moved at: 797.0,26.0
+[2020-01-24 12:58:38.487] [Engine] [info] Mouse moved at: 796.0,26.0
+[2020-01-24 12:58:38.492] [Engine] [info] Mouse moved at: 791.0,25.0
+[2020-01-24 12:58:38.499] [Engine] [info] Mouse moved at: 783.0,22.0
+[2020-01-24 12:58:38.506] [Engine] [info] Mouse moved at: 777.0,20.0
+[2020-01-24 12:58:38.513] [Engine] [info] Mouse moved at: 771.0,19.0
+[2020-01-24 12:58:38.513] [Engine] [info] Mouse moved at: 769.0,18.0
+[2020-01-24 12:58:38.520] [Engine] [info] Mouse moved at: 764.0,17.0
+[2020-01-24 12:58:38.527] [Engine] [info] Mouse moved at: 760.0,16.0
+[2020-01-24 12:58:38.527] [Engine] [info] Mouse moved at: 759.0,15.0
+[2020-01-24 12:58:38.534] [Engine] [info] Mouse moved at: 756.0,15.0
+[2020-01-24 12:58:38.541] [Engine] [info] Mouse moved at: 755.0,14.0
+[2020-01-24 12:58:38.568] [Engine] [info] Mouse moved at: 757.0,14.0
+[2020-01-24 12:58:38.576] [Engine] [info] Mouse moved at: 760.0,14.0
+[2020-01-24 12:58:38.583] [Engine] [info] Mouse moved at: 763.0,15.0
+[2020-01-24 12:58:38.583] [Engine] [info] Mouse moved at: 765.0,15.0
+[2020-01-24 12:58:38.590] [Engine] [info] Mouse moved at: 770.0,17.0
+[2020-01-24 12:58:38.597] [Engine] [info] Mouse moved at: 776.0,19.0
+[2020-01-24 12:58:38.597] [Engine] [info] Mouse moved at: 779.0,20.0
+[2020-01-24 12:58:38.603] [Engine] [info] Mouse moved at: 787.0,22.0
+[2020-01-24 12:58:38.610] [Engine] [info] Mouse moved at: 796.0,24.0
+[2020-01-24 12:58:38.792] [Engine] [info] Mouse moved at: 794.0,3.0
+[2020-01-24 12:58:38.798] [Engine] [info] Mouse moved at: 786.0,0.0
+[2020-01-24 12:58:39.147] [Engine] [warning] Closing Application
+[2020-01-24 12:58:39.157] [Engine] [info] Cleared Window
+[2020-01-24 12:58:39.176] [Engine] [info] Windows System Stopped
+[2020-01-24 12:58:39.176] [Engine] [info] Cleared Resource System
+[2020-01-24 12:58:39.178] [Engine] [info] Timer Stopped
+[2020-01-24 12:58:39.178] [Engine] [info] Ending Log...

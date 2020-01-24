@@ -19,6 +19,8 @@ namespace Engine {
 
 	public:
 		PerspectiveCamera3D(float fov, float aspectRatio, float nearClip, float farClip);
+		
+		void reset(float fov, float aspectRatio, float nearClip, float farClip);
 
 		inline glm::vec3 getPosition() { return m_position; }
 		inline glm::quat getOrientation() { return m_orientation; }

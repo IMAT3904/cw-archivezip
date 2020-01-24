@@ -4,7 +4,7 @@
 
 #include "engine_pch.h"
 #include "include/platform/GLFW/GLFWCodes.h"
-#include "include/independent/events/inputPoller.h"
+#include "include/platform/GLFW/GLFWInputPoller.h"
 #include "cameras/fpsCameraControllerEuler3D.h"
 
 namespace Engine {
@@ -42,14 +42,14 @@ namespace Engine {
 
 	void FPSCameraControllerEuler::onUpdate(float timestep)
 	{
-		if (InputPoller::isKeyPressed(KB_KEY_W)) { m_position += m_forward * m_translationSpeed * timestep; }
-		if(InputPoller::isKeyPressed(KB_KEY_S)) { m_position -= m_forward * m_translationSpeed * timestep; }
-		if(InputPoller::isKeyPressed(KB_KEY_A)) { m_position -= m_right * m_translationSpeed * timestep; }
-		if(InputPoller::isKeyPressed(KB_KEY_D)) { m_position += m_right * m_translationSpeed * timestep; }
+		if(GLFWInputPoller::isKeyPressed(KB_KEY_W)) { m_position += m_forward * m_translationSpeed * timestep; }
+		if(GLFWInputPoller::isKeyPressed(KB_KEY_S)) { m_position -= m_forward * m_translationSpeed * timestep; }
+		if(GLFWInputPoller::isKeyPressed(KB_KEY_A)) { m_position -= m_right * m_translationSpeed * timestep; }
+		if(GLFWInputPoller::isKeyPressed(KB_KEY_D)) { m_position += m_right * m_translationSpeed * timestep; }
 
-		if (InputPoller::isMouseButtonPressed(MB_MOUSE_BUTTON_LEFT))
+		if (GLFWInputPoller::isMouseButtonPressed(MB_MOUSE_BUTTON_LEFT))
 		{
-			glm::vec2 currentMousePosition = InputPoller::getMousePosition();
+			glm::vec2 currentMousePosition = GLFWInputPoller::getMousePosition();
 			glm::vec2 mouseDelta = currentMousePosition - m_lastMousePosition;
 
 			m_yaw += mouseDelta.x * m_rotationSpeed * timestep;

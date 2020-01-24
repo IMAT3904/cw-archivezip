@@ -19,6 +19,10 @@
 #include "systems/resourceManager.h"
 #include "rendering/material.h"
 #include "rendering/renderer.h"
+#include "cameras/camera.h"
+#include "cameras/cameraController.h"
+#include "cameras/fpsCameraControllerEuler3D.h"
+#include "cameras/freeOrthoCameraController2D.h"
 
 namespace Engine {
 
@@ -51,6 +55,7 @@ namespace Engine {
 		//! Reference to our flat color vertex array
 		std::shared_ptr<VertexArray> m_FCVAO;
 		std::shared_ptr<VertexArray> m_TPVAO;
+		std::shared_ptr<VertexArray> m_PlayerVAO;
 
 		//! Reference to our flat cube and textured phong textures
 		std::shared_ptr<Texture> m_texLetter;
@@ -59,12 +64,12 @@ namespace Engine {
 		//! Reference to our flat cube and textured phong shaders
 		std::shared_ptr<Shader> m_FCShader;
 		std::shared_ptr<Shader> m_TPShader;
+		std::shared_ptr<Shader> m_PlayerShader;
 
-		std::shared_ptr<UniformBuffer> m_UBOMatrices;
-		std::shared_ptr<UniformBuffer> m_UBOLights;
-
+		//! Reference to our materials
 		std::shared_ptr<Material> m_FCCube;
 		std::shared_ptr<Material> m_TPCube;
+		std::shared_ptr<Material> m_PlayerCube;
 
 		//! Reference to our Renderer
 		std::shared_ptr<Renderer> m_renderer;
@@ -75,10 +80,11 @@ namespace Engine {
 		std::shared_ptr<VertexArray> m_textVAO;
 		std::shared_ptr<Texture> m_textTexture;
 		std::shared_ptr<Material> m_textMaterial;
-
 		std::shared_ptr<VertexBuffer> textVBO;
 		std::shared_ptr<IndexBuffer> textIBO;
 
+
+		glm::mat4 FCmodel, TPmodel, PlayerModel;
 
 		unsigned int m_numberTexture; // Texture ID
 		unsigned int m_letterTexture; // Texture ID
