@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Engine: engine/enginecode/src/platform/windows/OpenGL_GraphicsContext.cpp Source File</title>
+<title>Engine: engine/enginecode/src/platform/OpenGL/OpenGL_GraphicsContext.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,7 +39,7 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a class="el" href="dir_70491ddeac0f017cd7d72b515346fedb.html">enginecode</a></li><li class="navelem"><a class="el" href="dir_7a72d5834cde26c8c7749167f8bc3846.html">src</a></li><li class="navelem"><a class="el" href="dir_0d4efd84dead298d80d59cb7c10ce50a.html">platform</a></li><li class="navelem"><a class="el" href="dir_6fd45345a59c3150bb50a6b2c285c65d.html">windows</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a class="el" href="dir_70491ddeac0f017cd7d72b515346fedb.html">enginecode</a></li><li class="navelem"><a class="el" href="dir_7a72d5834cde26c8c7749167f8bc3846.html">src</a></li><li class="navelem"><a class="el" href="dir_0d4efd84dead298d80d59cb7c10ce50a.html">platform</a></li><li class="navelem"><a class="el" href="dir_536bec90587fd5d4e8cb0551ff59a661.html">OpenGL</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -48,7 +48,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="_open_g_l___graphics_context_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="engine__pch_8h.html">engine_pch.h</a>&quot;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_open_g_l___g_l_f_w_graphics_context_8h.html">include/platform/windows/OpenGL_GLFWGraphicsContext.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_open_g_l_g_l_f_w_graphics_context_8h.html">include/platform/OpenGL/OpenGLGLFWGraphicsContext.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="class_open_g_l___g_l_f_w_graphics_context.html#a2b9bceefd7bd9c54370c6622c16ef324">    4</a></span>&#160;<a class="code" href="class_open_g_l___g_l_f_w_graphics_context.html#a2b9bceefd7bd9c54370c6622c16ef324">OpenGL_GLFWGraphicsContext::OpenGL_GLFWGraphicsContext</a>(GLFWwindow * window) : m_window(window)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
@@ -67,13 +67,13 @@ $(function() {
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    glfwSwapBuffers(<a class="code" href="class_open_g_l___g_l_f_w_graphics_context.html#a12662dff4132fe514b067acf6f218f8e">m_window</a>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclass_open_g_l___g_l_f_w_graphics_context_html_a12662dff4132fe514b067acf6f218f8e"><div class="ttname"><a href="class_open_g_l___g_l_f_w_graphics_context.html#a12662dff4132fe514b067acf6f218f8e">OpenGL_GLFWGraphicsContext::m_window</a></div><div class="ttdeci">GLFWwindow * m_window</div><div class="ttdef"><b>Definition:</b> <a href="_open_g_l___g_l_f_w_graphics_context_8h_source.html#l00022">OpenGL_GLFWGraphicsContext.h:22</a></div></div>
+<div class="ttc" id="aclass_open_g_l___g_l_f_w_graphics_context_html_a12662dff4132fe514b067acf6f218f8e"><div class="ttname"><a href="class_open_g_l___g_l_f_w_graphics_context.html#a12662dff4132fe514b067acf6f218f8e">OpenGL_GLFWGraphicsContext::m_window</a></div><div class="ttdeci">GLFWwindow * m_window</div><div class="ttdef"><b>Definition:</b> <a href="_open_g_l_g_l_f_w_graphics_context_8h_source.html#l00022">OpenGLGLFWGraphicsContext.h:22</a></div></div>
 <div class="ttc" id="alogger_8h_html_add82efa459e0af380b68522c29b9fd44"><div class="ttname"><a href="logger_8h.html#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(...)</div><div class="ttdef"><b>Definition:</b> <a href="logger_8h_source.html#l00035">logger.h:35</a></div></div>
 <div class="ttc" id="alogger_8h_html_af38bfd3d14de97a2311ce31398ecce10"><div class="ttname"><a href="logger_8h.html#af38bfd3d14de97a2311ce31398ecce10">LOG_ASSERT</a></div><div class="ttdeci">#define LOG_ASSERT(x,...)</div><div class="ttdef"><b>Definition:</b> <a href="logger_8h_source.html#l00039">logger.h:39</a></div></div>
 <div class="ttc" id="aclass_open_g_l___g_l_f_w_graphics_context_html_a426654924afd47c9c654bbdbea8db1cc"><div class="ttname"><a href="class_open_g_l___g_l_f_w_graphics_context.html#a426654924afd47c9c654bbdbea8db1cc">OpenGL_GLFWGraphicsContext::init</a></div><div class="ttdeci">void init() override</div><div class="ttdef"><b>Definition:</b> <a href="_open_g_l___graphics_context_8cpp_source.html#l00008">OpenGL_GraphicsContext.cpp:8</a></div></div>
 <div class="ttc" id="aclass_open_g_l___g_l_f_w_graphics_context_html_a9c058e039c6f48ee8bf9122a94997313"><div class="ttname"><a href="class_open_g_l___g_l_f_w_graphics_context.html#a9c058e039c6f48ee8bf9122a94997313">OpenGL_GLFWGraphicsContext::swapBuffers</a></div><div class="ttdeci">void swapBuffers() override</div><div class="ttdef"><b>Definition:</b> <a href="_open_g_l___graphics_context_8cpp_source.html#l00016">OpenGL_GraphicsContext.cpp:16</a></div></div>
-<div class="ttc" id="a_open_g_l___g_l_f_w_graphics_context_8h_html"><div class="ttname"><a href="_open_g_l___g_l_f_w_graphics_context_8h.html">OpenGL_GLFWGraphicsContext.h</a></div><div class="ttdoc">This header includes the graphics context for an OpenGL and GLFW window.</div></div>
 <div class="ttc" id="aclass_open_g_l___g_l_f_w_graphics_context_html_a2b9bceefd7bd9c54370c6622c16ef324"><div class="ttname"><a href="class_open_g_l___g_l_f_w_graphics_context.html#a2b9bceefd7bd9c54370c6622c16ef324">OpenGL_GLFWGraphicsContext::OpenGL_GLFWGraphicsContext</a></div><div class="ttdeci">OpenGL_GLFWGraphicsContext(GLFWwindow *window)</div><div class="ttdef"><b>Definition:</b> <a href="_open_g_l___graphics_context_8cpp_source.html#l00004">OpenGL_GraphicsContext.cpp:4</a></div></div>
+<div class="ttc" id="a_open_g_l_g_l_f_w_graphics_context_8h_html"><div class="ttname"><a href="_open_g_l_g_l_f_w_graphics_context_8h.html">OpenGLGLFWGraphicsContext.h</a></div></div>
 <div class="ttc" id="aengine__pch_8h_html"><div class="ttname"><a href="engine__pch_8h.html">engine_pch.h</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
