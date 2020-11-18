@@ -39923,3 +39923,20 @@ void main()
 [2020-01-24 12:58:39.176] [Engine] [info] Cleared Resource System
 [2020-01-24 12:58:39.178] [Engine] [info] Timer Stopped
 [2020-01-24 12:58:39.178] [Engine] [info] Ending Log...
+[2020-11-18 20:09:00.015] [Engine] [info] >>>>>----=== New Application ===----<<<<<
+[2020-11-18 20:09:00.020] [Engine] [warning] Logger Initialized
+[2020-11-18 20:09:00.020] [Engine] [warning] Resource Manager Started
+[2020-11-18 20:09:00.020] [Engine] [warning] Timing system Started
+[2020-11-18 20:09:00.021] [Engine] [warning] GLFW Window System Started
+[2020-11-18 20:09:01.463] [Engine] [warning] GLAD Loaded
+[2020-11-18 20:09:01.464] [Engine] [warning] Window Created
+[2020-11-18 20:09:01.464] [Engine] [warning] Created Basic3D Renderer
+[2020-11-18 20:09:01.464] [Engine] [warning] Created Basic3D Renderer
+[2020-11-18 20:09:06.607] [Engine] [info] FPS:148.
+[2020-11-18 20:09:11.614] [Engine] [info] FPS:149.
+[2020-11-18 20:09:12.736] [Engine] [warning] Closing Application
+[2020-11-18 20:09:12.750] [Engine] [info] Cleared Window
+[2020-11-18 20:09:12.758] [Engine] [info] Windows System Stopped
+[2020-11-18 20:09:12.758] [Engine] [info] Cleared Resource System
+[2020-11-18 20:09:12.758] [Engine] [info] Timer Stopped
+[2020-11-18 20:09:12.759] [Engine] [info] Ending Log...
